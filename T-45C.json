@@ -1,0 +1,127 @@
+{
+  "aircraft": "T-45C",
+  "nickname": "Goshawk",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"callout": "Flight publications", "response": "Available and current"},
+        {"callout": "Circuit breakers", "response": "In"},
+        {"callout": "Landing gear handle", "response": "Down"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Ejection seat safety pins", "response": "Installed"},
+        {"callout": "Cockpit switches", "response": "Checked and set"},
+        {"callout": "Oxygen system", "response": "Checked"},
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Hydraulic pressure", "response": "Checked"},
+        {"callout": "Exterior inspection", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Engine start switch", "response": "On"},
+        {"callout": "Engine instruments", "response": "Monitor for normal start"},
+        {"callout": "Hydraulic system one and two pressures", "response": "Rising"},
+        {"callout": "Generator", "response": "On and output is checked"},
+        {"callout": "Oxygen flow", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Flight controls", "response": "Full, free, and correct"},
+        {"callout": "Trims", "response": "Set for takeoff"},
+        {"callout": "Speedbrake", "response": "Retracted"},
+        {"callout": "Flaps", "response": "Set to half or full as required"},
+        {"callout": "Avionics", "response": "On and set"},
+        {"callout": "UHF and VHF radios", "response": "Set"},
+        {"callout": "Transponder", "response": "Set"},
+        {"callout": "Exterior lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Harnesses", "response": "Fastened and tight"},
+        {"callout": "Ejection seat", "response": "Armed"},
+        {"callout": "Flight controls", "response": "Final check complete"},
+        {"callout": "Instruments", "response": "Checked"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Takeoff trim", "response": "Set"},
+        {"callout": "Engine instruments", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Speedbrake", "response": "Retracted"},
+        {"callout": "Climb power", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set"},
+        {"callout": "Fuel flow", "response": "Checked"},
+        {"callout": "Instruments", "response": "Monitored"},
+        {"callout": "Navigation and communication systems", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "ATIS or weather", "response": "Obtained"},
+        {"callout": "Approach briefing", "response": "Complete"},
+        {"callout": "Fuel", "response": "Sufficient"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Harnesses", "response": "Tight"},
+        {"callout": "Landing gear", "response": "Down with three green lights"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Speedbrake", "response": "Set as required"},
+        {"callout": "Landing lights", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Speedbrake", "response": "Retracted"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Canopy", "response": "Opened as required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Off"},
+        {"callout": "Engine start switch", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Ejection seat", "response": "Safe"},
+        {"callout": "Canopy", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Chocks", "response": "Installed"},
+        {"callout": "Pitot covers", "response": "Installed"},
+        {"callout": "Remove flight gear", "response": "Completed"},
+        {"callout": "Final walkaround", "response": "Complete"}
+      ]
+    }
+  ]
+}
