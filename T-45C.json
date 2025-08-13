@@ -26,18 +26,18 @@
         {"callout": "Throttle", "response": "Idle"},
         {"callout": "Engine start switch", "response": "On"},
         {"callout": "Engine instruments", "response": "Monitor for normal start"},
-        {"callout": "Hydraulic system one and two pressures", "response": "Rising"},
-        {"callout": "Generator", "response": "On and output is checked"},
+        {"callout": "Hydraulic one and hydraulic two pressures", "response": "Rising"},
+        {"callout": "Generator", "response": "On and output checked"},
         {"callout": "Oxygen flow", "response": "Checked"}
       ]
     },
     {
       "title": "Before Taxi",
       "items": [
-        {"callout": "Flight controls", "response": "Full, free, and correct"},
+        {"callout": "Flight controls", "response": "Full, free and correct"},
         {"callout": "Trims", "response": "Set for takeoff"},
         {"callout": "Speedbrake", "response": "Retracted"},
-        {"callout": "Flaps", "response": "Set to half or full as required"},
+        {"callout": "Flaps", "response": "Set half or full as required"},
         {"callout": "Avionics", "response": "On and set"},
         {"callout": "UHF and VHF radios", "response": "Set"},
         {"callout": "Transponder", "response": "Set"},
@@ -50,7 +50,7 @@
         {"callout": "Canopy", "response": "Closed and locked"},
         {"callout": "Harnesses", "response": "Fastened and tight"},
         {"callout": "Ejection seat", "response": "Armed"},
-        {"callout": "Flight controls", "response": "Final check complete"},
+        {"callout": "Flight controls", "response": "Final check"},
         {"callout": "Instruments", "response": "Checked"},
         {"callout": "Fuel quantity", "response": "Checked"},
         {"callout": "Takeoff trim", "response": "Set"},
@@ -72,14 +72,14 @@
         {"callout": "Power", "response": "Set"},
         {"callout": "Fuel flow", "response": "Checked"},
         {"callout": "Instruments", "response": "Monitored"},
-        {"callout": "Navigation and communication systems", "response": "Set"}
+        {"callout": "Navigation and communication", "response": "Set"}
       ]
     },
     {
       "title": "Descent",
       "items": [
         {"callout": "Altimeter", "response": "Set"},
-        {"callout": "ATIS or weather", "response": "Obtained"},
+        {"callout": "Automatic terminal information service and weather", "response": "Obtained"},
         {"callout": "Approach briefing", "response": "Complete"},
         {"callout": "Fuel", "response": "Sufficient"}
       ]
@@ -88,9 +88,9 @@
       "title": "Before Landing",
       "items": [
         {"callout": "Harnesses", "response": "Tight"},
-        {"callout": "Landing gear", "response": "Down with three green lights"},
-        {"callout": "Flaps", "response": "Set as required"},
-        {"callout": "Speedbrake", "response": "Set as required"},
+        {"callout": "Landing gear", "response": "Down, three green"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Speedbrake", "response": "As required"},
         {"callout": "Landing lights", "response": "On"}
       ]
     },
@@ -100,7 +100,7 @@
         {"callout": "Speedbrake", "response": "Retracted"},
         {"callout": "Flaps", "response": "Up"},
         {"callout": "Transponder", "response": "Standby"},
-        {"callout": "Canopy", "response": "Opened as required"}
+        {"callout": "Canopy", "response": "As required"}
       ]
     },
     {
@@ -121,6 +121,46 @@
         {"callout": "Pitot covers", "response": "Installed"},
         {"callout": "Remove flight gear", "response": "Completed"},
         {"callout": "Final walkaround", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start (Ground)",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Engine start switch", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Egress", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Fire in Flight",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Speedbrake", "response": "Extend"},
+        {"callout": "Fuel shutoff handle", "response": "Pull"},
+        {"callout": "Fire extinguisher handle", "response": "Pull"},
+        {"callout": "Eject", "response": "If fire persists"}
+      ]
+    },
+    {
+      "title": "Oil Pressure Warning",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Land", "response": "As soon as possible"}
+      ]
+    },
+    {
+      "title": "Generator Failure",
+      "items": [
+        {"callout": "Generator switch", "response": "Reset"},
+        {"callout": "If failure persists", "response": "Land as soon as practical"}
+      ]
+    },
+    {
+      "title": "Ejection",
+      "items": [
+        {"callout": "Ejection handle", "response": "Pull"},
+        {"callout": "Post ejection", "response": "Parachute and survival procedures as required"}
       ]
     }
   ]

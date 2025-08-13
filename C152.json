@@ -1,0 +1,206 @@
+{
+  "aircraft": "Cessna 152",
+  "nickname": "One Five Two",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"callout": "Magnetos Switch", "response": "Off"},
+        {"callout": "BATT/ALTN Switches", "response": "On"},
+        {"callout": "Fuel Quantity Indicators", "response": "Check quantity"},
+        {"callout": "Flaps", "response": "Set 30 degrees"},
+        {"callout": "BATT/ALTN Switches", "response": "Off"},
+        {"callout": "Fuel Selector Valve", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        {"callout": "Pre-Flight Inspection", "response": "Completed"},
+        {"callout": "Fuel Selector Valve", "response": "On"},
+        {"callout": "Radios, ADF, Transponder, Electrical Equipment", "response": "Off"},
+        {"callout": "Brakes", "response": "Test and set parking brake"},
+        {"callout": "Circuit Breakers", "response": "Check in"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Carburetor Heat", "response": "Cold"},
+        {"callout": "Throttle", "response": "Open half an inch"},
+        {"callout": "Primer", "response": "As required"},
+        {"callout": "BATT/ALTN Switches", "response": "On"},
+        {"callout": "BCN Light", "response": "On"},
+        {"callout": "Propeller Area", "response": "Clear"},
+        {"callout": "Magnetos Switch", "response": "Start"},
+        {"callout": "Oil Pressure", "response": "Check"},
+        {"callout": "Throttle", "response": "Set 1000 RPM"},
+        {"callout": "Alternator Output", "response": "Check"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Flaps", "response": "Up, check all positions"},
+        {"callout": "NAV Light", "response": "On"},
+        {"callout": "Radio", "response": "On and set"},
+        {"callout": "ADF", "response": "On and set"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Flight and Nav Instruments", "response": "Check and set"}
+      ]
+    },
+    {
+      "title": "Engine Run-Up",
+      "items": [
+        {"callout": "Parking Brake", "response": "Set"},
+        {"callout": "Fuel Selector Valve", "response": "On"},
+        {"callout": "Engine Instruments", "response": "Green arc"},
+        {"callout": "Throttle", "response": "Set to 1700 RPM"},
+        {"callout": "Magnetos", "response": "Check, drop not above 150 RPM, difference less than 50 RPM"},
+        {"callout": "Mixture", "response": "Lean and check"},
+        {"callout": "Carburetor Heat", "response": "Check, slight drop, then off"},
+        {"callout": "Alternator Output", "response": "Check"},
+        {"callout": "Suction Gauge", "response": "Green arc"},
+        {"callout": "Throttle", "response": "Set to 1000 RPM"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Cabin Doors", "response": "Closed and locked"},
+        {"callout": "Parking Brake", "response": "Set"},
+        {"callout": "Flight Controls", "response": "Free and correct"},
+        {"callout": "Flaps", "response": "Set 10 degrees"},
+        {"callout": "Flight Instruments", "response": "Set"},
+        {"callout": "Fuel Selector Valve", "response": "On"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Carburetor Heat", "response": "Cold"},
+        {"callout": "Magnetos Switch", "response": "Both"},
+        {"callout": "Primer", "response": "Check in and locked"},
+        {"callout": "Elevator Trim", "response": "Set for takeoff"},
+        {"callout": "Transponder", "response": "Altitude, set code"},
+        {"callout": "Landing Light", "response": "On"},
+        {"callout": "Pitot Heat", "response": "As required"},
+        {"callout": "Takeoff and Emergency Briefing", "response": "Perform"},
+        {"callout": "Parking Brake", "response": "Release"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb Power", "response": "Full"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Landing Light", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel Selector Valve", "response": "On"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Carburetor Heat", "response": "On if RPM is below 2000"},
+        {"callout": "Landing Light", "response": "On"},
+        {"callout": "Magnetos Switch", "response": "Both"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Approach Briefing", "response": "Completed"}
+      ]
+    },
+    {
+      "title": "Final",
+      "items": [
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Carburetor Heat", "response": "Cold"},
+        {"callout": "Landing Light", "response": "Check on"}
+      ]
+    },
+    {
+      "title": "Go Around",
+      "items": [
+        {"callout": "Pitch and Power", "response": "Go around attitude and full power"},
+        {"callout": "Carburetor Heat", "response": "Cold"},
+        {"callout": "Flaps", "response": "Set to 20 degrees"},
+        {"callout": "Flaps", "response": "Set to 10 degrees when positive climb"},
+        {"callout": "Flaps", "response": "Up at 300 feet AGL"},
+        {"callout": "Climb Power", "response": "Full"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Carburetor Heat", "response": "Cold"},
+        {"callout": "Landing Light", "response": "Off"},
+        {"callout": "Pitot Heat Switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking Brake", "response": "On"},
+        {"callout": "Radio, ADF, Transponder", "response": "Off"},
+        {"callout": "Throttle", "response": "Set to 1000 RPM"},
+        {"callout": "Mixture", "response": "Cutoff"},
+        {"callout": "Magnetos", "response": "Off, keys out"},
+        {"callout": "BCN and NAV Lights", "response": "Off"},
+        {"callout": "BATT/ALTN Switches", "response": "Off"},
+        {"callout": "Elevator Trim", "response": "Set for takeoff"}
+      ]
+    },
+    {
+      "title": "Leaving Aircraft",
+      "items": [
+        {"callout": "BATT/ALTN/Magnetos", "response": "Off"},
+        {"callout": "Mixture", "response": "Cutoff"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Fuel Selector", "response": "As required"},
+        {"callout": "Parking Brake", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cutoff"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames into the engine"},
+        {"callout": "Fuel Selector", "response": "Off"},
+        {"callout": "Master Switch", "response": "Off"},
+        {"callout": "Extinguish Fire", "response": "Use fire extinguisher"},
+        {"callout": "Inspect Before Restart", "response": "Do not attempt restart until inspected"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain best glide speed, 87 miles per hour"},
+        {"callout": "Fuel Selector", "response": "Switch tanks"},
+        {"callout": "Fuel Pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich, adjust as required"},
+        {"callout": "Alternate Air", "response": "On"},
+        {"callout": "Magnetos", "response": "Check both"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical Load", "response": "Reduce to minimum"},
+        {"callout": "Circuit Breakers", "response": "Check and reset if necessary"},
+        {"callout": "Master Switch", "response": "Off, then on to reset"},
+        {"callout": "Landing", "response": "Plan to land as soon as practical"}
+      ]
+    },
+    {
+      "title": "Gear-Up Landing",
+      "items": [
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Approach Speed", "response": "Fly minimum safe speed"},
+        {"callout": "Throttle", "response": "Close just before touchdown"},
+        {"callout": "Mixture", "response": "Cutoff on touchdown"},
+        {"callout": "Master Switch", "response": "Off after aircraft stops"}
+      ]
+    }
+  ]
+}

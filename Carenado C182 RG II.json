@@ -1,0 +1,426 @@
+{
+  "aircraft": "Carenado C182 RG II",
+  "nickname": "C182 RG II",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Preflight inspection", "response": "Complete"},
+        {"callout": "Seats, belts, shoulder harnesses", "response": "Adjusted and locked"},
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Avionics power, autopilot, electrical pump equipment", "response": "Off"},
+        {"callout": "Brakes", "response": "Test and set"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Circuit breakers", "response": "In"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Propeller", "response": "High RPM"},
+        {"callout": "Carburetor heat", "response": "Cold"},
+        {"callout": "Throttle", "response": "Pump as required, leave open one quarter inch"},
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Ignition switch", "response": "Start"},
+        {"callout": "Oil pressure", "response": "Check"},
+        {"callout": "Flashing beacon and navigation lights", "response": "On as required"},
+        {"callout": "Avionics power switch", "response": "On"},
+        {"callout": "Radios", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Cabin doors and windows", "response": "Closed and locked"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Flight instruments", "response": "Set"},
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Auxiliary fuel pump", "response": "On to check pressure, then off"},
+        {"callout": "Elevator and rudder trim", "response": "Takeoff"},
+        {"callout": "Throttle", "response": "1700 RPM"},
+        {"callout": "Magnetos", "response": "Checked within limits"},
+        {"callout": "Propeller", "response": "Cycle then high RPM"},
+        {"callout": "Carburetor heat", "response": "Check"},
+        {"callout": "Engine instruments and ammeter", "response": "Check"},
+        {"callout": "Suction gauge", "response": "Check"},
+        {"callout": "Throttle", "response": "Idle check then set for taxi"},
+        {"callout": "Radios", "response": "Set"},
+        {"callout": "Autopilot", "response": "Off"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Throttle friction lock", "response": "Adjust"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Wing flaps", "response": "Up to twenty degrees"},
+        {"callout": "Carburetor heat", "response": "Cold"},
+        {"callout": "Power", "response": "Full throttle and 2400 RPM"},
+        {"callout": "Elevator control", "response": "Lift off at fifty knots indicated airspeed"},
+        {"callout": "Climb speed", "response": "Seventy knots with flaps, eighty knots flaps up"},
+        {"callout": "Brakes", "response": "Apply momentarily when airborne"},
+        {"callout": "Landing gear", "response": "Retract after obstacles are cleared"},
+        {"callout": "Flaps", "response": "Retract slowly after seventy five knots"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "Ninety to one hundred knots"},
+        {"callout": "Power", "response": "Twenty three inches manifold pressure and 2400 RPM"},
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Mixture", "response": "Full rich, lean above three thousand feet"},
+        {"callout": "Cowl flaps", "response": "Open as required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "As required, not exceeding seventy five percent"},
+        {"callout": "Trim", "response": "Adjust"},
+        {"callout": "Mixture", "response": "Lean"},
+        {"callout": "Cowl flaps", "response": "Closed"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Power", "response": "As desired"},
+        {"callout": "Carburetor heat", "response": "As required"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Cowl flaps", "response": "Closed"},
+        {"callout": "Wing flaps", "response": "As desired within speed limits"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Seats, belts, shoulder harnesses", "response": "Adjusted and locked"},
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Landing gear", "response": "Down and check"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Carburetor heat", "response": "On"},
+        {"callout": "Propeller", "response": "High RPM"},
+        {"callout": "Autopilot", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed flaps up", "response": "Seventy to eighty knots"},
+        {"callout": "Wing flaps", "response": "As desired"},
+        {"callout": "Airspeed flaps down", "response": "Sixty five to seventy five knots"},
+        {"callout": "Trim", "response": "Adjust"},
+        {"callout": "Touchdown", "response": "Main wheels first"},
+        {"callout": "Braking", "response": "Minimum required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Wing flaps", "response": "Up"},
+        {"callout": "Carburetor heat", "response": "Cold"},
+        {"callout": "Cowl flaps", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Avionics power and electrical equipment", "response": "Off"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"},
+        {"callout": "Fuel selector valve", "response": "Right"}
+      ]
+    },
+    {
+      "title": "Engine Failure During Takeoff Roll",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Brakes", "response": "Apply"},
+        {"callout": "Wing flaps", "response": "Retract"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Failure Immediately After Takeoff",
+      "items": [
+        {"callout": "Airspeed", "response": "Seventy knots flaps up, sixty five knots flaps down"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Wing flaps", "response": "As required"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Failure During Takeoff Run",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Brakes", "response": "Apply"},
+        {"callout": "Wing flaps", "response": "Retract"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Failure Immediately After Takeoff",
+      "items": [
+        {"callout": "Airspeed", "response": "Seventy indicated airspeed in knots with flaps up, sixty five with flaps down"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Wing flaps", "response": "As required, forty degrees recommended"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Eighty indicated airspeed in knots"},
+        {"callout": "Carburetor heat", "response": "On"},
+        {"callout": "Fuel selector valve", "response": "Both"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Ignition switch", "response": "Both or start if the propeller is stopped"},
+        {"callout": "Primer", "response": "In and locked"}
+      ]
+    },
+    {
+      "title": "Emergency Landing Without Engine Power",
+      "items": [
+        {"callout": "Airspeed", "response": "Seventy indicated airspeed in knots with flaps up, sixty five with flaps down"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Landing gear", "response": "Down, up if the terrain is rough or soft"},
+        {"callout": "Wing flaps", "response": "As required, forty degrees recommended"},
+        {"callout": "Cabin doors", "response": "Unlatch prior to touchdown"},
+        {"callout": "Master switch", "response": "Off when landing is assured"},
+        {"callout": "Touchdown", "response": "Slightly tail low"},
+        {"callout": "Brakes", "response": "Apply heavily"}
+      ]
+    },
+    {
+      "title": "Precautionary Landing With Engine Power",
+      "items": [
+        {"callout": "Airspeed", "response": "Sixty five indicated airspeed in knots"},
+        {"callout": "Wing flaps initial", "response": "Twenty degrees"},
+        {"callout": "Selected field", "response": "Fly over to check terrain and obstructions, then retract flaps when safe"},
+        {"callout": "Electrical switches", "response": "Off"},
+        {"callout": "Landing gear", "response": "Down, up if the terrain is rough or soft"},
+        {"callout": "Wing flaps on approach", "response": "Forty degrees"},
+        {"callout": "Airspeed on approach", "response": "Sixty five indicated airspeed in knots"},
+        {"callout": "Cabin doors", "response": "Unlatch prior to touchdown"},
+        {"callout": "Avionics power and master switches", "response": "Off"},
+        {"callout": "Touchdown", "response": "Slightly tail low"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Brakes", "response": "Apply heavily"}
+      ]
+    },
+    {
+      "title": "Ditching",
+      "items": [
+        {"callout": "Radio", "response": "Transmit mayday on one two one decimal five, give location and intentions"},
+        {"callout": "Heavy objects", "response": "Secure or jettison"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Wing flaps", "response": "Twenty to forty degrees"},
+        {"callout": "Power and descent", "response": "Establish three hundred feet per minute at sixty indicated airspeed in knots"},
+        {"callout": "Approach direction", "response": "Into the wind with heavy winds and seas, parallel to swells with light winds and heavy swells"},
+        {"callout": "Cabin doors", "response": "Unlatch"},
+        {"callout": "Touchdown", "response": "Level attitude at the established descent"},
+        {"callout": "Face", "response": "Cushion at touchdown"},
+        {"callout": "Evacuate", "response": "Use cabin doors or windows, equalize pressure if needed"},
+        {"callout": "Life vests and raft", "response": "Inflate"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Cranking", "response": "Continue to draw flames into the engine"},
+        {"callout": "If the engine starts", "response": "Hold one thousand seven hundred R P M for a few minutes, then shut down and inspect"},
+        {"callout": "If the engine fails to start throttle", "response": "Full open"},
+        {"callout": "If the engine fails to start mixture", "response": "Idle cutoff"},
+        {"callout": "If the engine fails to start cranking", "response": "Continue"},
+        {"callout": "Fire extinguisher", "response": "Obtain and use"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Fire", "response": "Extinguish"},
+        {"callout": "Damage", "response": "Inspect before another start"}
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Cabin heat and air", "response": "Off except overhead vents"},
+        {"callout": "Airspeed", "response": "One hundred indicated airspeed in knots, increase if fire persists"},
+        {"callout": "Forced landing", "response": "Execute"}
+      ]
+    },
+    {
+      "title": "Electrical Fire In Flight",
+      "items": [
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Avionics power", "response": "Off"},
+        {"callout": "All other switches", "response": "Off except ignition"},
+        {"callout": "Vents, cabin air, and heat", "response": "Closed"},
+        {"callout": "Fire extinguisher", "response": "Activate"},
+        {"callout": "If the fire is out and power is needed master", "response": "On"},
+        {"callout": "Circuit breakers", "response": "Check and do not reset a faulty circuit"},
+        {"callout": "Radio switches", "response": "Off"},
+        {"callout": "Avionics power", "response": "On"},
+        {"callout": "Radio and electrical switches", "response": "On one at a time with a delay to localize a short"},
+        {"callout": "Vents, cabin air, and heat", "response": "Open when the fire is confirmed out"}
+      ]
+    },
+    {
+      "title": "Cabin Fire",
+      "items": [
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Vents, cabin air, and heat", "response": "Closed"},
+        {"callout": "Fire extinguisher", "response": "Activate"}
+      ]
+    },
+    {
+      "title": "Wing Fire",
+      "items": [
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Strobe lights", "response": "Off"},
+        {"callout": "Pitot heat", "response": "Off"},
+        {"callout": "Sideslip", "response": "Establish to keep flames away from the fuel tank and cabin"},
+        {"callout": "Landing", "response": "As soon as possible, use flaps only as required"}
+      ]
+    },
+    {
+      "title": "Inadvertent Icing Encounter",
+      "items": [
+        {"callout": "Pitot heat", "response": "On"},
+        {"callout": "Course or altitude", "response": "Turn back or change to find less icing"},
+        {"callout": "Cabin heat and defrost", "response": "Full on for maximum windshield airflow"},
+        {"callout": "Engine speed", "response": "Increase to minimize ice on the propeller"},
+        {"callout": "Carburetor heat", "response": "Apply as required and lean mixture if used continuously"},
+        {"callout": "Plan to land", "response": "At the nearest suitable airport or off airport if buildup is extreme"},
+        {"callout": "With significant ice", "response": "Expect a higher stall speed and leave wing flaps retracted"},
+        {"callout": "Visibility", "response": "Open a window and scrape a clear area if practical"},
+        {"callout": "Approach", "response": "Use a forward slip if needed and approach between eighty five and ninety five indicated airspeed in knots"},
+        {"callout": "Touchdown", "response": "Land in a level attitude"}
+      ]
+    },
+    {
+      "title": "Static Source Blockage",
+      "items": [
+        {"callout": "Alternate static source valve", "response": "Pull on"},
+        {"callout": "Indicated speeds", "response": "Adjust using performance tables"},
+        {"callout": "Altitudes", "response": "Add fifty feet in cruise and thirty feet on approach"}
+      ]
+    },
+    {
+      "title": "Landing Gear Fails To Retract",
+      "items": [
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Landing gear lever", "response": "Check full up"},
+        {"callout": "Landing gear and gear pump circuit breakers", "response": "In"},
+        {"callout": "Gear up light", "response": "Check"},
+        {"callout": "Landing gear lever", "response": "Recycle"},
+        {"callout": "Gear motor", "response": "Check operation on the ammeter and by sound"}
+      ]
+    },
+    {
+      "title": "Landing Gear Fails To Extend",
+      "items": [
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Emergency hand pump", "response": "Extend the handle and pump until heavy resistance, about twenty cycles"},
+        {"callout": "Gear down lights", "response": "On"},
+        {"callout": "Pump handle", "response": "Stow"}
+      ]
+    },
+    {
+      "title": "Gear Up Landing",
+      "items": [
+        {"callout": "Landing gear lever", "response": "Up"},
+        {"callout": "Landing gear and gear pump circuit breakers", "response": "In"},
+        {"callout": "Runway", "response": "Select the longest suitable surface"},
+        {"callout": "Wing flaps on final", "response": "Forty degrees"},
+        {"callout": "Airspeed on final", "response": "Sixty five indicated airspeed in knots"},
+        {"callout": "Cabin doors", "response": "Unlatch prior to touchdown"},
+        {"callout": "Avionics power and master switches", "response": "Off when landing is assured"},
+        {"callout": "Touchdown", "response": "Slightly tail low"},
+        {"callout": "Mixture", "response": "Idle cutoff on touchdown"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Evacuate", "response": "When the airplane stops"}
+      ]
+    },
+    {
+      "title": "Landing Without Positive Indication Of Gear Locking",
+      "items": [
+        {"callout": "Before landing check", "response": "Complete"},
+        {"callout": "Approach", "response": "Normal with full flaps"},
+        {"callout": "Circuit breakers", "response": "In"},
+        {"callout": "Landing", "response": "Tail low as smooth as possible"},
+        {"callout": "Braking", "response": "Minimum necessary"},
+        {"callout": "Taxi", "response": "Slowly"},
+        {"callout": "Engine", "response": "Shutdown"}
+      ]
+    },
+    {
+      "title": "Landing With A Defective Nose Gear",
+      "items": [
+        {"callout": "Movable load", "response": "Transfer to the baggage area"},
+        {"callout": "Passengers", "response": "Move to the rear seat"},
+        {"callout": "Before landing checklist", "response": "Complete"},
+        {"callout": "Runway", "response": "Use hard surface or smooth sod"},
+        {"callout": "Wing flaps", "response": "Forty degrees"},
+        {"callout": "Cabin doors", "response": "Unlatch prior to touchdown"},
+        {"callout": "Avionics power and master switches", "response": "Off when landing is assured"},
+        {"callout": "Touchdown", "response": "Slightly tail low"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Fuel selector valve", "response": "Off"},
+        {"callout": "Elevator control", "response": "Hold the nose off as long as possible"},
+        {"callout": "Evacuate", "response": "As soon as the airplane stops"}
+      ]
+    },
+    {
+      "title": "Landing With A Flat Main Tire",
+      "items": [
+        {"callout": "Approach", "response": "Normal with full flaps"},
+        {"callout": "Touchdown", "response": "Land on the good tire first and hold off the flat tire with aileron"},
+        {"callout": "Directional control", "response": "Maintain using brake on the good wheel as required"}
+      ]
+    },
+    {
+      "title": "Overvoltage Light Illuminates",
+      "items": [
+        {"callout": "Avionics power switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off both sides, then on"},
+        {"callout": "Overvoltage light", "response": "Confirm out"},
+        {"callout": "Avionics power switch", "response": "On"},
+        {"callout": "If the light returns", "response": "Terminate the flight as soon as practical"}
+      ]
+    },
+    {
+      "title": "Ammeter Shows Discharge",
+      "items": [
+        {"callout": "Alternator", "response": "Off"},
+        {"callout": "Nonessential electrical equipment", "response": "Off"},
+        {"callout": "Flight", "response": "Terminate as soon as practical"}
+      ]
+    }
+  ]
+}

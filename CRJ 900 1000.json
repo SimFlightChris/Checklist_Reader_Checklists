@@ -1,0 +1,123 @@
+{
+  "aircraft": "CRJ 900/1000",
+  "nickname": "Regional Jet",
+  "checklist": [
+    {
+      "title": "Safety Check",
+      "items": [
+        {"callout": "Battery master", "response": "On"},
+        {"callout": "AC and DC power", "response": "Checked"},
+        {"callout": "Flight deck emergency equipment", "response": "Checked"},
+        {"callout": "Clock", "response": "Set"},
+        {"callout": "Parking brake", "response": "On"}
+      ]
+    },
+    {
+      "title": "Originating",
+      "items": [
+        {"callout": "Gear pins and covers", "response": "Removed"},
+        {"callout": "Flight deck safety equipment", "response": "Checked"},
+        {"callout": "Emergency lights", "response": "Armed"},
+        {"callout": "Circuit breakers", "response": "In"},
+        {"callout": "ADG manual release handle", "response": "Stowed"},
+        {"callout": "Oxygen masks", "response": "Tested"},
+        {"callout": "Primary and multifunction displays", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        {"callout": "Doors", "response": "Closed"},
+        {"callout": "Beacon", "response": "On"},
+        {"callout": "Hydraulic pumps", "response": "Set to auto or on"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Generators", "response": "On"},
+        {"callout": "Electrical systems", "response": "Checked"},
+        {"callout": "Auxiliary power unit", "response": "As required"},
+        {"callout": "Anti-ice", "response": "As required"},
+        {"callout": "Flaps", "response": "Set for takeoff"},
+        {"callout": "Flight controls", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Takeoff data", "response": "Set"},
+        {"callout": "Transponder", "response": "Set to altitude reporting"},
+        {"callout": "Lights", "response": "Set"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb power", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Approach briefing", "response": "Complete"},
+        {"callout": "Seatbelt sign", "response": "On"},
+        {"callout": "Landing data", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Set"},
+        {"callout": "Landing checklist", "response": "Completed"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Radar", "response": "Standby"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel control", "response": "Off"},
+        {"callout": "Beacon", "response": "Off"},
+        {"callout": "Hydraulic pumps", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Emergency – Engine Failure or Fire",
+      "items": [
+        {"callout": "Thrust lever affected engine", "response": "Idle"},
+        {"callout": "Start APU if not running", "response": "As required"},
+        {"callout": "Fuel control affected engine", "response": "Off"},
+        {"callout": "Fire switch affected engine", "response": "Pull"},
+        {"callout": "Fire extinguisher", "response": "Discharge if fire indicated"},
+        {"callout": "Fly single engine profile", "response": "Continue approach and landing"}
+      ]
+    },
+    {
+      "title": "Emergency – Cabin Smoke or Fire",
+      "items": [
+        {"callout": "Oxygen masks and smoke goggles", "response": "On and 100 percent"},
+        {"callout": "Crew communications", "response": "Establish"},
+        {"callout": "Pack control", "response": "Manual and high"},
+        {"callout": "Emergency descent", "response": "Initiate if necessary"},
+        {"callout": "Fire source", "response": "Identify and extinguish"},
+        {"callout": "Prepare for landing", "response": "As soon as practical"}
+      ]
+    }
+  ]
+}

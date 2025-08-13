@@ -1,0 +1,188 @@
+{
+  "aircraft": "Grumman Goose JRF-6B",
+  "nickname": "The Goose",
+  "checklist": [
+    {
+      "title": "Aircraft Check",
+      "items": [
+        {"callout": "Doors and hatches", "response": "Closed and locked"},
+        {"callout": "Cargo", "response": "Secured"},
+        {"callout": "Cabin", "response": "Secured"},
+        {"callout": "Battery and generator switches", "response": "Off"},
+        {"callout": "Emergency ignition switch", "response": "Off"},
+        {"callout": "Fuel tank selector", "response": "Closed"},
+        {"callout": "Fuel cut-off valves", "response": "Closed"},
+        {"callout": "Mixture", "response": "Idle cut-off"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Battery and generator switches", "response": "On"},
+        {"callout": "Carburettor air", "response": "Cold"},
+        {"callout": "Propeller control", "response": "Decrease RPM"},
+        {"callout": "Fuel tank selector", "response": "On desired tank or both"},
+        {"callout": "Fuel cut-off valves", "response": "On"},
+        {"callout": "Fuel cross-feed valve", "response": "Closed"},
+        {"callout": "Wobble pump", "response": "Operate until fuel pressure is three to four pounds per square inch"},
+        {"callout": "Emergency ignition switch", "response": "On"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Prime engine", "response": "Pump throttle four to eight strokes depending on temperature"},
+        {"callout": "Throttle", "response": "Cracked open"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Starter", "response": "Engage until engine catches"},
+        {"callout": "Mixture after start", "response": "Automatic rich"},
+        {"callout": "Throttle after start", "response": "Idle and wait for oil pressure increase"},
+        {"callout": "Repeat for second engine", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Warmup",
+      "items": [
+        {"callout": "Throttle", "response": "Set between eight hundred and one thousand RPM"},
+        {"callout": "Propeller control", "response": "Increase RPM"},
+        {"callout": "Oil pressure", "response": "Minimum twenty five pounds per square inch, desired seventy to ninety"},
+        {"callout": "Oil temperature", "response": "Wait until at least thirty degrees Celsius before takeoff"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Parking brake", "response": "Released"},
+        {"callout": "Taxi speed", "response": "Cautiously under ten knots"},
+        {"callout": "Lookout", "response": "Clear both sides and ahead"},
+        {"callout": "Brakes", "response": "Test gently"},
+        {"callout": "Yoke", "response": "Full back"}
+      ]
+    },
+    {
+      "title": "Engine Runup",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Yoke", "response": "Full back"},
+        {"callout": "Propeller control", "response": "Increase RPM"},
+        {"callout": "Mixture", "response": "Automatic rich"},
+        {"callout": "Manifold pressure", "response": "Thirty inches of mercury"},
+        {"callout": "Maximum cylinder head temperature", "response": "Two hundred five degrees Celsius"},
+        {"callout": "Oil pressure", "response": "Minimum twenty five pounds per square inch"},
+        {"callout": "Oil temperature", "response": "Between sixty and one hundred two degrees Celsius"},
+        {"callout": "Fuel pressure", "response": "Four to six pounds per square inch"}
+      ]
+    },
+    {
+      "title": "Takeoff (Land)",
+      "items": [
+        {"callout": "Fuel cross-feed valve", "response": "Closed"},
+        {"callout": "Tail wheel", "response": "Locked"},
+        {"callout": "Carburettor heat", "response": "Cold unless damp"},
+        {"callout": "Elevator trim", "response": "Neutral"},
+        {"callout": "Rudder trim", "response": "Neutral"},
+        {"callout": "Mixture", "response": "Automatic rich"},
+        {"callout": "Throttle", "response": "Smoothly increase to thirty five and a half inches of mercury"},
+        {"callout": "RPM", "response": "Two thousand three hundred"}
+      ]
+    },
+    {
+      "title": "Takeoff (Water)",
+      "items": [
+        {"callout": "Right fuel tank", "response": "Thirty gallons more than left if less than full fuel"},
+        {"callout": "Windows", "response": "Closed to keep out spray"},
+        {"callout": "Throttle", "response": "Smoothly increase to thirty five and a half inches of mercury"},
+        {"callout": "RPM", "response": "Two thousand three hundred"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Flaps", "response": "Retract"},
+        {"callout": "Landing gear", "response": "Up and confirmed up through inspection windows"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Throttle", "response": "Decrease to between thirty two and a half and thirty four and a half inches of mercury"},
+        {"callout": "Propeller control", "response": "Two thousand to two thousand two hundred RPM"},
+        {"callout": "Cylinder head temperature", "response": "Maximum two hundred sixty degrees Celsius"},
+        {"callout": "Carburettor heat", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle", "response": "Maximum thirty four and a half inches of mercury"},
+        {"callout": "Propeller control", "response": "One thousand six hundred to two thousand two hundred RPM"},
+        {"callout": "Mixture", "response": "Automatic rich, or automatic lean at seventy percent power or less"},
+        {"callout": "Cylinder head temperature", "response": "Maximum two hundred thirty two degrees Celsius"},
+        {"callout": "Oil pressure", "response": "Seventy pounds per square inch"},
+        {"callout": "Oil temperature", "response": "Seventy degrees Celsius"},
+        {"callout": "Fuel pressure", "response": "Four to six pounds per square inch"},
+        {"callout": "Carburettor heat", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Altitude", "response": "Above one thousand feet above ground level"},
+        {"callout": "Mixture", "response": "Automatic rich"},
+        {"callout": "Propeller control", "response": "Increase RPM"},
+        {"callout": "Fuel tank selector", "response": "On fullest tank or both"},
+        {"callout": "Speed", "response": "Eighty to one hundred knots"},
+        {"callout": "Gear for land landing", "response": "Down and confirmed"},
+        {"callout": "Gear for water landing", "response": "Up and confirmed"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Elevator trim", "response": "Adjust"},
+        {"callout": "Tail wheel", "response": "Locked"}
+      ]
+    },
+    {
+      "title": "Final",
+      "items": [
+        {"callout": "Altitude", "response": "Five hundred feet"},
+        {"callout": "Speed", "response": "Maintain sixty to seventy five knots"},
+        {"callout": "Throttle", "response": "Fifteen inches of mercury"},
+        {"callout": "Gear for land landing", "response": "Check down and locked"},
+        {"callout": "Gear for water landing", "response": "Check up"},
+        {"callout": "Elevator trim", "response": "Adjust"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Propeller control", "response": "Increase RPM"},
+        {"callout": "Over threshold", "response": "Cut throttle"},
+        {"callout": "Landing speed", "response": "Sixty to seventy five knots"},
+        {"callout": "Touchdown", "response": "Main wheels or three point"},
+        {"callout": "Rudder", "response": "Maintain directional control"},
+        {"callout": "Yoke", "response": "Keep tail up then full back when down"},
+        {"callout": "Brakes", "response": "Apply cautiously"}
+      ]
+    },
+    {
+      "title": "Go-Around",
+      "items": [
+        {"callout": "Throttle", "response": "Thirty five and a half inches of mercury"},
+        {"callout": "Propeller control", "response": "Two thousand three hundred RPM"},
+        {"callout": "Gear", "response": "Up and confirmed"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Propeller control", "response": "Decrease RPM"},
+        {"callout": "Throttle", "response": "Eight hundred to one thousand RPM"},
+        {"callout": "Cylinder head temperature", "response": "Wait until maximum one hundred forty degrees Celsius"},
+        {"callout": "Fuel cross-feed valve", "response": "Closed"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Fuel cut-off valves", "response": "Closed"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Emergency ignition switch", "response": "Off"},
+        {"callout": "Fuel tank selector", "response": "Off"},
+        {"callout": "Carburettor air", "response": "Cold"},
+        {"callout": "Battery and generator switches", "response": "Off"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,177 @@
+{
+  "aircraft": "Piper PA-38 Tomahawk",
+  "nickname": "Tomahawk",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Oil level", "response": "Quantity is six quarts"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Doors and windows", "response": "Closed and latched"}
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Seats and seat belts", "response": "Adjusted and fastened"},
+        {"callout": "Fuel selector", "response": "On desired tank"},
+        {"callout": "Brakes", "response": "Set"},
+        {"callout": "Circuit breakers", "response": "Checked in"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Beacon light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle", "response": "Open one quarter of an inch"},
+        {"callout": "Fuel pump", "response": "On until fuel pressure is indicated, then off"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Ignition switch", "response": "Start until engine fires"},
+        {"callout": "Throttle", "response": "Set for one thousand RPM"},
+        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"}
+      ]
+    },
+    {
+      "title": "Warm-Up",
+      "items": [
+        {"callout": "Throttle", "response": "Adjust to keep engine running smoothly"},
+        {"callout": "Mixture", "response": "Lean as required for smooth operation"},
+        {"callout": "Avionics master", "response": "On"},
+        {"callout": "Flight instruments", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Steering", "response": "Check"},
+        {"callout": "Flight instruments", "response": "Check operation"},
+        {"callout": "Trim", "response": "Set for take-off"},
+        {"callout": "Flaps", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "Ground Check",
+      "items": [
+        {"callout": "Throttle", "response": "Advance to two thousand RPM"},
+        {"callout": "Magnetos", "response": "Check, maximum drop one hundred seventy-five RPM, difference not more than fifty RPM"},
+        {"callout": "Carburetor heat", "response": "Check for slight RPM drop, then off"},
+        {"callout": "Engine instruments", "response": "Check in green range"},
+        {"callout": "Vacuum gauge", "response": "Check between four point eight and five point two inches of mercury"},
+        {"callout": "Throttle", "response": "Idle check, then set for taxi"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim", "response": "Set for take-off"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Take-off briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Engine instruments", "response": "Check in green"},
+        {"callout": "Airspeed", "response": "Rotate at fifty-five knots"},
+        {"callout": "Climb speed", "response": "Maintain seventy knots"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Mixture", "response": "Adjust for smooth operation"},
+        {"callout": "Fuel pump", "response": "Off when stable climb established"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle", "response": "Set for desired cruise power"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Engine instruments", "response": "Check"},
+        {"callout": "Fuel quantity", "response": "Check"},
+        {"callout": "Fuel selector", "response": "Change tanks periodically"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Throttle", "response": "Reduce as required"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Carburetor heat", "response": "On before reducing power"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach and Landing",
+      "items": [
+        {"callout": "Fuel selector", "response": "On fullest tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Flaps", "response": "As required, full when below maximum flap extended speed"},
+        {"callout": "Airspeed on final", "response": "Maintain sixty-five knots"}
+      ]
+    },
+    {
+      "title": "Stopping Engine",
+      "items": [
+        {"callout": "Throttle", "response": "Set to one thousand RPM for cool-down"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Failure After Take-Off",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain seventy knots"},
+        {"callout": "Landing site", "response": "Select suitable area ahead"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Throttle", "response": "Closed"},
+        {"callout": "Cabin heat and air", "response": "Off"},
+        {"callout": "Airspeed", "response": "Increase to extinguish fire"},
+        {"callout": "Land", "response": "As soon as possible"}
+      ]
+    },
+    {
+      "title": "Spin Recovery",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Ailerons", "response": "Neutral"},
+        {"callout": "Rudder", "response": "Full opposite to direction of rotation"},
+        {"callout": "Control column", "response": "Full forward until rotation stops"},
+        {"callout": "Rudder", "response": "Neutral when rotation stops"},
+        {"callout": "Recover", "response": "Smoothly pull out of dive"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,147 @@
+{
+  "aircraft": "CRJ 550/700",
+  "nickname": "Regional Jet CRJ",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Circuit breakers", "response": "Closed"},
+        {"callout": "Nose wheel steering switch", "response": "Off"},
+        {"callout": "Hydraulic pumps", "response": "Off"},
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Spoiler lever", "response": "Retracted"},
+        {"callout": "Slats and flaps", "response": "Set as required"},
+        {"callout": "Radar", "response": "Off"},
+        {"callout": "ADG manual release", "response": "Stowed"},
+        {"callout": "Emergency flap switch", "response": "Normal"},
+        {"callout": "Battery master switch", "response": "On"},
+        {"callout": "APU", "response": "On or off as required"},
+        {"callout": "AC electrics", "response": "Set as required"},
+        {"callout": "IRS", "response": "In nav mode"},
+        {"callout": "Emergency equipment", "response": "Checked"},
+        {"callout": "Gear and safety pins", "response": "Onboard"},
+        {"callout": "Airplane documents", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Originating",
+      "items": [
+        {"callout": "Crew oxygen and masks", "response": "Checked and pressure recorded"},
+        {"callout": "Audio warning panel", "response": "Checked (if first flight of day)"},
+        {"callout": "Electrical power panel", "response": "Checked"},
+        {"callout": "Fire detection and extinguishing", "response": "Checked"},
+        {"callout": "Instrument panels", "response": "Checked"},
+        {"callout": "Upper pedestal", "response": "Checked"},
+        {"callout": "Thrust lever quadrant", "response": "Checked"},
+        {"callout": "Avionics and radio tuning panel", "response": "Checked"},
+        {"callout": "Trims", "response": "Checked"},
+        {"callout": "Yaw damper", "response": "Engaged"},
+        {"callout": "Personal electronic devices", "response": "Off"},
+        {"callout": "Take-off data", "response": "Set"},
+        {"callout": "Doors", "response": "Closed and locked"},
+        {"callout": "Beacon", "response": "On"},
+        {"callout": "Fuel pumps and quantity", "response": "On and recorded"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Generators", "response": "Auto"},
+        {"callout": "Electrics", "response": "Checked"},
+        {"callout": "Bleed valves", "response": "Auto"},
+        {"callout": "Packs", "response": "On"},
+        {"callout": "Anti-ice", "response": "On or off as required"},
+        {"callout": "Nose wheel steering", "response": "Armed"},
+        {"callout": "Flaps", "response": "Up or zero"},
+        {"callout": "Lights and strobes", "response": "Set"},
+        {"callout": "Probes", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Taxi clearance", "response": "Received"},
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Brakes", "response": "As required"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Brake temps", "response": "Checked"},
+        {"callout": "Cabin crew", "response": "Notified"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Thrust mode", "response": "Set for takeoff"},
+        {"callout": "Take-off clearance", "response": "Received"},
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Strobe", "response": "On"},
+        {"callout": "TCAS", "response": "On"},
+        {"callout": "Terrain radar", "response": "On"},
+        {"callout": "Cabin signs", "response": "On (→ CRJ 550 mit mehr Service-Bereich prüfen)"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Rotate", "response": "At proper speed"},
+        {"callout": "Climb", "response": "Positive rate, gear up"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb thrust", "response": "Set"},
+        {"callout": "Autopilot", "response": "Engage as appropriate"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Approach briefing", "response": "Complete"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Speed", "response": "As required"},
+        {"callout": "Landing clearance", "response": "Received"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Flaps", "response": "Set as needed"},
+        {"callout": "Gear", "response": "Down"},
+        {"callout": "Landing checklist", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Seat belts", "response": "Off"},
+        {"callout": "Thrust levers", "response": "Shut off"},
+        {"callout": "Anti-ice", "response": "Off"},
+        {"callout": "Fuel pumps", "response": "Off"},
+        {"callout": "Beacon", "response": "Off"},
+        {"callout": "Nose wheel steering switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Terminating",
+      "items": [
+        {"callout": "Chocks and brakes", "response": "Set and off"},
+        {"callout": "IRS", "response": "Off"},
+        {"callout": "Emergency lights switch", "response": "Off"},
+        {"callout": "Anti-ice", "response": "Off"},
+        {"callout": "Hydraulic pumps", "response": "Off"},
+        {"callout": "External lights switches", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Emergency – Engine Failure or Fire",
+      "items": [
+        {"callout": "Identify emergency checklist", "response": "Perform"},
+        {"callout": "Start APU if available", "response": "As directed"},
+        {"callout": "Fly single-engine approach and landing", "response": "Execute safely"}
+      ]
+    }
+  ]
+}

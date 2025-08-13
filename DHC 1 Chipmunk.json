@@ -1,0 +1,218 @@
+{
+  "aircraft": "de Havilland Canada DHC 1 Chipmunk",
+  "nickname": "Chipmunk",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External visual inspection", "response": "Complete"},
+        {"callout": "Parking brake lever", "response": "Set"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Fuel quantity left and right", "response": "Checked"},
+        {"callout": "Oil quantity", "response": "Checked"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Canopy", "response": "Closed and latched for takeoff"},
+        {"callout": "Ignition and electrical switches", "response": "Off"},
+        {"callout": "Fuel cock", "response": "Closed"}
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        {"callout": "Electrical power control", "response": "Set to ground power if available"},
+        {"callout": "Fuel cock", "response": "Open"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle", "response": "Open half an inch"},
+        {"callout": "Area", "response": "Clear"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Magneto switches", "response": "Both on"},
+        {"callout": "Starter flap", "response": "Open"},
+        {"callout": "Starter", "response": "Pull starter ring until the engine fires"},
+        {"callout": "Electrical power control", "response": "Set to battery after start"},
+        {"callout": "Throttle", "response": "Set between one thousand and one thousand two hundred R P M"},
+        {"callout": "Oil pressure", "response": "Confirm rising"},
+        {"callout": "Generator light", "response": "Out"},
+        {"callout": "Starter flap", "response": "Closed"}
+      ]
+    },
+    {
+      "title": "Warm Up",
+      "items": [
+        {"callout": "Engine", "response": "Warm at one thousand to one thousand two hundred R P M until oil temperature reaches thirty degrees Celsius"},
+        {"callout": "Carburettor air", "response": "Cold for ground operation unless icing is suspected"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Throttle", "response": "Increase to one thousand five hundred R P M"},
+        {"callout": "Magnetos", "response": "Check each with a momentary switch off and confirm a small drop"},
+        {"callout": "Generator light", "response": "Out"},
+        {"callout": "Throttle", "response": "Open to full power briefly and confirm two thousand to two thousand one hundred R P M"},
+        {"callout": "Engine instruments", "response": "Check in the green"},
+        {"callout": "Throttle", "response": "Idle check then set for taxi"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Tailwheel", "response": "Manage turns with differential braking and rudder"},
+        {"callout": "Flight instruments", "response": "Check operation"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Canopy", "response": "Closed and latched"},
+        {"callout": "Fuel cock", "response": "Open"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Carburettor air", "response": "Cold unless icing is suspected"},
+        {"callout": "Engine instruments", "response": "Checked"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Flaps for short takeoff", "response": "Set to half if required"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Throttle", "response": "Apply smoothly to full power"},
+        {"callout": "Directional control", "response": "Maintain with rudder"},
+        {"callout": "Rotation", "response": "Fly off at approximately forty five knots"},
+        {"callout": "Initial climb", "response": "Establish and retract flaps when safe"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Climb speed", "response": "Seventy knots"},
+        {"callout": "Mixture", "response": "Full rich until altitude then adjust"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Power", "response": "Full throttle then set for climb as required"},
+        {"callout": "Carburettor air", "response": "Cold unless icing is suspected"},
+        {"callout": "Engine instruments", "response": "Monitor"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "R P M", "response": "Do not exceed two thousand one hundred"},
+        {"callout": "Airspeed", "response": "Maintain between eighty five and ninety knots as desired"},
+        {"callout": "Mixture", "response": "Lean for smooth running"},
+        {"callout": "Carburettor air", "response": "Hot continuously unless ambient temperature exceeds thirty degrees Celsius"},
+        {"callout": "Engine instruments", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Carburettor air", "response": "Hot before reducing power"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Airspeed", "response": "Maintain within limits"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel cock", "response": "Open"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Carburettor air", "response": "Hot if icing conditions exist"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Final approach speed", "response": "Maintain around sixty knots"},
+        {"callout": "Touchdown", "response": "Main wheels first and hold the tail off"},
+        {"callout": "Rollout", "response": "Maintain direction with rudder and differential braking"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Carburettor air", "response": "Cold"},
+        {"callout": "Landing and taxi light", "response": "Off"},
+        {"callout": "Trim", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake lever", "response": "Set"},
+        {"callout": "Throttle", "response": "Set to one thousand R P M for cool down"},
+        {"callout": "Radios and unnecessary electrics", "response": "Off"},
+        {"callout": "Mixture", "response": "Idle cut off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Electrical power control", "response": "Off"},
+        {"callout": "Fuel cock", "response": "Closed"},
+        {"callout": "Canopy", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Carburettor Icing",
+      "items": [
+        {"callout": "Indications", "response": "Rough running and loss of power"},
+        {"callout": "Carburettor air", "response": "Select hot"},
+        {"callout": "Throttle", "response": "Adjust to help clear icing"},
+        {"callout": "Mixture", "response": "Adjust for smooth running"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain best glide speed"},
+        {"callout": "Fuel cock", "response": "Confirm open"},
+        {"callout": "Mixture", "response": "Full rich then adjust as required"},
+        {"callout": "Carburettor air", "response": "Hot"},
+        {"callout": "Magnetos", "response": "Check both"}
+      ]
+    },
+    {
+      "title": "Spin Recovery",
+      "items": [
+        {"callout": "Throttle", "response": "Close"},
+        {"callout": "Ailerons", "response": "Neutral"},
+        {"callout": "Rudder", "response": "Full opposite to the direction of rotation"},
+        {"callout": "Control column", "response": "Move forward until rotation stops then ease out of the dive"},
+        {"callout": "Power", "response": "As required when flying speed is regained"}
+      ]
+    },
+    {
+      "title": "Generator Failure",
+      "items": [
+        {"callout": "Generator warning light", "response": "On"},
+        {"callout": "Electrical load", "response": "Reduce to minimum"},
+        {"callout": "Electrical power control", "response": "Cycle then set as required"},
+        {"callout": "Plan to land", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames into the engine"},
+        {"callout": "Fuel cock", "response": "Closed"},
+        {"callout": "Electrical power control", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use the fire extinguisher"},
+        {"callout": "Inspect before restart", "response": "Do not attempt a restart until inspected"}
+      ]
+    }
+  ]
+}

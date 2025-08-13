@@ -1,0 +1,191 @@
+{
+  "aircraft": "Airbus A300",
+  "nickname": "A300",
+  "checklist": [
+    {
+      "title": "Preliminary Cockpit Preparation",
+      "items": [
+        {"callout": "Batteries", "response": "Automatic"},
+        {"callout": "Hydraulic panel", "response": "Checked"},
+        {"callout": "Wiper switches", "response": "Off"},
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Slats and flaps handle", "response": "In agreement"},
+        {"callout": "Thrust reverser levers", "response": "Down"},
+        {"callout": "Fuel levers", "response": "Off"},
+        {"callout": "Weather radar", "response": "Off"},
+        {"callout": "External power", "response": "Established if available"},
+        {"callout": "Auxiliary power unit fire system", "response": "Tested"}
+      ]
+    },
+    {
+      "title": "Flight Deck Preparation",
+      "items": [
+        {"callout": "No smoking sign", "response": "Automatic"},
+        {"callout": "Seat belt sign", "response": "On"},
+        {"callout": "Hydraulic power panel", "response": "Set and checked"},
+        {"callout": "Servo control panel", "response": "Checked"},
+        {"callout": "Flight recorder ground control", "response": "On"},
+        {"callout": "Auto thrust lever", "response": "On"},
+        {"callout": "Pitch trim and yaw damper levers", "response": "On when inertial reference system is aligned"},
+        {"callout": "Electrical power panel", "response": "Checked"},
+        {"callout": "Engine one and two fire panel", "response": "Checked and tested"},
+        {"callout": "Cabin pressurization panel", "response": "Checked"},
+        {"callout": "Window heaters", "response": "On"},
+        {"callout": "Probe heat", "response": "On"},
+        {"callout": "Emergency exit lights", "response": "Armed"},
+        {"callout": "Conditioning and pack temperature panels", "response": "Set and checked"},
+        {"callout": "Primary flight display and navigation display brightness", "response": "Set"},
+        {"callout": "Flight director and flight path vector switch", "response": "On"},
+        {"callout": "Command bars", "response": "In view"},
+        {"callout": "VOR, navigation and instrument landing system switch", "response": "Navigation"},
+        {"callout": "Decision height", "response": "Minus five feet"},
+        {"callout": "Standby instruments", "response": "Checked and set"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Auto brake switches", "response": "Extinguished"},
+        {"callout": "Speedbrake handle", "response": "Retracted and disarmed"},
+        {"callout": "Takeoff warning", "response": "Checked"},
+        {"callout": "Air traffic control transponder and traffic collision avoidance system", "response": "Set"},
+        {"callout": "Weather radar", "response": "Tested"},
+        {"callout": "Flight management system initialization and flight plan", "response": "Complete"},
+        {"callout": "Performance data", "response": "Calculated"},
+        {"callout": "Flexible takeoff temperature", "response": "As required"},
+        {"callout": "Take off go around mode", "response": "Selected"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Request pushback", "response": "As required"},
+        {"callout": "Ignition selector", "response": "Position A or B"},
+        {"callout": "Engine two start switch", "response": "Pressed"},
+        {"callout": "Engine two fuel lever", "response": "On at twenty percent N two"},
+        {"callout": "Monitor engine status page on electronic centralized aircraft monitor", "response": "Checked"},
+        {"callout": "Engine one start switch", "response": "Pressed"},
+        {"callout": "Engine one fuel lever", "response": "On at twenty percent N two"},
+        {"callout": "Monitor engine status page on electronic centralized aircraft monitor", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Anti ice", "response": "As required"},
+        {"callout": "Speedbrake", "response": "Armed"},
+        {"callout": "Rudder trim", "response": "Reset"},
+        {"callout": "Slats and flaps", "response": "Set for takeoff"},
+        {"callout": "Trim", "response": "Set for takeoff"}
+      ]
+    },
+    {
+      "title": "Taxi Out",
+      "items": [
+        {"callout": "Taxi clearance", "response": "Obtained"},
+        {"callout": "Nose light", "response": "Taxi"},
+        {"callout": "Flight controls", "response": "Checked"},
+        {"callout": "Flight control unit preset speed", "response": "Two hundred fifty knots"},
+        {"callout": "Auto brake", "response": "Maximum"},
+        {"callout": "Transponder", "response": "Set"},
+        {"callout": "Weather radar", "response": "On"},
+        {"callout": "Takeoff configuration test", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Line Up",
+      "items": [
+        {"callout": "Line up clearance", "response": "Obtained"},
+        {"callout": "Brake fans", "response": "Off"},
+        {"callout": "Navigation and logo lights", "response": "On"},
+        {"callout": "Ignition", "response": "As required"},
+        {"callout": "Traffic collision avoidance system", "response": "Traffic advisory and resolution advisory"}
+      ]
+    },
+    {
+      "title": "Take Off",
+      "items": [
+        {"callout": "Takeoff", "response": "Announced"},
+        {"callout": "Clock", "response": "Started"},
+        {"callout": "Throttles", "response": "Advance to at least forty percent N one"},
+        {"callout": "Brakes", "response": "Released"},
+        {"callout": "Go levers", "response": "Triggered take off go around button"},
+        {"callout": "Speeds", "response": "Announce one hundred knots, V one, rotate"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Autopilot", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Take Off",
+      "items": [
+        {"callout": "Spoilers", "response": "Disarmed"},
+        {"callout": "Landing gear", "response": "Off"},
+        {"callout": "Packs", "response": "On"},
+        {"callout": "Landing switches", "response": "On until ten thousand feet"},
+        {"callout": "Anti ice", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Top Of Climb",
+      "items": [
+        {"callout": "Thrust rating limit mode", "response": "Checked in cruise"},
+        {"callout": "Electronic centralized aircraft monitor pages", "response": "Reviewed"},
+        {"callout": "Flight progress", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Descent Preparation",
+      "items": [
+        {"callout": "Electronic centralized aircraft monitor memo", "response": "Checked"},
+        {"callout": "Weather and landing information", "response": "Obtained"},
+        {"callout": "Landing elevation", "response": "Set"},
+        {"callout": "Auto brake mode", "response": "Selected"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Profile descent", "response": "Managed"},
+        {"callout": "Anti ice", "response": "As required"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Exterior lights", "response": "On at ten thousand feet"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Spoilers", "response": "Armed"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Autopilot", "response": "Disconnected"},
+        {"callout": "Auto thrust", "response": "Off"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Transponder", "response": "Standby or off"},
+        {"callout": "Weather radar", "response": "Off"},
+        {"callout": "Pitch trim", "response": "Set one degree nose up"},
+        {"callout": "Brake fans", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Parking",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Auxiliary power unit bleed", "response": "On"},
+        {"callout": "Fuel levers", "response": "Off"},
+        {"callout": "Beacon", "response": "Off when N two is below twenty percent"},
+        {"callout": "Inertial reference system", "response": "Reset if necessary"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Inertial reference system", "response": "Off"},
+        {"callout": "Exterior lights", "response": "All off"},
+        {"callout": "Auxiliary power unit", "response": "Off"},
+        {"callout": "Emergency exit lights", "response": "Disarmed"},
+        {"callout": "Batteries", "response": "Off"}
+      ]
+    }
+  ]
+}

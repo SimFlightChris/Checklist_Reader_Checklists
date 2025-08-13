@@ -1,0 +1,88 @@
+{
+  "aircraft": "Curtiss JN-4 Jenny",
+  "nickname": "Jenny",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Fuel shut off valve", "response": "Closed"},
+        {"callout": "Fuel cut off ring", "response": "Out"},
+        {"callout": "Magneto lever", "response": "Aft"},
+        {"callout": "Magneto breakers", "response": "Out"},
+        {"callout": "Mixture and choke", "response": "Fully in"},
+        {"callout": "Propeller", "response": "Still"},
+        {"callout": "Cowlings", "response": "Off"},
+        {"callout": "Engine visual inspection", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Engine Start",
+      "items": [
+        {"callout": "Cowlings", "response": "On"},
+        {"callout": "Flight controls", "response": "Free and correct movement"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Fuel shut off valve", "response": "Open"},
+        {"callout": "Fuel cut off ring", "response": "In"},
+        {"callout": "Magneto lever", "response": "Forward"},
+        {"callout": "Magneto breakers", "response": "In"},
+        {"callout": "Mixture and choke", "response": "Fully out"},
+        {"callout": "Throttle", "response": "Open one half inch"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Propeller", "response": "Click to throw prop"},
+        {"callout": "Panel light", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Flight controls", "response": "Free and correct movement"},
+        {"callout": "Warning", "response": "No brakes equipped"},
+        {"callout": "Throttle", "response": "Advance"},
+        {"callout": "Taxi", "response": "Slowly"},
+        {"callout": "Steering", "response": "With rudder"}
+      ]
+    },
+    {
+      "title": "Take-Off and Climb",
+      "items": [
+        {"callout": "Stick", "response": "Hold slightly back"},
+        {"callout": "Throttle", "response": "Moderate increase until full for takeoff"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "RPM", "response": "One thousand one hundred"},
+        {"callout": "Cruise altitude", "response": "Five hundred to one thousand feet"},
+        {"callout": "Engine gauges", "response": "Check within limits"}
+      ]
+    },
+    {
+      "title": "Landing and Rollout",
+      "items": [
+        {"callout": "Approach", "response": "Curved approach to the runway"},
+        {"callout": "RPM", "response": "Maintain one thousand to one thousand one hundred"},
+        {"callout": "Speed vs descent rate", "response": "Monitor visually"},
+        {"callout": "Throttle", "response": "Idle at threshold"},
+        {"callout": "Control stick", "response": "Slightly aft on touchdown"},
+        {"callout": "Rollout", "response": "Monitor visual speed"},
+        {"callout": "On speed reduction", "response": "Stick fully aft"}
+      ]
+    },
+    {
+      "title": "After Landing and Shutdown",
+      "items": [
+        {"callout": "Fuel cut off ring", "response": "Out"},
+        {"callout": "Fuel shut off valve", "response": "Closed"},
+        {"callout": "Magneto lever", "response": "Aft"},
+        {"callout": "Magneto breakers", "response": "Out"},
+        {"callout": "Propeller", "response": "Still"},
+        {"callout": "Panel light", "response": "Off"}
+      ]
+    }
+  ]
+}

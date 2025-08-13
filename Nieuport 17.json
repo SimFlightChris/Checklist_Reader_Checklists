@@ -1,0 +1,59 @@
+{
+  "aircraft": "Nieuport 17",
+  "nickname": "Big Radials Nieuport",
+  "checklist": [
+    {
+      "title": "Engine Start",
+      "items": [
+        { "callout": "Fuel", "response": "Open" },
+        { "callout": "Mixture", "response": "Full forward" },
+        { "callout": "Throttle", "response": "Open one inch" },
+        { "callout": "Magnetos", "response": "Off" },
+        { "callout": "Propeller", "response": "Press and hold for three seconds, then release" },
+        { "callout": "Magnetos", "response": "On" },
+        { "callout": "Propeller", "response": "Press and hold until the engine starts" },
+        { "callout": "RPM", "response": "Above one thousand RPM" }
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        { "callout": "Controls", "response": "Free" },
+        { "callout": "Turning", "response": "Apply full rudder then give a short burst of power" },
+        { "callout": "Turn inertia", "response": "Manage by briefly cutting power" },
+        { "callout": "Taxi path", "response": "Plan straight and short routes" }
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        { "callout": "Controls", "response": "Free" },
+        { "callout": "Throttle", "response": "Full power" },
+        { "callout": "Rudder", "response": "Manage torque effect" },
+        { "callout": "Liftoff", "response": "At around fifty-five knots, allow the aircraft to fly off" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Throttle and mixture", "response": "Reduce for fuel efficiency" }
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        { "callout": "Speed", "response": "Manage with throttle blips" },
+        { "callout": "Touchdown", "response": "Main wheels first" },
+        { "callout": "Stick", "response": "Pull fully back during slowdown to apply tail friction" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Throttle blip", "response": "Apply short blips to stop the engine" },
+        { "callout": "Fuel", "response": "Close" },
+        { "callout": "Magnetos", "response": "Off" }
+      ]
+    }
+  ]
+}

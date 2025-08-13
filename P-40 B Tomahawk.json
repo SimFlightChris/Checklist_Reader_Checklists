@@ -1,0 +1,183 @@
+{
+  "aircraft": "P-40B Tomahawk",
+  "nickname": "Tomahawk",
+  "checklist": [
+    {
+      "title": "Cockpit Check",
+      "items": [
+        {"callout": "Flap lever", "response": "Neutral"},
+        {"callout": "Gear lever", "response": "Neutral"},
+        {"callout": "Trim tabs", "response": "Elevator three units up"},
+        {"callout": "Throttle", "response": "One quarter inch open"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Propeller control", "response": "Full forward"},
+        {"callout": "Fuel selector", "response": "Fuselage"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Carburetor heat control", "response": "Cold"},
+        {"callout": "Cowl flaps", "response": "Ground cooling"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Generator", "response": "On"},
+        {"callout": "Recognition lights", "response": "On"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Electric fuel booster pump", "response": "On"},
+        {"callout": "Ignition switch", "response": "Both"},
+        {"callout": "Engine primer", "response": "One stroke warm, three strokes cold"},
+        {"callout": "Starter", "response": "Hold energize for five seconds, then engage"},
+        {"callout": "Mixture", "response": "Advance to auto rich on engine start"}
+      ]
+    },
+    {
+      "title": "After Startup",
+      "items": [
+        {"callout": "Engine RPM", "response": "Set between eight hundred and one thousand"},
+        {"callout": "Oil pressure", "response": "Between sixty and seventy PSI"},
+        {"callout": "RPM", "response": "Advance to eleven hundred"},
+        {"callout": "Carburetor heat", "response": "Hot"},
+        {"callout": "Oil pressure", "response": "Check between fifty-five and seventy PSI"},
+        {"callout": "Oil temperature", "response": "Check between sixty and eighty degrees Celsius"},
+        {"callout": "Fuel pressure", "response": "Check between fifteen and eighteen PSI"},
+        {"callout": "Coolant temperature", "response": "Check between eighty-five and one hundred five degrees Celsius"},
+        {"callout": "Electric fuel booster pump", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Taxi", "response": "Slowly in S patterns"},
+        {"callout": "Brakes", "response": "Use intermittently"},
+        {"callout": "Stick", "response": "Back"},
+        {"callout": "Hands", "response": "Keep both on controls"},
+        {"callout": "RPM", "response": "Above one thousand"}
+      ]
+    },
+    {
+      "title": "Pre-Takeoff",
+      "items": [
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Controls", "response": "Free"},
+        {"callout": "Flaps", "response": "Up, half down if short or dirt runway"},
+        {"callout": "Trim tabs", "response": "Elevator three up, rudder two right"},
+        {"callout": "Propeller control", "response": "Full forward"},
+        {"callout": "Mixture", "response": "Auto rich"},
+        {"callout": "Electric booster pump", "response": "On"},
+        {"callout": "Battery and generator switches", "response": "On"},
+        {"callout": "Oil pressure", "response": "Check between fifty-five and seventy PSI"},
+        {"callout": "Oil temperature", "response": "Check between sixty and eighty degrees Celsius"},
+        {"callout": "Fuel pressure", "response": "Check between sixteen and eighteen PSI"},
+        {"callout": "Coolant temperature", "response": "Check between eighty-five and one hundred five degrees Celsius"},
+        {"callout": "Carburetor heat control", "response": "Cold"},
+        {"callout": "Cowl flaps", "response": "Combat or climb"},
+        {"callout": "Magneto check", "response": "At twenty-three hundred RPM and twenty-eight manifold pressure, max drop eighty RPM"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Stick", "response": "Back initially"},
+        {"callout": "Throttle", "response": "Advance smoothly to forty-five manifold pressure"},
+        {"callout": "Tail", "response": "Allow to rise"},
+        {"callout": "Rudder and aileron", "response": "Compensate right"},
+        {"callout": "Speed", "response": "Lift-off at one hundred five to one hundred fifteen miles per hour"},
+        {"callout": "Power", "response": "Maximum fifty-two manifold pressure, three thousand RPM for one minute"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Gear", "response": "Raise"},
+        {"callout": "Gear lever", "response": "Neutral"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Trim", "response": "Adjust"},
+        {"callout": "Throttle", "response": "Reduce to thirty-five manifold pressure"},
+        {"callout": "Propeller", "response": "Reduce to twenty-five hundred RPM"},
+        {"callout": "Electric booster pump", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb speed", "response": "Maintain one hundred fifty to one hundred sixty miles per hour"},
+        {"callout": "Power", "response": "Recommended thirty-five manifold pressure, twenty-five hundred RPM"},
+        {"callout": "Cowl flaps", "response": "Adjust as needed"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Cowl flaps", "response": "Set to high speed"},
+        {"callout": "Trim", "response": "Adjust"},
+        {"callout": "Engine and fuel gauges", "response": "Check every five minutes"},
+        {"callout": "Power", "response": "Recommended thirty manifold pressure, twenty-three hundred RPM"},
+        {"callout": "Mixture", "response": "Auto rich, auto lean for economy"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Altitude", "response": "Above one thousand feet"},
+        {"callout": "Mixture", "response": "Auto rich"},
+        {"callout": "Propeller", "response": "Full fine RPM"},
+        {"callout": "Fuel selector", "response": "Fullest tank"},
+        {"callout": "Electric booster pump", "response": "On"},
+        {"callout": "Cowl flaps", "response": "Adjust below one hundred five degrees Celsius"},
+        {"callout": "Gear", "response": "Down"},
+        {"callout": "Gear lever", "response": "Neutral"},
+        {"callout": "Canopy", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Final",
+      "items": [
+        {"callout": "Altitude", "response": "Five hundred feet, quarter mile distance"},
+        {"callout": "Speed", "response": "Below one hundred forty miles per hour"},
+        {"callout": "Flaps", "response": "Down"},
+        {"callout": "Speed", "response": "One hundred ten to one hundred fifteen miles per hour"},
+        {"callout": "Gear", "response": "Check down"},
+        {"callout": "Trim", "response": "Slightly tail heavy"},
+        {"callout": "Cowl flaps", "response": "Ground handling"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "RPM", "response": "Three thousand"},
+        {"callout": "Over threshold", "response": "Cut throttle"},
+        {"callout": "Speed", "response": "Ninety-five to one hundred miles per hour"},
+        {"callout": "Touchdown", "response": "Main wheels or three-point"},
+        {"callout": "Rudder", "response": "Keep straight"},
+        {"callout": "Brakes", "response": "Below forty miles per hour"},
+        {"callout": "Tail", "response": "Allow to come down naturally"},
+        {"callout": "Speed", "response": "Below twenty miles per hour before turning"}
+      ]
+    },
+    {
+      "title": "Go-Around",
+      "items": [
+        {"callout": "Throttle", "response": "Advance to forty manifold pressure"},
+        {"callout": "Propeller", "response": "Three thousand RPM"},
+        {"callout": "Flap lever", "response": "Neutral"},
+        {"callout": "Gear", "response": "Up"},
+        {"callout": "Climb", "response": "To five hundred feet"},
+        {"callout": "Throttle", "response": "Reduce to thirty-five manifold pressure"},
+        {"callout": "Propeller", "response": "Reduce to twenty-five hundred RPM"},
+        {"callout": "Flaps", "response": "Up"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Propeller", "response": "Stop"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "All switches", "response": "Off"}
+      ]
+    }
+  ]
+}

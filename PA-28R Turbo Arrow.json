@@ -1,0 +1,169 @@
+{
+  "aircraft": "PA-28R Turbo Arrow III/IV",
+  "nickname": "Turbo Arrow",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Oil quantity", "response": "Checked"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Master switch", "response": "On to check lights and indicators, then off"}
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Brakes", "response": "Set"},
+        {"callout": "Fuel selector", "response": "On desired tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Throttle", "response": "Open one quarter inch"},
+        {"callout": "Beacon light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Fuel pump", "response": "On for priming, then off"},
+        {"callout": "Primer button", "response": "Press as required"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Starter", "response": "Engage until engine starts"},
+        {"callout": "Mixture", "response": "Adjust as needed after start"},
+        {"callout": "Oil pressure", "response": "Check rising within 30 seconds"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Turn coordinator and heading indicator", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Brakes", "response": "Hold"},
+        {"callout": "Throttle", "response": "Advance to two thousand RPM"},
+        {"callout": "Magnetos", "response": "Check left and right, drop within limits"},
+        {"callout": "Propeller", "response": "Cycle, observe RPM and oil pressure"},
+        {"callout": "Mixture", "response": "Lean to peak RPM then enrich slightly"},
+        {"callout": "Engine instruments", "response": "In the green"},
+        {"callout": "Vacuum gauge", "response": "Check within limits"},
+        {"callout": "Ammeter and annunciator", "response": "Checked"},
+        {"callout": "Throttle", "response": "Retard to idle, then set to one thousand RPM"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Transponder", "response": "Set to altitude reporting"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Engine instruments", "response": "Check"},
+        {"callout": "Airspeed", "response": "Alive"},
+        {"callout": "Rotate", "response": "At seventy-five knots"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb power", "response": "Set twenty-five inches and twenty-five hundred RPM"},
+        {"callout": "Cowl flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle and propeller", "response": "Set as required"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Fuel selector", "response": "Switch tanks periodically"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Throttle", "response": "Reduce as needed"},
+        {"callout": "Cowl flaps", "response": "Closed"},
+        {"callout": "Landing light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Approach and Landing",
+      "items": [
+        {"callout": "Fuel selector", "response": "Fullest tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Gear", "response": "Down below one hundred twenty-five knots"},
+        {"callout": "Flaps", "response": "As required, full below one hundred eight knots"},
+        {"callout": "Landing light", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Mixture", "response": "Lean"},
+        {"callout": "Cowl flaps", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Throttle", "response": "One thousand RPM for cooldown"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use extinguisher"},
+        {"callout": "Aircraft", "response": "Evacuate if necessary"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide, eighty-eight knots"},
+        {"callout": "Fuel selector", "response": "Switch tanks"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Alternate air", "response": "Open"},
+        {"callout": "Magnetos", "response": "Check both"},
+        {"callout": "Engine gauges", "response": "Check"},
+        {"callout": "Attempt restart", "response": "If time permits"}
+      ]
+    }
+  ]
+}

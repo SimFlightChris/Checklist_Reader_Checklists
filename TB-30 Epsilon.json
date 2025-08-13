@@ -1,0 +1,127 @@
+{
+  "aircraft": "TB-30 Epsilon",
+  "nickname": "Epsilon",
+  "checklist": [
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Master battery", "response": "On"},
+        {"callout": "Fuel valve", "response": "Opened"},
+        {"callout": "Alarms", "response": "Tested"},
+        {"callout": "Emergency static", "response": "Closed"},
+        {"callout": "Engine anti ice", "response": "Off"},
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Propeller", "response": "Forward"},
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Throttle", "response": "One centimeter open"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Magneto", "response": "Both"},
+        {"callout": "Starter", "response": "On"},
+        {"callout": "Starter alarm", "response": "Off"},
+        {"callout": "Engine RPM", "response": "Twelve hundred"},
+        {"callout": "Oil pressure alarm", "response": "Off"},
+        {"callout": "Oil pressure", "response": "In the green"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Alternator", "response": "On"},
+        {"callout": "Voltage", "response": "Green"},
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Gyro", "response": "On"},
+        {"callout": "Strobes", "response": "On"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Pitot heat", "response": "On"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Oil temperature", "response": "Minimum forty degrees Celsius"},
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Parking brake", "response": "Off"},
+        {"callout": "Brakes", "response": "Tested"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Taxi light", "response": "Off"},
+        {"callout": "Oil temperature", "response": "Minimum fifty degrees Celsius"},
+        {"callout": "Cylinder head temperature", "response": "Minimum one hundred degrees Celsius"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Engine RPM", "response": "Two thousand"},
+        {"callout": "Oil pressure", "response": "In the green"},
+        {"callout": "Magneto left", "response": "RPM loss below one hundred seventy five"},
+        {"callout": "Magneto both", "response": "Checked"},
+        {"callout": "Magneto right", "response": "RPM loss below one hundred seventy five"},
+        {"callout": "Magneto both", "response": "Checked"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "RPM", "response": "Minimum seven hundred"},
+        {"callout": "RPM", "response": "Twelve hundred"},
+        {"callout": "Voltage", "response": "Green"},
+        {"callout": "Oil temperature", "response": "Green"},
+        {"callout": "Cylinder head temperature", "response": "Green"},
+        {"callout": "Oil pressure", "response": "Green"},
+        {"callout": "Propeller", "response": "Forward"},
+        {"callout": "Mixture", "response": "Maximum"},
+        {"callout": "Flaps", "response": "Fifteen degrees"},
+        {"callout": "Trim", "response": "As required"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Parking brake", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Rotation", "response": "Seventy five knots"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Landing light", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Mixture", "response": "Maximum"},
+        {"callout": "Propeller", "response": "Forward"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Twenty five degrees"},
+        {"callout": "Speed", "response": "Ninety knots"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Flaps", "response": "Up"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "RPM", "response": "Twelve hundred"},
+        {"callout": "Gyro", "response": "Off"},
+        {"callout": "Strobes", "response": "Off"},
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Taxi light", "response": "Off"},
+        {"callout": "Pitot heat", "response": "Off"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Alternator", "response": "Off"},
+        {"callout": "Mixture", "response": "Minimum"},
+        {"callout": "Magneto", "response": "Off"},
+        {"callout": "Master battery", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Hydraulic Failure",
+      "items": [
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Emergency gear handle", "response": "Pull"}
+      ]
+    }
+  ]
+}

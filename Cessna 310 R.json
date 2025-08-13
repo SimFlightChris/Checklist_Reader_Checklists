@@ -1,0 +1,184 @@
+{
+  "aircraft": "Cessna 310R",
+  "nickname": "Cessna Twin",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"callout": "Aircraft documents", "response": "Checked"},
+        {"callout": "Weight and balance", "response": "Within limits"},
+        {"callout": "Control lock", "response": "Remove"},
+        {"callout": "Pitot cover", "response": "Remove"},
+        {"callout": "Aircraft walkaround", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Circuit breakers", "response": "Check in"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Propeller area", "response": "Clear"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Fuel pumps", "response": "On for priming"},
+        {"callout": "Throttle", "response": "Open one quarter inch"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Mixture", "response": "Full rich as engine starts"},
+        {"callout": "Starter", "response": "Engage"},
+        {"callout": "Oil pressure", "response": "Check"},
+        {"callout": "Fuel pump", "response": "Off after start"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Navigation radios", "response": "Set"},
+        {"callout": "Autopilot", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Check"},
+        {"callout": "Turn coordinator", "response": "Check"},
+        {"callout": "Gyros", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim tabs", "response": "Set for takeoff"},
+        {"callout": "Fuel selectors", "response": "On"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Propellers", "response": "Full forward"},
+        {"callout": "Magnetos", "response": "Check, maximum drop one hundred fifty RPM"},
+        {"callout": "Engine instruments", "response": "Green"},
+        {"callout": "Flight instruments", "response": "Set"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Power", "response": "Set climb power"},
+        {"callout": "Mixture", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set"},
+        {"callout": "Mixture", "response": "Lean"},
+        {"callout": "Fuel balance", "response": "Check"},
+        {"callout": "Engine instruments", "response": "Monitor"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "Mixtures", "response": "Enrich"},
+        {"callout": "Power", "response": "As required"},
+        {"callout": "Seat belts", "response": "Fastened"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Propellers", "response": "Full forward"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Landing light", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Mixtures", "response": "Lean"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Transponder", "response": "Standby"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Mixtures", "response": "Idle cutoff"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Securing Procedure",
+      "items": [
+        {"callout": "Throttle", "response": "Close"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Propeller", "response": "Feather"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Auxiliary fuel pump", "response": "Off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Alternator", "response": "Off"},
+        {"callout": "Cowl flap", "response": "Close"}
+      ]
+    },
+    {
+      "title": "Engine Failure During Takeoff (Below 92 KIAS)",
+      "items": [
+        {"callout": "Throttle", "response": "Close immediately"},
+        {"callout": "Brakes", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Failure After Takeoff (Above 92 KIAS)",
+      "items": [
+        {"callout": "Mixture", "response": "As required for altitude"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Throttle", "response": "Full forward"},
+        {"callout": "Landing gear", "response": "Verify up"},
+        {"callout": "Inoperative engine throttle", "response": "Close"},
+        {"callout": "Inoperative engine mixture", "response": "Idle cutoff"},
+        {"callout": "Inoperative engine propeller", "response": "Feather"},
+        {"callout": "Flaps", "response": "Up gradually"},
+        {"callout": "Climb", "response": "Maintain ninety-two KIAS, then best rate at one hundred six KIAS"}
+      ]
+    },
+    {
+      "title": "Emergency Descent",
+      "items": [
+        {"callout": "Throttles", "response": "Idle"},
+        {"callout": "Propellers", "response": "Full forward"},
+        {"callout": "Mixtures", "response": "Adjust for smooth operation"},
+        {"callout": "Wing flaps", "response": "Up"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Bank", "response": "Initiate moderate bank"}
+      ]
+    },
+    {
+      "title": "Engine-driven Fuel Pump Failure",
+      "items": [
+        {"callout": "Fuel selector", "response": "Main tank"},
+        {"callout": "Auxiliary fuel pump", "response": "On"},
+        {"callout": "Cowl flap", "response": "Open"},
+        {"callout": "Mixture", "response": "Adjust for smooth operation"},
+        {"callout": "Landing", "response": "As soon as practical"}
+      ]
+    }
+  ]
+}

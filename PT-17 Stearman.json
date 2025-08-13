@@ -1,0 +1,159 @@
+{
+  "aircraft": "PT-17 Stearman",
+  "nickname": "Stearman",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External visual inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel quantity", "response": "Check and sufficient"},
+        {"callout": "Oil level", "response": "Check within normal limits"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Propeller", "response": "Condition checked"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Avionics switch", "response": "Off"},
+        {"callout": "Fuel tank valve", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel tank valve", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle", "response": "Open one quarter of an inch"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Primer", "response": "Prime as required"},
+        {"callout": "Starter switch", "response": "Engage until the engine fires"},
+        {"callout": "Throttle", "response": "Set for eight hundred to one thousand R P M"},
+        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Flight instruments", "response": "Check operation"},
+        {"callout": "Elevator trim", "response": "Set for take-off"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Doors and harnesses", "response": "Closed and fastened"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Brakes", "response": "Held"},
+        {"callout": "Engine run-up", "response": "Complete"},
+        {"callout": "Magnetos", "response": "Check left, right and both"},
+        {"callout": "Carburetor heat", "response": "Check then off"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Instruments", "response": "Checked"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle friction", "response": "Adjust"},
+        {"callout": "Take-off briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Throttle", "response": "Smoothly full open"},
+        {"callout": "Engine instruments", "response": "Check in the green"},
+        {"callout": "Tail lift", "response": "Allow to rise smoothly"},
+        {"callout": "Airspeed", "response": "Rotate at fifty-five knots"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb speed", "response": "Seventy-five knots"},
+        {"callout": "Throttle", "response": "Set climb power"},
+        {"callout": "Mixture", "response": "Full rich or adjust for smooth operation"},
+        {"callout": "Engine gauges", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set per cruise chart"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Engine gauges", "response": "Check"},
+        {"callout": "Fuel quantity", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce as required"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Carburetor heat", "response": "On before reducing power"},
+        {"callout": "Engine gauges", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed on final", "response": "Sixty-five knots"},
+        {"callout": "Carburetor heat", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Touchdown", "response": "Main wheels first, hold tail off"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Carburetor heat", "response": "Off"},
+        {"callout": "Mixture", "response": "Lean for taxi"},
+        {"callout": "Flight controls", "response": "Neutral"},
+        {"callout": "Brakes", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames into the engine"},
+        {"callout": "Fuel valve", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use fire extinguisher"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide speed sixty-five knots"},
+        {"callout": "Fuel valve", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Carburetor heat", "response": "On"},
+        {"callout": "Magnetos", "response": "Check both"}
+      ]
+    },
+    {
+      "title": "Electrical Fire In Flight",
+      "items": [
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Avionics switch", "response": "Off"},
+        {"callout": "All electrical switches", "response": "Off"},
+        {"callout": "Cabin heat and vents", "response": "Closed"},
+        {"callout": "Fire extinguisher", "response": "Use"}
+      ]
+    }
+  ]
+}

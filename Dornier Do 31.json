@@ -1,0 +1,222 @@
+{
+  "aircraft": "Dornier Do 31",
+  "nickname": "Do 31",
+  "checklist": [
+    {
+      "title": "Preliminary Cockpit Preparation",
+      "items": [
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Generators one to four", "response": "Off"},
+        {"callout": "Lights", "response": "Off"},
+        {"callout": "Conventional engine throttles", "response": "Idle"},
+        {"callout": "Vertical engine throttle", "response": "Idle"},
+        {"callout": "Engine start switches", "response": "Off"},
+        {"callout": "Engine start cover", "response": "Closed"},
+        {"callout": "Fuel switches", "response": "Off"},
+        {"callout": "Parking brake", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Conventional Engine Start",
+      "items": [
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Engine start cover", "response": "Open"},
+        {"callout": "Engine one master switch", "response": "On"},
+        {"callout": "Engine one ignition switch", "response": "On"},
+        {"callout": "Engine one starter switch", "response": "On"},
+        {"callout": "N2", "response": "Above eighteen percent"},
+        {"callout": "Engine one master fuel switch", "response": "On"},
+        {"callout": "Combustion achieved and exhaust gas temperature above three hundred degrees", "response": "Monitor"},
+        {"callout": "Engine one starter switch", "response": "Off"},
+        {"callout": "Pressures and temperatures", "response": "Monitor"},
+        {"callout": "Engine two master switch", "response": "On"},
+        {"callout": "Engine two ignition switch", "response": "On"},
+        {"callout": "Engine two starter switch", "response": "On"},
+        {"callout": "N2", "response": "Above eighteen percent"},
+        {"callout": "Engine two master fuel switch", "response": "On"},
+        {"callout": "Combustion achieved and exhaust gas temperature above three hundred degrees", "response": "Monitor"},
+        {"callout": "Engine two starter switch", "response": "Off"},
+        {"callout": "Pressures and temperatures", "response": "Monitor"},
+        {"callout": "Engine start cover", "response": "Closed"}
+      ]
+    },
+    {
+      "title": "Vertical Engine Start",
+      "items": [
+        {"callout": "Conventional engines", "response": "Running"},
+        {"callout": "Copilot vertical engine control", "response": "On"},
+        {"callout": "Copilot green indicator light", "response": "On"},
+        {"callout": "Vertical engine throttle lever", "response": "Start position"},
+        {"callout": "Left and right vertical engine fuel pumps", "response": "On"},
+        {"callout": "Engine spool up", "response": "Monitor between three and ten thousand RPM within green arc"},
+        {"callout": "Conventional engine throttles", "response": "Idle"},
+        {"callout": "Enable required copilot assist mode", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Engine Start",
+      "items": [
+        {"callout": "Generators one to four", "response": "On"},
+        {"callout": "Engine one and engine two starter switches", "response": "Off"},
+        {"callout": "Engine start cover", "response": "Closed"},
+        {"callout": "Beacon", "response": "On"}
+      ]
+    },
+    {
+      "title": "Taxi and Line-Up",
+      "items": [
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Parking brake", "response": "Release"},
+        {"callout": "Conventional thrust levers", "response": "As required"},
+        {"callout": "Toe brakes", "response": "Press and check"},
+        {"callout": "Brakes", "response": "Check"},
+        {"callout": "Tiller or rudder pedals", "response": "As required"},
+        {"callout": "Flight controls", "response": "Check"},
+        {"callout": "ATC clearance", "response": "Confirm"},
+        {"callout": "Transponder", "response": "TA and RA"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Landing lights", "response": "On"}
+      ]
+    },
+    {
+      "title": "Conventional Takeoff",
+      "items": [
+        {"callout": "ATC clearance", "response": "Confirm"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Conventional throttle levers", "response": "Full forward"},
+        {"callout": "Rotate", "response": "At one hundred sixty to one hundred sixty-five knots"},
+        {"callout": "Landing gear", "response": "Up when positive climb established"},
+        {"callout": "Flaps", "response": "Up"}
+      ]
+    },
+    {
+      "title": "STOVL Takeoff",
+      "items": [
+        {"callout": "Conventional engines", "response": "Running"},
+        {"callout": "Vertical engines", "response": "Running"},
+        {"callout": "Copilot vertical engine control", "response": "On"},
+        {"callout": "Copilot green indicator light", "response": "On"},
+        {"callout": "Copilot assist mode", "response": "Off or boundary or STOVL assist on"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Conventional engine throttles", "response": "Increase to eighty percent"},
+        {"callout": "Parking brake", "response": "Release"},
+        {"callout": "Above fifty knots vertical engine throttles", "response": "Increase slowly"},
+        {"callout": "Stick and rudder", "response": "As required"},
+        {"callout": "Landing gear", "response": "Up when positive climb established"},
+        {"callout": "Conventional engine throttles", "response": "Increase to one hundred percent within limits"}
+      ]
+    },
+    {
+      "title": "Hover Takeoff",
+      "items": [
+        {"callout": "Conventional engines", "response": "Running"},
+        {"callout": "Vertical engines", "response": "Running"},
+        {"callout": "Copilot vertical engine control", "response": "On"},
+        {"callout": "Copilot green indicator light", "response": "On"},
+        {"callout": "Copilot assist mode", "response": "Hover assist on as required"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Conventional engine throttles", "response": "Idle"},
+        {"callout": "Vertical lift command throttle", "response": "Increase"},
+        {"callout": "Stick and rudder", "response": "As required"},
+        {"callout": "Landing gear", "response": "Up when positive climb established"},
+        {"callout": "Conventional engine throttles", "response": "Increase"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Landing lights", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle levers", "response": "As required"},
+        {"callout": "Maintain cruise speed", "response": "Two hundred forty knots"}
+      ]
+    },
+    {
+      "title": "Approach – Conventional Landing",
+      "items": [
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Maintain speed", "response": "One hundred sixty knots"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Touchdown", "response": "Monitor"},
+        {"callout": "Brakes", "response": "Push gently"},
+        {"callout": "Steering", "response": "Use rudder"}
+      ]
+    },
+    {
+      "title": "Approach – Vertical Landing",
+      "items": [
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Conventional engines", "response": "Running"},
+        {"callout": "Before five mile final", "response": "Check"},
+        {"callout": "Copilot vertical landing assist", "response": "On"},
+        {"callout": "Speed at five mile marker", "response": "Below two hundred fifteen knots and above one hundred eighty knots"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Controlled by copilot"},
+        {"callout": "Copilot vertical engine control", "response": "On"},
+        {"callout": "Copilot green indicator light", "response": "On"},
+        {"callout": "Descent rate", "response": "Manage to three mile marker"},
+        {"callout": "Speed at three mile marker", "response": "One hundred fifty to one hundred sixty knots"},
+        {"callout": "Conventional engine throttles", "response": "Idle"},
+        {"callout": "Vertical lift command throttle", "response": "Use to maintain descent rate"},
+        {"callout": "Vertical speed indicator", "response": "Monitor"},
+        {"callout": "Altitude at one mile marker", "response": "Four hundred feet above ground"},
+        {"callout": "Back stick", "response": "Use to slow forward speed"},
+        {"callout": "Rudder", "response": "Use for yaw"},
+        {"callout": "Roll stick", "response": "Use small amounts for roll"},
+        {"callout": "At touchdown vertical lift command throttle", "response": "Idle"},
+        {"callout": "Copilot vertical engine control", "response": "Off"},
+        {"callout": "Copilot vertical landing assist", "response": "Off"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Landing lights", "response": "Off"},
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Formation lights", "response": "Off"},
+        {"callout": "Throttles", "response": "Idle"}
+      ]
+    },
+    {
+      "title": "Conventional Engine Shutdown",
+      "items": [
+        {"callout": "Engine two master fuel switch", "response": "Off"},
+        {"callout": "Engine two ignition switch", "response": "Off"},
+        {"callout": "Engine two master switch", "response": "Off"},
+        {"callout": "Engine one master fuel switch", "response": "Off"},
+        {"callout": "Engine one ignition switch", "response": "Off"},
+        {"callout": "Engine one master switch", "response": "Off"},
+        {"callout": "Beacon", "response": "Off"}
+      ]
+    },
+    {
+      "title": "STOVL Engine Shutdown",
+      "items": [
+        {"callout": "VTOL throttle", "response": "Idle"},
+        {"callout": "VTOL master fuel switches", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Parking",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Fuel switches", "response": "Off"},
+        {"callout": "Engine start switches", "response": "Off"},
+        {"callout": "Engine start cover", "response": "Closed"},
+        {"callout": "Vertical engine throttle", "response": "Idle"},
+        {"callout": "Conventional engine throttle", "response": "Idle"},
+        {"callout": "Lights", "response": "Off"},
+        {"callout": "Generators one to four", "response": "Off"},
+        {"callout": "Battery", "response": "Off"}
+      ]
+    }
+  ]
+}

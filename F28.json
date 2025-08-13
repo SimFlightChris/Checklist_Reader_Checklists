@@ -1,0 +1,834 @@
+{
+  "aircraft": "Fokker F28",
+  "nickname": "F28 Professional",
+  "checklist": [
+    {
+      "title": "APU Before Start",
+      "items": [
+        {
+          "callout": "Battery voltage",
+          "response": "Checked"
+        },
+        {
+          "callout": "Battery switch",
+          "response": "On"
+        },
+        {
+          "callout": "APU fire and extinguisher warning",
+          "response": "Tested"
+        },
+        {
+          "callout": "APU main switch",
+          "response": "On"
+        },
+        {
+          "callout": "Generator 3 switch",
+          "response": "Off and reset"
+        },
+        {
+          "callout": "APU air switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Air conditioning main switches",
+          "response": "One on and one reset"
+        }
+      ]
+    },
+    {
+      "title": "APU Start",
+      "items": [
+        {
+          "callout": "APU start button",
+          "response": "Pressed"
+        },
+        {
+          "callout": "TGT and RPM rise",
+          "response": "Checked"
+        },
+        {
+          "callout": "APU start light",
+          "response": "Extinguished above forty five percent RPM"
+        },
+        {
+          "callout": "TGT and RPM",
+          "response": "Stabilised"
+        }
+      ]
+    },
+    {
+      "title": "APU After Start",
+      "items": [
+        {
+          "callout": "Generator 3 switch",
+          "response": "On"
+        },
+        {
+          "callout": "Master radio switch",
+          "response": "On"
+        }
+      ]
+    },
+    {
+      "title": "Pre‑Flight Check",
+      "items": [
+        {
+          "callout": "Electrical power",
+          "response": "Checked"
+        },
+        {
+          "callout": "Emergency light switch",
+          "response": "Armed"
+        },
+        {
+          "callout": "Constant speed drive disconnect switches",
+          "response": "Guards closed"
+        },
+        {
+          "callout": "Engines panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Bleed air supply panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Air conditioning panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Airfoil anti‑icing panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Engine anti‑icing panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Pitot and vane heating panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Windshield heating panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Pressurisation panel",
+          "response": "Set"
+        },
+        {
+          "callout": "Fasten seatbelts and no smoking switches",
+          "response": "On"
+        },
+        {
+          "callout": "Navigation sets",
+          "response": "On and set"
+        },
+        {
+          "callout": "Fuel shut‑off valve indicators",
+          "response": "Open"
+        },
+        {
+          "callout": "Ground proximity warning",
+          "response": "Checked"
+        },
+        {
+          "callout": "Central warning and caution system",
+          "response": "Tested"
+        },
+        {
+          "callout": "Nosewheel steering switch",
+          "response": "On"
+        },
+        {
+          "callout": "Alternate wheel brake handles",
+          "response": "Forward"
+        },
+        {
+          "callout": "All flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Speed attitude command system",
+          "response": "Checked"
+        },
+        {
+          "callout": "Static pressure selector",
+          "response": "Normal"
+        },
+        {
+          "callout": "Compass and DG switches",
+          "response": "Guards closed"
+        },
+        {
+          "callout": "Electric pump switch guards",
+          "response": "Closed"
+        },
+        {
+          "callout": "Skid control",
+          "response": "Checked"
+        },
+        {
+          "callout": "Hydraulic supply",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel press lights",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel filter iced lights",
+          "response": "Tested"
+        },
+        {
+          "callout": "Engine fire warning",
+          "response": "Tested"
+        },
+        {
+          "callout": "TVIs",
+          "response": "Tested"
+        },
+        {
+          "callout": "Caution lights brightness",
+          "response": "Set"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Lift dumpers",
+          "response": "Checked"
+        },
+        {
+          "callout": "TTC switches",
+          "response": "Take‑off"
+        },
+        {
+          "callout": "Speedbrake",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Checked"
+        },
+        {
+          "callout": "Cross‑feed switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Booster pumps",
+          "response": "Checked"
+        },
+        {
+          "callout": "Transfer pumps",
+          "response": "Checked"
+        },
+        {
+          "callout": "Exterior and interior lights",
+          "response": "Set"
+        },
+        {
+          "callout": "Comms and avionics",
+          "response": "Checked"
+        },
+        {
+          "callout": "Autopilot",
+          "response": "Checked"
+        },
+        {
+          "callout": "Hydraulic flight control panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flight control lock",
+          "response": "On"
+        },
+        {
+          "callout": "Alternate landing gear handle",
+          "response": "Up"
+        },
+        {
+          "callout": "Door lights",
+          "response": "Tested"
+        },
+        {
+          "callout": "Smoke detect system",
+          "response": "Tested"
+        },
+        {
+          "callout": "Cabin ventilation shut‑off valve",
+          "response": "Normal"
+        },
+        {
+          "callout": "Flight recorder",
+          "response": "Set"
+        }
+      ]
+    },
+    {
+      "title": "Pre‑Departure Check APU Running",
+      "items": [
+        {
+          "callout": "Circuit breakers",
+          "response": "In"
+        },
+        {
+          "callout": "Oxygen",
+          "response": "Checked"
+        },
+        {
+          "callout": "APU air switch",
+          "response": "On"
+        },
+        {
+          "callout": "Windshield heating",
+          "response": "Low or off"
+        },
+        {
+          "callout": "Fasten seatbelts and no smoking switches",
+          "response": "On"
+        },
+        {
+          "callout": "Central warning and caution system",
+          "response": "Tested"
+        },
+        {
+          "callout": "Skid control",
+          "response": "Tested"
+        },
+        {
+          "callout": "Engine fire warning",
+          "response": "Tested"
+        },
+        {
+          "callout": "Fuel consumed indicators",
+          "response": "Set"
+        },
+        {
+          "callout": "Aircraft weight",
+          "response": "Set"
+        },
+        {
+          "callout": "TTC switches",
+          "response": "Take‑off"
+        },
+        {
+          "callout": "Navigation light switch",
+          "response": "On or off as required"
+        },
+        {
+          "callout": "Flight recorder",
+          "response": "Set"
+        }
+      ]
+    },
+    {
+      "title": "Before Starting Engines",
+      "items": [
+        {
+          "callout": "Rudder pedals, seats and harnesses",
+          "response": "Adjusted and secured"
+        },
+        {
+          "callout": "Electrical power and bleed air supply",
+          "response": "Checked"
+        },
+        {
+          "callout": "Brake pressure",
+          "response": "Checked"
+        },
+        {
+          "callout": "Parking brake",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Pressurisation",
+          "response": "Set"
+        },
+        {
+          "callout": "Thrust index",
+          "response": "Set"
+        },
+        {
+          "callout": "Navigation aids",
+          "response": "Set"
+        },
+        {
+          "callout": "Ship’s papers",
+          "response": "On board"
+        },
+        {
+          "callout": "Take‑off data and speed bugs",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Ground locks",
+          "response": "Removed"
+        },
+        {
+          "callout": "Windows and doors",
+          "response": "Closed"
+        }
+      ]
+    },
+    {
+      "title": "Cleared For Start",
+      "items": [
+        {
+          "callout": "Anti‑collision lights",
+          "response": "On"
+        },
+        {
+          "callout": "Throttle levers",
+          "response": "Idle"
+        },
+        {
+          "callout": "HP fuel valve levers",
+          "response": "Shut"
+        },
+        {
+          "callout": "Booster pump switches",
+          "response": "On"
+        },
+        {
+          "callout": "Starter master switch",
+          "response": "On"
+        }
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {
+          "callout": "Engine start selector",
+          "response": "Two"
+        },
+        {
+          "callout": "Engine two LP RPM",
+          "response": "Positive rotation"
+        },
+        {
+          "callout": "Engine two HP fuel lever",
+          "response": "Start at fifteen to twenty percent HP RPM"
+        },
+        {
+          "callout": "Engine two igniter light",
+          "response": "On"
+        },
+        {
+          "callout": "Engine two oil pressure and TGT",
+          "response": "Rising"
+        },
+        {
+          "callout": "Engine two HP fuel lever",
+          "response": "Open at four hundred degrees or fifty percent HP RPM"
+        },
+        {
+          "callout": "Engine two indications",
+          "response": "Oil pressure, HP and LP RPM checked"
+        },
+        {
+          "callout": "Engine start selector",
+          "response": "One"
+        },
+        {
+          "callout": "Engine one LP RPM",
+          "response": "Positive rotation"
+        },
+        {
+          "callout": "Engine one HP fuel lever",
+          "response": "Start at fifteen to twenty percent HP RPM"
+        },
+        {
+          "callout": "Engine one igniter light",
+          "response": "On"
+        },
+        {
+          "callout": "Engine one oil pressure and TGT",
+          "response": "Rising"
+        },
+        {
+          "callout": "Engine one HP fuel lever",
+          "response": "Open at four hundred degrees or fifty percent HP RPM"
+        },
+        {
+          "callout": "Engine one indications",
+          "response": "Oil pressure, HP and LP RPM checked"
+        }
+      ]
+    },
+    {
+      "title": "After Starting Engines",
+      "items": [
+        {
+          "callout": "Central warning and caution system",
+          "response": "Out"
+        },
+        {
+          "callout": "HP fuel valve levers",
+          "response": "Open"
+        },
+        {
+          "callout": "Fuel press lights",
+          "response": "Out"
+        },
+        {
+          "callout": "Igniter lights",
+          "response": "Out"
+        },
+        {
+          "callout": "Starter valve light",
+          "response": "Out"
+        },
+        {
+          "callout": "Starter master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Generator lights",
+          "response": "Out"
+        },
+        {
+          "callout": "Generator 3 switch",
+          "response": "Off"
+        },
+        {
+          "callout": "APU air switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Air conditioning main switches",
+          "response": "Both on"
+        },
+        {
+          "callout": "AC and DC systems",
+          "response": "Checked"
+        },
+        {
+          "callout": "Engine anti‑icing",
+          "response": "Auto or low"
+        },
+        {
+          "callout": "Windshield heating",
+          "response": "Low"
+        },
+        {
+          "callout": "Pitot and vane heating",
+          "response": "On"
+        },
+        {
+          "callout": "Hydraulic supply",
+          "response": "Checked"
+        },
+        {
+          "callout": "Electric pump switch guards",
+          "response": "Closed and pumps off"
+        },
+        {
+          "callout": "Flight control lights",
+          "response": "Out"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set"
+        }
+      ]
+    },
+    {
+      "title": "Taxiing",
+      "items": [
+        {
+          "callout": "Flight instruments",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Trim",
+          "response": "Set"
+        },
+        {
+          "callout": "Collector tank indicators",
+          "response": "Black"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Degrees as briefed"
+        },
+        {
+          "callout": "Crew briefing",
+          "response": "Complete"
+        }
+      ]
+    },
+    {
+      "title": "Lining Up",
+      "items": [
+        {
+          "callout": "Brake temperature",
+          "response": "Checked"
+        },
+        {
+          "callout": "APU",
+          "response": "Off or on as required"
+        },
+        {
+          "callout": "Lift dumpers",
+          "response": "Armed"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Checked"
+        },
+        {
+          "callout": "Yaw damping",
+          "response": "In"
+        },
+        {
+          "callout": "Transponder",
+          "response": "On or standby"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Extend and on"
+        }
+      ]
+    },
+    {
+      "title": "After Take‑Off",
+      "items": [
+        {
+          "callout": "Landing gear",
+          "response": "Up"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Lift dumpers",
+          "response": "In"
+        },
+        {
+          "callout": "RPM, TGT and TTC",
+          "response": "Checked"
+        },
+        {
+          "callout": "Landing and flare‑out lights",
+          "response": "Off and retract"
+        },
+        {
+          "callout": "Engine anti‑icing",
+          "response": "Auto or on"
+        },
+        {
+          "callout": "Pressurisation",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fasten seatbelts and no smoking",
+          "response": "On or off as required"
+        }
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {
+          "callout": "Fasten seatbelts",
+          "response": "On"
+        },
+        {
+          "callout": "Pressurisation",
+          "response": "Set"
+        },
+        {
+          "callout": "TTC switches",
+          "response": "Take‑off"
+        },
+        {
+          "callout": "Landing data and bugs",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Crew briefing",
+          "response": "Complete"
+        }
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {
+          "callout": "No smoking",
+          "response": "On"
+        },
+        {
+          "callout": "Altimeters",
+          "response": "Set"
+        },
+        {
+          "callout": "Anti‑icing",
+          "response": "Checked"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Extend and on"
+        },
+        {
+          "callout": "Landing gear warning switch",
+          "response": "Normal or alternate"
+        }
+      ]
+    },
+    {
+      "title": "Final",
+      "items": [
+        {
+          "callout": "Landing gear",
+          "response": "Down"
+        },
+        {
+          "callout": "Skid control",
+          "response": "Checked"
+        },
+        {
+          "callout": "Brake pressures",
+          "response": "Checked"
+        },
+        {
+          "callout": "Lift dumpers",
+          "response": "Armed"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set"
+        }
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {
+          "callout": "APU",
+          "response": "On"
+        },
+        {
+          "callout": "Speedbrake",
+          "response": "In"
+        },
+        {
+          "callout": "Lift dumpers",
+          "response": "In"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up or set"
+        },
+        {
+          "callout": "Airfoil anti‑icing",
+          "response": "Off"
+        }
+      ]
+    },
+    {
+      "title": "After Parking",
+      "items": [
+        {
+          "callout": "Emergency light switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery switch",
+          "response": "Off after APU doors are closed"
+        }
+      ]
+    },
+    {
+      "title": "Hydraulic System 1 Failure",
+      "items": [
+        {
+          "callout": "Hydraulic system 1 pumps",
+          "response": "Off"
+        },
+        {
+          "callout": "Notify air traffic control",
+          "response": "Done, declare PAN or MAYDAY as required"
+        },
+        {
+          "callout": "Start auxiliary power unit",
+          "response": "Running for bleed and electrical power"
+        },
+        {
+          "callout": "APU bleed air",
+          "response": "Off if smoke or fumes present"
+        },
+        {
+          "callout": "Plan landing",
+          "response": "Use alternate gear extension and anticipate no nose-wheel steering"
+        }
+      ]
+    },
+    {
+      "title": "Emergency Evacuation",
+      "items": [
+        {
+          "callout": "Cabin crew",
+          "response": "Briefed for possible evacuation"
+        },
+        {
+          "callout": "After landing",
+          "response": "Evacuation initiated if required"
+        },
+        {
+          "callout": "Doors and exits",
+          "response": "Open and slides deployed or removed as needed"
+        },
+        {
+          "callout": "Evacuation",
+          "response": "Captain commands evacuation, crew execute"
+        }
+      ]
+    },
+    {
+      "title": "Landing Gear Unsafe",
+      "items": [
+        {
+          "callout": "Landing gear indications",
+          "response": "Confirmed unsafe"
+        },
+        {
+          "callout": "Alternate gear extension",
+          "response": "Attempted"
+        },
+        {
+          "callout": "If gear remains unsafe",
+          "response": "Inform air traffic control and declare emergency"
+        },
+        {
+          "callout": "Cabin crew and passengers",
+          "response": "Briefed"
+        },
+        {
+          "callout": "Fuel burn",
+          "response": "Reduce to achieve landing weight"
+        },
+        {
+          "callout": "Landing plan",
+          "response": "Select longest suitable runway, consider crosswind limitations"
+        },
+        {
+          "callout": "Touchdown technique",
+          "response": "As briefed for partial gear"
+        },
+        {
+          "callout": "After landing",
+          "response": "Evacuation if required"
+        }
+      ]
+    }
+  ]
+}

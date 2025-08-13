@@ -1,0 +1,178 @@
+{
+  "aircraft": "Aerostar 600",
+  "nickname": "Aerostar",
+  "checklist": [
+    {
+      "title": "Before Engine Start",
+      "items": [
+        {"callout": "Preflight", "response": "COMPLETE"},
+        {"callout": "Passengers", "response": "BRIEFED"},
+        {"callout": "Seat belts", "response": "SECURED"},
+        {"callout": "Cabin door", "response": "CLOSED and LOCKED"},
+        {"callout": "Battery", "response": "OFF"},
+        {"callout": "Ignition", "response": "OFF"},
+        {"callout": "Gear switch", "response": "DOWN"},
+        {"callout": "Gear", "response": "DOWN"},
+        {"callout": "Flaps", "response": "UP"},
+        {"callout": "Brakes", "response": "TEST FOR FIRM"},
+        {"callout": "Flight controls", "response": "FREE"},
+        {"callout": "Parking brake", "response": "SET"},
+        {"callout": "Switches", "response": "ALL OFF"},
+        {"callout": "Battery", "response": "ON"},
+        {"callout": "Gear lock lights", "response": "ON"},
+        {"callout": "Elevator & rudder trim", "response": "NEUTRAL"},
+        {"callout": "Hydraulic shutoff", "response": "OPEN"},
+        {"callout": "Fuel", "response": "CHECK"},
+        {"callout": "Low fuel warning", "response": "OFF"},
+        {"callout": "Circuit breakers", "response": "IN"},
+        {"callout": "Altimeter and clock", "response": "SET"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Prop", "response": "FULL FORWARD"},
+        {"callout": "Mixture", "response": "IDLE CUTOFF"},
+        {"callout": "Throttle", "response": "CRACKED"},
+        {"callout": "Battery", "response": "ON"},
+        {"callout": "Low fuel warning", "response": "OUT"},
+        {"callout": "Fuel selectors", "response": "CYCLE & LISTEN"},
+        {"callout": "Right fuel boost", "response": "ON"},
+        {"callout": "Right mixture", "response": "FULL, check FF, OFF"},
+        {"callout": "Right starter", "response": "ENGAGE"},
+        {"callout": "Mixture", "response": "FULL RICH as engine fires"},
+        {"callout": "Throttle", "response": "SET FOR 1000rpm"},
+        {"callout": "Right fuel boost", "response": "OFF"},
+        {"callout": "Gyro pressure", "response": "CHECK"},
+        {"callout": "Right alternator switch", "response": "ON"},
+        {"callout": "Repeat", "response": "FOR LEFT ENGINE"}
+      ]
+    },
+    {
+      "title": "Warm-up and Run-up",
+      "items": [
+        {"callout": "Warm up", "response": "1000rpm"},
+        {"callout": "Engine temperatures", "response": "CHECK"},
+        {"callout": "Prop", "response": "FULL FORWARD"},
+        {"callout": "Mixture", "response": "RICH"},
+        {"callout": "Throttle", "response": "1500rpm"},
+        {"callout": "Engine instruments", "response": "CHECK"},
+        {"callout": "Alternator", "response": "Check for 28 volts"},
+        {"callout": "Throttle", "response": "SET FOR 2100rpm"},
+        {"callout": "Prop", "response": "CYCLE 1000rpm to Max 4x"},
+        {"callout": "Magnetos", "response": "175rpm max drop"},
+        {"callout": "Gyro pressure", "response": "CHECK"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Radio Master", "response": "On"},
+        {"callout": "Ammeter", "response": "Check"},
+        {"callout": "Radios", "response": "On"},
+        {"callout": "Flight Plan", "response": "Program"},
+        {"callout": "Frequencies", "response": "Tune"},
+        {"callout": "ADS-B", "response": "On"},
+        {"callout": "Transponder", "response": "ALT"},
+        {"callout": "Auto Trim", "response": "On and Test"},
+        {"callout": "Autopilot", "response": "Test"},
+        {"callout": "Heading Indicator", "response": "Set"},
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "Nav Lights", "response": "On"},
+        {"callout": "Parking Brake", "response": "Release"},
+        {"callout": "Brakes & Steering", "response": "Test on initial roll"},
+        {"callout": "Flight Instruments", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Cabin door", "response": "CLOSED & LOCKED"},
+        {"callout": "Controls", "response": "FREE"},
+        {"callout": "Mixture", "response": "FULL FORWARD"},
+        {"callout": "Fuel selectors", "response": "ON"},
+        {"callout": "Prop", "response": "FULL FORWARD"},
+        {"callout": "Boost pumps", "response": "ON"},
+        {"callout": "Instruments", "response": "CHECK"},
+        {"callout": "Radios", "response": "SET"},
+        {"callout": "Flaps", "response": "0–20°"},
+        {"callout": "Trim", "response": "SET"},
+        {"callout": "Pitot heat", "response": "AS DESIRED"},
+        {"callout": "Parking brake", "response": "RELEASED"},
+        {"callout": "Throttle", "response": "FULL FORWARD"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Wheels", "response": "BRAKE"},
+        {"callout": "Gear", "response": "UP"},
+        {"callout": "Flaps", "response": "UP"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Maxium climb", "response": "122 kts"},
+        {"callout": "Fuel pump", "response": "OFF at 1000 ft AGL"},
+        {"callout": "Reduce power", "response": "24\" MP & 2400rpm"},
+        {"callout": "Trim", "response": "For climb speed 122–160kts"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "SET"},
+        {"callout": "Mixtures", "response": "SET AS DESIRED"},
+        {"callout": "Fuel quantity", "response": "MONITOR"},
+        {"callout": "Fuel pump", "response": "VERIFY OFF"},
+        {"callout": "Fuel pressure", "response": "CHECK"},
+        {"callout": "Engine gauges", "response": "CHECK"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Autopilot master", "response": "OFF"},
+        {"callout": "Boost pumps", "response": "ON"},
+        {"callout": "Mixture", "response": "FULL RICH"},
+        {"callout": "Fuel selector", "response": "ON"},
+        {"callout": "Flaps", "response": "20° Below 175kts"},
+        {"callout": "Gear", "response": "DOWN Below 157kts"},
+        {"callout": "Gear lights", "response": "ON"},
+        {"callout": "Hydraulic pressure", "response": "CHECK"},
+        {"callout": "Airspeed", "response": "140kts"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Flaps", "response": "FULL DOWN"},
+        {"callout": "Reduce power", "response": "100kts"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Prop", "response": "FULL FORWARD"},
+        {"callout": "Flaps", "response": "UP"},
+        {"callout": "Boost pumps", "response": "OFF"},
+        {"callout": "Trim tabs", "response": "NEUTRAL"},
+        {"callout": "Cabin heater", "response": "OFF"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "SET"},
+        {"callout": "Idle", "response": "ENGINE COOLDOWN"},
+        {"callout": "Radios and lights", "response": "OFF"},
+        {"callout": "Mixture", "response": "IDLE CUTOFF"},
+        {"callout": "Magnetos", "response": "OFF"},
+        {"callout": "Fuel selector", "response": "OFF"},
+        {"callout": "Alternator", "response": "OFF"},
+        {"callout": "Battery", "response": "OFF"}
+      ]
+    }
+  ]
+}

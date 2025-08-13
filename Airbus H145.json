@@ -1,0 +1,244 @@
+{
+  "aircraft": "Airbus H145 (BK-117 D2)",
+  "nickname": "H145",
+  "checklist": [
+    {
+      "title": "Power-Up",
+      "items": [
+        {"callout": "Battery master", "response": "On and engaged"},
+        {"callout": "System self test", "response": "Power up test indicates okay"},
+        {"callout": "Fire detection and bottles side one", "response": "Tested and tones acknowledged"},
+        {"callout": "Fire detection and bottles side two", "response": "Tested and tones acknowledged"},
+        {"callout": "Lamp test", "response": "All annunciations and tones verified then off"},
+        {"callout": "Battery voltage on vehicle management page", "response": "Above twenty three point five volts"},
+        {"callout": "Crew, payload, and fuel on vehicle management page", "response": "Set and validated"},
+        {"callout": "Flight instruments and standby display", "response": "Aligned and barometric setting set"},
+        {"callout": "Exterior lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Prime pump one", "response": "On"},
+        {"callout": "Prime pump two", "response": "On"},
+        {"callout": "Engine one main switch", "response": "Idle"},
+        {"callout": "Engine parameters", "response": "Compressor speed rising, turbine temperature rising within limits, rotor speed increasing"},
+        {"callout": "Starter", "response": "Disengaged by sixty percent compressor speed"},
+        {"callout": "Idle indication", "response": "Appears by seventy eight percent compressor speed"},
+        {"callout": "Engine two start", "response": "Repeat and stabilized at idle"},
+        {"callout": "Hydraulic pressure and main gearbox oil pressure", "response": "Indications rising and stable"}
+      ]
+    },
+    {
+      "title": "Hydraulic Check",
+      "items": [
+        {"callout": "Hydraulic test to system one", "response": "Low pressure on system two indicated and control forces normal"},
+        {"callout": "Hydraulic test to system two", "response": "Low pressure on system one indicated and control forces normal"},
+        {"callout": "Hydraulic test switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "After Engine Start",
+      "items": [
+        {"callout": "Pitot static heat pilot", "response": "On"},
+        {"callout": "Pitot static heat copilot", "response": "On"},
+        {"callout": "Avionics master one", "response": "On"},
+        {"callout": "Avionics master two", "response": "On"},
+        {"callout": "Standby battery", "response": "On"},
+        {"callout": "Anti vibration system", "response": "Pilot position"},
+        {"callout": "Prime pump one", "response": "Off"},
+        {"callout": "Prime pump two", "response": "Off"},
+        {"callout": "Fuel transfer pump forward", "response": "On"},
+        {"callout": "Fuel transfer pump aft", "response": "On"},
+        {"callout": "Position and strobe lights", "response": "As required"},
+        {"callout": "Emergency exit lights", "response": "Armed"},
+        {"callout": "Cabin and cockpit ventilation", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Collective", "response": "Full down"},
+        {"callout": "Lamp and preflight test", "response": "Run preflight test then off, preflight test indicates okay"},
+        {"callout": "Autopilot backup system", "response": "On"},
+        {"callout": "Autopilot cutout", "response": "Pressed and stabilization disengaged"},
+        {"callout": "Autopilot backup system", "response": "On and stabilization restored"},
+        {"callout": "Cyclic and collective beep trim", "response": "All directions checked"},
+        {"callout": "Fixed landing and search light", "response": "As required"},
+        {"callout": "Emergency floats", "response": "As required"},
+        {"callout": "Engine one main switch", "response": "Flight and latched"},
+        {"callout": "Engine two main switch", "response": "Flight and latched"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Hover or low speed check", "response": "Perform and stable"},
+        {"callout": "Engine power display", "response": "All engines operative indicated"},
+        {"callout": "Rotor and power turbine speed", "response": "Above one hundred one percent"},
+        {"callout": "Message list", "response": "No warnings displayed"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Landing and search lights", "response": "As required"},
+        {"callout": "Flight and systems pages", "response": "No messages on master list"},
+        {"callout": "Engine power turbine speeds", "response": "Above one hundred one percent"},
+        {"callout": "Rotor speed", "response": "Above one hundred one percent"},
+        {"callout": "Decision height", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Collective", "response": "Full down"},
+        {"callout": "Engines", "response": "Stabilized at idle"},
+        {"callout": "Lights", "response": "As required for taxi"}
+      ]
+    },
+    {
+      "title": "Engine Shutdown",
+      "items": [
+        {"callout": "Cyclic", "response": "Neutral"},
+        {"callout": "Collective", "response": "Full down"},
+        {"callout": "Engine one main switch", "response": "Idle"},
+        {"callout": "Engine two main switch", "response": "Idle"},
+        {"callout": "Engine cool down", "response": "Thirty seconds"},
+        {"callout": "Fuel transfer pump forward", "response": "Off"},
+        {"callout": "Fuel transfer pump aft", "response": "Off"},
+        {"callout": "Pitot static heat pilot", "response": "Off"},
+        {"callout": "Pitot static heat copilot", "response": "Off"},
+        {"callout": "Avionics master one", "response": "Off"},
+        {"callout": "Avionics master two", "response": "Off"},
+        {"callout": "Standby battery", "response": "Off"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Search light", "response": "Off"},
+        {"callout": "Other electrical consumers", "response": "Off"},
+        {"callout": "Electrical load on vehicle management page", "response": "Checked"},
+        {"callout": "Engine one main switch", "response": "Off"},
+        {"callout": "Engine two main switch", "response": "Off"},
+        {"callout": "Engine parameters", "response": "Compressor speed decreasing"},
+        {"callout": "Rotor", "response": "Stopped"},
+        {"callout": "Anti collision light", "response": "Off"},
+        {"callout": "Flight report download", "response": "Complete"},
+        {"callout": "Battery master", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Fire On Ground",
+      "items": [
+        {"callout": "Fire indication", "response": "Confirmed"},
+        {"callout": "Fire pushbutton on affected side", "response": "Pressed"},
+        {"callout": "Fire bottle one", "response": "Discharged"},
+        {"callout": "Evaluate fire", "response": "If not extinguished discharge bottle two"},
+        {"callout": "Engines", "response": "Shut down"},
+        {"callout": "Passengers and crew", "response": "Evacuate"},
+        {"callout": "External assistance", "response": "Request as required"}
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        {"callout": "Flight path and airspeed", "response": "Establish and clear traffic"},
+        {"callout": "Fire pushbutton on affected side", "response": "Pressed"},
+        {"callout": "Fire bottle one", "response": "Discharged"},
+        {"callout": "Assess fire after a short interval", "response": "If fire persists discharge bottle two"},
+        {"callout": "Landing", "response": "Land as soon as possible"},
+        {"callout": "Passengers and crew", "response": "Prepare for landing and evacuation"}
+      ]
+    },
+    {
+      "title": "Single Engine Failure In Flight",
+      "items": [
+        {"callout": "One engine inoperative condition", "response": "Establish"},
+        {"callout": "Power and rotor speed", "response": "Adjust to maintain rotor speed"},
+        {"callout": "Affected engine", "response": "Identify and monitor"},
+        {"callout": "Power management", "response": "Use available power within limits"},
+        {"callout": "Approach and landing", "response": "Land as soon as practicable"}
+      ]
+    },
+    {
+      "title": "Double Engine Failure In Flight",
+      "items": [
+        {"callout": "Collective", "response": "Lower to enter autorotation"},
+        {"callout": "Airspeed", "response": "Establish recommended autorotation speed"},
+        {"callout": "Landing area", "response": "Select immediately"},
+        {"callout": "Flare and touchdown", "response": "Perform as required for energy management"},
+        {"callout": "After landing", "response": "Shut down and secure"}
+      ]
+    },
+    {
+      "title": "Loss Of Yaw Control Or Tail Rotor Malfunction",
+      "items": [
+        {"callout": "Airspeed and power", "response": "Adjust to minimize yaw"},
+        {"callout": "Approach profile", "response": "Plan shallow approach with run on landing if possible"},
+        {"callout": "Touchdown", "response": "Maintain heading and lower collective smoothly"},
+        {"callout": "After landing", "response": "Shut down and secure"}
+      ]
+    },
+    {
+      "title": "Low Rotor Speed",
+      "items": [
+        {"callout": "Rotor speed", "response": "Announced low"},
+        {"callout": "Collective", "response": "Lower to recover rotor speed"},
+        {"callout": "Airspeed", "response": "Adjust to unload rotor"},
+        {"callout": "Power", "response": "Increase as available within limits"}
+      ]
+    },
+    {
+      "title": "Main Gearbox Oil Pressure Low",
+      "items": [
+        {"callout": "Indication", "response": "Main gearbox oil pressure low confirmed"},
+        {"callout": "Power", "response": "Reduce to the minimum required"},
+        {"callout": "Landing", "response": "Land immediately at the nearest suitable area"},
+        {"callout": "Shutdown", "response": "Accomplish after landing"}
+      ]
+    },
+    {
+      "title": "Main Gearbox Oil Temperature High",
+      "items": [
+        {"callout": "Indication", "response": "Main gearbox oil temperature high confirmed"},
+        {"callout": "Power", "response": "Reduce as practical"},
+        {"callout": "Airspeed", "response": "Increase for additional cooling if conditions allow"},
+        {"callout": "Landing", "response": "Land as soon as possible"}
+      ]
+    },
+    {
+      "title": "Battery Overheat",
+      "items": [
+        {"callout": "Indication", "response": "Battery overheat confirmed"},
+        {"callout": "Electrical load", "response": "Reduce non essential loads"},
+        {"callout": "Ventilation", "response": "Improve airflow in the cockpit"},
+        {"callout": "Landing", "response": "Land as soon as practicable"}
+      ]
+    },
+    {
+      "title": "Smoke Or Fumes In Cabin",
+      "items": [
+        {"callout": "Source", "response": "Identify if possible"},
+        {"callout": "Electrical equipment", "response": "Switch off non essential equipment"},
+        {"callout": "Cabin ventilation", "response": "Open vents and increase airflow"},
+        {"callout": "Landing", "response": "Land as soon as practicable"}
+      ]
+    },
+    {
+      "title": "Hydraulic System Malfunction",
+      "items": [
+        {"callout": "Flight controls", "response": "Hold firmly and avoid abrupt inputs"},
+        {"callout": "Airspeed", "response": "Maintain safe speed for controllability"},
+        {"callout": "Hover operations", "response": "Avoid if control forces are high"},
+        {"callout": "Landing", "response": "Land as soon as practicable"}
+      ]
+    },
+    {
+      "title": "FADEC Failure On One Engine",
+      "items": [
+        {"callout": "Indication", "response": "FADEC emergency mode required"},
+        {"callout": "FADEC emergency switch on affected side", "response": "On"},
+        {"callout": "Power changes", "response": "Make small and deliberate adjustments"},
+        {"callout": "Landing", "response": "Land as soon as practicable"}
+      ]
+    }
+  ]
+}

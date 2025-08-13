@@ -1,0 +1,167 @@
+{
+  "aircraft": "FG-1D Corsair",
+  "nickname": "Corsair",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Mixture control", "response": "Idle cut-off"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Wings", "response": "Spread and unlocked"},
+        {"callout": "Gun sight illumination", "response": "Tested"},
+        {"callout": "Gyro horizon and directional gyro", "response": "Uncaged"},
+        {"callout": "Altimeter", "response": "Set to correct barometric pressure"},
+        {"callout": "Armament load", "response": "Confirmed"},
+        {"callout": "Armament switches", "response": "Off and gun charging valves safe"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Ignition switch", "response": "Off"},
+        {"callout": "Mixture control", "response": "Idle cut-off"},
+        {"callout": "Propeller", "response": "Pulled through four or five revolutions"},
+        {"callout": "Fuel selector", "response": "Reserve"},
+        {"callout": "Hydraulic hand pump", "response": "Five strokes, not above three hundred pounds per square inch"},
+        {"callout": "Cowl flaps", "response": "Fully open"},
+        {"callout": "Supercharger control", "response": "Neutral"},
+        {"callout": "Mixture control", "response": "Full rich"},
+        {"callout": "Throttle", "response": "One inch open"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Electric auxiliary fuel pump", "response": "On"},
+        {"callout": "Primer", "response": "On for four to six seconds"},
+        {"callout": "Ignition switch", "response": "Both"},
+        {"callout": "Starter", "response": "Engage until engine runs smoothly"},
+        {"callout": "Mixture control", "response": "Move slowly to auto rich as engine fires"},
+        {"callout": "Electric auxiliary fuel pump", "response": "Off when mixture set"}
+      ]
+    },
+    {
+      "title": "Engine Warm-Up",
+      "items": [
+        {"callout": "Brakes or chocks", "response": "Applied"},
+        {"callout": "Propeller control", "response": "Increase to maximum"},
+        {"callout": "Cowl flaps", "response": "Fully open"},
+        {"callout": "Oil cooler flaps", "response": "Closed"},
+        {"callout": "Intercooler flaps", "response": "Open"},
+        {"callout": "Mixture control", "response": "Auto rich"},
+        {"callout": "Cylinder head temperature", "response": "Not above four hundred fifty degrees Fahrenheit"}
+      ]
+    },
+    {
+      "title": "Ground Test",
+      "items": [
+        {"callout": "Increase RPM", "response": "Two thousand"},
+        {"callout": "Oil pressure", "response": "Eighty to ninety pounds per square inch"},
+        {"callout": "Fuel pressure", "response": "Normal"},
+        {"callout": "Magnetos", "response": "Maximum drop one hundred fifty RPM"},
+        {"callout": "Generator output", "response": "Twenty seven point five to twenty eight point five volts"},
+        {"callout": "Hydraulic pressure", "response": "Seven hundred fifty to one thousand one hundred fifty pounds per square inch"},
+        {"callout": "Engine RPM", "response": "Reduce to one thousand"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "S-turn procedure", "response": "Used for forward visibility"},
+        {"callout": "Tail wheel lock", "response": "As required for crosswind"},
+        {"callout": "Brakes", "response": "Used minimally to avoid overheating"},
+        {"callout": "Power", "response": "Low for taxi"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Wings", "response": "Spread and locked"},
+        {"callout": "Arresting hook", "response": "Up"},
+        {"callout": "Fuel selector", "response": "Reserve"},
+        {"callout": "Mixture", "response": "Auto rich"},
+        {"callout": "Supercharger control", "response": "Neutral"},
+        {"callout": "Propeller control", "response": "Increase to maximum"},
+        {"callout": "Cowl flaps", "response": "Two-thirds open"},
+        {"callout": "Intercooler flap", "response": "Closed"},
+        {"callout": "Oil cooler flaps", "response": "Open as required"},
+        {"callout": "Rudder tab", "response": "Six degrees nose right"},
+        {"callout": "Aileron tab", "response": "Six degrees right wing down"},
+        {"callout": "Elevator tab", "response": "One degree nose up"},
+        {"callout": "Wing flaps", "response": "Set as required"},
+        {"callout": "Tail wheel", "response": "Locked"},
+        {"callout": "Manifold pressure limits", "response": "Fifty four inches"},
+        {"callout": "Temperatures", "response": "Above minimum and below limits"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Wing flaps", "response": "As required"},
+        {"callout": "Propeller governor", "response": "Maximum RPM"},
+        {"callout": "Manifold pressure", "response": "Fifty four inches, sixty at war emergency"},
+        {"callout": "Elevator", "response": "Three to four degrees nose up"},
+        {"callout": "Brakes", "response": "Hold until tail starts to rise"},
+        {"callout": "Tail", "response": "Raise to level attitude"},
+        {"callout": "Lift-off", "response": "At approximately seventy knots"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Manifold pressure", "response": "Reduce to forty four inches"},
+        {"callout": "RPM", "response": "Reduce to two thousand five hundred"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Wing flaps", "response": "Up"},
+        {"callout": "Climb speed", "response": "One hundred twenty five knots"},
+        {"callout": "Cowl flaps and oil cooler", "response": "Adjust as necessary"},
+        {"callout": "Fuel tank selector", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "Climb and Cruise",
+      "items": [
+        {"callout": "Mixture control", "response": "Auto lean for cruise"},
+        {"callout": "Engine limits", "response": "Maintain within limits"}
+      ]
+    },
+    {
+      "title": "Approach and Landing",
+      "items": [
+        {"callout": "Fuel selector", "response": "Reserve"},
+        {"callout": "Mixture", "response": "Auto rich"},
+        {"callout": "Propeller control", "response": "Increase to maximum"},
+        {"callout": "Landing gear", "response": "Down below two hundred knots"},
+        {"callout": "Wing flaps", "response": "As required"},
+        {"callout": "Approach speed", "response": "Maintain as per conditions"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Mixture control", "response": "Idle cut-off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture control", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames in"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Fire extinguisher", "response": "Use"}
+      ]
+    },
+    {
+      "title": "Spin Recovery",
+      "items": [
+        {"callout": "Opposite rudder", "response": "Full"},
+        {"callout": "Stick", "response": "Full forward"},
+        {"callout": "Ailerons", "response": "Against spin"},
+        {"callout": "Hold controls", "response": "Until rotation stops"},
+        {"callout": "Recover from dive", "response": "Ease out without excessive G"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,141 @@
+{
+  "aircraft": "A380",
+  "nickname": "Airbus Three Eighty",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"callout": "Flight Plan", "response": "LOADED"},
+        {"callout": "Battery Voltage", "response": "WITHIN LIMITS"},
+        {"callout": "All Batteries", "response": "ON"},
+        {"callout": "External Power", "response": "ON (if available)"},
+        {"callout": "Cockpit Lighting", "response": "AS REQUIRED"},
+        {"callout": "RMP 1 and 2", "response": "TUNE"},
+        {"callout": "APU Fire Test", "response": "PRESS"},
+        {"callout": "APU Master Switch", "response": "ON"},
+        {"callout": "APU Start", "response": "ON"}
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        {"callout": "Beacon Light", "response": "ON"},
+        {"callout": "Doors & Windows", "response": "CLOSED"},
+        {"callout": "Slides", "response": "ARMED"},
+        {"callout": "Thrust Levers", "response": "IDLE"},
+        {"callout": "Parking Brake", "response": "SET"},
+        {"callout": "Fuel Pumps", "response": "ON"},
+        {"callout": "Air Conditioning", "response": "AS REQUIRED"},
+        {"callout": "Takeoff Data", "response": "SET"},
+        {"callout": "Pushback Clearance", "response": "OBTAIN"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Engine Start Selector", "response": "IGN START"},
+        {"callout": "Start Engine 2 & 1", "response": "MASTER ON AT N2 20%"},
+        {"callout": "Start Engine 3 & 4", "response": "MASTER ON AT N2 20%"},
+        {"callout": "Monitor Engine Parameters", "response": "CHECK"},
+        {"callout": "Anti-Ice", "response": "AS REQUIRED"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "APU", "response": "OFF (if not required)"},
+        {"callout": "Ground Spoilers", "response": "ARM"},
+        {"callout": "Flight Controls", "response": "CHECK"},
+        {"callout": "Rudder Trim", "response": "ZERO"},
+        {"callout": "Flaps", "response": "SET"},
+        {"callout": "Trim", "response": "SET"},
+        {"callout": "ECAM Status", "response": "CHECKED"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Taxi Clearance", "response": "OBTAIN"},
+        {"callout": "Brakes", "response": "CHECK"},
+        {"callout": "Nose Lights", "response": "ON"},
+        {"callout": "Autobrake", "response": "SET"},
+        {"callout": "Flight Instruments", "response": "SET"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Cabin", "response": "SECURED"},
+        {"callout": "Flight Controls", "response": "CHECKED"},
+        {"callout": "Flaps", "response": "TAKEOFF SETTING"},
+        {"callout": "Spoilers", "response": "ARMED"},
+        {"callout": "Autobrake", "response": "RTO"},
+        {"callout": "TCAS", "response": "TA/RA"},
+        {"callout": "T.O Config", "response": "CHECK"},
+        {"callout": "Takeoff Briefing", "response": "COMPLETE"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Landing Gear", "response": "UP"},
+        {"callout": "Flaps", "response": "RETRACTED"},
+        {"callout": "Autopilot", "response": "ENGAGED"},
+        {"callout": "Landing Lights", "response": "OFF"},
+        {"callout": "Spoilers", "response": "DISARMED"}
+      ]
+    },
+    {
+      "title": "Climb & Cruise",
+      "items": [
+        {"callout": "Climb Power", "response": "SET"},
+        {"callout": "Anti-Ice", "response": "AS REQUIRED"},
+        {"callout": "Seat Belts", "response": "AS REQUIRED"},
+        {"callout": "BARO", "response": "SET TO STD (after transition)"},
+        {"callout": "Fuel", "response": "CHECK"}
+      ]
+    },
+    {
+      "title": "Descent & Approach",
+      "items": [
+        {"callout": "Altimeters", "response": "SET"},
+        {"callout": "Approach Phase", "response": "ACTIVATED"},
+        {"callout": "Landing Data", "response": "SET"},
+        {"callout": "Seat Belts", "response": "ON"},
+        {"callout": "Landing Lights", "response": "ON"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Gear", "response": "DOWN"},
+        {"callout": "Flaps", "response": "SET"},
+        {"callout": "Spoilers", "response": "ARMED"},
+        {"callout": "Autobrake", "response": "SET"},
+        {"callout": "Landing Memo", "response": "CHECKED"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "RETRACTED"},
+        {"callout": "Spoilers", "response": "DISARMED"},
+        {"callout": "Landing Lights", "response": "OFF"},
+        {"callout": "APU", "response": "START"},
+        {"callout": "TCAS", "response": "STANDBY"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Engines", "response": "OFF"},
+        {"callout": "Beacon Light", "response": "OFF"},
+        {"callout": "Slides", "response": "DISARMED"},
+        {"callout": "Seat Belts", "response": "OFF"},
+        {"callout": "Fuel Pumps", "response": "OFF"},
+        {"callout": "APU Bleed", "response": "AS REQUIRED"},
+        {"callout": "Battery", "response": "OFF"}
+      ]
+    }
+  ]
+}

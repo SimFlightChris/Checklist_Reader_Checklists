@@ -1,0 +1,161 @@
+{
+  "aircraft": "Aerospatiale/BAC Concorde",
+  "nickname": "Concorde",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Aircraft documents", "response": "On board"},
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Landing gear and tyres", "response": "Checked"},
+        {"callout": "Control surfaces", "response": "Free and correct"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Oil quantity", "response": "Checked"},
+        {"callout": "Pitot covers and static ports", "response": "Removed and clear"},
+        {"callout": "Doors and access panels", "response": "Closed and secured"},
+        {"callout": "Nose and visor", "response": "Fully raised"},
+        {"callout": "Electrical power", "response": "Available from ground power unit"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Engine panel switches", "response": "Set for start"},
+        {"callout": "Fuel pumps", "response": "On"},
+        {"callout": "Hydraulic systems", "response": "Pressurised"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Clear area", "response": "Confirmed"},
+        {"callout": "Start engines one and four", "response": "Stable idle"},
+        {"callout": "Start engines two and three", "response": "Stable idle"},
+        {"callout": "Generators", "response": "On and power checked"},
+        {"callout": "Hydraulic pressures", "response": "Within limits"},
+        {"callout": "Air conditioning and pressurisation", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Nose position", "response": "Five degrees down"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Brakes", "response": "Tested"},
+        {"callout": "Steering tiller", "response": "Checked"},
+        {"callout": "Take-off briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Flight director and autopilot settings", "response": "Set"},
+        {"callout": "Navigation aids", "response": "Set"},
+        {"callout": "Flaps", "response": "Set for take-off"},
+        {"callout": "Elevons and trim", "response": "Set"},
+        {"callout": "Engine instruments", "response": "Checked"},
+        {"callout": "Cabin secure", "response": "Confirmed"},
+        {"callout": "Transponder", "response": "Altitude reporting"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Nose position", "response": "Five degrees down"},
+        {"callout": "Throttles", "response": "Advance to take-off power"},
+        {"callout": "Reheat", "response": "On"},
+        {"callout": "Engine parameters", "response": "Checked"},
+        {"callout": "Rotate", "response": "Two hundred knots"},
+        {"callout": "Positive rate", "response": "Gear up"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb power", "response": "Set"},
+        {"callout": "Reheat", "response": "Off at subsonic cruise climb"},
+        {"callout": "Fuel transfer", "response": "Commence for centre of gravity control"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Mach number", "response": "Two point zero four"},
+        {"callout": "Engine instruments", "response": "Checked"},
+        {"callout": "Fuel balance", "response": "Maintained"},
+        {"callout": "Cabin systems", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Fuel transfer", "response": "Set for forward centre of gravity"},
+        {"callout": "Reheat", "response": "Off"},
+        {"callout": "Pressurisation", "response": "Set for destination"},
+        {"callout": "Throttles", "response": "Adjust for descent rate"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Nose position", "response": "Twelve degrees down"},
+        {"callout": "Visor", "response": "Down"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Speed", "response": "Maintain Vref"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Touchdown", "response": "Reverse thrust as required"},
+        {"callout": "Nose position", "response": "Raise to five degrees"},
+        {"callout": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Reheat switches", "response": "Off"},
+        {"callout": "Nose position", "response": "Five degrees down"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel pumps", "response": "Off"},
+        {"callout": "Engines", "response": "Shut down"},
+        {"callout": "External power", "response": "Connected"},
+        {"callout": "Electrical systems", "response": "Off"},
+        {"callout": "Nose and visor", "response": "Fully raised"}
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        {"callout": "Throttle affected engine", "response": "Idle"},
+        {"callout": "Reheat affected engine", "response": "Off"},
+        {"callout": "Fuel lever affected engine", "response": "Off"},
+        {"callout": "Fire handle affected engine", "response": "Pull"},
+        {"callout": "Fire extinguisher", "response": "Discharge"}
+      ]
+    },
+    {
+      "title": "Cabin Depressurisation",
+      "items": [
+        {"callout": "Oxygen masks", "response": "On and 100 percent"},
+        {"callout": "Crew communications", "response": "Established"},
+        {"callout": "Emergency descent", "response": "Initiate"}
+      ]
+    },
+    {
+      "title": "Hydraulic Failure",
+      "items": [
+        {"callout": "Identify failed system", "response": "Confirmed"},
+        {"callout": "Cross-feed hydraulic power", "response": "As required"},
+        {"callout": "Flight controls", "response": "Operate with available system"}
+      ]
+    }
+  ]
+}

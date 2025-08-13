@@ -1,0 +1,212 @@
+{
+  "aircraft": "Velocity XL",
+  "nickname": "Velocity",
+  "checklist": [
+    {
+      "title": "Before Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Emergency gear handle", "response": "Up"},
+        {"callout": "Fuel selectors", "response": "Both on"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Propeller pitch", "response": "Full fine"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Circuit breakers", "response": "All in"},
+        {"callout": "Air conditioning", "response": "Off"},
+        {"callout": "Landing gear breakers", "response": "In"},
+        {"callout": "Landing gear handle", "response": "Down"},
+        {"callout": "Door seal breaker", "response": "In"},
+        {"callout": "Door seal mode", "response": "Deflate"},
+        {"callout": "Door seal power", "response": "Off"},
+        {"callout": "Cockpit light dimmers", "response": "As desired"},
+        {"callout": "Emergency locator transmitter", "response": "Armed"},
+        {"callout": "Electrical switches", "response": "All off"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery master", "response": "On"},
+        {"callout": "Strobe lights", "response": "On"},
+        {"callout": "Navigation lights", "response": "As required"},
+        {"callout": "Cabin lights", "response": "As required"},
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Magnetos", "response": "On"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Rich for five seconds"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Throttle", "response": "Open one quarter of an inch"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Starter", "response": "Engage"},
+        {"callout": "Mixture", "response": "Advance"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Throttle", "response": "One thousand RPM"},
+        {"callout": "Mixture", "response": "Lean for taxi"},
+        {"callout": "Alternator", "response": "On"},
+        {"callout": "Temperatures and pressures", "response": "In the green"},
+        {"callout": "Fuel quantities", "response": "Confirm"},
+        {"callout": "Ammeter", "response": "Charging"},
+        {"callout": "Landing gear indicators", "response": "Test"},
+        {"callout": "Autopilot", "response": "Engage"},
+        {"callout": "Autopilot disconnect", "response": "Test"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Doors", "response": "Closed and latched"},
+        {"callout": "Seatbelts and harnesses", "response": "Secure"},
+        {"callout": "Seat adjustments", "response": "Secure"},
+        {"callout": "Standby instruments", "response": "Set and check"},
+        {"callout": "Flight instruments", "response": "Set and check"},
+        {"callout": "Cabin lights", "response": "Off"},
+        {"callout": "Cockpit light dimmers", "response": "Dim for taxi"},
+        {"callout": "Landing light", "response": "As required"},
+        {"callout": "Parking brake", "response": "Release"},
+        {"callout": "Toe brakes", "response": "Test"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle", "response": "Seventeen hundred RPM"},
+        {"callout": "Temperatures and pressures", "response": "In the green"},
+        {"callout": "Magnetos", "response": "Cycle"},
+        {"callout": "Propeller pitch", "response": "Exercise"},
+        {"callout": "Throttle", "response": "Close"},
+        {"callout": "Temperatures and pressures", "response": "In the green"},
+        {"callout": "Throttle", "response": "One thousand RPM"},
+        {"callout": "Mixture", "response": "Lean while holding"},
+        {"callout": "Trims", "response": "Set for takeoff"},
+        {"callout": "Pitot heat", "response": "As required"},
+        {"callout": "Autopilot", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Transponder", "response": "Mode Charlie on"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Runway and final", "response": "Clear"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller pitch", "response": "Full fine"},
+        {"callout": "Throttle", "response": "Takeoff power"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Landing gear", "response": "Up and locked"},
+        {"callout": "Throttle", "response": "Maximum continuous"},
+        {"callout": "Propeller pitch", "response": "Two thousand six hundred fifty RPM"},
+        {"callout": "Exhaust gas temperature", "response": "Less than one thousand six hundred fifty degrees Fahrenheit"},
+        {"callout": "Cylinder head temperature", "response": "Less than four hundred sixty degrees Fahrenheit"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Door seal mode", "response": "Inflate"},
+        {"callout": "Door seal power", "response": "On"},
+        {"callout": "Air conditioning", "response": "As required"},
+        {"callout": "Mixture", "response": "Lean as required"}
+      ]
+    },
+    {
+      "title": "Enroute Climb",
+      "items": [
+        {"callout": "Throttle", "response": "Maximum continuous"},
+        {"callout": "Propeller pitch", "response": "Two thousand six hundred RPM"},
+        {"callout": "Exhaust gas temperature", "response": "Less than one thousand six hundred twenty five degrees Fahrenheit"},
+        {"callout": "Cylinder head temperature", "response": "Less than four hundred twenty five degrees Fahrenheit"},
+        {"callout": "Mixture", "response": "Lean as required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle", "response": "Cruise power"},
+        {"callout": "Propeller pitch", "response": "Two thousand four hundred fifty RPM"},
+        {"callout": "Exhaust gas temperature", "response": "Less than one thousand six hundred degrees Fahrenheit"},
+        {"callout": "Cylinder head temperature", "response": "Less than four hundred degrees Fahrenheit"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Fuel balance", "response": "Monitor"},
+        {"callout": "Air conditioning", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Throttle", "response": "Greater than twenty inches manifold pressure"},
+        {"callout": "Propeller pitch", "response": "Greater than one thousand seven hundred RPM"},
+        {"callout": "Exhaust gas temperature", "response": "Greater than eight hundred degrees Fahrenheit"},
+        {"callout": "Cylinder head temperature", "response": "Greater than two hundred fifty degrees Fahrenheit"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Throttle", "response": "Greater than fifteen inches manifold pressure"},
+        {"callout": "Propeller pitch", "response": "Greater than two thousand RPM"},
+        {"callout": "Mixture", "response": "Enrich as required"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Air conditioning", "response": "Off"},
+        {"callout": "Landing gear", "response": "Down below one hundred twenty knots"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Throttle", "response": "Fifteen inches manifold pressure"},
+        {"callout": "Propeller pitch", "response": "Full fine"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Magnetos", "response": "On"},
+        {"callout": "Landing gear indicators", "response": "Test and locked"},
+        {"callout": "Seatbelts and harnesses", "response": "Secure"},
+        {"callout": "Autopilot", "response": "Disconnect"}
+      ]
+    },
+    {
+      "title": "Go-Around",
+      "items": [
+        {"callout": "Autopilot", "response": "Disconnect"},
+        {"callout": "Throttle", "response": "Takeoff power"},
+        {"callout": "Exhaust gas temperature", "response": "Less than one thousand six hundred fifty degrees Fahrenheit"},
+        {"callout": "Cylinder head temperature", "response": "Less than four hundred sixty degrees Fahrenheit"},
+        {"callout": "Landing gear", "response": "Up before one hundred ten knots"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Throttle", "response": "Idle one thousand RPM"},
+        {"callout": "Mixture", "response": "Lean for taxi"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Pitot heat", "response": "Off"},
+        {"callout": "Landing light", "response": "As required"},
+        {"callout": "Door seal mode", "response": "Deflate for ten seconds"},
+        {"callout": "Door seal power", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Shutdown & Securing",
+      "items": [
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Cylinder head temperature", "response": "Less than two hundred fifty degrees Fahrenheit"},
+        {"callout": "Throttle", "response": "Close"},
+        {"callout": "Propeller pitch", "response": "Full fine"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Alternator", "response": "Off"},
+        {"callout": "Strobe lights", "response": "Off"},
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Cabin lights", "response": "Off"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Battery master", "response": "Off"},
+        {"callout": "Electrical switches", "response": "All off"}
+      ]
+    }
+  ]
+}

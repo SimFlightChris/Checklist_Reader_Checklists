@@ -1,0 +1,82 @@
+{
+  "aircraft": "Embraer 195",
+  "nickname": "E-195",
+  "checklist": [
+    {
+      "title": "Preflight and Power-Up",
+      "items": [
+        {"call": "Safety check and flight deck power-up", "response": "completed"},
+        {"call": "Emergency equipment", "response": "checked"},
+        {"call": "Battery switches to ON/AUTO", "response": "on/auto"},
+        {"call": "External lights", "response": "set as required"},
+        {"call": "Hydraulic electric pumps", "response": "auto"},
+        {"call": "Landing gear lever", "response": "down"},
+        {"call": "Speed brake lever", "response": "closed"},
+        {"call": "Thrust levers idle", "response": "verified"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"call": "Parking brake", "response": "set"},
+        {"call": "Fuel pumps", "response": "auto"},
+        {"call": "Start/Stop selectors", "response": "stop"},
+        {"call": "Start engine one then two", "response": "normal start sequence"}
+      ]
+    },
+    {
+      "title": "After Start and Taxi",
+      "items": [
+        {"call": "Flaps as required", "response": "set"},
+        {"call": "Flight controls check", "response": "checked"},
+        {"call": "Taxi lights on", "response": "on"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"call": "Cabin secure", "response": "confirmed"},
+        {"call": "Takeoff data set and reviewed", "response": "set"},
+        {"call": "Autobrake RTO", "response": "armed"},
+        {"call": "Trim set and centered", "response": "set"},
+        {"call": "Doors and windows closed", "response": "closed"},
+        {"call": "Beacon and strobe lights on", "response": "on"},
+        {"call": "Transponder on", "response": "on"},
+        {"call": "Takeoff configuration", "response": "checked"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"call": "Landing gear up", "response": "up"},
+        {"call": "Slats/flaps up", "response": "up"},
+        {"call": "APU off", "response": "off"}
+      ]
+    },
+    {
+      "title": "Descent and Landing Preparation",
+      "items": [
+        {"call": "Descent checklist and briefing", "response": "completed"},
+        {"call": "Approach configuration set", "response": "set"},
+        {"call": "Landing lights on", "response": "on"}
+      ]
+    },
+    {
+      "title": "Landing and Taxi-In",
+      "items": [
+        {"call": "Touchdown and runway vacated", "response": "confirmed"},
+        {"call": "Strobes off", "response": "off"},
+        {"call": "Brakes as required", "response": "applied"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"call": "Parking brake set", "response": "set"},
+        {"call": "Engines shutdown", "response": "completed"},
+        {"call": "APU and electrical power off", "response": "off"},
+        {"call": "Exterior lights off", "response": "off"}
+      ]
+    }
+  ]
+}

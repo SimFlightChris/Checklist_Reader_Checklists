@@ -1,0 +1,247 @@
+{
+  "aircraft": "Airbus A320",
+  "nickname": "A320",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Parking Brake", "response": "On"},
+        {"callout": "Weather Radar System", "response": "Off"},
+        {"callout": "Predictive Windshear", "response": "Off"},
+        {"callout": "Spoilers", "response": "Disarmed and retracted"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Engine Mode Selector", "response": "Normal"},
+        {"callout": "Engine Masters", "response": "Off"},
+        {"callout": "Thrust Levers", "response": "Idle"},
+        {"callout": "Transponder Mode", "response": "Standby"},
+        {"callout": "Anti-Skid", "response": "On"},
+        {"callout": "Landing Gear Lever", "response": "Down"},
+        {"callout": "Wipers", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Cockpit Preparation",
+      "items": [
+        {"callout": "Batteries one and two", "response": "On"},
+        {"callout": "External Power", "response": "On"},
+        {"callout": "Auxiliary power unit and engine fire tests", "response": "Checked"},
+        {"callout": "APU Master", "response": "On if external power is unavailable"},
+        {"callout": "APU Start", "response": "On if external power is unavailable"},
+        {"callout": "APU Bleed", "response": "On when available"},
+        {"callout": "Crew Supply", "response": "On"},
+        {"callout": "Ground control", "response": "On"},
+        {"callout": "Evacuation panel", "response": "Captain"},
+        {"callout": "ADIRS one two and three", "response": "Navigation"},
+        {"callout": "Cockpit Lights", "response": "As required"},
+        {"callout": "Navigation and logo lights", "response": "On"},
+        {"callout": "No smoking signs", "response": "On or auto"},
+        {"callout": "Emergency lights", "response": "Armed"},
+        {"callout": "Electronic flight bag setup", "response": "Complete"},
+        {"callout": "Annunciator lights", "response": "Tested"},
+        {"callout": "Probe and window heat", "response": "Auto"},
+        {"callout": "Anti-ice", "response": "Off"},
+        {"callout": "Air conditioning", "response": "As required"},
+        {"callout": "Fuel pumps", "response": "On after fueling"},
+        {"callout": "Doors", "response": "Open"},
+        {"callout": "Cargo smoke test", "response": "Checked"},
+        {"callout": "Accumulator and brake pressure", "response": "Checked"},
+        {"callout": "ECAM status", "response": "Checked"},
+        {"callout": "ECAM recall", "response": "Checked"},
+        {"callout": "Radio panels", "response": "Set up"},
+        {"callout": "Barometric pressure", "response": "Set to cue enn aitch or inches of mercury"},
+        {"callout": "EFIS", "response": "Flight director on, constraints on, arc mode, ten nautical miles"},
+        {"callout": "FMGS", "response": "Set up"},
+        {"callout": "FCU", "response": "Check speed and heading, set altitude"}
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        {"callout": "Windows and doors", "response": "Closed and locked"},
+        {"callout": "APU Master", "response": "On"},
+        {"callout": "APU Start", "response": "On"},
+        {"callout": "APU Bleed", "response": "On when available for start"},
+        {"callout": "Air traffic control clearance", "response": "Requested"},
+        {"callout": "Squawk", "response": "Set"},
+        {"callout": "External power", "response": "Disconnected and off"},
+        {"callout": "Seatbelt signs", "response": "On"},
+        {"callout": "Thrust levers", "response": "Idle"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Takeoff data", "response": "Set and reviewed"},
+        {"callout": "Electronic flight bag departure performance", "response": "Calculated"},
+        {"callout": "Transponder mode", "response": "Auto"},
+        {"callout": "Beacon lights", "response": "On"},
+        {"callout": "Engine mode selector", "response": "Ignition and start"},
+        {"callout": "Parking brake", "response": "As required"},
+        {"callout": "Engine master two", "response": "On"},
+        {"callout": "Engine master one", "response": "On after engine two is available"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Engine mode selector", "response": "Normal"},
+        {"callout": "APU Bleed", "response": "Off"},
+        {"callout": "APU Master", "response": "Off"},
+        {"callout": "Flight controls", "response": "Checked"},
+        {"callout": "Flaps", "response": "Set"},
+        {"callout": "Pitch trim", "response": "Set"},
+        {"callout": "Rudder trim", "response": "Zero"},
+        {"callout": "Anti-ice", "response": "As required"},
+        {"callout": "Flight instruments", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Nose light", "response": "Taxi"},
+        {"callout": "Runway turnoff lights", "response": "As required"},
+        {"callout": "Strobes", "response": "Auto"},
+        {"callout": "Takeoff configuration", "response": "Normal"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Weather radar", "response": "Set to one or two"},
+        {"callout": "Predictive windshear", "response": "Auto"},
+        {"callout": "TCAS", "response": "Traffic advisory or traffic advisory and resolution advisory"},
+        {"callout": "Spoilers", "response": "Armed"},
+        {"callout": "Auto brakes", "response": "Maximum"},
+        {"callout": "Navigation display terrain", "response": "On"},
+        {"callout": "Cabin crew", "response": "Advised"},
+        {"callout": "Exterior lights", "response": "Set"},
+        {"callout": "Packs", "response": "Off"},
+        {"callout": "ECAM memo", "response": "Takeoff no blue"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Chrono", "response": "Start"},
+        {"callout": "Brakes", "response": "As required"},
+        {"callout": "Engines", "response": "Stabilized at forty percent N one"},
+        {"callout": "Thrust", "response": "Flexible or maximum continuous, or take off go around"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Landing gear", "response": "Retracted"},
+        {"callout": "Thrust", "response": "Climb"},
+        {"callout": "Spoilers", "response": "Disarmed"},
+        {"callout": "FCU autopilot one", "response": "On and auto thrust on"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Packs", "response": "On"},
+        {"callout": "Exterior lights", "response": "Adjusted"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Passing transition altitude", "response": "Barometric pressure standard"},
+        {"callout": "Landing lights", "response": "Off above ten thousand feet"},
+        {"callout": "Seatbelt signs", "response": "As required"},
+        {"callout": "Anti-ice", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Navigation aids", "response": "As required"},
+        {"callout": "Seatbelt signs", "response": "As required"},
+        {"callout": "Monitor flight", "response": "Check electronic centralized aircraft monitor and weather"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "FMGS landing performance", "response": "Reviewed"},
+        {"callout": "TCAS", "response": "Below"},
+        {"callout": "Approach briefing", "response": "Completed"},
+        {"callout": "Anti-ice", "response": "As required"},
+        {"callout": "Below ten thousand feet", "response": "Seatbelt signs on, landing lights on, landing system set on the electronic flight instrument system"},
+        {"callout": "Transition altitude", "response": "Set barometric pressure cue enn aitch"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Cabin crew", "response": "Advised"},
+        {"callout": "EFIS", "response": "Set as required"},
+        {"callout": "FCU", "response": "Approach mode set"},
+        {"callout": "Navigation display terrain", "response": "As required"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Set for landing"},
+        {"callout": "Spoilers", "response": "Armed"},
+        {"callout": "Auto brakes", "response": "As required"},
+        {"callout": "FCU autopilot two", "response": "As required"},
+        {"callout": "Engine mode selector", "response": "As required"},
+        {"callout": "Exterior lights", "response": "Set"},
+        {"callout": "Go around altitude", "response": "Set"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Brake fans", "response": "As required"},
+        {"callout": "Spoilers", "response": "Disarmed and retracted"},
+        {"callout": "Flaps", "response": "Retracted, flaps one if outside air temperature is above thirty degrees Celsius"},
+        {"callout": "Auto brake", "response": "Off"},
+        {"callout": "Engine mode selector", "response": "Normal"},
+        {"callout": "TCAS", "response": "Standby"},
+        {"callout": "Chrono", "response": "Off"},
+        {"callout": "Weather radar", "response": "Off"},
+        {"callout": "Exterior lights", "response": "Taxi configuration"},
+        {"callout": "APU", "response": "Started"}
+      ]
+    },
+    {
+      "title": "Parking",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "APU Bleed", "response": "On when available"},
+        {"callout": "Engine masters", "response": "Off"},
+        {"callout": "Fuel pumps", "response": "Off"},
+        {"callout": "Beacon lights", "response": "Off"},
+        {"callout": "Seatbelt signs", "response": "Off"},
+        {"callout": "Electronic flight bag deboard", "response": "Complete"},
+        {"callout": "Transponder mode", "response": "Off"},
+        {"callout": "Anti-ice", "response": "Off"},
+        {"callout": "Exterior lights", "response": "As required"},
+        {"callout": "External power", "response": "On if available"},
+        {"callout": "APU Master", "response": "Off if external power is available"}
+      ]
+    },
+    {
+      "title": "Securing the Aircraft",
+      "items": [
+        {"callout": "Brake fans", "response": "Off"},
+        {"callout": "Emergency lights", "response": "Off"},
+        {"callout": "No smoking signs", "response": "Off"},
+        {"callout": "Navigation and logo lights", "response": "Off"},
+        {"callout": "Crew supply", "response": "Off"},
+        {"callout": "Ground control", "response": "Off"},
+        {"callout": "ADIRS one two and three", "response": "Off"},
+        {"callout": "Cockpit lights", "response": "Off"},
+        {"callout": "APU", "response": "Off"},
+        {"callout": "External power", "response": "Off"},
+        {"callout": "Batteries", "response": "Off"},
+        {"callout": "Electronic flight bag", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Go Around",
+      "items": [
+        {"callout": "Thrust levers", "response": "Take off go around"},
+        {"callout": "Flaps", "response": "One notch up"},
+        {"callout": "Positive climb", "response": "Gear up"},
+        {"callout": "Thrust", "response": "Climb"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Spoilers", "response": "Disarmed"}
+      ]
+    }
+  ]
+}

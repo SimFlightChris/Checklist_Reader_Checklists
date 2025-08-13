@@ -1,0 +1,207 @@
+{
+  "aircraft": "Douglas C-47 Skytrain",
+  "nickname": "C-47",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Oil level", "response": "Checked"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Control locks", "response": "Removed"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Ignition and master switch", "response": "Off"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Landing gear lever", "response": "Down and locked"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Fuel tank selectors", "response": "Set to desired tanks"},
+        {"callout": "Battery switch or ground power", "response": "On"},
+        {"callout": "Fuel booster pumps", "response": "On"},
+        {"callout": "Throttle", "response": "Open one inch"},
+        {"callout": "Propeller controls", "response": "Full forward"},
+        {"callout": "Master ignition", "response": "On"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Mixture", "response": "Auto rich"},
+        {"callout": "Engine primer", "response": "On for selected engine"},
+        {"callout": "Starter energise", "response": "Engage"},
+        {"callout": "Starter mesh", "response": "Engage after blade count"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Oil pressure", "response": "Confirm within limits"},
+        {"callout": "Fuel booster pumps", "response": "Off when stable"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Hydraulic pressure", "response": "Within six hundred seventy-five to nine hundred twenty-five pounds per square inch"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Clock", "response": "Set"},
+        {"callout": "Gyros", "response": "Set and uncaged"},
+        {"callout": "Flight controls", "response": "Free"},
+        {"callout": "Radio", "response": "On and checked"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Taxi clearance", "response": "Obtained"},
+        {"callout": "Brakes", "response": "Check during initial roll"},
+        {"callout": "Tailwheel", "response": "Locked for straight taxi"},
+        {"callout": "Throttle use", "response": "Coordinated for turns"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Tailwheel", "response": "Locked"},
+        {"callout": "Fuel booster pumps", "response": "Off"},
+        {"callout": "Mixtures", "response": "Auto rich"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Fuel selectors", "response": "Main tanks"},
+        {"callout": "Propeller controls", "response": "Full forward"},
+        {"callout": "Carburettor heat", "response": "Cold"},
+        {"callout": "RPM check", "response": "Increase to fifteen hundred"},
+        {"callout": "Propeller governor", "response": "Cycle to minimum RPM"},
+        {"callout": "Magnetos", "response": "Drop not exceeding one hundred RPM"},
+        {"callout": "Hydraulic pumps", "response": "Check with flap operation"},
+        {"callout": "Engine instruments", "response": "All in green"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Gyros", "response": "Set and uncaged"},
+        {"callout": "Propellers", "response": "Full forward"},
+        {"callout": "Mixtures", "response": "Auto rich"},
+        {"callout": "Cowl flaps", "response": "Trail"},
+        {"callout": "Fuel booster pumps", "response": "On"},
+        {"callout": "Friction control", "response": "Tighten"},
+        {"callout": "Tailwheel", "response": "Locked"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Parking brake", "response": "Release"},
+        {"callout": "Throttles", "response": "Advance to take-off power"},
+        {"callout": "Directional control", "response": "Maintain with rudder and throttles"},
+        {"callout": "Tail lift", "response": "Assist as needed"},
+        {"callout": "Rotate", "response": "Eighty-five to ninety miles per hour"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Airspeed", "response": "Maintain one hundred ten to one hundred twenty miles per hour until safe"},
+        {"callout": "Power", "response": "Reduce when safe"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb power", "response": "Set as required"},
+        {"callout": "Mixtures", "response": "Adjust for smooth operation"},
+        {"callout": "Cowl flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set per cruise table"},
+        {"callout": "Mixtures", "response": "Auto lean"},
+        {"callout": "Fuel selectors", "response": "To desired tanks"},
+        {"callout": "Engine instruments", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce smoothly"},
+        {"callout": "Mixtures", "response": "Enrich as required"},
+        {"callout": "Propellers", "response": "Full forward if needed"},
+        {"callout": "Carburettor heat", "response": "On before reducing power"},
+        {"callout": "Cowl flaps", "response": "Close"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel selectors", "response": "On fullest tank"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Propellers", "response": "Full forward"},
+        {"callout": "Landing gear", "response": "Down below one hundred sixty miles per hour"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed", "response": "Eighty-five to ninety miles per hour on final"},
+        {"callout": "Trim", "response": "Set"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Carburettor heat", "response": "Off"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Trim", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Throttle", "response": "One thousand RPM for cool down"},
+        {"callout": "Mixtures", "response": "Idle cut-off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Control locks", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames in"},
+        {"callout": "Fuel selectors", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use extinguisher"},
+        {"callout": "Inspect", "response": "Before restart"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain best single engine speed"},
+        {"callout": "Power on operating engine", "response": "Increase as needed"},
+        {"callout": "Fuel selector", "response": "Check"},
+        {"callout": "Fuel booster pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Magnetos", "response": "Check"},
+        {"callout": "Feather propeller", "response": "If engine not recoverable"}
+      ]
+    },
+    {
+      "title": "Hydraulic Failure",
+      "items": [
+        {"callout": "Hydraulic pump selector", "response": "Select other engine pump"},
+        {"callout": "Hand pump", "response": "Operate as needed"},
+        {"callout": "Pressure", "response": "Confirm restored"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,289 @@
+{
+  "aircraft": "Grob G 115E Tutor T.1",
+  "nickname": "Tutor T.1",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Aircraft documents and tech log", "response": "Reviewed and valid"},
+        {"callout": "Weight and balance", "response": "Within limits"},
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Fuel quantity and caps", "response": "Checked and secure"},
+        {"callout": "Oil quantity", "response": "Within operating range"},
+        {"callout": "Control surfaces", "response": "Free and correct"},
+        {"callout": "Pitot and static ports", "response": "Clear"},
+        {"callout": "Tires and brakes", "response": "Condition is good"},
+        {"callout": "Canopy", "response": "Clean, slides smoothly, latch operates"},
+        {"callout": "ELT and fire extinguisher", "response": "Present and secure"},
+        {"callout": "Cabin baggage and loose items", "response": "Secured"},
+        {"callout": "Seats and harnesses", "response": "Adjusted and fastened"},
+        {"callout": "Rudder pedals", "response": "Adjusted"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Circuit breakers", "response": "In"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Battery and generator switches", "response": "Off"},
+        {"callout": "Fuel selector and cock", "response": "On and correct tank selected"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller control", "response": "Full forward"},
+        {"callout": "Throttle", "response": "Set one centimetre open"},
+        {"callout": "Area around propeller", "response": "Clear"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Generator", "response": "On"},
+        {"callout": "Beacon", "response": "On"},
+        {"callout": "Fuel pump", "response": "On for prime if required, then off"},
+        {"callout": "Starter", "response": "Press until engine fires, then release"},
+        {"callout": "Mixture", "response": "Set to rich as the engine fires"},
+        {"callout": "Throttle", "response": "Adjust for about one thousand to one thousand two hundred R P M"},
+        {"callout": "Oil pressure", "response": "Indicates at least twenty five pounds per square inch within thirty seconds"},
+        {"callout": "Starter caption", "response": "Out"},
+        {"callout": "Ammeter and volts", "response": "Charging and within limits"},
+        {"callout": "Central warning panel", "response": "Check test and clear"},
+        {"callout": "Avionics master", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        {"callout": "Magnetos", "response": "Right, both, left, both, drops normal"},
+        {"callout": "Flaps", "response": "Cycle from up to full and back to up, indication agrees"},
+        {"callout": "Instruments", "response": "Set and cross checked"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Radios and navigation aids", "response": "Set"},
+        {"callout": "Altimeter", "response": "Set to cue enn aitch"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test"},
+        {"callout": "Steering", "response": "Checked"},
+        {"callout": "Flight instruments", "response": "Indicating correctly during taxi"},
+        {"callout": "Ailerons into wind", "response": "Set as required"},
+        {"callout": "Engine warm up", "response": "R P M managed to avoid overcooling"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Mixture", "response": "Best power mixture set per placard"},
+        {"callout": "Throttle", "response": "Set two thousand R P M"},
+        {"callout": "Propeller control", "response": "Cycle, R P M change is about five hundred"},
+        {"callout": "Magnetos", "response": "Check, drops normal and balanced"},
+        {"callout": "Engine instruments", "response": "In the green"},
+        {"callout": "Ammeter and volts", "response": "Normal"},
+        {"callout": "Idle", "response": "Check smooth at idle, then set for taxi"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim", "response": "Set for take-off"},
+        {"callout": "Flaps", "response": "Set for take-off"},
+        {"callout": "Canopy", "response": "Closed and latched"},
+        {"callout": "Harnesses", "response": "Secure"},
+        {"callout": "Fuel selector and cock", "response": "On and correct"},
+        {"callout": "Mixture", "response": "Best power mixture set"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Transponder", "response": "Set to altitude"},
+        {"callout": "Take-off briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Runway and heading", "response": "Verified"},
+        {"callout": "Power", "response": "Smoothly full, instruments in the green"},
+        {"callout": "Rotate", "response": "At appropriate speed"},
+        {"callout": "Positive climb", "response": "Confirm"},
+        {"callout": "Flaps", "response": "Retract when safe"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "R P M", "response": "High"},
+        {"callout": "Mixture", "response": "Best power mixture set"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Landing light", "response": "Off when clear"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set per performance needs"},
+        {"callout": "Mixture", "response": "Lean as required for economy or endurance"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Fuel balance", "response": "Manage if required"},
+        {"callout": "Direction and navigation", "response": "Set and cross check"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce smoothly"},
+        {"callout": "Mixture", "response": "Adjust to maintain engine warmth"},
+        {"callout": "Propeller", "response": "Set as required"},
+        {"callout": "Engine warm checks", "response": "Apply short bursts of power to maintain cylinder head temperature"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel", "response": "On and correct tank"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Landing light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Final approach", "response": "Stable and within limits"},
+        {"callout": "Touchdown", "response": "Main wheels first, maintain directional control"},
+        {"callout": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Landing light and strobes", "response": "As required"},
+        {"callout": "Mixture", "response": "Adjust for taxi"},
+        {"callout": "Trim", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Throttle", "response": "Set for one thousand R P M"},
+        {"callout": "Mixture", "response": "Idle cut off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Generator", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Canopy", "response": "Open and secure"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames into the intake"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Fuel selector and cock", "response": "Off"},
+        {"callout": "Battery and generator", "response": "Off"},
+        {"callout": "Evacuate and extinguish", "response": "Use extinguisher and secure the area"}
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Fuel selector and cock", "response": "Off"},
+        {"callout": "Throttle", "response": "Closed"},
+        {"callout": "Propeller", "response": "Low R P M"},
+        {"callout": "Cabin heat and vents", "response": "Off and close to limit smoke"},
+        {"callout": "Battery and generator", "response": "Off if practical"},
+        {"callout": "Airspeed", "response": "Increase within limits to help extinguish flames"},
+        {"callout": "Land", "response": "Immediate landing as soon as possible"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss During Take-Off",
+      "items": [
+        {"callout": "Below a safe height", "response": "Lower the nose and land ahead within available area"},
+        {"callout": "Throttle", "response": "Closed"},
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Fuel selector and cock", "response": "Off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Battery and generator", "response": "Off"},
+        {"callout": "Canopy", "response": "Unlatch before touchdown if required"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide, about seventy five knots"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Throttle", "response": "Closed for initial checks"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "R P M", "response": "High"},
+        {"callout": "Alternate air", "response": "As required"},
+        {"callout": "Fuel selector and cock", "response": "Check and change if required"},
+        {"callout": "Ignition", "response": "Both"},
+        {"callout": "If propeller is windmilling", "response": "Open throttle smoothly to attempt a start"},
+        {"callout": "If propeller is stationary", "response": "Crack throttle slightly and engage starter until the engine starts"},
+        {"callout": "If restart fails", "response": "Prepare for forced landing or abandon as appropriate"}
+      ]
+    },
+    {
+      "title": "Electrical Fire or Smoke",
+      "items": [
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Generator", "response": "Off"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "All non essential electrical equipment", "response": "Off"},
+        {"callout": "Cabin vents", "response": "Open as conditions permit"},
+        {"callout": "Extinguish", "response": "Use fire extinguisher if required"},
+        {"callout": "When fire is out", "response": "Restore power one item at a time to identify the fault"}
+      ]
+    },
+    {
+      "title": "Low Voltage or Generator Failure",
+      "items": [
+        {"callout": "Generator", "response": "Reset by selecting off then on"},
+        {"callout": "Electrical load", "response": "Reduce to essential items"},
+        {"callout": "Volts and amps", "response": "Check"},
+        {"callout": "If low voltage persists", "response": "Generator off and continue on battery, land as soon as practical"}
+      ]
+    },
+    {
+      "title": "Cabin Fire or Smoke",
+      "items": [
+        {"callout": "Cabin heat and air", "response": "Off"},
+        {"callout": "Battery and generator", "response": "Off if practical"},
+        {"callout": "Extinguish", "response": "Use fire extinguisher"},
+        {"callout": "Ventilate", "response": "Open vents when fire is out"},
+        {"callout": "Land", "response": "As soon as possible"}
+      ]
+    },
+    {
+      "title": "Spin Recovery",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Ailerons", "response": "Neutral"},
+        {"callout": "Rudder", "response": "Full opposite to the direction of rotation"},
+        {"callout": "Control column", "response": "Move forward to break the stall"},
+        {"callout": "Hold controls", "response": "Maintain until rotation stops"},
+        {"callout": "Recover", "response": "Neutralize rudder, ease out of the dive smoothly and set power as required"}
+      ]
+    },
+    {
+      "title": "Forced Landing Without Power",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide, about seventy five knots"},
+        {"callout": "Landing area", "response": "Select and plan"},
+        {"callout": "Fuel, mixture, ignition", "response": "Confirm set for any late restart attempt"},
+        {"callout": "Flaps", "response": "As required to adjust profile"},
+        {"callout": "Canopy", "response": "Unlatch prior to touchdown if required"},
+        {"callout": "Battery and generator", "response": "Off"},
+        {"callout": "Mixture", "response": "Cut off on short final"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Touchdown", "response": "Tail low, brakes as required, evacuate"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,105 @@
+{
+  "aircraft": "Fouga Magister CM.170",
+  "nickname": "Fouga Magister",
+  "checklist": [
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Fuel valve", "response": "Closed"},
+        {"callout": "Starter", "response": "Engage until one thousand R P M"},
+        {"callout": "Ignition", "response": "On"},
+        {"callout": "Fuel valve", "response": "Open"},
+        {"callout": "Wait for R P M", "response": "Stabilized at four thousand"},
+        {"callout": "Ignition", "response": "Off"},
+        {"callout": "Starter", "response": "Off"},
+        {"callout": "Oil pressure", "response": "Check, one bar minimum"},
+        {"callout": "Alternator", "response": "On"},
+        {"callout": "Voltage", "response": "Check twenty eight point five volts"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Canopy", "response": "Closed"},
+        {"callout": "Radio", "response": "On"},
+        {"callout": "Attitude indicator gyro", "response": "On"},
+        {"callout": "Gyrocompass gyro", "response": "On"},
+        {"callout": "Hydraulic pressure", "response": "Checked, in the green"},
+        {"callout": "Aileron servo", "response": "On"},
+        {"callout": "Spoilers", "response": "Retracted"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Flaps", "response": "Set fifteen degrees"},
+        {"callout": "Canopy", "response": "Locked"},
+        {"callout": "Oxygen", "response": "Set to one hundred percent"},
+        {"callout": "Trim", "response": "Neutral"},
+        {"callout": "Pitot heat", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Oxygen", "response": "Normal mode"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Hydraulic pressure", "response": "Checked, in the green"},
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Flaps", "response": "Set forty degrees"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Trim", "response": "Neutral"},
+        {"callout": "Spoilers", "response": "Retracted"},
+        {"callout": "Flaps", "response": "Retracted"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Oxygen", "response": "Set to one hundred percent"},
+        {"callout": "Pitot heat", "response": "Off"},
+        {"callout": "Attitude indicator gyro", "response": "Off"},
+        {"callout": "Gyrocompass gyro", "response": "Off"},
+        {"callout": "Aileron servo", "response": "Off"},
+        {"callout": "Fuel valve", "response": "Closed"},
+        {"callout": "Battery", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Hydraulic Failure - Landing Gear",
+      "items": [
+        {"callout": "Landing gear handle", "response": "Down"},
+        {"callout": "Hydraulic circuit", "response": "Set to emergency"},
+        {"callout": "Manual pump", "response": "Operate until three green lights"}
+      ]
+    },
+    {
+      "title": "Hydraulic Failure - Spoilers",
+      "items": [
+        {"callout": "Spoiler switch", "response": "Desired position"},
+        {"callout": "Manual pump", "response": "Operate until position reached"}
+      ]
+    },
+    {
+      "title": "Fuel Dump",
+      "items": [
+        {"callout": "Fuel dump switch", "response": "On"},
+        {"callout": "Wait for tanks to empty", "response": "Approximately three to four minutes"},
+        {"callout": "Fuel dump switch", "response": "Off"}
+      ]
+    }
+  ]
+}

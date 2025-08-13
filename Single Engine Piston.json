@@ -1,0 +1,227 @@
+{
+  "aircraft": "Single Engine Piston",
+  "nickname": "SkyCruiser",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Weight and balance", "response": "Within limits"},
+        {"callout": "Fuel quantity and caps", "response": "Checked and secured"},
+        {"callout": "Oil level", "response": "Within operating range"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Pitot cover and tie downs", "response": "Removed"},
+        {"callout": "Fuel selector", "response": "Desired tank"},
+        {"callout": "Ignition and master switch", "response": "Off"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Landing gear selector", "response": "Down"},
+        {"callout": "Tailwheel lock", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Seats and belts", "response": "Adjusted and secured"},
+        {"callout": "Circuit breakers", "response": "Checked"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Fuel pump", "response": "On for priming then off"},
+        {"callout": "Mixture", "response": "Rich for start"},
+        {"callout": "Throttle", "response": "Open a small amount"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Starter", "response": "Engage until the engine fires"},
+        {"callout": "Mixture", "response": "Full rich as the engine fires"},
+        {"callout": "Throttle", "response": "Set for one thousand RPM"},
+        {"callout": "Oil pressure", "response": "Indication within thirty seconds"},
+        {"callout": "Alternator and ammeter", "response": "Charging"},
+        {"callout": "Avionics master", "response": "On"},
+        {"callout": "Radios and transponder", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Set for run up power"},
+        {"callout": "Magnetos", "response": "Checked with acceptable drop"},
+        {"callout": "Carburetor heat", "response": "Checked then cold"},
+        {"callout": "Engine instruments", "response": "In the green"},
+        {"callout": "Vacuum or suction", "response": "Checked"},
+        {"callout": "Mixture", "response": "Set for smooth operation"},
+        {"callout": "Propeller control", "response": "Cycled if installed"},
+        {"callout": "Throttle idle", "response": "Checked then set for taxi"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Tested"},
+        {"callout": "Flight instruments", "response": "Checked and set"},
+        {"callout": "Heading indicator", "response": "Aligned with compass"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Seat belts and harnesses", "response": "Fastened"},
+        {"callout": "Fuel selector", "response": "On proper tank"},
+        {"callout": "Mixture", "response": "Set for takeoff"},
+        {"callout": "Propeller", "response": "Full forward if installed"},
+        {"callout": "Carburetor heat", "response": "Cold"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Transponder", "response": "Altitude reporting"},
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Runway and departure", "response": "Confirmed and briefed"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Positive rate of climb", "response": "Verified"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Climb power", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "Best rate or as required"},
+        {"callout": "Mixture", "response": "Adjust for smooth operation"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Cowl flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set"},
+        {"callout": "Mixture", "response": "Leaned"},
+        {"callout": "Heading and altitude", "response": "Maintained"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Fuel quantity and balance", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "Mixture", "response": "Enrich as needed"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel selector", "response": "On the fullest tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward if installed"},
+        {"callout": "Carburetor heat", "response": "On when reducing power"},
+        {"callout": "Landing gear", "response": "Down before landing"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed", "response": "On speed and stable"},
+        {"callout": "Touchdown", "response": "Main wheels first"},
+        {"callout": "Tailwheel control", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Carburetor heat", "response": "Off"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Strobe light", "response": "Off if not required"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Trim", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Throttle", "response": "Set for cool down"},
+        {"callout": "Mixture", "response": "Idle cut off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Control lock", "response": "Installed"},
+        {"callout": "Chocks or tie downs", "response": "Installed"},
+        {"callout": "Covers", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames in"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use extinguisher"},
+        {"callout": "Inspect before restart", "response": "Required"}
+      ]
+    },
+    {
+      "title": "Engine Failure After Take-Off",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide"},
+        {"callout": "Landing site", "response": "Straight ahead or shallow turn"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide"},
+        {"callout": "Fuel selector", "response": "Switch tanks"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Rich then adjust"},
+        {"callout": "Carburetor heat or alternate air", "response": "On"},
+        {"callout": "Magnetos", "response": "Check both"},
+        {"callout": "Plan landing", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical load", "response": "Reduce"},
+        {"callout": "Circuit breakers", "response": "Check and reset if needed"},
+        {"callout": "Master switch", "response": "Off then on to attempt reset"},
+        {"callout": "Plan landing", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Gear Up Landing",
+      "items": [
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Approach speed", "response": "Minimum safe"},
+        {"callout": "Mixture", "response": "Cut off on touchdown"},
+        {"callout": "Master switch", "response": "Off after stop"}
+      ]
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "aircraft": "PZL-104 Wilga",
+  "nickname": "Wilga",
+  "checklist": [
+    {
+      "title": "Preflight Inspection",
+      "items": [
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Battery switch", "response": "Off" },
+        { "callout": "Generator", "response": "Off" },
+        { "callout": "Mixture", "response": "Lean" },
+        { "callout": "Fuel shutoff levers", "response": "Pulled" },
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Circuit breakers", "response": "All pushed" },
+        { "callout": "Transponder", "response": "Off" },
+        { "callout": "Radios", "response": "Off" },
+        { "callout": "Battery switch", "response": "On" },
+        { "callout": "External lights", "response": "On and check all" },
+        { "callout": "Ballast weights", "response": "Checked and warning lights extinguished" }
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        { "callout": "External lights", "response": "Off" },
+        { "callout": "Panel lights", "response": "As required" },
+        { "callout": "Flaps", "response": "Set to zero" }
+      ]
+    },
+    {
+      "title": "Starting Engine",
+      "items": [
+        { "callout": "Magnetos", "response": "Off" },
+        { "callout": "Propeller area", "response": "Clear" },
+        { "callout": "Doors", "response": "Closed and locked" },
+        { "callout": "Fuel shutoff levers", "response": "Pushed" },
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Fuel pump", "response": "On" },
+        { "callout": "Mixture", "response": "Rich" },
+        { "callout": "Magnetos", "response": "Both" },
+        { "callout": "Spark shower", "response": "On" },
+        { "callout": "Compressed air valve", "response": "Open" },
+        { "callout": "Brakes", "response": "Test and set" },
+        { "callout": "Starter", "response": "Engage" },
+        { "callout": "Throttle", "response": "Advance one centimeter then idle" },
+        { "callout": "Engine gauges", "response": "Check" },
+        { "callout": "Generator switch", "response": "On" }
+      ]
+    },
+    {
+      "title": "After Starting Engine",
+      "items": [
+        { "callout": "Altimeter", "response": "Set and check" },
+        { "callout": "Transponder", "response": "Standby" },
+        { "callout": "Compass", "response": "Check" },
+        { "callout": "Flaps", "response": "Zero" },
+        { "callout": "Elevator trim", "response": "Neutral" }
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Taxi light", "response": "On" },
+        { "callout": "Navigation lights", "response": "On" },
+        { "callout": "Panel lights", "response": "As required" },
+        { "callout": "Control check", "response": "Free and correct" },
+        { "callout": "Throttle", "response": "Set two thousand one hundred R P M" },
+        { "callout": "Magnetos", "response": "Check left and right with a fifty R P M drop" },
+        { "callout": "Throttle", "response": "Retard to idle" }
+      ]
+    },
+    {
+      "title": "Normal Takeoff",
+      "items": [
+        { "callout": "Taxi light", "response": "Off" },
+        { "callout": "Landing light", "response": "On" },
+        { "callout": "Transponder", "response": "Altitude reporting" },
+        { "callout": "Fuel pump", "response": "On" },
+        { "callout": "Throttle", "response": "Full" },
+        { "callout": "Brakes", "response": "Release" },
+        { "callout": "Rotation", "response": "Fifty nine knots indicated airspeed" },
+        { "callout": "Initial climb", "response": "Sixty six knots indicated airspeed" },
+        { "callout": "Throttle", "response": "Two thousand one hundred R P M" },
+        { "callout": "Trim", "response": "As required" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Landing light", "response": "Off" },
+        { "callout": "Flight instruments", "response": "Check" },
+        { "callout": "Fuel pump", "response": "Off" },
+        { "callout": "Cruise power", "response": "Set seventy knots indicated airspeed" },
+        { "callout": "Trim", "response": "As required" }
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        { "callout": "Landing light", "response": "On" },
+        { "callout": "Throttle", "response": "As required" },
+        { "callout": "Trim", "response": "As required" }
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        { "callout": "Flaps", "response": "Landing" },
+        { "callout": "Fuel pump", "response": "On" },
+        { "callout": "Approach speed", "response": "Above fifty eight knots indicated airspeed" }
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        { "callout": "Fuel pump", "response": "Off" },
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Transponder", "response": "Standby" },
+        { "callout": "Taxi light", "response": "On" },
+        { "callout": "Landing light", "response": "Off" },
+        { "callout": "Strobe", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Throttle", "response": "Idle" },
+        { "callout": "Elevator trim", "response": "Neutral" },
+        { "callout": "Taxi light", "response": "Off" },
+        { "callout": "Generator", "response": "Off" },
+        { "callout": "Mixture", "response": "Lean" },
+        { "callout": "Fuel shutoff levers", "response": "Pulled" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Radios", "response": "Off" },
+        { "callout": "Navigation lights", "response": "Off" },
+        { "callout": "Battery", "response": "Off" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,120 @@
+{
+  "aircraft": "Ford Tri-Motor",
+  "nickname": "Tin Goose",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Controls", "response": "Free"},
+        {"callout": "Doors", "response": "Closed and locked"},
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked on all tanks"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Fuel tank selectors", "response": "Set for start"},
+        {"callout": "Master battery switch", "response": "On"},
+        {"callout": "Generators", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Select primer to engine", "response": "Set"},
+        {"callout": "Primer", "response": "Unlock"},
+        {"callout": "Primer strokes", "response": "Four"},
+        {"callout": "Primer", "response": "Lock"},
+        {"callout": "Master ignition", "response": "On"},
+        {"callout": "Throttle", "response": "Open slightly"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Starter button", "response": "Press and hold for ten seconds"},
+        {"callout": "Solenoid switch", "response": "On"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Repeat for remaining engines", "response": "As required"},
+        {"callout": "Generators", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Oil pressure", "response": "Check"},
+        {"callout": "Oil temperature", "response": "Check"},
+        {"callout": "Engine RPM", "response": "Set to fifteen hundred"},
+        {"callout": "Magnetos", "response": "Check for one hundred RPM drop"},
+        {"callout": "Engine RPM", "response": "Idle"},
+        {"callout": "Radios", "response": "On and tuned"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Gyros", "response": "Set and uncaged"},
+        {"callout": "Flight controls", "response": "Free"},
+        {"callout": "Parking brake", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test"},
+        {"callout": "Use center engine for taxi", "response": "As required"},
+        {"callout": "Steering", "response": "Via rudder and brake lever"},
+        {"callout": "Tailwheel", "response": "Check free castoring"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Throttles", "response": "Advance smoothly to full power"},
+        {"callout": "Maintain directional control", "response": "Use rudder and throttles"},
+        {"callout": "Tail lift speed", "response": "Twenty five to thirty miles per hour"},
+        {"callout": "Rotation speed", "response": "Sixty five to eighty miles per hour"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb speed", "response": "One hundred ten to one hundred fifteen miles per hour"},
+        {"callout": "Climb rate", "response": "Nine hundred feet per minute"},
+        {"callout": "Mixture", "response": "Lean above five thousand feet"},
+        {"callout": "Power", "response": "Reduce as advised"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Engines", "response": "Set cruise power"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Instruments", "response": "Check"},
+        {"callout": "Gyro-pilot", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Automatic pilot", "response": "Off"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Approach speed", "response": "Sixty eight to seventy five miles per hour"},
+        {"callout": "Mixtures", "response": "Full rich"},
+        {"callout": "Radios", "response": "Set to approach frequencies"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Landing speed", "response": "Fifty five to sixty five miles per hour"},
+        {"callout": "Touchdown speed", "response": "Forty five miles per hour"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Mixture", "response": "Cut"},
+        {"callout": "Fuel selectors", "response": "Off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master ignition", "response": "Off"},
+        {"callout": "Radios", "response": "Off"},
+        {"callout": "Master battery switch", "response": "Off"},
+        {"callout": "Passenger door", "response": "Open"},
+        {"callout": "Luggage doors", "response": "Open"}
+      ]
+    }
+  ]
+}

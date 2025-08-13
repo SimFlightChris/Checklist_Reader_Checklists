@@ -1,0 +1,348 @@
+{
+  "aircraft": "Lockheed TF-104G",
+  "nickname": "Starfighter TF-104G",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External visual inspection", "response": "Complete"},
+        {"callout": "Wheel chocks and intake covers", "response": "Removed"},
+        {"callout": "Canopy", "response": "Open and condition checked"},
+        {"callout": "Ejection seats and safety pins", "response": "Pins removed and seats armed"},
+        {"callout": "Documents and weight and balance", "response": "On board and reviewed"},
+        {"callout": "Fuel quantity internal tanks", "response": "Checked sufficient for mission"},
+        {"callout": "External tanks configuration", "response": "As required and secure"},
+        {"callout": "External stores and drag index", "response": "Reviewed and within limits"},
+        {"callout": "Hydraulic quantity and pressure", "response": "Checked in range"},
+        {"callout": "Engine oil quantity", "response": "Checked in range"},
+        {"callout": "Oxygen quantity", "response": "Checked sufficient"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Stability augmentation roll pitch yaw", "response": "On and guarded"},
+        {"callout": "Automatic pitch control", "response": "Cutout switch off and system armed"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Gear handle", "response": "Down checked"},
+        {"callout": "Antiskid", "response": "On"},
+        {"callout": "Avionics and radios", "response": "Set as required"},
+        {"callout": "Inertial navigation system alignment", "response": "Completed and set to navigation"},
+        {"callout": "Position homing indicator and route", "response": "Set and crosschecked"},
+        {"callout": "Master caution", "response": "Test and reset"},
+        {"callout": "Takeoff data and briefing", "response": "Computed and complete"}
+      ]
+    },
+    {
+      "title": "Before Engine Start",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Battery or external power", "response": "Available and on"},
+        {"callout": "Fuel shutoff", "response": "Open"},
+        {"callout": "Fuel booster pump", "response": "On"},
+        {"callout": "Warning and caution lights", "response": "Checked"},
+        {"callout": "Area around aircraft", "response": "Clear"},
+        {"callout": "Beacon", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "External power unit", "response": "Connected or battery as required"},
+        {"callout": "Starter switch", "response": "Press and hold"},
+        {"callout": "Throttle", "response": "Idle and monitor for light off"},
+        {"callout": "RPM", "response": "Observe rise and stabilize near sixty seven percent"},
+        {"callout": "Starter and external power", "response": "Disengaged at forty percent and power removed"},
+        {"callout": "Oil pressure and engine instruments", "response": "Rising and normal"},
+        {"callout": "Generator and electrical", "response": "On and checked"},
+        {"callout": "Avionics", "response": "On and set"},
+        {"callout": "Hydraulic pressure", "response": "Checked normal"},
+        {"callout": "Anti ice and environmental", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Nosewheel steering and brakes", "response": "Checked"},
+        {"callout": "Flight instruments", "response": "Checked and set"},
+        {"callout": "Stability augmentation and dampers", "response": "On and indications normal"},
+        {"callout": "Flaps", "response": "Set for takeoff"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Takeoff briefing", "response": "Reviewed"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Throttle", "response": "Advance and stabilize"},
+        {"callout": "Engine instruments", "response": "Checked in the green"},
+        {"callout": "Hydraulic and electrical", "response": "Checked normal"},
+        {"callout": "Stability augmentation and automatic pitch control", "response": "Verified armed"},
+        {"callout": "APC meter", "response": "Reading near one at cruise power"},
+        {"callout": "Flaps", "response": "Takeoff position"},
+        {"callout": "Trim setting", "response": "Verified for rotation"},
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Lights and transponder", "response": "As required"},
+        {"callout": "Final takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Runway and heading", "response": "Verified"},
+        {"callout": "Throttle", "response": "Advance to takeoff power"},
+        {"callout": "Instruments", "response": "Checked",
+        "response": "Checked and normal"},
+        {"callout": "Rotate", "response": "Initiate rotation fifteen knots below computed takeoff speed"},
+        {"callout": "Pitch attitude", "response": "Set eight to ten degrees nose up as required"},
+        {"callout": "Liftoff", "response": "Maintain runway track"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"callout": "Positive rate of climb", "response": "Confirmed"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up on schedule"},
+        {"callout": "Throttle and engine parameters", "response": "Set climb power"},
+        {"callout": "APC meter", "response": "Monitor and keep below high indications"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb power", "response": "Set and monitor engine limits"},
+        {"callout": "Pressurization and environmental", "response": "Checked"},
+        {"callout": "Fuel balance and transfer", "response": "As required"},
+        {"callout": "Navigation", "response": "INS and radios set"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Cruise power", "response": "Set for performance"},
+        {"callout": "APC meter", "response": "Monitor near one"},
+        {"callout": "Fuel state and external tanks", "response": "Monitor and manage"},
+        {"callout": "Engine and systems", "response": "Scan normal"},
+        {"callout": "Stability augmentation", "response": "On and monitored"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Descent planning and briefing", "response": "Complete"},
+        {"callout": "Power", "response": "Reduce smoothly and avoid rapid throttle movements"},
+        {"callout": "Pressurization", "response": "Set for field elevation"},
+        {"callout": "Fuel and balance", "response": "Checked"},
+        {"callout": "Approach setup", "response": "Radios and navigation set"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Seat belts and harnesses", "response": "Tight"},
+        {"callout": "Landing data and speeds", "response": "Reviewed"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Gear", "response": "Down on schedule"},
+        {"callout": "APC and stability augmentation", "response": "Verified"},
+        {"callout": "BLC awareness", "response": "Plan to keep engine above eighty percent with flaps land"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Final approach speed", "response": "On speed and stable"},
+        {"callout": "Throttle in flare", "response": "Do not reduce below eighty percent with flaps land"},
+        {"callout": "Touchdown", "response": "Main wheels first"},
+        {"callout": "Speed brakes", "response": "Deploy as required"},
+        {"callout": "Drag chute", "response": "Deploy below two hundred five knots as required"},
+        {"callout": "Directional control", "response": "Maintain and chute jettison when effective"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Runway clear", "response": "Confirmed"},
+        {"callout": "Drag chute", "response": "Jettison"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Speed brakes", "response": "Retracted"},
+        {"callout": "APC and stability augmentation", "response": "As required"},
+        {"callout": "Transponder and lights", "response": "As required"},
+        {"callout": "Canopy", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Throttle", "response": "Idle and stabilize"},
+        {"callout": "Fuel booster pump", "response": "Off"},
+        {"callout": "Engine", "response": "Shut down"},
+        {"callout": "Generator and battery", "response": "Off"},
+        {"callout": "Ejection seats and safety pins", "response": "Safe and pins installed"},
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Post flight", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Chocks and covers", "response": "Installed"},
+        {"callout": "External power and ground equipment", "response": "Disconnected"},
+        {"callout": "Cabin and canopy", "response": "Secured"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Fuel booster pump", "response": "Off"},
+        {"callout": "Starter", "response": "Crank to draw flames in"},
+        {"callout": "Fuel shutoff", "response": "Closed"},
+        {"callout": "External power", "response": "Disconnect"},
+        {"callout": "Fire", "response": "Extinguish"},
+        {"callout": "Maintenance", "response": "Perform before next start"}
+      ]
+    },
+    {
+      "title": "Engine Fire Or Severe Damage In Flight",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "External stores", "response": "Jettison if required"},
+        {"callout": "Fuel shutoff", "response": "Closed"},
+        {"callout": "Cabin pressurization", "response": "As required"},
+        {"callout": "Airspeed and altitude", "response": "Adjust for forced landing or ejection decision"},
+        {"callout": "Land", "response": "As soon as possible"}
+      ]
+    },
+    {
+      "title": "Engine Failure After Takeoff",
+      "items": [
+        {"callout": "Pitch", "response": "Lower to maintain flying speed"},
+        {"callout": "Gear", "response": "Up if runway not assured"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "External stores", "response": "Jettison if required"},
+        {"callout": "Airspeed", "response": "Best glide"},
+        {"callout": "Landing site", "response": "Select straight ahead or shallow turn"},
+        {"callout": "Ejection decision", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Fuel booster pump", "response": "On"},
+        {"callout": "Fuel and ignition", "response": "Check as required"},
+        {"callout": "Windmilling RPM", "response": "Confirm at least fifteen percent"},
+        {"callout": "Airstart", "response": "Accomplish if conditions permit"},
+        {"callout": "External stores", "response": "Jettison if required"},
+        {"callout": "Land", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Airstart Windmilling",
+      "items": [
+        {"callout": "Airspeed and attitude", "response": "Adjust to obtain at least fifteen percent rpm"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Starter switch", "response": "Press left or right"},
+        {"callout": "Monitor light off and rpm", "response": "Observe rise and stabilize"},
+        {"callout": "Engine instruments", "response": "Check normal"},
+        {"callout": "If no relight", "response": "Secure engine and prepare to land"}
+      ]
+    },
+    {
+      "title": "Automatic Pitch Control Shaker Or Kicker",
+      "items": [
+        {"callout": "Onset warning", "response": "Reduce angle of attack and unload"},
+        {"callout": "Power", "response": "Adjust smoothly"},
+        {"callout": "Bank", "response": "Wings level"},
+        {"callout": "APC cutout switch", "response": "Leave off during recovery"},
+        {"callout": "APC meter", "response": "Monitor below five after recovery"}
+      ]
+    },
+    {
+      "title": "Pitch Up Or Stall Recovery",
+      "items": [
+        {"callout": "Controls", "response": "Neutralize and reduce angle of attack"},
+        {"callout": "Power", "response": "Increase smoothly as required"},
+        {"callout": "Roll", "response": "Wings level"},
+        {"callout": "Do not make abrupt inputs", "response": "Smooth corrections only"},
+        {"callout": "Climb away when flying", "response": "Recover altitude when safe"}
+      ]
+    },
+    {
+      "title": "Boundary Layer Control Loss Of Lift With Flaps Land",
+      "items": [
+        {"callout": "Throttle", "response": "Increase above eighty percent immediately"},
+        {"callout": "Bank and yaw", "response": "Correct to stop wing drop"},
+        {"callout": "Flaps", "response": "Maintain until stable and then retract as required"},
+        {"callout": "Go around", "response": "Initiate if unstable"}
+      ]
+    },
+    {
+      "title": "Tail Hook Barrier Engagement",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "External stores", "response": "Jettison if required"},
+        {"callout": "Drag chute", "response": "Deploy if required"},
+        {"callout": "Arresting hook", "response": "Extend"},
+        {"callout": "Hook extended light", "response": "On"},
+        {"callout": "Approach alignment", "response": "Contact barrier as near to ninety degrees as possible"},
+        {"callout": "Brakes", "response": "Release before engagement"},
+        {"callout": "After engagement", "response": "Throttle off if directed by fire crew"}
+      ]
+    },
+    {
+      "title": "External Stores Jettison",
+      "items": [
+        {"callout": "External stores selector", "response": "Select tanks or tip stores as required"},
+        {"callout": "Store lights", "response": "Press to select and check on"},
+        {"callout": "Jettison command", "response": "Press and confirm release"}
+      ]
+    },
+    {
+      "title": "Emergency Stores Jettison",
+      "items": [
+        {"callout": "Emergency stores release cover", "response": "Open"},
+        {"callout": "Emergency stores release button", "response": "Press and hold"},
+        {"callout": "Aircraft handling", "response": "Reassess performance and continue"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Non essential loads", "response": "Reduce"},
+        {"callout": "Generator", "response": "Reset if possible"},
+        {"callout": "Battery", "response": "Conserve"},
+        {"callout": "Navigation and landing plan", "response": "Land as soon as practical"}
+      ]
+    },
+    {
+      "title": "Hydraulic System Malfunction",
+      "items": [
+        {"callout": "Airspeed and maneuvering", "response": "Limit and avoid abrupt inputs"},
+        {"callout": "Landing gear and flaps", "response": "Extend early and plan long landing"},
+        {"callout": "Tail hook or barrier", "response": "Consider for stopping distance"},
+        {"callout": "Land", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Drag Chute Failure To Deploy",
+      "items": [
+        {"callout": "Speed brakes", "response": "Deploy"},
+        {"callout": "Braking", "response": "Apply smoothly with antiskid"},
+        {"callout": "Barrier engagement", "response": "Consider tail hook if available"},
+        {"callout": "Directional control", "response": "Maintain"}
+      ]
+    },
+    {
+      "title": "Landing Gear Unsafe Or Up Landing",
+      "items": [
+        {"callout": "Airspeed", "response": "Minimum safe"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Throttle", "response": "Idle just before touchdown"},
+        {"callout": "Engine and electrical", "response": "Off after stopping"}
+      ]
+    }
+  ]
+}

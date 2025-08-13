@@ -1,0 +1,156 @@
+{
+  "aircraft": "King Air 350",
+  "nickname": "Analog King Air",
+  "checklist": [
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Preflight inspection", "response": "Complete"},
+        {"callout": "Circuit breakers", "response": "Checked"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Environmental controls", "response": "Off"},
+        {"callout": "Oxygen supply", "response": "Checked"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Standby pumps", "response": "On, then Off after pressure stabilized"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Gear handle", "response": "Down"}
+      ]
+    },
+    {
+      "title": "Engine Start (Battery)",
+      "items": [
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Ignition and engine start", "response": "Start one engine at a time"},
+        {"callout": "Oil pressure", "response": "Check rising within 10 seconds"},
+        {"callout": "Starter", "response": "Disengage after light-off"},
+        {"callout": "Repeat for second engine", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Engine Start (External Power)",
+      "items": [
+        {"callout": "External power", "response": "Connected and On"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Ignition and engine start", "response": "Start one engine at a time"},
+        {"callout": "Oil pressure", "response": "Check rising within 10 seconds"},
+        {"callout": "Starter", "response": "Disengage after light-off"},
+        {"callout": "Repeat for second engine", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Generators", "response": "On, check load"},
+        {"callout": "External power", "response": "Disconnected"},
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Flight instruments", "response": "Checked and set"},
+        {"callout": "Autopilot and trim", "response": "Checked"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Flaps", "response": "Set for takeoff"},
+        {"callout": "Pressurization", "response": "Set"},
+        {"callout": "Cabin signs", "response": "On as required"}
+      ]
+    },
+    {
+      "title": "Before Takeoff (Runup)",
+      "items": [
+        {"callout": "Brakes", "response": "Hold"},
+        {"callout": "Props", "response": "Cycle and full forward"},
+        {"callout": "Auto feather", "response": "Test"},
+        {"callout": "Engine instruments", "response": "Check"},
+        {"callout": "Flight instruments", "response": "Set and cross-checked"},
+        {"callout": "Annunciators", "response": "Checked and clear"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Transponder", "response": "ALT"},
+        {"callout": "Condition levers", "response": "High idle"},
+        {"callout": "Powers", "response": "Set"},
+        {"callout": "Rotate", "response": "VR confirmed"},
+        {"callout": "Gear", "response": "Up on positive rate"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb power", "response": "Set"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Ice protection", "response": "As required"},
+        {"callout": "Pressurization", "response": "Check climb rate"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Cruise power", "response": "Set"},
+        {"callout": "Fuel system", "response": "Check and balance"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Pressurization", "response": "Set and monitor"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Pressurization", "response": "Set for landing"},
+        {"callout": "Fuel system", "response": "Check and balance"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Props", "response": "Full forward"},
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Cabin signs", "response": "On"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Approach speed", "response": "Maintain"},
+        {"callout": "Touchdown", "response": "On centerline"},
+        {"callout": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Ice protection", "response": "Off"},
+        {"callout": "Trim", "response": "Reset"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Condition levers", "response": "Low idle for cooldown"},
+        {"callout": "Generators", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Control lock", "response": "Install"},
+        {"callout": "Chocks", "response": "Set"},
+        {"callout": "Covers and tie-downs", "response": "As required"}
+      ]
+    }
+  ]
+}

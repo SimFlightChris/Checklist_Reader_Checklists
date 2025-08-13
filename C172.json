@@ -1,0 +1,220 @@
+{
+  "aircraft": "Cessna 172",
+  "nickname": "Skyhawk",
+  "checklist": [
+    {
+      "title": "Preflight Inspection",
+      "items": [
+        { "callout": "Aircraft Documents", "response": "Check" },
+        { "callout": "Weight and Balance", "response": "Check" },
+        { "callout": "Parking Brake", "response": "Set" },
+        { "callout": "Control Wheel Lock", "response": "Remove" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Avionics Power Switch", "response": "Off" },
+        { "callout": "Master Switch", "response": "On" },
+        { "callout": "Fuel Quantity Indicators", "response": "Check" },
+        { "callout": "Pitot Heat", "response": "On, then Off" },
+        { "callout": "Annunciator Panel", "response": "Test" },
+        { "callout": "Flaps", "response": "Extend" },
+        { "callout": "Fuel Shutoff Valve", "response": "On" },
+        { "callout": "Control Surfaces", "response": "Free and Secure" },
+        { "callout": "Fuel Tanks", "response": "Sample and Check Quantity" },
+        { "callout": "Oil Level", "response": "Check" },
+        { "callout": "Fuel Strainer", "response": "Sample" },
+        { "callout": "Propeller and Spinner", "response": "Check" },
+        { "callout": "Tires and Brakes", "response": "Check Condition" },
+        { "callout": "Pitot Tube and Stall Warning", "response": "Check" }
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        { "callout": "Preflight Inspection", "response": "Complete" },
+        { "callout": "Passenger Briefing", "response": "Complete" },
+        { "callout": "Seats and Seatbelts", "response": "Adjust and Lock" },
+        { "callout": "Doors", "response": "Closed and Locked" },
+        { "callout": "Brakes", "response": "Test and Set" },
+        { "callout": "Circuit Breakers", "response": "Check In" },
+        { "callout": "Fuel Selector Valve", "response": "Both" },
+        { "callout": "Fuel Shutoff Valve", "response": "On" }
+      ]
+    },
+    {
+      "title": "Starting Engine",
+      "items": [
+        { "callout": "Throttle", "response": "Open one quarter inch" },
+        { "callout": "Mixture", "response": "Rich" },
+        { "callout": "Carb Heat", "response": "Cold" },
+        { "callout": "Prime", "response": "As required, locked" },
+        { "callout": "Aux Fuel Pump", "response": "On" },
+        { "callout": "Propeller Area", "response": "Clear" },
+        { "callout": "Master Switch", "response": "On" },
+        { "callout": "Beacon", "response": "On" },
+        { "callout": "Ignition", "response": "Start" },
+        { "callout": "Throttle", "response": "Adjust to one thousand RPM" },
+        { "callout": "Oil Pressure", "response": "Check" },
+        { "callout": "Aux Fuel Pump", "response": "Off" },
+        { "callout": "Avionics Master Switch", "response": "On" },
+        { "callout": "Radios", "response": "On" },
+        { "callout": "Transponder", "response": "Standby" },
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Ammeter", "response": "Check" },
+        { "callout": "Heading Indicator", "response": "Set" },
+        { "callout": "ATIS or AWOS", "response": "Obtain" },
+        { "callout": "Altimeter", "response": "Set" }
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        { "callout": "Parking Brake", "response": "Set" },
+        { "callout": "Cabin Doors", "response": "Closed and Locked" },
+        { "callout": "Seats and Seatbelts", "response": "Adjust and Lock" },
+        { "callout": "Flight Controls", "response": "Free and Correct" },
+        { "callout": "Instruments", "response": "Set" },
+        { "callout": "Fuel Quantity", "response": "Check" },
+        { "callout": "Mixture", "response": "Rich" },
+        { "callout": "Fuel Selector Valve", "response": "Both" },
+        { "callout": "Elevator Trim", "response": "Set for Takeoff" },
+        { "callout": "Throttle", "response": "Advance to 1800 RPM" },
+        { "callout": "Magnetos", "response": "Check" },
+        { "callout": "Suction Gauge", "response": "Check" },
+        { "callout": "Engine Instruments", "response": "Check" },
+        { "callout": "Ammeter", "response": "Check" },
+        { "callout": "Carb Heat", "response": "On" },
+        { "callout": "Annunciator Panel", "response": "Clear" },
+        { "callout": "Throttle", "response": "Reduce to 1000 RPM" },
+        { "callout": "Throttle Friction Lock", "response": "Adjust" },
+        { "callout": "Strobe Lights", "response": "On" },
+        { "callout": "Radios and Avionics", "response": "Set" },
+        { "callout": "Autopilot", "response": "Off" },
+        { "callout": "Flaps", "response": "Set for Takeoff" },
+        { "callout": "Parking Brake", "response": "Release" }
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Carb Heat", "response": "Cold" },
+        { "callout": "Transponder", "response": "Altitude" },
+        { "callout": "Trim", "response": "Set for Takeoff" },
+        { "callout": "Throttle", "response": "Full" },
+        { "callout": "Tachometer, Oil, Airspeed", "response": "Check" },
+        { "callout": "Elevator", "response": "Rotate at 55 knots" },
+        { "callout": "Climb", "response": "70 to 80 knots" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Throttle", "response": "As required" },
+        { "callout": "Trim", "response": "Set" },
+        { "callout": "Mixture", "response": "Adjust" }
+      ]
+    },
+    {
+      "title": "Pre-Landing",
+      "items": [
+        { "callout": "Fuel Selector", "response": "On" },
+        { "callout": "Mixture", "response": "Rich" },
+        { "callout": "Carb Heat", "response": "On" },
+        { "callout": "Seatbelts", "response": "Fastened" }
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Carb Heat", "response": "Cold" },
+        { "callout": "Transponder", "response": "Standby" },
+        { "callout": "Landing Light", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Avionics", "response": "Off" },
+        { "callout": "Throttle", "response": "Set to one thousand RPM" },
+        { "callout": "Mixture", "response": "Cutoff" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Master Switch", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        { "callout": "Control Lock", "response": "Install" },
+        { "callout": "Hobbs and Tach", "response": "Record" },
+        { "callout": "Doors and Windows", "response": "Secure" },
+        { "callout": "Tie-downs", "response": "Secure" }
+      ]
+    },
+    {
+      "title": "Engine Failure in Flight",
+      "items": [
+        { "callout": "Airspeed", "response": "Maintain 65 knots" },
+        { "callout": "Landing Site", "response": "Select" },
+        { "callout": "Fuel Selector", "response": "Both" },
+        { "callout": "Mixture", "response": "Rich" },
+        { "callout": "Carb Heat", "response": "On" },
+        { "callout": "Ignition", "response": "Both or start if propeller stopped" },
+        { "callout": "Master Switch", "response": "On" },
+        { "callout": "If engine fails to restart", "response": "Declare emergency, 121.5 MHz, squawk 7700, prepare for forced landing" }
+      ]
+    },
+    {
+      "title": "Engine Failure After Takeoff",
+      "items": [
+        { "callout": "Airspeed", "response": "Maintain 65 to 70 knots" },
+        { "callout": "Mixture", "response": "Idle cutoff" },
+        { "callout": "Fuel Selector", "response": "Off" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Master Switch", "response": "Off" },
+        { "callout": "Flaps", "response": "As required" },
+        { "callout": "Landing", "response": "Straight ahead if possible" }
+      ]
+    },
+    {
+      "title": "Engine Fire in Flight",
+      "items": [
+        { "callout": "Mixture", "response": "Idle cutoff" },
+        { "callout": "Fuel Selector", "response": "Off" },
+        { "callout": "Throttle", "response": "Closed" },
+        { "callout": "Master Switch", "response": "Off" },
+        { "callout": "Ignition", "response": "Off" },
+        { "callout": "Cabin Air and Heat", "response": "Off" },
+        { "callout": "Airspeed", "response": "Increase to extinguish fire" },
+        { "callout": "Landing", "response": "Execute forced landing" }
+      ]
+    },
+    {
+      "title": "Engine Fire on Start",
+      "items": [
+        { "callout": "Starter", "response": "Continue cranking" },
+        { "callout": "If engine starts", "response": "Throttle to 1700 RPM for few minutes, then shutdown and inspect" },
+        { "callout": "If engine fails to start", "response": "Throttle full, mixture idle cutoff, continue cranking, master and ignition off" },
+        { "callout": "Fire Extinguisher", "response": "Use as required" }
+      ]
+    },
+    {
+      "title": "Electrical Fire in Flight",
+      "items": [
+        { "callout": "Master Switch", "response": "Off" },
+        { "callout": "All Switches Except Magnetos", "response": "Off" },
+        { "callout": "Cabin Air and Heat", "response": "Off" },
+        { "callout": "Fire Extinguisher", "response": "Use" },
+        { "callout": "If fire is out", "response": "Master on, check breakers, restore systems one at a time" }
+      ]
+    },
+    {
+      "title": "Alternator Failure",
+      "items": [
+        { "callout": "Electrical Load", "response": "Reduce to minimum" },
+        { "callout": "Alternator Circuit Breaker", "response": "Check and reset if needed" },
+        { "callout": "Alternator Switch", "response": "Off, then on" },
+        { "callout": "If failure persists", "response": "Alternator off, land as soon as practical" }
+      ]
+    }
+  ]
+}

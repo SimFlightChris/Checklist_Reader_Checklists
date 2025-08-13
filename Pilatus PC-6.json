@@ -1,0 +1,110 @@
+{
+  "aircraft": "Pilatus PC-6 Porter",
+  "nickname": "Pilatus Porter",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Avionics master", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Trims", "response": "Set"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Fuel selector", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Condition lever", "response": "Start and feather"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Ignition", "response": "On"},
+        {"callout": "Starter", "response": "Engage"},
+        {"callout": "Condition lever", "response": "Run"},
+        {"callout": "Generator", "response": "On"},
+        {"callout": "Fuel pump", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Flaps", "response": "Set for take-off"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Doors", "response": "Closed and locked"},
+        {"callout": "Trim", "response": "Set"},
+        {"callout": "Flight controls", "response": "Checked"},
+        {"callout": "Condition lever", "response": "Run"},
+        {"callout": "Propeller RPM", "response": "Full"},
+        {"callout": "Flaps", "response": "Take-off"},
+        {"callout": "Lights", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Landing gear", "response": "Fixed"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Climb power", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set"},
+        {"callout": "Mixture or condition", "response": "Leaned as required"},
+        {"callout": "Instruments", "response": "Checked"},
+        {"callout": "Fuel", "response": "Monitor"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce"},
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Seats and belts", "response": "Secured"},
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Power", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Condition lever", "response": "Low idle"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Lights", "response": "Off"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Condition lever", "response": "Cut-off"},
+        {"callout": "Ignition", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Parking brake", "response": "Set"}
+      ]
+    }
+  ]
+}

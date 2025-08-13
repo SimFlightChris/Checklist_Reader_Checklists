@@ -1,0 +1,172 @@
+{
+  "aircraft": "Spartan 7W Executive",
+  "nickname": "Spartan Executive",
+  "checklist": [
+    {
+      "title": "Pre-Start",
+      "items": [
+        { "callout": "Check fuel quantity", "response": "checked" },
+        { "callout": "Check battery", "response": "checked" },
+        { "callout": "Check electrical connections", "response": "secure" },
+        { "callout": "Verify magnetos off", "response": "off" },
+        { "callout": "Pull propeller through nine blades", "response": "done" }
+      ]
+    },
+    {
+      "title": "Startup",
+      "items": [
+        { "callout": "Set propeller to coarse pitch", "response": "set" },
+        { "callout": "Activate fuel pump", "response": "on" },
+        { "callout": "Prime engine", "response": "primed" },
+        { "callout": "Set magnetos to both", "response": "both" },
+        { "callout": "Start engine", "response": "started" },
+        { "callout": "Check oil pressure", "response": "green" },
+        { "callout": "Check oil temperature", "response": "rising" },
+        { "callout": "Set propeller to fine pitch", "response": "set" },
+        { "callout": "Warm engine to fifty degrees Celsius", "response": "warmed" }
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        { "callout": "Set radios", "response": "set" },
+        { "callout": "Set instruments", "response": "set" },
+        { "callout": "Check flaps", "response": "checked" },
+        { "callout": "Check flight controls", "response": "free and correct" }
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        { "callout": "Taxi slowly", "response": "slow" },
+        { "callout": "Perform S-turns", "response": "done" },
+        { "callout": "Use ground observer if needed", "response": "used" }
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        { "callout": "Set manifold pressure", "response": "set" },
+        { "callout": "Set propeller", "response": "set" },
+        { "callout": "Check flight controls", "response": "checked" },
+        { "callout": "Set flaps", "response": "set" }
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        { "callout": "Rotate at proper speed", "response": "rotated" },
+        { "callout": "Positive rate", "response": "established" },
+        { "callout": "Retract landing gear", "response": "up" }
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        { "callout": "Set climb power", "response": "set" },
+        { "callout": "Lean mixture", "response": "leaned" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Set cruise power", "response": "set" },
+        { "callout": "Set RPM", "response": "set" },
+        { "callout": "Lean mixture", "response": "leaned" },
+        { "callout": "Monitor engine temperature", "response": "monitored" },
+        { "callout": "Monitor attitude", "response": "monitored" }
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        { "callout": "Reduce power", "response": "reduced" },
+        { "callout": "Set descent profile", "response": "set" }
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        { "callout": "Set approach flaps", "response": "set" },
+        { "callout": "Lower landing gear", "response": "down" }
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        { "callout": "Maintain approach speed", "response": "maintained" },
+        { "callout": "Maintain directional control", "response": "maintained" }
+      ]
+    },
+    {
+      "title": "Taxi to Ramp",
+      "items": [
+        { "callout": "Clear runway", "response": "cleared" },
+        { "callout": "Taxi to ramp", "response": "taxied" },
+        { "callout": "Taxi communications off", "response": "off" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Reduce to idle", "response": "idle" },
+        { "callout": "Set propeller to coarse pitch", "response": "set" },
+        { "callout": "Idle for one minute", "response": "timed" },
+        { "callout": "Cut mixture", "response": "cut" },
+        { "callout": "Magnetos off", "response": "off" },
+        { "callout": "Master off", "response": "off" }
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        { "callout": "Set parking brake", "response": "set" },
+        { "callout": "Chock wheels", "response": "chocked" },
+        { "callout": "Remove electrical power", "response": "removed" },
+        { "callout": "Secure avionics", "response": "secured" },
+        { "callout": "Install external covers", "response": "installed" },
+        { "callout": "Install flags", "response": "installed" }
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        { "callout": "Mixture", "response": "cut" },
+        { "callout": "Throttle", "response": "full open" },
+        { "callout": "Continue cranking", "response": "done" },
+        { "callout": "Fuel selector", "response": "off" },
+        { "callout": "Master switch", "response": "off" },
+        { "callout": "Extinguish fire", "response": "done" }
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        { "callout": "Mixture", "response": "cut" },
+        { "callout": "Fuel selector", "response": "off" },
+        { "callout": "Master switch", "response": "off" },
+        { "callout": "Cabin heat", "response": "off" },
+        { "callout": "Execute emergency descent", "response": "done" },
+        { "callout": "Land immediately", "response": "done" }
+      ]
+    },
+    {
+      "title": "Loss of Oil Pressure",
+      "items": [
+        { "callout": "Check oil temperature", "response": "checked" },
+        { "callout": "Reduce power", "response": "reduced" },
+        { "callout": "Land as soon as possible", "response": "planned" }
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        { "callout": "Airspeed", "response": "best glide" },
+        { "callout": "Fuel selector", "response": "switch" },
+        { "callout": "Fuel pump", "response": "on" },
+        { "callout": "Mixture", "response": "rich" },
+        { "callout": "Magnetos", "response": "check" }
+      ]
+    }
+  ]
+}

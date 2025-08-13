@@ -1,0 +1,189 @@
+{
+  "aircraft": "Beechcraft Debonair 35-B33",
+  "nickname": "Debonair 35-B33",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Fuel quantity in all tanks", "response": "Checked"},
+        {"callout": "Oil level", "response": "Quantity is between eight and twelve quarts"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Switches", "response": "Off"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Landing gear selector", "response": "Down"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Fuel selector", "response": "On left main tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Throttle", "response": "Open one quarter of an inch"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Auxiliary fuel pump", "response": "On for priming then off"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Starter", "response": "Engage until engine starts"},
+        {"callout": "Mixture", "response": "Adjust for smooth idle"},
+        {"callout": "Throttle", "response": "Set to one thousand RPM"},
+        {"callout": "Oil pressure", "response": "Check within thirty seconds"},
+        {"callout": "Avionics master", "response": "On"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Brakes", "response": "Hold"},
+        {"callout": "Throttle", "response": "Advance to one thousand seven hundred RPM"},
+        {"callout": "Magnetos", "response": "Check left and right, drop not more than one hundred fifty RPM and difference not more than fifty RPM"},
+        {"callout": "Propeller governor", "response": "Cycle three times"},
+        {"callout": "Engine instruments", "response": "Check in the green"},
+        {"callout": "Suction gauge", "response": "Check"},
+        {"callout": "Throttle", "response": "Idle check, then set for taxi"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test"},
+        {"callout": "Flight instruments", "response": "Check operation"},
+        {"callout": "Directional gyro", "response": "Aligned"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Engine run-up", "response": "Complete"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Fuel selector", "response": "On fullest main tank"},
+        {"callout": "Doors and windows", "response": "Closed and latched"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Transponder", "response": "Set to altitude reporting"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Positive rate of climb", "response": "Confirmed"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Cowl flaps", "response": "Adjust as required"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Power", "response": "Set to twenty five inches manifold pressure and two thousand five hundred RPM"},
+        {"callout": "Mixture", "response": "Adjust for smooth operation"},
+        {"callout": "Cowl flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set per cruise performance"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Engine instruments", "response": "Check"},
+        {"callout": "Fuel quantity", "response": "Check"},
+        {"callout": "Fuel selector", "response": "Change tanks periodically"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce as required"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Propeller", "response": "Full forward if rapid power increase expected"},
+        {"callout": "Cowl flaps", "response": "Close"},
+        {"callout": "Seats and belts", "response": "Fastened"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel selector", "response": "On fullest main tank"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Landing gear", "response": "Down below one hundred twenty miles per hour"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed on final", "response": "Seventy to seventy five knots"},
+        {"callout": "Touchdown", "response": "Main wheels first"},
+        {"callout": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Transponder", "response": "Standby"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Throttle", "response": "Set to one thousand RPM for cool down"},
+        {"callout": "Mixture", "response": "Idle cut off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank until fire is extinguished"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Fuel selector", "response": "Off"},
+        {"callout": "Fire extinguisher", "response": "Use"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain best glide speed of seventy three knots"},
+        {"callout": "Fuel selector", "response": "Switch tanks"},
+        {"callout": "Auxiliary fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich then adjust"},
+        {"callout": "Magnetos", "response": "Check both"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical load", "response": "Reduce to minimum"},
+        {"callout": "Circuit breakers", "response": "Check and reset if necessary"},
+        {"callout": "Master switch", "response": "Off then on to attempt reset"},
+        {"callout": "Plan to land", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Emergency Gear Extension",
+      "items": [
+        {"callout": "Landing gear motor circuit breaker", "response": "Pull"},
+        {"callout": "Gear handle", "response": "Down"},
+        {"callout": "Emergency extension handle", "response": "Rotate until gear is down and locked"}
+      ]
+    }
+  ]
+}

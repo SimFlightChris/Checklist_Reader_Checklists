@@ -1,0 +1,123 @@
+{
+  "aircraft": "Pilatus PC-12",
+  "nickname": "PC-12",
+  "checklist": [
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Battery one and two", "response": "On"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Landing gear handle", "response": "Down"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Trims", "response": "Neutral"},
+        {"callout": "Alternate static source", "response": "Off"},
+        {"callout": "Circuit breakers", "response": "Checked in"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Fuel condition lever", "response": "Cut-off"},
+        {"callout": "Power lever", "response": "Idle"},
+        {"callout": "Starter", "response": "Engage"},
+        {"callout": "Gas generator speed at thirteen percent minimum", "response": "Introduce fuel"},
+        {"callout": "Inter turbine temperature", "response": "Monitor"},
+        {"callout": "Starter", "response": "Off at fifty percent gas generator speed"},
+        {"callout": "Generator", "response": "On"},
+        {"callout": "Avionics master", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        {"callout": "Avionics", "response": "Set"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Autopilot disconnect", "response": "Tested"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Flaps", "response": "Set for takeoff, fifteen degrees"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Checked"},
+        {"callout": "Nose steering", "response": "Checked"},
+        {"callout": "Instruments", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Fuel selector", "response": "Auto"},
+        {"callout": "Trim", "response": "Set"},
+        {"callout": "Flaps", "response": "Fifteen degrees"},
+        {"callout": "Landing lights", "response": "On"},
+        {"callout": "Pitot heat", "response": "On"},
+        {"callout": "Transponder", "response": "Altitude reporting"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Power lever", "response": "Advance to takeoff power"},
+        {"callout": "Airspeed alive", "response": "Checked"},
+        {"callout": "Rotate", "response": "Eighty knots indicated airspeed"},
+        {"callout": "Positive rate", "response": "Gear up"},
+        {"callout": "Climb speed", "response": "One hundred twenty knots indicated airspeed"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Power", "response": "Set climb power"},
+        {"callout": "Flaps", "response": "Up above one hundred thirty knots indicated airspeed"},
+        {"callout": "Climb speed", "response": "One hundred forty knots indicated airspeed"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set cruise power"},
+        {"callout": "Engine instruments", "response": "Checked"},
+        {"callout": "Pressurization", "response": "Monitored"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Engine instruments", "response": "Checked"},
+        {"callout": "Landing lights", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Fuel selector", "response": "Auto"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Landing lights", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Pitot heat", "response": "Off"},
+        {"callout": "Transponder", "response": "Standby"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Lights", "response": "Off"},
+        {"callout": "Fuel condition lever", "response": "Cut-off"},
+        {"callout": "Battery one and two", "response": "Off"}
+      ]
+    }
+  ]
+}

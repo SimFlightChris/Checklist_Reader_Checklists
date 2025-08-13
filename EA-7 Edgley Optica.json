@@ -1,0 +1,149 @@
+{
+  "aircraft": "EA-7 Edgley Optica",
+  "nickname": "Optica",
+  "checklist": [
+    {
+      "title": "Preflight Inspection",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Ignition", "response": "Off"},
+        {"callout": "Battery switch", "response": "Off"},
+        {"callout": "Generator", "response": "Off"},
+        {"callout": "Mixture", "response": "Lean"},
+        {"callout": "Fuel tank shutoff levers", "response": "Pulled"},
+        {"callout": "Fuel selector", "response": "On the fullest tank"},
+        {"callout": "Circuit breakers", "response": "All pushed in"},
+        {"callout": "Transponder", "response": "Off"},
+        {"callout": "Radios", "response": "Off"},
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Ballast weights", "response": "Set and confirm warning lights are extinguished"},
+        {"callout": "Strobe light", "response": "On"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Panel light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Strobe light", "response": "Off"},
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Taxi light", "response": "Off"},
+        {"callout": "Panel light", "response": "As required"},
+        {"callout": "Flaps", "response": "Set to zero"}
+      ]
+    },
+    {
+      "title": "Starting Engine",
+      "items": [
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Doors", "response": "Closed and locked"},
+        {"callout": "Fuel tank valve shutoff levers", "response": "Pushed in"},
+        {"callout": "Fuel selector", "response": "On the fullest tank"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Magnetos", "response": "Both"},
+        {"callout": "Brakes", "response": "Tested and set"},
+        {"callout": "Starter", "response": "On"},
+        {"callout": "Throttle lever", "response": "Advance by one centimeter then set to idle"},
+        {"callout": "Engine gauges", "response": "Checked within limits"},
+        {"callout": "Generator switch", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Starting Engine",
+      "items": [
+        {"callout": "Altimeter setting", "response": "Set and checked"},
+        {"callout": "Transponder", "response": "Set to standby"},
+        {"callout": "Compass", "response": "Checked working and aligned"},
+        {"callout": "Flaps", "response": "Set to zero"},
+        {"callout": "Elevator trim", "response": "Set to neutral"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Fuel selector", "response": "On the fullest tank"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Panel light", "response": "As required"},
+        {"callout": "Control stick", "response": "Free and correct with full travel"},
+        {"callout": "Throttle lever", "response": "Set to two thousand one hundred revolutions per minute"},
+        {"callout": "Magnetos", "response": "Checked left and right with a fifty revolutions per minute drop each"},
+        {"callout": "Throttle lever", "response": "Idle"}
+      ]
+    },
+    {
+      "title": "Normal Takeoff",
+      "items": [
+        {"callout": "Taxi light", "response": "Off"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Transponder", "response": "Set to altitude reporting"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Brakes", "response": "Tested and set"},
+        {"callout": "Throttle", "response": "Full power"},
+        {"callout": "Brakes", "response": "Release"},
+        {"callout": "Rotation", "response": "At fifty nine knots indicated airspeed"},
+        {"callout": "Initial climb", "response": "At sixty six knots indicated airspeed"},
+        {"callout": "Throttle", "response": "Set to two thousand one hundred revolutions per minute"},
+        {"callout": "Trim", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Cruise speed", "response": "Adjusted to seventy knots indicated airspeed"},
+        {"callout": "Trim", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Throttle", "response": "As required"},
+        {"callout": "Trim", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Normal Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Set to landing position"},
+        {"callout": "Fuel pump", "response": "On"},
+        {"callout": "Speed", "response": "Greater than fifty eight knots indicated airspeed"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Fuel pump", "response": "Off"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Transponder", "response": "Set to standby"},
+        {"callout": "Taxi light", "response": "On"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Strobe light", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle lever", "response": "Idle"},
+        {"callout": "Elevator trim", "response": "Neutral"},
+        {"callout": "Taxi light", "response": "Off"},
+        {"callout": "Generator", "response": "Off"},
+        {"callout": "Mixture", "response": "Lean"},
+        {"callout": "Fuel tank valve shutoff levers", "response": "Pulled"},
+        {"callout": "Ignition", "response": "Off"},
+        {"callout": "Radios", "response": "Off"},
+        {"callout": "Navigation lights", "response": "Off"},
+        {"callout": "Battery", "response": "Off"}
+      ]
+    }
+  ]
+}

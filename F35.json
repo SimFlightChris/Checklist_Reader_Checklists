@@ -1,0 +1,84 @@
+{
+  "aircraft": "F35 Lightning II",
+  "nickname": "Lightning Two",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Battery", "response": "On"},
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Seat safety pin", "response": "Removed"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Circuit breakers", "response": "In"},
+        {"callout": "Fuel quantity", "response": "Checked"},
+        {"callout": "Landing gear handle", "response": "Down"},
+        {"callout": "Parking brake", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Engine start", "response": "Initiated"},
+        {"callout": "Engine instruments", "response": "Monitored"},
+        {"callout": "Flight control surfaces", "response": "Checked"},
+        {"callout": "Hydraulic, generator, flight control system, oxygen", "response": "Status checked"},
+        {"callout": "Canopy", "response": "Closed and locked"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Flaps", "response": "Automatic"},
+        {"callout": "Avionics and displays", "response": "Set"},
+        {"callout": "Communications and navigation", "response": "Set"},
+        {"callout": "Flight controls", "response": "Checked"},
+        {"callout": "Brakes", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Flight controls", "response": "Final check"},
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Automatic"},
+        {"callout": "Engine", "response": "Stable"},
+        {"callout": "Trim", "response": "Set"},
+        {"callout": "Weapons systems", "response": "Standby or safe"},
+        {"callout": "Brake hold and anti-skid", "response": "On"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Automatic"},
+        {"callout": "Climb power", "response": "Set"},
+        {"callout": "Navigation", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Speed", "response": "At or below two hundred fifty knots indicated airspeed"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "Automatic"},
+        {"callout": "Hook if carrier", "response": "Down"},
+        {"callout": "Approach mode", "response": "Selected"},
+        {"callout": "Head-up display and flight path", "response": "Monitored"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Throttle", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Seat safety pin", "response": "Installed"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Flight data recording", "response": "Complete"}
+      ]
+    }
+  ]
+}

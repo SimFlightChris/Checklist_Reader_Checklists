@@ -1,0 +1,151 @@
+{
+  "aircraft": "Grumman F-14B Tomcat",
+  "nickname": "F-14B",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Covers, wheel chocks, and tie-down chains", "response": "Removed"},
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "Master battery switch", "response": "On"},
+        {"callout": "Ground power unit switch", "response": "On"},
+        {"callout": "Avionics master switch", "response": "On"},
+        {"callout": "Heads up display switch", "response": "On"},
+        {"callout": "Fuel quantity", "response": "Checked and within limits"},
+        {"callout": "Fuel shutoff levers", "response": "Pushed in"},
+        {"callout": "Inlet ramps", "response": "Set to automatic"},
+        {"callout": "Wing sweep", "response": "Manual mode, fully swept"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Area around aircraft", "response": "Clear"},
+        {"callout": "Port engine crank switch", "response": "On until engine reaches idle speed"},
+        {"callout": "Starboard engine crank switch", "response": "On after port engine stabilizes"},
+        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"},
+        {"callout": "Ground power unit switch", "response": "Off after both engines stable"},
+        {"callout": "Generator switches", "response": "On"},
+        {"callout": "Flight instruments", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Wings", "response": "Remain in manual mode, fully swept"},
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set to takeoff position"},
+        {"callout": "Transponder", "response": "Set to altitude reporting"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Wing sweep lever", "response": "Fully forward"},
+        {"callout": "Wing sweep cover", "response": "Closed for automatic mode"},
+        {"callout": "Flaps", "response": "Stage one for runway takeoff or full for carrier launch"},
+        {"callout": "Direct lift control switch", "response": "Off"},
+        {"callout": "Anti-skid switch", "response": "On"},
+        {"callout": "Engines", "response": "Afterburner as required for payload and runway length"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Throttle", "response": "Advance to military power or afterburner if heavy"},
+        {"callout": "Rotation speed", "response": "Rotate at one hundred fifty knots"},
+        {"callout": "Positive rate of climb", "response": "Verify"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Afterburner", "response": "Disengage above two hundred fifty knots if used"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain between three hundred fifty and four hundred fifty knots"},
+        {"callout": "Wing sweep", "response": "Automatic mode"},
+        {"callout": "Engines", "response": "Monitor temperatures and pressures"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power setting", "response": "Set for mission profile"},
+        {"callout": "Wing sweep", "response": "Automatic"},
+        {"callout": "Fuel quantity", "response": "Check"},
+        {"callout": "Engine instruments", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel quantity", "response": "Check and set fullest tank"},
+        {"callout": "Wing sweep", "response": "Automatic"},
+        {"callout": "Flaps", "response": "Full when below approach speed"},
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Direct lift control switch", "response": "On"},
+        {"callout": "Automatic flight control system", "response": "Engaged"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Approach speed", "response": "Maintain one hundred fifteen knots or as required for weight"},
+        {"callout": "Throttle", "response": "Adjust to maintain glide slope"},
+        {"callout": "Touchdown", "response": "Idle power, maintain centerline"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Wing sweep", "response": "Manual, fully swept"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Direct lift control switch", "response": "Off"},
+        {"callout": "Lights", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle for cooldown"},
+        {"callout": "Fuel shutoff levers", "response": "Pull to cut off"},
+        {"callout": "Avionics master switch", "response": "Off"},
+        {"callout": "Master battery switch", "response": "Off"},
+        {"callout": "Covers, chocks, and chains", "response": "Installed as required"}
+      ]
+    },
+    {
+      "title": "Spin Recovery",
+      "items": [
+        {"callout": "Throttle", "response": "Maintain without afterburner"},
+        {"callout": "Stick", "response": "Apply to oppose rotation"},
+        {"callout": "Rudder", "response": "Apply opposite to yaw"},
+        {"callout": "Airspeed", "response": "Allow to increase above one hundred forty knots"},
+        {"callout": "Recover", "response": "Level flight above two hundred fifty knots"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Fuel shutoff lever", "response": "Pull"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Crank engine", "response": "To draw flames into engine"},
+        {"callout": "Ground power unit switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use onboard extinguisher"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical load", "response": "Reduce to minimum"},
+        {"callout": "Circuit breakers", "response": "Check and reset if required"},
+        {"callout": "Generator switches", "response": "Cycle off and on"},
+        {"callout": "Landing", "response": "Plan to land as soon as possible"}
+      ]
+    }
+  ]
+}

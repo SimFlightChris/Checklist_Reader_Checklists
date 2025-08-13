@@ -1,0 +1,198 @@
+{
+  "aircraft": "PA-34-220T Seneca V",
+  "nickname": "Seneca V",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        {"call": "Control wheel", "response": "Release restraints"},
+        {"call": "Static system", "response": "Drain"},
+        {"call": "Parking brake", "response": "Set"},
+        {"call": "Magnetos", "response": "Off"},
+        {"call": "Standby fuel pumps", "response": "Off"},
+        {"call": "Flight controls", "response": "Free and correct"},
+        {"call": "Landing gear selector", "response": "Down"},
+        {"call": "Throttles", "response": "Idle"},
+        {"call": "Mixture controls", "response": "Idle cutoff"},
+        {"call": "Alternate static source", "response": "Normal"},
+        {"call": "Cowl flaps", "response": "Open"},
+        {"call": "Trim controls", "response": "Neutral"},
+        {"call": "Fuel selectors", "response": "On"},
+        {"call": "Avionics master", "response": "Off"},
+        {"call": "Electrical switches", "response": "Off"},
+        {"call": "Battery master switch", "response": "On"},
+        {"call": "Annunciator panel", "response": "Press to test"},
+        {"call": "Fuel quantity gauges", "response": "Check"},
+        {"call": "Landing gear lights", "response": "Three green"},
+        {"call": "Flaps", "response": "Extend"},
+        {"call": "Battery master switch", "response": "Off"},
+        {"call": "Windows", "response": "Clean"},
+        {"call": "Required documents", "response": "On board"},
+        {"call": "Baggage", "response": "Stowed and secure"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"call": "Parking brake", "response": "Set"},
+        {"call": "Fuel selectors", "response": "On"},
+        {"call": "Cowl flaps", "response": "Open"},
+        {"call": "Propeller area", "response": "Clear"},
+        {"call": "Battery master switch", "response": "On"},
+        {"call": "Beacon light", "response": "On"},
+        {"call": "Mixture", "response": "Full rich"},
+        {"call": "Propeller levers", "response": "Full forward"},
+        {"call": "Throttle", "response": "Open one quarter of an inch"},
+        {"call": "Standby fuel pump", "response": "On for priming, then off"},
+        {"call": "Magnetos", "response": "Start"},
+        {"call": "Oil pressure", "response": "Check rising within thirty seconds"},
+        {"call": "Avionics master", "response": "On"},
+        {"call": "Flight instruments", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"call": "Brakes", "response": "Hold"},
+        {"call": "Throttle", "response": "Advance to two thousand RPM"},
+        {"call": "Propeller feathering", "response": "Check"},
+        {"call": "Magnetos", "response": "Check drop not exceeding one hundred seventy-five RPM and difference not more than fifty RPM"},
+        {"call": "Propeller cycle", "response": "Check"},
+        {"call": "Engine gauges", "response": "In the green"},
+        {"call": "Vacuum system", "response": "Check"},
+        {"call": "Ammeter", "response": "Check charging"},
+        {"call": "Throttle", "response": "Idle check, then set for taxi"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"call": "Brakes", "response": "Test"},
+        {"call": "Flight instruments", "response": "Check"},
+        {"call": "Turn coordinator and compass", "response": "Check"},
+        {"call": "Directional gyro", "response": "Aligned"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"call": "Controls", "response": "Free and correct"},
+        {"call": "Trim", "response": "Set for takeoff"},
+        {"call": "Fuel selectors", "response": "On main tanks"},
+        {"call": "Cowl flaps", "response": "Open"},
+        {"call": "Mixture", "response": "Full rich"},
+        {"call": "Propeller", "response": "Full forward"},
+        {"call": "Magnetos", "response": "Both"},
+        {"call": "Engine gauges", "response": "Check"},
+        {"call": "Flaps", "response": "Set as required"},
+        {"call": "Doors and windows", "response": "Closed and latched"},
+        {"call": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "After Takeoff",
+      "items": [
+        {"call": "Landing gear", "response": "Up"},
+        {"call": "Flaps", "response": "Up"},
+        {"call": "Cowl flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"call": "Power", "response": "Set climb power"},
+        {"call": "Cowl flaps", "response": "As required"},
+        {"call": "Mixture", "response": "Adjust for smooth operation"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"call": "Power", "response": "Set per cruise chart"},
+        {"call": "Mixture", "response": "Lean as required"},
+        {"call": "Engine gauges", "response": "Check"},
+        {"call": "Fuel quantity", "response": "Check"},
+        {"call": "Fuel selectors", "response": "Change tanks periodically"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"call": "Power", "response": "Reduce as required"},
+        {"call": "Mixture", "response": "Enrich as required"},
+        {"call": "Propeller", "response": "Full forward if rapid power increase possible"},
+        {"call": "Cowl flaps", "response": "Close"},
+        {"call": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"call": "Fuel selectors", "response": "On fullest tank"},
+        {"call": "Mixture", "response": "Full rich"},
+        {"call": "Propeller", "response": "Full forward"},
+        {"call": "Landing gear", "response": "Down"},
+        {"call": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"call": "Airspeed", "response": "Maintain within limits"},
+        {"call": "Touchdown", "response": "Main wheels first"},
+        {"call": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"call": "Flaps", "response": "Up"},
+        {"call": "Cowl flaps", "response": "Open"},
+        {"call": "Landing light", "response": "Off"},
+        {"call": "Transponder", "response": "Standby"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"call": "Parking brake", "response": "Set"},
+        {"call": "Avionics master", "response": "Off"},
+        {"call": "Mixture", "response": "Idle cutoff"},
+        {"call": "Magnetos", "response": "Off"},
+        {"call": "Battery master switch", "response": "Off"},
+        {"call": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"call": "Mixture", "response": "Idle cutoff"},
+        {"call": "Throttle", "response": "Full open"},
+        {"call": "Starter", "response": "Crank to draw flames into engine"},
+        {"call": "Fuel selectors", "response": "Off"},
+        {"call": "Battery master switch", "response": "Off"},
+        {"call": "Fire extinguisher", "response": "Discharge"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"call": "Airspeed", "response": "Maintain best glide"},
+        {"call": "Fuel selectors", "response": "On"},
+        {"call": "Standby fuel pumps", "response": "On"},
+        {"call": "Mixture", "response": "Full rich"},
+        {"call": "Propeller", "response": "Feather"},
+        {"call": "Magnetos", "response": "Check"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"call": "Electrical load", "response": "Reduce to minimum"},
+        {"call": "Circuit breakers", "response": "Check and reset if required"},
+        {"call": "Alternator switches", "response": "Cycle off and on"},
+        {"call": "Land", "response": "As soon as practical"}
+      ]
+    }
+  ]
+}

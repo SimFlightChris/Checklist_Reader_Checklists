@@ -1,0 +1,160 @@
+{
+  "aircraft": "PA-28-161 Warrior II",
+  "nickname": "Warrior II",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Magnetos", "response": "Off" },
+        { "callout": "Battery master", "response": "Off" },
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Circuit breakers", "response": "Checked in" },
+        { "callout": "Avionics", "response": "Off" },
+        { "callout": "Fuel quantity", "response": "Checked" },
+        { "callout": "Exterior lights", "response": "On then off" },
+        { "callout": "Annunciator lights", "response": "Checked" },
+        { "callout": "Flight controls", "response": "Free and correct" },
+        { "callout": "Elevator and rudder trim", "response": "Neutral" },
+        { "callout": "Flaps", "response": "Extended then retracted" },
+        { "callout": "External visual inspection", "response": "Complete" }
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        { "callout": "Passenger briefing", "response": "Complete" },
+        { "callout": "Seats seat belts and harnesses", "response": "Adjusted and locked" },
+        { "callout": "Doors", "response": "Closed and latched" },
+        { "callout": "Brakes", "response": "Tested and set" },
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Mixture", "response": "Full rich" },
+        { "callout": "Throttle", "response": "Open one quarter of an inch" },
+        { "callout": "Carburetor heat", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        { "callout": "Battery master", "response": "On" },
+        { "callout": "Navigation lights", "response": "On" },
+        { "callout": "Fuel pump", "response": "On, check pressure, then off" },
+        { "callout": "Propeller area", "response": "Clear" },
+        { "callout": "Magnetos", "response": "Start" },
+        { "callout": "Throttle", "response": "Set for one thousand RPM" },
+        { "callout": "Oil pressure", "response": "Checked" },
+        { "callout": "Alternator", "response": "On" },
+        { "callout": "Avionics master", "response": "On" },
+        { "callout": "Radios", "response": "On" },
+        { "callout": "Transponder", "response": "Standby" }
+      ]
+    },
+    {
+      "title": "Before Taxi",
+      "items": [
+        { "callout": "Avionics", "response": "Set" },
+        { "callout": "Altimeter", "response": "Set" },
+        { "callout": "Heading indicator", "response": "Set" },
+        { "callout": "Flight instruments", "response": "Checked" },
+        { "callout": "Flaps", "response": "Retracted" },
+        { "callout": "Elevator trim", "response": "Set for take-off" }
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        { "callout": "Brakes", "response": "Checked" },
+        { "callout": "Steering", "response": "Checked" },
+        { "callout": "Flight instruments", "response": "Checked" }
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Throttle", "response": "Advance to two thousand RPM" },
+        { "callout": "Magnetos", "response": "Each drop does not exceed one hundred seventy-five RPM and difference does not exceed fifty RPM" },
+        { "callout": "Carburetor heat", "response": "On for a drop then off" },
+        { "callout": "Engine instruments", "response": "Checked" },
+        { "callout": "Vacuum gauge", "response": "Checked between four point eight and five point one inches of mercury" },
+        { "callout": "Ammeter and annunciator panel", "response": "Checked" },
+        { "callout": "Throttle", "response": "Idle then set for one thousand RPM" }
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        { "callout": "Flaps", "response": "Set as required between zero and twenty-five degrees" },
+        { "callout": "Elevator trim", "response": "Set for take-off" },
+        { "callout": "Mixture", "response": "Full rich" },
+        { "callout": "Fuel pump", "response": "On" },
+        { "callout": "Doors and windows", "response": "Closed and latched" },
+        { "callout": "Landing light", "response": "On" },
+        { "callout": "Transponder", "response": "Altitude reporting" }
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        { "callout": "Throttle", "response": "Full open" },
+        { "callout": "Engine instruments", "response": "Checked" },
+        { "callout": "Rotate", "response": "At fifty-five knots indicated airspeed" },
+        { "callout": "Climb speed", "response": "Seventy-nine knots indicated airspeed" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Throttle", "response": "Set" },
+        { "callout": "Mixture", "response": "Lean as required" },
+        { "callout": "Fuel pump", "response": "Off" },
+        { "callout": "Engine instruments", "response": "Checked" }
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        { "callout": "Mixture", "response": "Enrich as required" },
+        { "callout": "Throttle", "response": "Set" },
+        { "callout": "Fuel selector", "response": "On the fullest tank" },
+        { "callout": "Landing light", "response": "On" },
+        { "callout": "Fuel pump", "response": "On" }
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        { "callout": "Seats and seat belts", "response": "Upright and secured" },
+        { "callout": "Flaps", "response": "As required" },
+        { "callout": "Airspeed", "response": "Sixty-three knots indicated airspeed with full flap" }
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Fuel pump", "response": "Off" },
+        { "callout": "Landing light", "response": "Off" },
+        { "callout": "Transponder", "response": "Standby" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Avionics", "response": "Off" },
+        { "callout": "Throttle", "response": "Set for one thousand RPM" },
+        { "callout": "Mixture", "response": "Cut-off" },
+        { "callout": "Magnetos", "response": "Off" },
+        { "callout": "Battery master", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        { "callout": "Control lock", "response": "Installed" },
+        { "callout": "Tie-downs and chocks", "response": "Installed" },
+        { "callout": "Baggage and doors", "response": "Secured" }
+      ]
+    }
+  ]
+}

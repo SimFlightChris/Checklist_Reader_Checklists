@@ -1,0 +1,80 @@
+{
+  "aircraft": "Cessna Citation CJ4",
+  "nickname": "Citation CJ4",
+  "checklist": [
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Left engine starter button", "response": "Press"},
+        {"callout": "Left engine run switch", "response": "Set to run"},
+        {"callout": "Monitor MFD for starter indication", "response": "Confirmed"},
+        {"callout": "Ignition display at twelve percent N two", "response": "Confirmed"},
+        {"callout": "Engine parameters stable at approximately twenty five percent N one and six hundred degrees Celsius ITT", "response": "Confirmed"},
+        {"callout": "Repeat for right engine", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "TOGA mode", "response": "Engaged"},
+        {"callout": "Throttles", "response": "Advance to take off detent"},
+        {"callout": "Rotate", "response": "At VR, pitch to ten degrees nose up"},
+        {"callout": "Landing gear", "response": "Up after positive rate"},
+        {"callout": "Flaps", "response": "Up passing V two plus ten"},
+        {"callout": "Yaw damper", "response": "On after flaps up"},
+        {"callout": "Climb power", "response": "Set at one thousand feet above ground level"},
+        {"callout": "Flight guidance mode", "response": "Set FLC to two hundred forty knots"},
+        {"callout": "Navigation mode", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb mode", "response": "FLC at two hundred forty knots or Mach zero decimal six four"},
+        {"callout": "Power management", "response": "FADEC controlling"},
+        {"callout": "Monitor climb rate", "response": "As expected"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Throttle", "response": "Adjust to maintain desired cruise speed"},
+        {"callout": "Monitor fuel and range", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Descent planning", "response": "Calculate top of descent"},
+        {"callout": "Descent mode", "response": "Select FLC, VS, or VNAV"},
+        {"callout": "Target speed", "response": "Two hundred fifty knots by ten thousand feet"}
+      ]
+    },
+    {
+      "title": "Approach and Landing",
+      "items": [
+        {"callout": "Approach programming", "response": "Complete in FMS"},
+        {"callout": "Approach reference speeds", "response": "Set and verified"},
+        {"callout": "Slow to two hundred knots before approach", "response": "Complete"},
+        {"callout": "Flaps", "response": "Set per approach speed"},
+        {"callout": "Autopilot", "response": "Off by two hundred feet above ground level"},
+        {"callout": "Yaw damper", "response": "Off before touchdown"},
+        {"callout": "Spoilers", "response": "Deploy after touchdown"},
+        {"callout": "Braking", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Missed Approach / Go Around",
+      "items": [
+        {"callout": "TOGA button", "response": "Press"},
+        {"callout": "Thrust levers", "response": "Advance to take off detent"},
+        {"callout": "Flaps", "response": "Set to fifteen"},
+        {"callout": "Positive rate", "response": "Gear up"},
+        {"callout": "FLC", "response": "Set to two hundred knots"},
+        {"callout": "Flaps", "response": "Up at VAPP plus ten"},
+        {"callout": "Navigation mode", "response": "Select NAV and LNAV as required"}
+      ]
+    }
+  ]
+}

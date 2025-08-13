@@ -1,0 +1,210 @@
+{
+  "aircraft": "Cessna Turbo 182T",
+  "nickname": "Turbo Skylane 182T",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Pitot tube cover", "response": "Removed and clear"},
+        {"callout": "Pilot's operating handbook", "response": "Accessible to pilot"},
+        {"callout": "Garmin G1000 cockpit reference guide", "response": "Accessible to pilot"},
+        {"callout": "Airplane weight and balance", "response": "Checked"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Control wheel lock", "response": "Removed"},
+        {"callout": "Magnetos switch", "response": "Off"},
+        {"callout": "Avionics switches", "response": "Off"},
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Primary flight display", "response": "On and checked"},
+        {"callout": "Fuel quantity left and right", "response": "Checked"},
+        {"callout": "Oil pressure annunciator", "response": "On"},
+        {"callout": "Avionics fans", "response": "Checked"},
+        {"callout": "Pitot heat", "response": "On then off"},
+        {"callout": "Stall warning", "response": "Checked"},
+        {"callout": "Low volts annunciator", "response": "On"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Elevator and rudder trim", "response": "Set for takeoff"},
+        {"callout": "Fuel selector", "response": "Both"},
+        {"callout": "Alt static air valve", "response": "Off"},
+        {"callout": "Oxygen supply and masks", "response": "Checked"},
+        {"callout": "Fire extinguisher", "response": "Checked"},
+        {"callout": "Baggage compartment door", "response": "Locked"},
+        {"callout": "Tail tiedown", "response": "Disconnected"},
+        {"callout": "Control surfaces", "response": "Free and correct"},
+        {"callout": "Flaps and ailerons", "response": "Checked"},
+        {"callout": "Wing tiedown", "response": "Disconnected"},
+        {"callout": "Fuel tank vents", "response": "Clear"},
+        {"callout": "Main wheel tires", "response": "Checked"},
+        {"callout": "Fuel sumps", "response": "Drained and clear"},
+        {"callout": "Fuel quantity", "response": "Checked visually"},
+        {"callout": "Fuel caps", "response": "Secure"},
+        {"callout": "Static source openings", "response": "Clear"},
+        {"callout": "Fuel strainer", "response": "Drained and clear"},
+        {"callout": "Engine cooling air inlets", "response": "Clear"},
+        {"callout": "Propeller and spinner", "response": "Checked"},
+        {"callout": "Air filter", "response": "Clear"},
+        {"callout": "Nosewheel strut and tire", "response": "Checked"},
+        {"callout": "Engine oil", "response": "Between four and nine quarts"},
+        {"callout": "Stall warning vane", "response": "Free"},
+        {"callout": "Landing and taxi lights", "response": "Checked"}
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        {"callout": "Preflight inspection", "response": "Complete"},
+        {"callout": "Passenger briefing", "response": "Complete"},
+        {"callout": "Seats and belts", "response": "Adjusted and locked"},
+        {"callout": "Brakes", "response": "Tested and set"},
+        {"callout": "Circuit breakers", "response": "Checked"},
+        {"callout": "Electrical equipment", "response": "Off"},
+        {"callout": "Avionics switches", "response": "Off"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Fuel selector", "response": "Both"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Throttle", "response": "Open one quarter inch"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Standby battery switch", "response": "Test then arm"},
+        {"callout": "Engine indicating system", "response": "Checked"},
+        {"callout": "Bus volts and amps", "response": "Checked"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Fuel pump", "response": "On for 3 to 5 seconds until fuel flow stable, then off"},
+        {"callout": "Magnetos switch", "response": "Start"},
+        {"callout": "Mixture", "response": "Advance to full rich as engine starts"},
+        {"callout": "Oil pressure", "response": "In green within one minute"},
+        {"callout": "Ammeters and volts", "response": "Checked"},
+        {"callout": "Avionics switches", "response": "On"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Seats and belts", "response": "Secure"},
+        {"callout": "Cabin doors", "response": "Closed and locked"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Flight instruments", "response": "Checked"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Fuel selector", "response": "Both"},
+        {"callout": "Autopilot", "response": "Checked"},
+        {"callout": "Elevator and rudder trim", "response": "Set for takeoff"},
+        {"callout": "Throttle", "response": "1800 RPM"},
+        {"callout": "Magnetos", "response": "Checked"},
+        {"callout": "Propeller", "response": "Cycled"},
+        {"callout": "Engine gauges", "response": "In green"},
+        {"callout": "Annunciators", "response": "None showing"},
+        {"callout": "Throttle idle", "response": "Checked"},
+        {"callout": "Frequencies and navigation", "response": "Set"},
+        {"callout": "Wing flaps", "response": "Up to 20 degrees"},
+        {"callout": "Cowl flaps", "response": "Open"},
+        {"callout": "Windows", "response": "Closed and locked"},
+        {"callout": "Strobe light", "response": "On"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Wing flaps", "response": "Up to 20 degrees"},
+        {"callout": "Throttle", "response": "Full"},
+        {"callout": "Propeller", "response": "2400 RPM"},
+        {"callout": "Mixture", "response": "Adjust for 24 gallons per hour"},
+        {"callout": "Rotate", "response": "At 50 to 60 knots"},
+        {"callout": "Climb speed", "response": "70 knots flaps 20 degrees, 80 knots flaps up"},
+        {"callout": "Flaps", "response": "Retract when safe"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "90 to 100 knots"},
+        {"callout": "Throttle", "response": "25 inches manifold pressure"},
+        {"callout": "Propeller", "response": "2400 RPM"},
+        {"callout": "Mixture", "response": "16 gallons per hour"},
+        {"callout": "Fuel selector", "response": "Both"},
+        {"callout": "Cowl flaps", "response": "Open as required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set per altitude"},
+        {"callout": "Trim", "response": "Adjust"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Cowl flaps", "response": "Closed"},
+        {"callout": "Oxygen", "response": "Monitor if in use"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "As desired"},
+        {"callout": "Mixture", "response": "Adjust"},
+        {"callout": "Cowl flaps", "response": "Closed"},
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Fuel selector", "response": "Both"},
+        {"callout": "Wing flaps", "response": "As desired"}
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        {"callout": "Seat backs", "response": "Upright"},
+        {"callout": "Seats and belts", "response": "Secure"},
+        {"callout": "Fuel selector", "response": "Both"},
+        {"callout": "Mixture", "response": "Rich"},
+        {"callout": "Propeller", "response": "Full forward"},
+        {"callout": "Landing and taxi lights", "response": "On"},
+        {"callout": "Autopilot", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed flaps up", "response": "70 to 80 knots"},
+        {"callout": "Wing flaps", "response": "As required"},
+        {"callout": "Airspeed flaps full", "response": "60 to 70 knots"},
+        {"callout": "Touchdown", "response": "Main wheels first"},
+        {"callout": "Braking", "response": "Minimum required"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Wing flaps", "response": "Up"},
+        {"callout": "Cowl flaps", "response": "Open"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Electrical equipment", "response": "Off"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Standby battery switch", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Failure During Takeoff Roll",
+      "items": [
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Brakes", "response": "Apply"},
+        {"callout": "Wing flaps", "response": "Retract"},
+        {"callout": "Mixture", "response": "Idle cutoff"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Standby battery", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"}
+      ]
+    }
+  ]
+}

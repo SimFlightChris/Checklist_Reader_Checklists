@@ -1,0 +1,173 @@
+{
+  "aircraft": "Cessna C400 TT",
+  "nickname": "Corvalis TT",
+  "checklist": [
+    {
+      "title": "Preflight",
+      "items": [
+        { "callout": "Aircraft documents", "response": "On board and valid" },
+        { "callout": "Control locks", "response": "Removed" },
+        { "callout": "Pitot covers", "response": "Removed" },
+        { "callout": "Chocks and tiedowns", "response": "Removed" },
+        { "callout": "Walkaround inspection", "response": "Complete" },
+        { "callout": "Fuel quantity", "response": "Sufficient for flight" },
+        { "callout": "Oil quantity", "response": "Within operating range" }
+      ]
+    },
+    {
+      "title": "Before Starting Engine",
+      "items": [
+        { "callout": "Passenger briefing", "response": "Complete" },
+        { "callout": "Seat belts", "response": "Fastened" },
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Battery master", "response": "On" },
+        { "callout": "Avionics switch", "response": "Off" },
+        { "callout": "Circuit breakers", "response": "All in" },
+        { "callout": "Fuel selector", "response": "Set to left or right tank" }
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        { "callout": "Throttle", "response": "Open one quarter of an inch" },
+        { "callout": "Mixture", "response": "Full rich" },
+        { "callout": "Propeller area", "response": "Clear" },
+        { "callout": "Starter", "response": "Engage until engine starts" },
+        { "callout": "Oil pressure", "response": "Rising within thirty seconds" },
+        { "callout": "Avionics switch", "response": "On" }
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        { "callout": "Throttle", "response": "Advance to seventeen hundred RPM" },
+        { "callout": "Magnetos", "response": "Check left and right, max drop one seventy-five RPM" },
+        { "callout": "Engine instruments", "response": "Check in the green" },
+        { "callout": "Throttle", "response": "Idle check, then set to one thousand RPM" }
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        { "callout": "Doors and windows", "response": "Closed and latched" },
+        { "callout": "Flight controls", "response": "Free and correct" },
+        { "callout": "Trim", "response": "Set for takeoff" },
+        { "callout": "Flaps", "response": "Set as required" },
+        { "callout": "Mixture", "response": "Full rich" },
+        { "callout": "Transponder", "response": "Set to altitude reporting" },
+        { "callout": "Landing light", "response": "On" }
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        { "callout": "Throttle", "response": "Full forward" },
+        { "callout": "Engine instruments", "response": "In the green" },
+        { "callout": "Rotate", "response": "At seventy knots" }
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        { "callout": "Flaps", "response": "Retracted" },
+        { "callout": "Climb speed", "response": "One hundred ten knots" },
+        { "callout": "Engine instruments", "response": "Monitor" }
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        { "callout": "Throttle", "response": "Set as required" },
+        { "callout": "Mixture", "response": "Lean as required" },
+        { "callout": "Engine instruments", "response": "Monitor" }
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        { "callout": "ATIS or AWOS", "response": "Obtain" },
+        { "callout": "Altimeter", "response": "Set" },
+        { "callout": "Mixture", "response": "Enrich as needed" },
+        { "callout": "Engine instruments", "response": "Monitor" }
+      ]
+    },
+    {
+      "title": "Before Landing",
+      "items": [
+        { "callout": "Seat belts", "response": "Fastened" },
+        { "callout": "Landing light", "response": "On" },
+        { "callout": "Fuel selector", "response": "On fullest tank" },
+        { "callout": "Mixture", "response": "Full rich" },
+        { "callout": "Flaps", "response": "Set as required" }
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        { "callout": "Approach speed", "response": "Seventy to eighty knots" },
+        { "callout": "Touchdown", "response": "Main wheels first, hold nose off" }
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        { "callout": "Flaps", "response": "Up" },
+        { "callout": "Landing light", "response": "Off" },
+        { "callout": "Transponder", "response": "Standby" },
+        { "callout": "Mixture", "response": "Lean for taxi" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Parking brake", "response": "Set" },
+        { "callout": "Avionics switch", "response": "Off" },
+        { "callout": "Throttle", "response": "Idle" },
+        { "callout": "Mixture", "response": "Idle cutoff" },
+        { "callout": "Ignition switch", "response": "Off" },
+        { "callout": "Battery master", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        { "callout": "Control locks", "response": "Installed" },
+        { "callout": "Chocks", "response": "Installed" },
+        { "callout": "Covers", "response": "Installed" }
+      ]
+    },
+    {
+      "title": "Engine Failure After Takeoff",
+      "items": [
+        { "callout": "Airspeed", "response": "Maintain best glide speed" },
+        { "callout": "Mixture", "response": "Idle cutoff" },
+        { "callout": "Fuel selector", "response": "Off" },
+        { "callout": "Ignition switch", "response": "Off" },
+        { "callout": "Flaps", "response": "As required" },
+        { "callout": "Master switch", "response": "Off" }
+      ]
+    },
+    {
+      "title": "Engine Fire In Flight",
+      "items": [
+        { "callout": "Mixture", "response": "Idle cutoff" },
+        { "callout": "Fuel selector", "response": "Off" },
+        { "callout": "Master switch", "response": "Off" },
+        { "callout": "Cabin heat and air", "response": "Off" },
+        { "callout": "Increase airspeed", "response": "Attempt to extinguish flames" },
+        { "callout": "Emergency landing", "response": "Execute" }
+      ]
+    },
+    {
+      "title": "Electrical Fire In Flight",
+      "items": [
+        { "callout": "Master switch", "response": "Off" },
+        { "callout": "All other switches", "response": "Off" },
+        { "callout": "Vents and cabin air", "response": "Closed" },
+        { "callout": "Fire extinguisher", "response": "Activate" },
+        { "callout": "Ventilate cabin", "response": "After fire is out" },
+        { "callout": "Essential equipment", "response": "Use as needed" }
+      ]
+    }
+  ]
+}

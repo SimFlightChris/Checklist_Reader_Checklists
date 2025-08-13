@@ -1,0 +1,231 @@
+{
+  "aircraft": "Multi Engine Turboprop",
+  "nickname": "TwinPropJet",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Weight and balance", "response": "Within limits"},
+        {"callout": "Fuel quantity and caps", "response": "Checked and secured"},
+        {"callout": "Oil levels both engines", "response": "Within operating range"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Fuel selectors", "response": "Desired tanks"},
+        {"callout": "Battery and generators", "response": "Off"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Crossfeed", "response": "Off"},
+        {"callout": "Landing gear selector", "response": "Down"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Seats and belts", "response": "Adjusted and secured"},
+        {"callout": "Circuit breakers", "response": "Checked"},
+        {"callout": "Beacon light", "response": "On"},
+        {"callout": "Battery and generators", "response": "On"},
+        {"callout": "Fuel pumps", "response": "On as required"},
+        {"callout": "Condition levers", "response": "Cut off"},
+        {"callout": "Propellers", "response": "Feather"},
+        {"callout": "Start left engine", "response": "Monitor Ng oil pressure and ITT"},
+        {"callout": "Introduce fuel left", "response": "Condition lever to low idle"},
+        {"callout": "Start right engine", "response": "Monitor Ng oil pressure and ITT"},
+        {"callout": "Introduce fuel right", "response": "Condition lever to low idle"},
+        {"callout": "Generators", "response": "On and check charging"},
+        {"callout": "Propellers", "response": "Unfeather as required"},
+        {"callout": "Avionics master", "response": "On"},
+        {"callout": "Radios and transponder", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Power levers", "response": "Advance for checks"},
+        {"callout": "Propellers", "response": "Cycle each"},
+        {"callout": "Beta and reverse", "response": "Checked if permitted"},
+        {"callout": "Engine instruments", "response": "In the green"},
+        {"callout": "Auto ignition and governors", "response": "Checked"},
+        {"callout": "Feathering check", "response": "As required"},
+        {"callout": "Power levers idle", "response": "Checked then set for taxi"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Tested"},
+        {"callout": "Flight instruments", "response": "Checked and set"},
+        {"callout": "Heading indicator", "response": "Aligned with compass"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trims", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Doors", "response": "Closed and latched"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Seat belts and harnesses", "response": "Fastened"},
+        {"callout": "Fuel selectors", "response": "On proper tanks"},
+        {"callout": "Crossfeed", "response": "Off"},
+        {"callout": "Condition levers", "response": "High idle"},
+        {"callout": "Propellers", "response": "High RPM"},
+        {"callout": "Ice protection", "response": "As required"},
+        {"callout": "Landing light", "response": "On"},
+        {"callout": "Transponder", "response": "Altitude reporting"},
+        {"callout": "Runway and departure", "response": "Confirmed and briefed"}
+      ]
+    },
+    {
+      "title": "After Take-Off",
+      "items": [
+        {"callout": "Positive rate of climb", "response": "Verified"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Climb power", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "Best rate or as required"},
+        {"callout": "Condition levers", "response": "Low idle when clear of obstacles"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Cowl flaps or inlet", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set"},
+        {"callout": "Propellers", "response": "Set"},
+        {"callout": "Condition levers", "response": "Low idle"},
+        {"callout": "Heading and altitude", "response": "Maintained"},
+        {"callout": "Engine instruments", "response": "Monitor"},
+        {"callout": "Fuel balance", "response": "Checked"},
+        {"callout": "Crossfeed", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Altimeters", "response": "Set"},
+        {"callout": "Power", "response": "Adjust to control temperature and speed"},
+        {"callout": "Ice protection", "response": "As required"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Fuel selectors", "response": "On the fullest tanks"},
+        {"callout": "Condition levers", "response": "High idle"},
+        {"callout": "Propellers", "response": "High RPM"},
+        {"callout": "Landing gear", "response": "Down before landing"},
+        {"callout": "Flaps", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Airspeed", "response": "On speed and stable"},
+        {"callout": "Touchdown", "response": "Main wheels first"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Condition levers", "response": "Low idle"},
+        {"callout": "Ice protection", "response": "Off if not required"},
+        {"callout": "Landing light", "response": "Off"},
+        {"callout": "Transponder", "response": "Standby"},
+        {"callout": "Trims", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics master", "response": "Off"},
+        {"callout": "Condition levers", "response": "Cut off"},
+        {"callout": "Generators and battery", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Securing Aircraft",
+      "items": [
+        {"callout": "Chocks or tie downs", "response": "Installed"},
+        {"callout": "Covers", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Condition levers", "response": "Cut off"},
+        {"callout": "Starters", "response": "Continue to motor"},
+        {"callout": "Fuel pumps", "response": "Off"},
+        {"callout": "Battery and generators", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use extinguisher"},
+        {"callout": "Inspect before restart", "response": "Required"}
+      ]
+    },
+    {
+      "title": "Engine Failure After Take-Off",
+      "items": [
+        {"callout": "Directional control", "response": "Maintain"},
+        {"callout": "Power operating engine", "response": "Maximum"},
+        {"callout": "Flaps", "response": "Retracted"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Inoperative engine", "response": "Identify and verify"},
+        {"callout": "Condition lever inoperative engine", "response": "Cut off"},
+        {"callout": "Propeller inoperative engine", "response": "Feather"},
+        {"callout": "Airspeed", "response": "At or above safe single engine speed"},
+        {"callout": "Climb", "response": "As performance permits"}
+      ]
+    },
+    {
+      "title": "Engine Securing In Flight",
+      "items": [
+        {"callout": "Power lever inoperative engine", "response": "Idle"},
+        {"callout": "Condition lever inoperative engine", "response": "Cut off"},
+        {"callout": "Propeller inoperative engine", "response": "Feather"},
+        {"callout": "Fuel selector inoperative engine", "response": "Off"},
+        {"callout": "Ignition inoperative engine", "response": "Off"},
+        {"callout": "Crossfeed", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Propeller Overspeed",
+      "items": [
+        {"callout": "Power levers", "response": "Reduce"},
+        {"callout": "Propeller controls", "response": "Set to desired RPM"},
+        {"callout": "Airspeed", "response": "Reduce"},
+        {"callout": "Plan landing", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical load", "response": "Reduce"},
+        {"callout": "Circuit breakers", "response": "Check and reset if needed"},
+        {"callout": "Generators", "response": "Off then on to attempt reset"},
+        {"callout": "Plan landing", "response": "As soon as practical"}
+      ]
+    },
+    {
+      "title": "Gear Up Landing",
+      "items": [
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Approach speed", "response": "Minimum safe"},
+        {"callout": "Condition levers", "response": "Cut off on touchdown"},
+        {"callout": "Battery and generators", "response": "Off after stop"}
+      ]
+    }
+  ]
+}

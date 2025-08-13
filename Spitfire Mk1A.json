@@ -1,0 +1,124 @@
+{
+  "aircraft": "Spitfire Mk1A",
+  "nickname": "Spitfire Mark One Alpha",
+  "checklist": [
+    {
+      "title": "Pre-Start",
+      "items": [
+        {"callout": "Pilot", "response": "Aboard"},
+        {"callout": "Engine covers", "response": "On"},
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Door", "response": "Canopy in lock position"},
+        {"callout": "Parking brake", "response": "On"},
+        {"callout": "Battery cart", "response": "Connected"},
+        {"callout": "Start magneto", "response": "On"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Undercarriage", "response": "Down and green light"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Landing lights", "response": "Up"},
+        {"callout": "Fuel", "response": "Gauges checked"},
+        {"callout": "Generator switch", "response": "On"},
+        {"callout": "Pitot heat", "response": "On"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Throttle", "response": "Closed"},
+        {"callout": "Fuel tank levers", "response": "Both up"},
+        {"callout": "Fuel pressure cock", "response": "Carburetor to engine and pressure is checked"},
+        {"callout": "Engine primer", "response": "Four strokes and locked"},
+        {"callout": "Mixture", "response": "Full rich with the lever fully back"},
+        {"callout": "Propeller", "response": "Maximum R P M"},
+        {"callout": "Magnetos", "response": "Both on"},
+        {"callout": "Starter", "response": "Pressed"}
+      ]
+    },
+    {
+      "title": "Warm-Up",
+      "items": [
+        {"callout": "Radiator shutter", "response": "Full open"},
+        {"callout": "Fuel pressure", "response": "Between two point five and three pounds per square inch"},
+        {"callout": "Brake pressure", "response": "Checked"},
+        {"callout": "Temperatures", "response": "Checked"},
+        {"callout": "Throttle", "response": "Idle"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Parking brake", "response": "Released"},
+        {"callout": "Instruments", "response": "Checked"},
+        {"callout": "Altimeter", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Run-Up",
+      "items": [
+        {"callout": "Magneto test", "response": "Maximum drop is one hundred R P M each side"},
+        {"callout": "Propeller", "response": "One hundred percent maximum revolutions"},
+        {"callout": "Navigation lights", "response": "On"},
+        {"callout": "Altimeter", "response": "Set"},
+        {"callout": "Compass", "response": "Free and set"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Engine", "response": "Instruments checked"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Trim", "response": "Small nose down and gauge checked"},
+        {"callout": "Door", "response": "Canopy in lock position"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Brakes", "response": "Released"},
+        {"callout": "Throttle", "response": "Smoothly to maximum R P M"},
+        {"callout": "Rotate", "response": "Rotate at between seventy five and eighty five miles per hour"},
+        {"callout": "Undercarriage", "response": "Up and red light"},
+        {"callout": "Attitude", "response": "Level until one hundred fifty miles per hour"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Throttle", "response": "Plus six and one quarter boost"},
+        {"callout": "Climb rate", "response": "One thousand feet per minute at one hundred eighty miles per hour"},
+        {"callout": "Trim", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Plus four and a half boost and two thousand six hundred R P M"},
+        {"callout": "Speed", "response": "Approximately two hundred miles per hour"},
+        {"callout": "Radiator shutter", "response": "Open if temperature exceeds one hundred twenty degrees Celsius"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Throttle", "response": "Maintain one hundred forty miles per hour"},
+        {"callout": "Trim", "response": "As required"},
+        {"callout": "Undercarriage", "response": "Down and green light"},
+        {"callout": "Flaps", "response": "Down on final"},
+        {"callout": "Threshold speed", "response": "Eighty miles per hour"},
+        {"callout": "Touchdown", "response": "Sixty eight miles per hour with idle throttle"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Mixture", "response": "Full forward to cutoff"},
+        {"callout": "Fuel tank levers", "response": "Both off"},
+        {"callout": "Slow running cutout", "response": "Pulled"},
+        {"callout": "Battery cart", "response": "Disconnected"},
+        {"callout": "Canopy", "response": "Open"},
+        {"callout": "Harness", "response": "Released"}
+      ]
+    }
+  ]
+}

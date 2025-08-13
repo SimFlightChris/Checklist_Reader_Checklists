@@ -1,0 +1,198 @@
+{
+  "aircraft": "AV-8B Harrier II",
+  "nickname": "Harrier II",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Covers and safety pins", "response": "Removed"},
+        {"callout": "Fuel quantity", "response": "Checked and sufficient for flight"},
+        {"callout": "Ordnance load", "response": "Verified within weight limits"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Landing gear lever", "response": "Down"},
+        {"callout": "Nozzle retention lever", "response": "Set as required"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Battery switch", "response": "On"},
+        {"callout": "Generator switch", "response": "On"},
+        {"callout": "APU switch", "response": "On"},
+        {"callout": "Engine starter", "response": "Engage until engine starts"},
+        {"callout": "Throttle", "response": "Idle"},
+        {"callout": "Oil pressure", "response": "Check rising within seconds"},
+        {"callout": "Avionics", "response": "On"},
+        {"callout": "Flight instruments", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Trim", "response": "Set for takeoff"},
+        {"callout": "Flaps", "response": "Set as required"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Nozzle angle", "response": "Set for taxi"}
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        {"callout": "Flaps", "response": "Set for takeoff"},
+        {"callout": "Trim", "response": "Set"},
+        {"callout": "Nozzle angle", "response": "Zero degrees"},
+        {"callout": "Canopy", "response": "Closed and locked"},
+        {"callout": "HUD and displays", "response": "Configured"},
+        {"callout": "Takeoff briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Takeoff",
+      "items": [
+        {"callout": "Throttle", "response": "Advance to full power"},
+        {"callout": "Rotation speed", "response": "Rotate at one hundred sixty knots"},
+        {"callout": "Landing gear", "response": "Up"},
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Nozzle angle", "response": "Zero degrees"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain as required"},
+        {"callout": "Power", "response": "Set climb power"},
+        {"callout": "Nozzle angle", "response": "Zero degrees"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Airspeed", "response": "Three hundred fifty to four hundred fifty knots"},
+        {"callout": "Engine instruments", "response": "Check"},
+        {"callout": "Fuel quantity", "response": "Monitor"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce as required"},
+        {"callout": "Nozzle angle", "response": "Zero degrees"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Landing gear", "response": "Down"},
+        {"callout": "Flaps", "response": "As required"},
+        {"callout": "Airspeed", "response": "One hundred fifty knots over threshold"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Throttle", "response": "Idle over threshold"},
+        {"callout": "Touchdown", "response": "At one hundred fifty knots"},
+        {"callout": "Brakes", "response": "Apply when all wheels down"}
+      ]
+    },
+    {
+      "title": "Before Takeoff VSTOL",
+      "items": [
+        {"callout": "Weight", "response": "Verify below twenty one thousand pounds"},
+        {"callout": "Flaps", "response": "Set to VSTOL"},
+        {"callout": "Nozzle angle", "response": "Ninety degrees"},
+        {"callout": "Canopy", "response": "Closed and locked"}
+      ]
+    },
+    {
+      "title": "Takeoff VSTOL",
+      "items": [
+        {"callout": "Throttle", "response": "Advance smoothly to full power"},
+        {"callout": "Lift off", "response": "Maintain vertical climb"},
+        {"callout": "Landing gear", "response": "Up above one hundred feet"}
+      ]
+    },
+    {
+      "title": "Transition to Conventional Flight",
+      "items": [
+        {"callout": "Nozzle angle", "response": "Move gradually to forty five degrees"},
+        {"callout": "Pitch", "response": "Maintain five degrees nose up"},
+        {"callout": "Airspeed", "response": "Increase through one hundred fifty knots"},
+        {"callout": "Nozzle angle", "response": "Move to zero degrees above two hundred knots"}
+      ]
+    },
+    {
+      "title": "Approach VSTOL",
+      "items": [
+        {"callout": "Weight", "response": "Verify at or below twenty one thousand pounds"},
+        {"callout": "Airspeed", "response": "Reduce to two hundred forty knots"},
+        {"callout": "Nozzle angle", "response": "Forty five degrees"},
+        {"callout": "Gear", "response": "Down at one hundred forty knots"},
+        {"callout": "Flaps", "response": "Set to VSTOL"},
+        {"callout": "Nozzle angle", "response": "Ninety degrees below one hundred ten knots"}
+      ]
+    },
+    {
+      "title": "Landing VSTOL",
+      "items": [
+        {"callout": "Throttle", "response": "Adjust to maintain hover"},
+        {"callout": "Position", "response": "Align over landing spot"},
+        {"callout": "Descent", "response": "Reduce power to descend slowly"},
+        {"callout": "Touchdown", "response": "At minimal descent rate"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Flaps", "response": "Up"},
+        {"callout": "Nozzle angle", "response": "Zero degrees"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Trim", "response": "Neutral"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Throttle", "response": "Idle for cool down"},
+        {"callout": "Engine", "response": "Shut down"},
+        {"callout": "APU", "response": "Off"},
+        {"callout": "Battery", "response": "Off"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Throttle", "response": "Idle cut off"},
+        {"callout": "Starter", "response": "Continue to draw flames in"},
+        {"callout": "Fuel", "response": "Off"},
+        {"callout": "Battery", "response": "Off"},
+        {"callout": "Fire extinguisher", "response": "Use"}
+      ]
+    },
+    {
+      "title": "Engine Failure In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Best glide speed"},
+        {"callout": "Fuel", "response": "Check"},
+        {"callout": "Ignition", "response": "Check"},
+        {"callout": "Attempt restart", "response": "If altitude permits"}
+      ]
+    },
+    {
+      "title": "Electrical Failure",
+      "items": [
+        {"callout": "Electrical load", "response": "Reduce to minimum"},
+        {"callout": "Circuit breakers", "response": "Check and reset if needed"},
+        {"callout": "Battery and generator", "response": "Cycle to reset"},
+        {"callout": "Landing", "response": "Plan as soon as practical"}
+      ]
+    }
+  ]
+}

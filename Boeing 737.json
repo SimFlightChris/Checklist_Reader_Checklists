@@ -1,0 +1,114 @@
+{
+  "aircraft": "Boeing 737",
+  "nickname": "737",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        { "callout": "Parking brake", "response": "set" },
+        { "callout": "Battery switch", "response": "guard closed" },
+        { "callout": "Standby power", "response": "guard closed" },
+        { "callout": "APU start", "response": "on" },
+        { "callout": "Position lights", "response": "steady" },
+        { "callout": "Passenger signs", "response": "on" },
+        { "callout": "Packs", "response": "auto or high" },
+        { "callout": "IRS mode selectors", "response": "off then nav" },
+        { "callout": "FMC", "response": "set" },
+        { "callout": "Transponder", "response": "set" }
+      ]
+    },
+    {
+      "title": "Before Start",
+      "items": [
+        { "callout": "Autopilot disengage bar", "response": "up" },
+        { "callout": "Autothrottle", "response": "arm" },
+        { "callout": "Fuel pumps", "response": "on" },
+        { "callout": "Hydraulic pumps", "response": "on" },
+        { "callout": "Anti-collision light", "response": "on" },
+        { "callout": "Ground equipment", "response": "removed" },
+        { "callout": "Engine area", "response": "clear" }
+      ]
+    },
+    {
+      "title": "After Start",
+      "items": [
+        { "callout": "Landing gear lever", "response": "down" },
+        { "callout": "Flaps", "response": "set as required" },
+        { "callout": "Flight controls", "response": "checked" },
+        { "callout": "Window heat", "response": "on" },
+        { "callout": "Probe heat", "response": "off" }
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        { "callout": "Parking brake", "response": "off" },
+        { "callout": "Taxi lights", "response": "on" },
+        { "callout": "Runway turn-off lights", "response": "on" }
+      ]
+    },
+    {
+      "title": "Before Takeoff",
+      "items": [
+        { "callout": "Autothrottle", "response": "armed" },
+        { "callout": "FMC", "response": "programmed" },
+        { "callout": "Flight director", "response": "on" },
+        { "callout": "Transponder", "response": "TA/RA" },
+        { "callout": "Landing lights", "response": "on" },
+        { "callout": "Strobe lights", "response": "on" }
+      ]
+    },
+    {
+      "title": "After Takeoff / Climb",
+      "items": [
+        { "callout": "Landing gear", "response": "up" },
+        { "callout": "Flaps", "response": "up" },
+        { "callout": "Autobrakes", "response": "RTO then off" },
+        { "callout": "APU", "response": "start and bleed on" }
+      ]
+    },
+    {
+      "title": "Descent / Approach",
+      "items": [
+        { "callout": "Engine/wing anti-ice", "response": "as required" },
+        { "callout": "Landing lights", "response": "on" },
+        { "callout": "Window heat", "response": "off" },
+        { "callout": "Decision height", "response": "set" }
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        { "callout": "Engine start switches", "response": "off" },
+        { "callout": "Fuel pumps", "response": "off" },
+        { "callout": "APU", "response": "off" },
+        { "callout": "Ground power", "response": "connect if required" },
+        { "callout": "Anti-collision lights", "response": "off" }
+      ]
+    },
+    {
+      "title": "Emergency Descent",
+      "items": [
+        { "callout": "Announce emergency descent on PA", "response": "cabin crew rapid descent rapid descent" },
+        { "callout": "Set transponder", "response": "7700" },
+        { "callout": "Inform ATC", "response": "declaring emergency descent" },
+        { "callout": "Passenger signs", "response": "on" },
+        { "callout": "Descend to lowest safe altitude or 10 000 ft", "response": "descending" },
+        { "callout": "ENGINE START switches (both)", "response": "continuous" },
+        { "callout": "Thrust levers (both)", "response": "minimum thrust" },
+        { "callout": "Speedbrake", "response": "flight detent" },
+        { "callout": "Approaching level-off altitude speedbrake", "response": "down detent stabilized" },
+        { "callout": "Crew oxygen regulators", "response": "normal" }
+      ]
+    },
+    {
+      "title": "Cabin Altitude Warning",
+      "items": [
+        { "callout": "Don oxygen masks and establish communication", "response": "done" },
+        { "callout": "Pressurization mode selector", "response": "manual" },
+        { "callout": "Close outflow valve", "response": "closed" },
+        { "callout": "If altitude not controlled, perform emergency descent", "response": "initiated" }
+      ]
+    }
+  ]
+}
