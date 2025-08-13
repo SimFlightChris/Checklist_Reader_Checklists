@@ -1,181 +1,499 @@
 {
   "aircraft": "Cessna 170B",
-  "nickname": "C-170B",
+  "nickname": "One Seventy",
   "checklist": [
     {
       "title": "Pre-Flight",
       "items": [
-        {"callout": "Documents", "response": "On board"},
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Control lock", "response": "Removed"},
-        {"callout": "Ignition", "response": "Off"},
-        {"callout": "Master switch", "response": "Off"},
-        {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Fuel selector", "response": "Both"},
-        {"callout": "Fuel sumps", "response": "Drained"},
-        {"callout": "Oil level", "response": "Quantity within range"},
-        {"callout": "Propeller and spinner", "response": "Condition checked"},
-        {"callout": "Air inlets and pitot", "response": "Clear"},
-        {"callout": "Static ports", "response": "Clear"},
-        {"callout": "Tires and brakes", "response": "Checked"},
-        {"callout": "Flight controls", "response": "Free and correct"},
-        {"callout": "Flaps", "response": "Checked"},
-        {"callout": "Lights", "response": "Checked"},
-        {"callout": "Seats and belts", "response": "Adjusted and fastened"}
+        {
+          "callout": "Documents",
+          "response": "On board"
+        },
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Control lock",
+          "response": "Removed"
+        },
+        {
+          "callout": "Ignition",
+          "response": "Off"
+        },
+        {
+          "callout": "Master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "Off"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel selector",
+          "response": "Both"
+        },
+        {
+          "callout": "Fuel sumps",
+          "response": "Drained"
+        },
+        {
+          "callout": "Oil level",
+          "response": "Quantity within range"
+        },
+        {
+          "callout": "Propeller and spinner",
+          "response": "Condition checked"
+        },
+        {
+          "callout": "Air inlets and pitot",
+          "response": "Clear"
+        },
+        {
+          "callout": "Static ports",
+          "response": "Clear"
+        },
+        {
+          "callout": "Tires and brakes",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Free and correct"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Checked"
+        },
+        {
+          "callout": "Lights",
+          "response": "Checked"
+        },
+        {
+          "callout": "Seats and belts",
+          "response": "Adjusted and fastened"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"callout": "Circuit breakers", "response": "Checked"},
-        {"callout": "Mixture", "response": "Full rich"},
-        {"callout": "Carburetor heat", "response": "Cold"},
-        {"callout": "Throttle", "response": "Open one quarter of an inch"},
-        {"callout": "Primer", "response": "As required then locked"},
-        {"callout": "Beacon light", "response": "On"},
-        {"callout": "Master switch", "response": "On"},
-        {"callout": "Propeller area", "response": "Clear"},
-        {"callout": "Starter", "response": "Engage"},
-        {"callout": "Throttle", "response": "Set for eight hundred to one thousand R P M"},
-        {"callout": "Oil pressure", "response": "Rising within thirty seconds"},
-        {"callout": "Ammeter", "response": "Charging"},
-        {"callout": "Avionics master", "response": "On"},
-        {"callout": "Radios", "response": "Set"}
+        {
+          "callout": "Circuit breakers",
+          "response": "Checked"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Full rich"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "Cold"
+        },
+        {
+          "callout": "Throttle",
+          "response": "Open one quarter of an inch"
+        },
+        {
+          "callout": "Primer",
+          "response": "As required then locked"
+        },
+        {
+          "callout": "Beacon light",
+          "response": "On"
+        },
+        {
+          "callout": "Master switch",
+          "response": "On"
+        },
+        {
+          "callout": "Propeller area",
+          "response": "Clear"
+        },
+        {
+          "callout": "Starter",
+          "response": "Engage"
+        },
+        {
+          "callout": "Throttle",
+          "response": "Set for eight hundred to one thousand R P M"
+        },
+        {
+          "callout": "Oil pressure",
+          "response": "Rising within thirty seconds"
+        },
+        {
+          "callout": "Ammeter",
+          "response": "Charging"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "On"
+        },
+        {
+          "callout": "Radios",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Taxi",
       "items": [
-        {"callout": "Brakes", "response": "Test during initial roll"},
-        {"callout": "Steering", "response": "Checked"},
-        {"callout": "Turn coordinator", "response": "Indicating correctly"},
-        {"callout": "Heading indicator", "response": "Aligned with compass"},
-        {"callout": "Attitude indicator", "response": "Erect"},
-        {"callout": "Flight instruments", "response": "Checked"},
-        {"callout": "Flaps", "response": "As required"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Doors and windows", "response": "Closed and latched"}
+        {
+          "callout": "Brakes",
+          "response": "Test during initial roll"
+        },
+        {
+          "callout": "Steering",
+          "response": "Checked"
+        },
+        {
+          "callout": "Turn coordinator",
+          "response": "Indicating correctly"
+        },
+        {
+          "callout": "Heading indicator",
+          "response": "Aligned with compass"
+        },
+        {
+          "callout": "Attitude indicator",
+          "response": "Erect"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "As required"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Doors and windows",
+          "response": "Closed and latched"
+        }
       ]
     },
     {
       "title": "Run-Up",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Mixture", "response": "Rich"},
-        {"callout": "Throttle", "response": "Advance to one thousand seven hundred R P M"},
-        {"callout": "Magneto left", "response": "Drop within normal limits"},
-        {"callout": "Magneto right", "response": "Drop within normal limits"},
-        {"callout": "Carburetor heat", "response": "On"},
-        {"callout": "Carburetor heat", "response": "Cold"},
-        {"callout": "Engine instruments", "response": "In the green"},
-        {"callout": "Suction", "response": "Within range"},
-        {"callout": "Throttle", "response": "Idle check then one thousand R P M"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Rich"
+        },
+        {
+          "callout": "Throttle",
+          "response": "Advance to one thousand seven hundred R P M"
+        },
+        {
+          "callout": "Magneto left",
+          "response": "Drop within normal limits"
+        },
+        {
+          "callout": "Magneto right",
+          "response": "Drop within normal limits"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "On"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "Cold"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "In the green"
+        },
+        {
+          "callout": "Suction",
+          "response": "Within range"
+        },
+        {
+          "callout": "Throttle",
+          "response": "Idle check then one thousand R P M"
+        }
       ]
     },
     {
       "title": "Before Take-Off",
       "items": [
-        {"callout": "Trim", "response": "Set for takeoff"},
-        {"callout": "Flight controls", "response": "Free and correct"},
-        {"callout": "Flaps", "response": "Set as required"},
-        {"callout": "Fuel selector", "response": "Both"},
-        {"callout": "Mixture", "response": "Full rich"},
-        {"callout": "Primer", "response": "Locked"},
-        {"callout": "Doors and windows", "response": "Closed and latched"},
-        {"callout": "Seats and belts", "response": "Fastened"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Transponder", "response": "Altitude reporting"},
-        {"callout": "Takeoff briefing", "response": "Complete"}
+        {
+          "callout": "Trim",
+          "response": "Set for takeoff"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Free and correct"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set as required"
+        },
+        {
+          "callout": "Fuel selector",
+          "response": "Both"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Full rich"
+        },
+        {
+          "callout": "Primer",
+          "response": "Locked"
+        },
+        {
+          "callout": "Doors and windows",
+          "response": "Closed and latched"
+        },
+        {
+          "callout": "Seats and belts",
+          "response": "Fastened"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Altitude reporting"
+        },
+        {
+          "callout": "Takeoff briefing",
+          "response": "Complete"
+        }
       ]
     },
     {
       "title": "Takeoff",
       "items": [
-        {"callout": "Runway alignment", "response": "Confirmed"},
-        {"callout": "Power", "response": "Full throttle"},
-        {"callout": "Engine instruments", "response": "In the green"},
-        {"callout": "Airspeed", "response": "Increasing"},
-        {"callout": "Tail", "response": "Raise smoothly"},
-        {"callout": "Lift-off", "response": "Allow to fly off"},
-        {"callout": "Climb", "response": "Established"}
+        {
+          "callout": "Runway alignment",
+          "response": "Confirmed"
+        },
+        {
+          "callout": "Power",
+          "response": "Full throttle"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "In the green"
+        },
+        {
+          "callout": "Airspeed",
+          "response": "Increasing"
+        },
+        {
+          "callout": "Tail",
+          "response": "Raise smoothly"
+        },
+        {
+          "callout": "Lift-off",
+          "response": "Allow to fly off"
+        },
+        {
+          "callout": "Climb",
+          "response": "Established"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Power", "response": "Set for climb"},
-        {"callout": "Mixture", "response": "Adjust for smooth operation"},
-        {"callout": "Engine instruments", "response": "Monitor"}
+        {
+          "callout": "Power",
+          "response": "Set for climb"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Adjust for smooth operation"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Power", "response": "Set per cruise chart"},
-        {"callout": "Mixture", "response": "Lean as required"},
-        {"callout": "Engine instruments", "response": "Check"},
-        {"callout": "Fuel quantity", "response": "Check"}
+        {
+          "callout": "Power",
+          "response": "Set per cruise chart"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Lean as required"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Check"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Check"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Power", "response": "Set for descent"},
-        {"callout": "Mixture", "response": "Enrich as required"},
-        {"callout": "Carburetor heat", "response": "On before reducing power"},
-        {"callout": "Altimeter", "response": "Set"},
-        {"callout": "Approach briefing", "response": "Complete"}
+        {
+          "callout": "Power",
+          "response": "Set for descent"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Enrich as required"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "On before reducing power"
+        },
+        {
+          "callout": "Altimeter",
+          "response": "Set"
+        },
+        {
+          "callout": "Approach briefing",
+          "response": "Complete"
+        }
       ]
     },
     {
       "title": "Approach",
       "items": [
-        {"callout": "Fuel selector", "response": "Both"},
-        {"callout": "Mixture", "response": "Full rich"},
-        {"callout": "Carburetor heat", "response": "On"},
-        {"callout": "Flaps", "response": "As required"}
+        {
+          "callout": "Fuel selector",
+          "response": "Both"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Full rich"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "On"
+        },
+        {
+          "callout": "Flaps",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Landing",
       "items": [
-        {"callout": "Airspeed on final", "response": "Maintain sixty five to seventy miles per hour"},
-        {"callout": "Touchdown", "response": "Smooth"}
+        {
+          "callout": "Airspeed on final",
+          "response": "Maintain sixty five to seventy miles per hour"
+        },
+        {
+          "callout": "Touchdown",
+          "response": "Smooth"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Carburetor heat", "response": "Cold"},
-        {"callout": "Transponder", "response": "Standby"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Mixture", "response": "Lean for taxi"},
-        {"callout": "Trim", "response": "Neutral"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Carburetor heat",
+          "response": "Cold"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Standby"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Lean for taxi"
+        },
+        {
+          "callout": "Trim",
+          "response": "Neutral"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Throttle", "response": "Set to one thousand R P M for cool down"},
-        {"callout": "Mixture", "response": "Idle cut-off"},
-        {"callout": "Magnetos", "response": "Off"},
-        {"callout": "Master switch", "response": "Off"},
-        {"callout": "Control lock", "response": "Install"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "Off"
+        },
+        {
+          "callout": "Throttle",
+          "response": "Set to one thousand R P M for cool down"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Idle cut-off"
+        },
+        {
+          "callout": "Magnetos",
+          "response": "Off"
+        },
+        {
+          "callout": "Master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Control lock",
+          "response": "Install"
+        }
       ]
     },
     {
       "title": "Securing",
       "items": [
-        {"callout": "Fuel selector", "response": "Off"},
-        {"callout": "Chocks", "response": "In place"},
-        {"callout": "Tie-downs", "response": "Attached"},
-        {"callout": "Covers", "response": "Installed"},
-        {"callout": "Pitot cover", "response": "Installed"},
-        {"callout": "Doors and windows", "response": "Secured"}
+        {
+          "callout": "Fuel selector",
+          "response": "Off"
+        },
+        {
+          "callout": "Chocks",
+          "response": "In place"
+        },
+        {
+          "callout": "Tie-downs",
+          "response": "Attached"
+        },
+        {
+          "callout": "Covers",
+          "response": "Installed"
+        },
+        {
+          "callout": "Pitot cover",
+          "response": "Installed"
+        },
+        {
+          "callout": "Doors and windows",
+          "response": "Secured"
+        }
       ]
     }
   ]

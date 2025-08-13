@@ -1,109 +1,256 @@
 {
-  "aircraft": "Hawk T1A",
-  "nickname": "BAE Hawk",
+  "aircraft": "BAE Systems Hawk T1A",
+  "nickname": "Hawk",
   "checklist": [
     {
       "title": "Preflight",
       "items": [
-        {"callout": "Canopy", "response": "Open"},
-        {"callout": "Ejection seat safety pins", "response": "Installed"},
-        {"callout": "Battery", "response": "On"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Hydraulic pressure", "response": "Checked"},
-        {"callout": "Circuit breakers", "response": "Checked"},
-        {"callout": "Gear lever", "response": "Down"},
-        {"callout": "Parking brake", "response": "Set"}
+        {
+          "callout": "Canopy",
+          "response": "Open"
+        },
+        {
+          "callout": "Ejection seat safety pins",
+          "response": "Installed"
+        },
+        {
+          "callout": "Battery",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Hydraulic pressure",
+          "response": "Checked"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "Checked"
+        },
+        {
+          "callout": "Gear lever",
+          "response": "Down"
+        },
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"callout": "Throttle", "response": "Idle"},
-        {"callout": "Engine start switch", "response": "Engaged"},
-        {"callout": "RPM and exhaust gas temperature", "response": "Monitor"},
-        {"callout": "Hydraulic pressure", "response": "Checked"},
-        {"callout": "Generators", "response": "On"},
-        {"callout": "Avionics", "response": "On"}
+        {
+          "callout": "Throttle",
+          "response": "Idle"
+        },
+        {
+          "callout": "Engine start switch",
+          "response": "Engaged"
+        },
+        {
+          "callout": "RPM and exhaust gas temperature",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Hydraulic pressure",
+          "response": "Checked"
+        },
+        {
+          "callout": "Generators",
+          "response": "On"
+        },
+        {
+          "callout": "Avionics",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Before Taxi",
       "items": [
-        {"callout": "Canopy", "response": "Closed and locked"},
-        {"callout": "Trims", "response": "Set"},
-        {"callout": "Flight controls", "response": "Checked"},
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Instruments", "response": "Checked"},
-        {"callout": "Communications", "response": "Set"}
+        {
+          "callout": "Canopy",
+          "response": "Closed and locked"
+        },
+        {
+          "callout": "Trims",
+          "response": "Set"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Communications",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"callout": "Canopy", "response": "Locked"},
-        {"callout": "Harness", "response": "Secure"},
-        {"callout": "Ejection seat", "response": "Armed"},
-        {"callout": "Landing light", "response": "On"},
-        {"callout": "Transponder", "response": "On"},
-        {"callout": "Pitot heat", "response": "On"}
+        {
+          "callout": "Canopy",
+          "response": "Locked"
+        },
+        {
+          "callout": "Harness",
+          "response": "Secure"
+        },
+        {
+          "callout": "Ejection seat",
+          "response": "Armed"
+        },
+        {
+          "callout": "Landing light",
+          "response": "On"
+        },
+        {
+          "callout": "Transponder",
+          "response": "On"
+        },
+        {
+          "callout": "Pitot heat",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "After Takeoff",
       "items": [
-        {"callout": "Gear", "response": "Up"},
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Power", "response": "Set for climb"}
+        {
+          "callout": "Gear",
+          "response": "Up"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Power",
+          "response": "Set for climb"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Engine instruments", "response": "Monitor"},
-        {"callout": "Fuel", "response": "Checked"},
-        {"callout": "Navigation and communication", "response": "As required"}
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Fuel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Navigation and communication",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Altimeter", "response": "Set"},
-        {"callout": "Fuel", "response": "Checked"}
+        {
+          "callout": "Altimeter",
+          "response": "Set"
+        },
+        {
+          "callout": "Fuel",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Approach",
       "items": [
-        {"callout": "Landing light", "response": "On"}
+        {
+          "callout": "Landing light",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Before Landing",
       "items": [
-        {"callout": "Gear", "response": "Down"},
-        {"callout": "Flaps", "response": "As required"},
-        {"callout": "Speedbrake", "response": "As required"},
-        {"callout": "Landing checklist", "response": "Completed"}
+        {
+          "callout": "Gear",
+          "response": "Down"
+        },
+        {
+          "callout": "Flaps",
+          "response": "As required"
+        },
+        {
+          "callout": "Speedbrake",
+          "response": "As required"
+        },
+        {
+          "callout": "Landing checklist",
+          "response": "Completed"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Canopy", "response": "As required"},
-        {"callout": "Landing light", "response": "Off"},
-        {"callout": "Pitot heat", "response": "Off"},
-        {"callout": "Transponder", "response": "Standby"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Canopy",
+          "response": "As required"
+        },
+        {
+          "callout": "Landing light",
+          "response": "Off"
+        },
+        {
+          "callout": "Pitot heat",
+          "response": "Off"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Standby"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"callout": "Throttle", "response": "Off"},
-        {"callout": "Engine", "response": "Shutdown complete"},
-        {"callout": "Generators", "response": "Off"},
-        {"callout": "Battery", "response": "Off"},
-        {"callout": "Ejection seat safety pin", "response": "Installed"}
+        {
+          "callout": "Throttle",
+          "response": "Off"
+        },
+        {
+          "callout": "Engine",
+          "response": "Shutdown complete"
+        },
+        {
+          "callout": "Generators",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery",
+          "response": "Off"
+        },
+        {
+          "callout": "Ejection seat safety pin",
+          "response": "Installed"
+        }
       ]
     }
   ]

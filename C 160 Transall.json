@@ -1,186 +1,489 @@
 {
-  "aircraft": "C160 Transall",
-  "nickname": "AzurPoly C160R",
+  "aircraft": "Aérospatiale MBB C-160 Transall",
+  "nickname": "Transall",
   "checklist": [
     {
       "title": "Preflight",
       "items": [
-        {"callout": "Aircraft documents", "response": "On board and checked"},
-        {"callout": "Control locks", "response": "Removed"},
-        {"callout": "Chocks and covers", "response": "Removed"},
-        {"callout": "Pitot covers", "response": "Removed"},
-        {"callout": "Cargo doors", "response": "Closed and secured"},
-        {"callout": "Aircraft walkaround", "response": "Complete"},
-        {"callout": "Hydraulic fluid", "response": "Quantity checked"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Oil levels", "response": "Checked"}
+        {
+          "callout": "Aircraft documents",
+          "response": "On board and checked"
+        },
+        {
+          "callout": "Control locks",
+          "response": "Removed"
+        },
+        {
+          "callout": "Chocks and covers",
+          "response": "Removed"
+        },
+        {
+          "callout": "Pitot covers",
+          "response": "Removed"
+        },
+        {
+          "callout": "Cargo doors",
+          "response": "Closed and secured"
+        },
+        {
+          "callout": "Aircraft walkaround",
+          "response": "Complete"
+        },
+        {
+          "callout": "Hydraulic fluid",
+          "response": "Quantity checked"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Oil levels",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Before Engine Start",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Battery", "response": "On"},
-        {"callout": "Fuel valves", "response": "Open"},
-        {"callout": "Fuel pumps", "response": "On"},
-        {"callout": "APU air inlet", "response": "Open"},
-        {"callout": "APU start", "response": "Engaged"},
-        {"callout": "APU indicators", "response": "RPM, temperature and pressure within limits"},
-        {"callout": "GPU if used", "response": "Connected"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Instruments", "response": "Set and checked"},
-        {"callout": "Flight controls", "response": "Free and correct"},
-        {"callout": "Elevator and rudder trim", "response": "Set for takeoff"},
-        {"callout": "Circuit breakers", "response": "All in"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Battery",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel valves",
+          "response": "Open"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "On"
+        },
+        {
+          "callout": "APU air inlet",
+          "response": "Open"
+        },
+        {
+          "callout": "APU start",
+          "response": "Engaged"
+        },
+        {
+          "callout": "APU indicators",
+          "response": "RPM, temperature and pressure within limits"
+        },
+        {
+          "callout": "GPU if used",
+          "response": "Connected"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Instruments",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Free and correct"
+        },
+        {
+          "callout": "Elevator and rudder trim",
+          "response": "Set for takeoff"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "All in"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"callout": "Condition levers", "response": "Low idle"},
-        {"callout": "Idle levers", "response": "Start position"},
-        {"callout": "Starter switch", "response": "Engaged, monitor RPM and temperature"},
-        {"callout": "Oil pressure", "response": "Rising and within limits"},
-        {"callout": "Starter cutout", "response": "Confirmed"},
-        {"callout": "Idle levers", "response": "Normal position"},
-        {"callout": "Condition levers", "response": "High idle"},
-        {"callout": "Second engine", "response": "Repeat start sequence"},
-        {"callout": "Generators", "response": "On and output checked"},
-        {"callout": "GPU if used", "response": "Disconnected"}
+        {
+          "callout": "Condition levers",
+          "response": "Low idle"
+        },
+        {
+          "callout": "Idle levers",
+          "response": "Start position"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Engaged, monitor RPM and temperature"
+        },
+        {
+          "callout": "Oil pressure",
+          "response": "Rising and within limits"
+        },
+        {
+          "callout": "Starter cutout",
+          "response": "Confirmed"
+        },
+        {
+          "callout": "Idle levers",
+          "response": "Normal position"
+        },
+        {
+          "callout": "Condition levers",
+          "response": "High idle"
+        },
+        {
+          "callout": "Second engine",
+          "response": "Repeat start sequence"
+        },
+        {
+          "callout": "Generators",
+          "response": "On and output checked"
+        },
+        {
+          "callout": "GPU if used",
+          "response": "Disconnected"
+        }
       ]
     },
     {
       "title": "Before Taxi",
       "items": [
-        {"callout": "APU", "response": "Shutdown if not needed"},
-        {"callout": "Flaps", "response": "Set for takeoff"},
-        {"callout": "Flight controls", "response": "Free and correct"},
-        {"callout": "Avionics", "response": "On"},
-        {"callout": "Altimeters", "response": "Set"},
-        {"callout": "Hydraulic pressure", "response": "Within limits"},
-        {"callout": "Brake pressure", "response": "Checked"},
-        {"callout": "Flight instruments", "response": "Checked"},
-        {"callout": "Spoilers", "response": "Armed if required"}
+        {
+          "callout": "APU",
+          "response": "Shutdown if not needed"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set for takeoff"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Free and correct"
+        },
+        {
+          "callout": "Avionics",
+          "response": "On"
+        },
+        {
+          "callout": "Altimeters",
+          "response": "Set"
+        },
+        {
+          "callout": "Hydraulic pressure",
+          "response": "Within limits"
+        },
+        {
+          "callout": "Brake pressure",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Armed if required"
+        }
       ]
     },
     {
       "title": "Taxi",
       "items": [
-        {"callout": "Brakes", "response": "Checked during initial movement"},
-        {"callout": "Flight instruments", "response": "Monitored"},
-        {"callout": "Steering", "response": "Checked"}
+        {
+          "callout": "Brakes",
+          "response": "Checked during initial movement"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Monitored"
+        },
+        {
+          "callout": "Steering",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"callout": "Doors and windows", "response": "Closed and locked"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Transponder", "response": "Set"},
-        {"callout": "Takeoff briefing", "response": "Complete"},
-        {"callout": "Pitot heat", "response": "On"},
-        {"callout": "Fuel pumps", "response": "On"},
-        {"callout": "Condition levers", "response": "High idle"},
-        {"callout": "Power levers", "response": "Set for takeoff"}
+        {
+          "callout": "Doors and windows",
+          "response": "Closed and locked"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Set"
+        },
+        {
+          "callout": "Takeoff briefing",
+          "response": "Complete"
+        },
+        {
+          "callout": "Pitot heat",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "On"
+        },
+        {
+          "callout": "Condition levers",
+          "response": "High idle"
+        },
+        {
+          "callout": "Power levers",
+          "response": "Set for takeoff"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Landing gear", "response": "Up"},
-        {"callout": "Flaps", "response": "Retracted"},
-        {"callout": "Climb power", "response": "Set"},
-        {"callout": "Engine instruments", "response": "Monitored"},
-        {"callout": "Fuel pumps", "response": "Off above one thousand feet AGL"}
+        {
+          "callout": "Landing gear",
+          "response": "Up"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Retracted"
+        },
+        {
+          "callout": "Climb power",
+          "response": "Set"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitored"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "Off above one thousand feet AGL"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Cruise power", "response": "Set"},
-        {"callout": "Prop sync", "response": "On"},
-        {"callout": "Engine instruments", "response": "Monitored"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Fuel transfer if needed", "response": "Initiated"}
+        {
+          "callout": "Cruise power",
+          "response": "Set"
+        },
+        {
+          "callout": "Prop sync",
+          "response": "On"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitored"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel transfer if needed",
+          "response": "Initiated"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "ATIS or weather", "response": "Received"},
-        {"callout": "Altimeters", "response": "Set"},
-        {"callout": "Approach briefing", "response": "Complete"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Fuel pumps", "response": "On"}
+        {
+          "callout": "ATIS or weather",
+          "response": "Received"
+        },
+        {
+          "callout": "Altimeters",
+          "response": "Set"
+        },
+        {
+          "callout": "Approach briefing",
+          "response": "Complete"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Approach",
       "items": [
-        {"callout": "Flaps", "response": "As required"},
-        {"callout": "Landing gear", "response": "Down"},
-        {"callout": "Landing checklist", "response": "Complete"}
+        {
+          "callout": "Flaps",
+          "response": "As required"
+        },
+        {
+          "callout": "Landing gear",
+          "response": "Down"
+        },
+        {
+          "callout": "Landing checklist",
+          "response": "Complete"
+        }
       ]
     },
     {
       "title": "Landing",
       "items": [
-        {"callout": "Landing gear", "response": "Down and locked"},
-        {"callout": "Flaps", "response": "Set"},
-        {"callout": "Spoilers", "response": "Armed"},
-        {"callout": "Power levers", "response": "Adjusted for landing"}
+        {
+          "callout": "Landing gear",
+          "response": "Down and locked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Armed"
+        },
+        {
+          "callout": "Power levers",
+          "response": "Adjusted for landing"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Spoilers", "response": "Retracted"},
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Transponder", "response": "Standby"},
-        {"callout": "Lights", "response": "As required"}
+        {
+          "callout": "Spoilers",
+          "response": "Retracted"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Standby"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Power levers", "response": "Idle"},
-        {"callout": "Condition levers", "response": "Low idle then cutoff"},
-        {"callout": "Generators", "response": "Off"},
-        {"callout": "Battery", "response": "Off"},
-        {"callout": "APU", "response": "Shutdown if running"},
-        {"callout": "Fuel valves", "response": "Closed"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Power levers",
+          "response": "Idle"
+        },
+        {
+          "callout": "Condition levers",
+          "response": "Low idle then cutoff"
+        },
+        {
+          "callout": "Generators",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery",
+          "response": "Off"
+        },
+        {
+          "callout": "APU",
+          "response": "Shutdown if running"
+        },
+        {
+          "callout": "Fuel valves",
+          "response": "Closed"
+        }
       ]
     },
     {
       "title": "Engine Fire in Flight",
       "items": [
-        {"callout": "Affected engine throttle", "response": "Idle"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Fire handle", "response": "Pull"},
-        {"callout": "Fire extinguisher", "response": "Discharge"},
-        {"callout": "Fuel valve", "response": "Closed"},
-        {"callout": "Generator", "response": "Off"}
+        {
+          "callout": "Affected engine throttle",
+          "response": "Idle"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Fire handle",
+          "response": "Pull"
+        },
+        {
+          "callout": "Fire extinguisher",
+          "response": "Discharge"
+        },
+        {
+          "callout": "Fuel valve",
+          "response": "Closed"
+        },
+        {
+          "callout": "Generator",
+          "response": "Off"
+        }
       ]
     },
     {
       "title": "Electrical Failure",
       "items": [
-        {"callout": "Electrical load", "response": "Reduce to minimum"},
-        {"callout": "Battery and generators", "response": "Recycle and monitor output"},
-        {"callout": "Essential bus", "response": "Powered"},
-        {"callout": "Land as soon as practical", "response": "Plan accordingly"}
+        {
+          "callout": "Electrical load",
+          "response": "Reduce to minimum"
+        },
+        {
+          "callout": "Battery and generators",
+          "response": "Recycle and monitor output"
+        },
+        {
+          "callout": "Essential bus",
+          "response": "Powered"
+        },
+        {
+          "callout": "Land as soon as practical",
+          "response": "Plan accordingly"
+        }
       ]
     },
     {
       "title": "Engine Failure After Takeoff",
       "items": [
-        {"callout": "Airspeed", "response": "Maintain"},
-        {"callout": "Gear", "response": "Up"},
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Identify failed engine", "response": "Confirm"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Feather propeller", "response": "As required"}
+        {
+          "callout": "Airspeed",
+          "response": "Maintain"
+        },
+        {
+          "callout": "Gear",
+          "response": "Up"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Identify failed engine",
+          "response": "Confirm"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Feather propeller",
+          "response": "As required"
+        }
       ]
     }
   ]

@@ -1,206 +1,635 @@
 {
-  "aircraft": "DC9",
-  "nickname": "Douglas DC Nine",
+  "aircraft": "Douglas DC-9",
+  "nickname": "Diesel Nine",
   "checklist": [
     {
       "title": "Cockpit Preparation",
       "items": [
-        {"callout": "Logbook", "response": "Checked"},
-        {"callout": "Circuit breakers", "response": "Checked"},
-        {"callout": "Gear handle", "response": "Down"},
-        {"callout": "Pneumatic crossfeed", "response": "Open"},
-        {"callout": "Battery switch", "response": "On"},
-        {"callout": "Fire test", "response": "Checked"},
-        {"callout": "Electrical power", "response": "Checked"},
-        {"callout": "Emergency power", "response": "Checked and off"},
-        {"callout": "Evacuation signals", "response": "Armed"},
-        {"callout": "Emergency lights", "response": "Checked and armed"},
-        {"callout": "Probe heat", "response": "Checked"},
-        {"callout": "Windshield anti ice", "response": "Checked and set"},
-        {"callout": "Antiskid", "response": "Armed and checked"},
-        {"callout": "Overhead test panel", "response": "Checked"},
-        {"callout": "Ground proximity warning system", "response": "Checked"},
-        {"callout": "Cabin signs", "response": "On and set"},
-        {"callout": "Fuel pumps", "response": "Checked and set"},
-        {"callout": "Flight and voice recorders", "response": "Checked and set"},
-        {"callout": "External lights", "response": "Set"},
-        {"callout": "Air conditioning", "response": "Set"},
-        {"callout": "Pressurization", "response": "Set"},
-        {"callout": "Air conditioning auto shutoff", "response": "Armed"},
-        {"callout": "Annunciator panel and lights", "response": "Checked"},
-        {"callout": "Radio equipment", "response": "Checked and set"},
-        {"callout": "Rudder power", "response": "On"},
-        {"callout": "Stabilizer trim", "response": "Checked and set"},
-        {"callout": "Hydraulic power", "response": "Checked and set"},
-        {"callout": "Gear handle lights and horn", "response": "Checked"},
-        {"callout": "Autopilot servos", "response": "On"},
-        {"callout": "Crew stations and paper", "response": "Checked"},
-        {"callout": "Oxygen masks and supply", "response": "Checked"},
-        {"callout": "Takeoff warning", "response": "Checked"},
-        {"callout": "Parking brakes", "response": "Set and checked"},
-        {"callout": "Horizons and compasses", "response": "Checked and crosschecked"},
-        {"callout": "Altimeter", "response": "Set"},
-        {"callout": "Stabilizer trim tabs", "response": "Set"},
-        {"callout": "Aircraft log and maintenance release", "response": "Checked"},
-        {"callout": "Fuel, oil and hydraulic quantity", "response": "Checked"},
-        {"callout": "Auxiliary power unit", "response": "On and checked"},
-        {"callout": "Takeoff data", "response": "Checked and set"},
-        {"callout": "Engine pressure ratio bugs", "response": "Set and checked"},
-        {"callout": "Departure clearance", "response": "Received"}
+        {
+          "callout": "Logbook",
+          "response": "Checked"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "Checked"
+        },
+        {
+          "callout": "Gear handle",
+          "response": "Down"
+        },
+        {
+          "callout": "Pneumatic crossfeed",
+          "response": "Open"
+        },
+        {
+          "callout": "Battery switch",
+          "response": "On"
+        },
+        {
+          "callout": "Fire test",
+          "response": "Checked"
+        },
+        {
+          "callout": "Electrical power",
+          "response": "Checked"
+        },
+        {
+          "callout": "Emergency power",
+          "response": "Checked and off"
+        },
+        {
+          "callout": "Evacuation signals",
+          "response": "Armed"
+        },
+        {
+          "callout": "Emergency lights",
+          "response": "Checked and armed"
+        },
+        {
+          "callout": "Probe heat",
+          "response": "Checked"
+        },
+        {
+          "callout": "Windshield anti ice",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Antiskid",
+          "response": "Armed and checked"
+        },
+        {
+          "callout": "Overhead test panel",
+          "response": "Checked"
+        },
+        {
+          "callout": "Ground proximity warning system",
+          "response": "Checked"
+        },
+        {
+          "callout": "Cabin signs",
+          "response": "On and set"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Flight and voice recorders",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "External lights",
+          "response": "Set"
+        },
+        {
+          "callout": "Air conditioning",
+          "response": "Set"
+        },
+        {
+          "callout": "Pressurization",
+          "response": "Set"
+        },
+        {
+          "callout": "Air conditioning auto shutoff",
+          "response": "Armed"
+        },
+        {
+          "callout": "Annunciator panel and lights",
+          "response": "Checked"
+        },
+        {
+          "callout": "Radio equipment",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Rudder power",
+          "response": "On"
+        },
+        {
+          "callout": "Stabilizer trim",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Hydraulic power",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Gear handle lights and horn",
+          "response": "Checked"
+        },
+        {
+          "callout": "Autopilot servos",
+          "response": "On"
+        },
+        {
+          "callout": "Crew stations and paper",
+          "response": "Checked"
+        },
+        {
+          "callout": "Oxygen masks and supply",
+          "response": "Checked"
+        },
+        {
+          "callout": "Takeoff warning",
+          "response": "Checked"
+        },
+        {
+          "callout": "Parking brakes",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Horizons and compasses",
+          "response": "Checked and crosschecked"
+        },
+        {
+          "callout": "Altimeter",
+          "response": "Set"
+        },
+        {
+          "callout": "Stabilizer trim tabs",
+          "response": "Set"
+        },
+        {
+          "callout": "Aircraft log and maintenance release",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel, oil and hydraulic quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Auxiliary power unit",
+          "response": "On and checked"
+        },
+        {
+          "callout": "Takeoff data",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Engine pressure ratio bugs",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Departure clearance",
+          "response": "Received"
+        }
       ]
     },
     {
       "title": "Before Start",
       "items": [
-        {"callout": "Galley power", "response": "Off"},
-        {"callout": "Doors", "response": "Closed"},
-        {"callout": "Auxiliary hydraulic pump", "response": "On"},
-        {"callout": "Anti collision light", "response": "On"},
-        {"callout": "Air conditioning supply switches", "response": "Off"}
+        {
+          "callout": "Galley power",
+          "response": "Off"
+        },
+        {
+          "callout": "Doors",
+          "response": "Closed"
+        },
+        {
+          "callout": "Auxiliary hydraulic pump",
+          "response": "On"
+        },
+        {
+          "callout": "Anti collision light",
+          "response": "On"
+        },
+        {
+          "callout": "Air conditioning supply switches",
+          "response": "Off"
+        }
       ]
     },
     {
       "title": "After Start",
       "items": [
-        {"callout": "Air conditioning and auxiliary power unit air", "response": "Automatic and off"},
-        {"callout": "Electrical power", "response": "Checked"},
-        {"callout": "Pitot and static heaters", "response": "On"},
-        {"callout": "Airfoil and engine anti ice", "response": "As required"},
-        {"callout": "Pneumatic crossfeed", "response": "Set"},
-        {"callout": "Annunciator panel and lights", "response": "Checked"},
-        {"callout": "Hydraulic pressure and pumps", "response": "Checked and high"}
+        {
+          "callout": "Air conditioning and auxiliary power unit air",
+          "response": "Automatic and off"
+        },
+        {
+          "callout": "Electrical power",
+          "response": "Checked"
+        },
+        {
+          "callout": "Pitot and static heaters",
+          "response": "On"
+        },
+        {
+          "callout": "Airfoil and engine anti ice",
+          "response": "As required"
+        },
+        {
+          "callout": "Pneumatic crossfeed",
+          "response": "Set"
+        },
+        {
+          "callout": "Annunciator panel and lights",
+          "response": "Checked"
+        },
+        {
+          "callout": "Hydraulic pressure and pumps",
+          "response": "Checked and high"
+        }
       ]
     },
     {
       "title": "Taxi",
       "items": [
-        {"callout": "Auxiliary power unit", "response": "As required"},
-        {"callout": "Flight instruments", "response": "Crosschecked"},
-        {"callout": "Navigation aids and radar", "response": "Set and checked"},
-        {"callout": "Transponder", "response": "Set"},
-        {"callout": "Flight controls", "response": "Checked"}
+        {
+          "callout": "Auxiliary power unit",
+          "response": "As required"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Crosschecked"
+        },
+        {
+          "callout": "Navigation aids and radar",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Set"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"callout": "Takeoff data", "response": "Checked"},
-        {"callout": "Cabin", "response": "Warned"},
-        {"callout": "Flight instruments and bugs", "response": "Set and checked"},
-        {"callout": "Flaps and slats", "response": "Zero, five or fifteen set and checked"},
-        {"callout": "Stabilizer trim", "response": "Set"},
-        {"callout": "Spoilers", "response": "Armed"},
-        {"callout": "Packs", "response": "As required"},
-        {"callout": "Landing lights", "response": "Extended and on"},
-        {"callout": "Annunciator lights", "response": "Checked"},
-        {"callout": "Engine runup", "response": "As required"}
+        {
+          "callout": "Takeoff data",
+          "response": "Checked"
+        },
+        {
+          "callout": "Cabin",
+          "response": "Warned"
+        },
+        {
+          "callout": "Flight instruments and bugs",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Flaps and slats",
+          "response": "Zero, five or fifteen set and checked"
+        },
+        {
+          "callout": "Stabilizer trim",
+          "response": "Set"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Armed"
+        },
+        {
+          "callout": "Packs",
+          "response": "As required"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Extended and on"
+        },
+        {
+          "callout": "Annunciator lights",
+          "response": "Checked"
+        },
+        {
+          "callout": "Engine runup",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Landing gear", "response": "Up, no lights"},
-        {"callout": "Landing lights", "response": "Off and retracted"},
-        {"callout": "Spoilers", "response": "Disarmed"},
-        {"callout": "Air conditioning auto shutoff", "response": "Off"},
-        {"callout": "Flaps and slats", "response": "Up"},
-        {"callout": "Pressurization and air conditioning", "response": "Checked"},
-        {"callout": "Fuel pumps", "response": "Set"},
-        {"callout": "Passing ten thousand feet - ignition", "response": "As required"},
-        {"callout": "Hydraulic pumps", "response": "Low"},
-        {"callout": "Exterior lights", "response": "As required"},
-        {"callout": "Passing eighteen thousand feet - altimeters", "response": "Set to twenty nine point nine two inches of mercury or one zero one three hectopascals"},
-        {"callout": "Seatbelt signs", "response": "Set"}
+        {
+          "callout": "Landing gear",
+          "response": "Up, no lights"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Off and retracted"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Disarmed"
+        },
+        {
+          "callout": "Air conditioning auto shutoff",
+          "response": "Off"
+        },
+        {
+          "callout": "Flaps and slats",
+          "response": "Up"
+        },
+        {
+          "callout": "Pressurization and air conditioning",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "Set"
+        },
+        {
+          "callout": "Passing ten thousand feet - ignition",
+          "response": "As required"
+        },
+        {
+          "callout": "Hydraulic pumps",
+          "response": "Low"
+        },
+        {
+          "callout": "Exterior lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Passing eighteen thousand feet - altimeters",
+          "response": "Set to twenty nine point nine two inches of mercury or one zero one three hectopascals"
+        },
+        {
+          "callout": "Seatbelt signs",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Ignition", "response": "On"},
-        {"callout": "Pressurization", "response": "Set and checked"},
-        {"callout": "Engine pressure ratio bugs", "response": "Set"},
-        {"callout": "Hydraulic pumps and pressure", "response": "High, on and checked"},
-        {"callout": "Landing weight and data", "response": "Prepared"},
-        {"callout": "Engine and airfoil anti ice", "response": "As required"},
-        {"callout": "Windshield anti fog", "response": "As required"},
-        {"callout": "Passing eighteen thousand feet - altimeters", "response": "Set and crosschecked"},
-        {"callout": "Exterior lights", "response": "As required"}
-      ]}
-    ,
+        {
+          "callout": "Ignition",
+          "response": "On"
+        },
+        {
+          "callout": "Pressurization",
+          "response": "Set and checked"
+        },
+        {
+          "callout": "Engine pressure ratio bugs",
+          "response": "Set"
+        },
+        {
+          "callout": "Hydraulic pumps and pressure",
+          "response": "High, on and checked"
+        },
+        {
+          "callout": "Landing weight and data",
+          "response": "Prepared"
+        },
+        {
+          "callout": "Engine and airfoil anti ice",
+          "response": "As required"
+        },
+        {
+          "callout": "Windshield anti fog",
+          "response": "As required"
+        },
+        {
+          "callout": "Passing eighteen thousand feet - altimeters",
+          "response": "Set and crosschecked"
+        },
+        {
+          "callout": "Exterior lights",
+          "response": "As required"
+        }
+      ]
+    },
     {
       "title": "Before Landing",
       "items": [
-        {"callout": "Cabin signs", "response": "On"},
-        {"callout": "Fuel supply, pumps and heat", "response": "Checked and set"},
-        {"callout": "Pressurization", "response": "Checked"},
-        {"callout": "Altimeters", "response": "Set and crosschecked"},
-        {"callout": "Engine anti ice", "response": "As required"},
-        {"callout": "Landing gear", "response": "Down, three green"},
-        {"callout": "Spoilers", "response": "Armed"},
-        {"callout": "Flaps and slats", "response": "Land"},
-        {"callout": "Annunciator lights", "response": "Checked"},
-        {"callout": "Landing lights", "response": "Extended and on"}
+        {
+          "callout": "Cabin signs",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel supply, pumps and heat",
+          "response": "Checked and set"
+        },
+        {
+          "callout": "Pressurization",
+          "response": "Checked"
+        },
+        {
+          "callout": "Altimeters",
+          "response": "Set and crosschecked"
+        },
+        {
+          "callout": "Engine anti ice",
+          "response": "As required"
+        },
+        {
+          "callout": "Landing gear",
+          "response": "Down, three green"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Armed"
+        },
+        {
+          "callout": "Flaps and slats",
+          "response": "Land"
+        },
+        {
+          "callout": "Annunciator lights",
+          "response": "Checked"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Extended and on"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Spoilers", "response": "Retracted"},
-        {"callout": "Flaps", "response": "Set"},
-        {"callout": "Air conditioning", "response": "Set"},
-        {"callout": "Landing lights", "response": "Retracted and off"},
-        {"callout": "Pneumatic crossfeed", "response": "Open"},
-        {"callout": "Transponder", "response": "Standby"},
-        {"callout": "Antiskid", "response": "Off"},
-        {"callout": "Entering ramp - auxiliary power unit", "response": "As required"},
-        {"callout": "Flaps and slats", "response": "Up and retracted"}
+        {
+          "callout": "Spoilers",
+          "response": "Retracted"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set"
+        },
+        {
+          "callout": "Air conditioning",
+          "response": "Set"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "Retracted and off"
+        },
+        {
+          "callout": "Pneumatic crossfeed",
+          "response": "Open"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Standby"
+        },
+        {
+          "callout": "Antiskid",
+          "response": "Off"
+        },
+        {
+          "callout": "Entering ramp - auxiliary power unit",
+          "response": "As required"
+        },
+        {
+          "callout": "Flaps and slats",
+          "response": "Up and retracted"
+        }
       ]
     },
     {
       "title": "Parking",
       "items": [
-        {"callout": "Parking", "response": "Parked"},
-        {"callout": "Seat belts", "response": "Off"},
-        {"callout": "Ice protection", "response": "Set"},
-        {"callout": "Fuel pumps", "response": "Set"},
-        {"callout": "Anti collision light", "response": "Off"},
-        {"callout": "Pneumatic crossfeed", "response": "Open"},
-        {"callout": "Air conditioning", "response": "Set"},
-        {"callout": "Exterior lights", "response": "As required"},
-        {"callout": "Ignition", "response": "Off"},
-        {"callout": "Alternate and auxiliary hydraulic pumps", "response": "Off"},
-        {"callout": "Engine oil quantity", "response": "Checked"},
-        {"callout": "Aircraft log", "response": "Sign"},
-        {"callout": "Emergency lights", "response": "Off"},
-        {"callout": "Auxiliary power unit", "response": "Set"},
-        {"callout": "Pitot and static heat", "response": "Off"},
-        {"callout": "Cockpit lights", "response": "As required"}
+        {
+          "callout": "Parking",
+          "response": "Parked"
+        },
+        {
+          "callout": "Seat belts",
+          "response": "Off"
+        },
+        {
+          "callout": "Ice protection",
+          "response": "Set"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "Set"
+        },
+        {
+          "callout": "Anti collision light",
+          "response": "Off"
+        },
+        {
+          "callout": "Pneumatic crossfeed",
+          "response": "Open"
+        },
+        {
+          "callout": "Air conditioning",
+          "response": "Set"
+        },
+        {
+          "callout": "Exterior lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Ignition",
+          "response": "Off"
+        },
+        {
+          "callout": "Alternate and auxiliary hydraulic pumps",
+          "response": "Off"
+        },
+        {
+          "callout": "Engine oil quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Aircraft log",
+          "response": "Sign"
+        },
+        {
+          "callout": "Emergency lights",
+          "response": "Off"
+        },
+        {
+          "callout": "Auxiliary power unit",
+          "response": "Set"
+        },
+        {
+          "callout": "Pitot and static heat",
+          "response": "Off"
+        },
+        {
+          "callout": "Cockpit lights",
+          "response": "As required"
+        }
       ]
     },
 
-    {"title": "Two Engine Flameout", "items": [
-      {"callout": "Emergency power switch", "response": "On"},
-      {"callout": "Ignition", "response": "Override"},
-      {"callout": "Air traffic control", "response": "Advise if possible"},
-      {"callout": "Outflow valve", "response": "Manual and close"},
-      {"callout": "Airspeed", "response": "Maintain minimal maneuvering speed"}
-    ]},
-    {"title": "Stabilizer Trim Inoperative", "items": [
-      {"callout": "Approach speed", "response": "Velocity reference plus five knots"},
-      {"callout": "Climb and cruise speed", "response": "Velocity reference plus twenty knots"}
-    ]},
-    {"title": "Slat Disagreement Light On", "items": [
-      {"callout": "Flap and slat handle", "response": "Return to last known good symmetrical position"}
-    ]},
-    {"title": "Ground Proximity Warning System Inoperative", "items": [
-      {"callout": "Circuit breakers F eight and G eight", "response": "Check and reset"},
-      {"callout": "Ground proximity warning switch", "response": "Set to inhibit"}
-    ]},
-    {"title": "Overspeed Warning Sounds Early", "items": [
-      {"callout": "Mach number greater than zero point seven nine", "response": "Visually check gear lock if the circuit breaker cannot be reset"}
-    ]},
-    {"title": "High Pneumatic Pressure", "items": [
-      {"callout": "Pneumatic pressure exceeds seventy two pounds per square inch", "response": "Continue flight with reduced thrust or shut down the engine if pressure remains high"}
-    ]}
+    {
+      "title": "Two Engine Flameout",
+      "items": [
+        {
+          "callout": "Emergency power switch",
+          "response": "On"
+        },
+        {
+          "callout": "Ignition",
+          "response": "Override"
+        },
+        {
+          "callout": "Air traffic control",
+          "response": "Advise if possible"
+        },
+        {
+          "callout": "Outflow valve",
+          "response": "Manual and close"
+        },
+        {
+          "callout": "Airspeed",
+          "response": "Maintain minimal maneuvering speed"
+        }
+      ]
+    },
+    {
+      "title": "Stabilizer Trim Inoperative",
+      "items": [
+        {
+          "callout": "Approach speed",
+          "response": "Velocity reference plus five knots"
+        },
+        {
+          "callout": "Climb and cruise speed",
+          "response": "Velocity reference plus twenty knots"
+        }
+      ]
+    },
+    {
+      "title": "Slat Disagreement Light On",
+      "items": [
+        {
+          "callout": "Flap and slat handle",
+          "response": "Return to last known good symmetrical position"
+        }
+      ]
+    },
+    {
+      "title": "Ground Proximity Warning System Inoperative",
+      "items": [
+        {
+          "callout": "Circuit breakers F eight and G eight",
+          "response": "Check and reset"
+        },
+        {
+          "callout": "Ground proximity warning switch",
+          "response": "Set to inhibit"
+        }
+      ]
+    },
+    {
+      "title": "Overspeed Warning Sounds Early",
+      "items": [
+        {
+          "callout": "Mach number greater than zero point seven nine",
+          "response": "Visually check gear lock if the circuit breaker cannot be reset"
+        }
+      ]
+    },
+    {
+      "title": "High Pneumatic Pressure",
+      "items": [
+        {
+          "callout": "Pneumatic pressure exceeds seventy two pounds per square inch",
+          "response": "Continue flight with reduced thrust or shut down the engine if pressure remains high"
+        }
+      ]
+    }
   ]
 }

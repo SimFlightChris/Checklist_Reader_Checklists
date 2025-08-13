@@ -1,146 +1,344 @@
 {
-  "aircraft": "BAe 146",
-  "nickname": "146 Professional",
+  "aircraft": "British Aerospace 146",
+  "nickname": "Whisperjet",
   "checklist": [
     {
       "title": "Preflight",
       "items": [
-        {"callout": "Aircraft documents", "response": "Checked"},
-        {"callout": "Circuit breakers", "response": "Check in"},
-        {"callout": "Emergency equipment", "response": "Checked"},
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Landing gear lever", "response": "Down"},
-        {"callout": "Flap lever", "response": "Up"},
-        {"callout": "Spoiler lever", "response": "Down"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Battery master", "response": "On"},
-        {"callout": "AC and DC meters", "response": "Checked"}
+        {
+          "callout": "Aircraft documents",
+          "response": "Checked"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "Check in"
+        },
+        {
+          "callout": "Emergency equipment",
+          "response": "Checked"
+        },
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Landing gear lever",
+          "response": "Down"
+        },
+        {
+          "callout": "Flap lever",
+          "response": "Up"
+        },
+        {
+          "callout": "Spoiler lever",
+          "response": "Down"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Battery master",
+          "response": "On"
+        },
+        {
+          "callout": "AC and DC meters",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Before Engine Start",
       "items": [
-        {"callout": "Passenger signs", "response": "On"},
-        {"callout": "Hydraulic pumps", "response": "On"},
-        {"callout": "Auxiliary power unit", "response": "Started and available"},
-        {"callout": "Beacon light", "response": "On"},
-        {"callout": "Doors", "response": "Closed"}
+        {
+          "callout": "Passenger signs",
+          "response": "On"
+        },
+        {
+          "callout": "Hydraulic pumps",
+          "response": "On"
+        },
+        {
+          "callout": "Auxiliary power unit",
+          "response": "Started and available"
+        },
+        {
+          "callout": "Beacon light",
+          "response": "On"
+        },
+        {
+          "callout": "Doors",
+          "response": "Closed"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"callout": "Engine start switch", "response": "Engage"},
-        {"callout": "Fuel levers", "response": "On as N2 passes twenty percent"},
-        {"callout": "Engine parameters", "response": "Monitor"},
-        {"callout": "Starter cutout", "response": "Confirm"}
+        {
+          "callout": "Engine start switch",
+          "response": "Engage"
+        },
+        {
+          "callout": "Fuel levers",
+          "response": "On as N2 passes twenty percent"
+        },
+        {
+          "callout": "Engine parameters",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Starter cutout",
+          "response": "Confirm"
+        }
       ]
     },
     {
       "title": "Before Taxi",
       "items": [
-        {"callout": "Generators", "response": "On"},
-        {"callout": "Auxiliary power unit", "response": "Off"},
-        {"callout": "Flight controls", "response": "Checked"},
-        {"callout": "Flaps", "response": "Set for takeoff"},
-        {"callout": "Trims", "response": "Set"}
+        {
+          "callout": "Generators",
+          "response": "On"
+        },
+        {
+          "callout": "Auxiliary power unit",
+          "response": "Off"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set for takeoff"
+        },
+        {
+          "callout": "Trims",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"callout": "Flight instruments", "response": "Checked"},
-        {"callout": "Autobrake", "response": "Armed"},
-        {"callout": "Takeoff config warning", "response": "Tested"},
-        {"callout": "Cabin", "response": "Secure"}
+        {
+          "callout": "Flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Autobrake",
+          "response": "Armed"
+        },
+        {
+          "callout": "Takeoff config warning",
+          "response": "Tested"
+        },
+        {
+          "callout": "Cabin",
+          "response": "Secure"
+        }
       ]
     },
     {
       "title": "After Takeoff",
       "items": [
-        {"callout": "Landing gear", "response": "Up"},
-        {"callout": "Flaps", "response": "Up on schedule"},
-        {"callout": "Climb power", "response": "Set"}
+        {
+          "callout": "Landing gear",
+          "response": "Up"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up on schedule"
+        },
+        {
+          "callout": "Climb power",
+          "response": "Set"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Pressurization", "response": "Checked"},
-        {"callout": "Fuel system", "response": "Monitor"},
-        {"callout": "Engine instruments", "response": "Monitor"}
+        {
+          "callout": "Pressurization",
+          "response": "Checked"
+        },
+        {
+          "callout": "Fuel system",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Cruise power", "response": "Set"},
-        {"callout": "Fuel balance", "response": "Monitor"},
-        {"callout": "Cabin altitude", "response": "Checked"}
+        {
+          "callout": "Cruise power",
+          "response": "Set"
+        },
+        {
+          "callout": "Fuel balance",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Cabin altitude",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Pressurization", "response": "Set"},
-        {"callout": "Altimeters", "response": "Set"},
-        {"callout": "Approach briefing", "response": "Complete"}
+        {
+          "callout": "Pressurization",
+          "response": "Set"
+        },
+        {
+          "callout": "Altimeters",
+          "response": "Set"
+        },
+        {
+          "callout": "Approach briefing",
+          "response": "Complete"
+        }
       ]
     },
     {
       "title": "Before Landing",
       "items": [
-        {"callout": "Gear", "response": "Down and locked"},
-        {"callout": "Flaps", "response": "Set for landing"},
-        {"callout": "Autobrake", "response": "Set"},
-        {"callout": "Landing checklist", "response": "Complete"}
+        {
+          "callout": "Gear",
+          "response": "Down and locked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set for landing"
+        },
+        {
+          "callout": "Autobrake",
+          "response": "Set"
+        },
+        {
+          "callout": "Landing checklist",
+          "response": "Complete"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Spoilers", "response": "Down"},
-        {"callout": "Auxiliary power unit", "response": "Start"},
-        {"callout": "Anti-ice", "response": "Off"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Spoilers",
+          "response": "Down"
+        },
+        {
+          "callout": "Auxiliary power unit",
+          "response": "Start"
+        },
+        {
+          "callout": "Anti-ice",
+          "response": "Off"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Fuel levers", "response": "Off"},
-        {"callout": "Beacon light", "response": "Off"},
-        {"callout": "Battery master", "response": "Off after auxiliary power unit is off"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Fuel levers",
+          "response": "Off"
+        },
+        {
+          "callout": "Beacon light",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery master",
+          "response": "Off after auxiliary power unit is off"
+        }
       ]
     },
     {
       "title": "Engine Fire In Flight",
       "items": [
-        {"callout": "Thrust lever", "response": "Idle"},
-        {"callout": "Fuel lever", "response": "Off"},
-        {"callout": "Fire handle", "response": "Pull"},
-        {"callout": "Fire extinguisher", "response": "Discharge"},
-        {"callout": "Affected engine", "response": "Monitor for shutdown confirmation"}
+        {
+          "callout": "Thrust lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Fuel lever",
+          "response": "Off"
+        },
+        {
+          "callout": "Fire handle",
+          "response": "Pull"
+        },
+        {
+          "callout": "Fire extinguisher",
+          "response": "Discharge"
+        },
+        {
+          "callout": "Affected engine",
+          "response": "Monitor for shutdown confirmation"
+        }
       ]
     },
     {
       "title": "Electrical Failure",
       "items": [
-        {"callout": "Non-essential equipment", "response": "Off"},
-        {"callout": "Battery voltage", "response": "Monitor"},
-        {"callout": "Generators", "response": "Check and reset if needed"},
-        {"callout": "Landing", "response": "Plan as soon as practical"}
+        {
+          "callout": "Non-essential equipment",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery voltage",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Generators",
+          "response": "Check and reset if needed"
+        },
+        {
+          "callout": "Landing",
+          "response": "Plan as soon as practical"
+        }
       ]
     },
     {
       "title": "Rapid Depressurization",
       "items": [
-        {"callout": "Oxygen masks", "response": "Don"},
-        {"callout": "Crew communications", "response": "Establish"},
-        {"callout": "Emergency descent", "response": "Initiate"},
-        {"callout": "Passenger signs", "response": "On"},
-        {"callout": "Landing", "response": "Plan as soon as practical"}
+        {
+          "callout": "Oxygen masks",
+          "response": "Don"
+        },
+        {
+          "callout": "Crew communications",
+          "response": "Establish"
+        },
+        {
+          "callout": "Emergency descent",
+          "response": "Initiate"
+        },
+        {
+          "callout": "Passenger signs",
+          "response": "On"
+        },
+        {
+          "callout": "Landing",
+          "response": "Plan as soon as practical"
+        }
       ]
     }
   ]

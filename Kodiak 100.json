@@ -1,228 +1,567 @@
 {
-  "aircraft": "Kodiak 100",
-  "nickname": "Kodiak One Hundred",
+  "aircraft": "Daher Kodiak 100",
+  "nickname": "Kodiak",
   "checklist": [
     {
       "title": "Before Start",
       "items": [
-        {"callout": "Battery master", "response": "On"},
-        {"callout": "Avionics master", "response": "On"},
-        {"callout": "Fuel pump", "response": "Standby"},
-        {"callout": "Beacon light", "response": "On"},
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Starter switch", "response": "Low motor"}
+        {
+          "callout": "Battery master",
+          "response": "On"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "Standby"
+        },
+        {
+          "callout": "Beacon light",
+          "response": "On"
+        },
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Low motor"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"callout": "Starter switch", "response": "High start"},
-        {"callout": "Condition lever", "response": "Move to low idle at fourteen percent gas generator speed"},
-        {"callout": "Oil pressure", "response": "Confirm rising"},
-        {"callout": "Generator", "response": "On"},
-        {"callout": "Alternator", "response": "On"},
-        {"callout": "Avionics", "response": "Checked"}
+        {
+          "callout": "Starter switch",
+          "response": "High start"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Move to low idle at fourteen percent gas generator speed"
+        },
+        {
+          "callout": "Oil pressure",
+          "response": "Confirm rising"
+        },
+        {
+          "callout": "Generator",
+          "response": "On"
+        },
+        {
+          "callout": "Alternator",
+          "response": "On"
+        },
+        {
+          "callout": "Avionics",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "After Start",
       "items": [
-        {"callout": "Fuel pump", "response": "Off"},
-        {"callout": "Flight instruments", "response": "Checked"},
-        {"callout": "Trim", "response": "Set"},
-        {"callout": "Flaps", "response": "Set for takeoff"},
-        {"callout": "Lights", "response": "As required"}
+        {
+          "callout": "Fuel pump",
+          "response": "Off"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Trim",
+          "response": "Set"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set for takeoff"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"callout": "Doors and windows", "response": "Closed"},
-        {"callout": "Flight controls", "response": "Checked"},
-        {"callout": "Flaps", "response": "Set to twenty degrees"},
-        {"callout": "Rudder trim", "response": "Set thirty to fifty percent right"},
-        {"callout": "Takeoff trim", "response": "Set"},
-        {"callout": "Transponder", "response": "On"},
-        {"callout": "Lights", "response": "On"}
+        {
+          "callout": "Doors and windows",
+          "response": "Closed"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Checked"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set to twenty degrees"
+        },
+        {
+          "callout": "Rudder trim",
+          "response": "Set thirty to fifty percent right"
+        },
+        {
+          "callout": "Takeoff trim",
+          "response": "Set"
+        },
+        {
+          "callout": "Transponder",
+          "response": "On"
+        },
+        {
+          "callout": "Lights",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Torque", "response": "Set for maximum climb"},
-        {"callout": "Autopilot", "response": "As required"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Torque",
+          "response": "Set for maximum climb"
+        },
+        {
+          "callout": "Autopilot",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Power", "response": "Set"},
-        {"callout": "Engine instruments", "response": "Monitor"},
-        {"callout": "Lights", "response": "As required"}
+        {
+          "callout": "Power",
+          "response": "Set"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Altimeter", "response": "Set"},
-        {"callout": "Power", "response": "As required"},
-        {"callout": "Fuel quantity", "response": "Checked"},
-        {"callout": "Landing lights", "response": "On"}
+        {
+          "callout": "Altimeter",
+          "response": "Set"
+        },
+        {
+          "callout": "Power",
+          "response": "As required"
+        },
+        {
+          "callout": "Fuel quantity",
+          "response": "Checked"
+        },
+        {
+          "callout": "Landing lights",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Before Landing",
       "items": [
-        {"callout": "Flaps", "response": "Set as required"},
-        {"callout": "Landing gear", "response": "Down if amphibian"},
-        {"callout": "Lights", "response": "On"},
-        {"callout": "Autopilot", "response": "Off"},
-        {"callout": "Speed", "response": "Below one hundred eight knots indicated for flaps thirty five"}
+        {
+          "callout": "Flaps",
+          "response": "Set as required"
+        },
+        {
+          "callout": "Landing gear",
+          "response": "Down if amphibian"
+        },
+        {
+          "callout": "Lights",
+          "response": "On"
+        },
+        {
+          "callout": "Autopilot",
+          "response": "Off"
+        },
+        {
+          "callout": "Speed",
+          "response": "Below one hundred eight knots indicated for flaps thirty five"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Lights", "response": "As required"},
-        {"callout": "Transponder", "response": "Standby"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        },
+        {
+          "callout": "Transponder",
+          "response": "Standby"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Avionics", "response": "Off"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Fuel pump", "response": "Off"},
-        {"callout": "Battery master", "response": "Off"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Avionics",
+          "response": "Off"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery master",
+          "response": "Off"
+        }
       ]
     },
     {
       "title": "Rejected Takeoff",
       "items": [
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Braking", "response": "Maximum"},
-        {"callout": "Reverse thrust if available", "response": "As required"},
-        {"callout": "Flaps", "response": "Up when under control"},
-        {"callout": "Engine and systems", "response": "Monitor and advise tower"}
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Braking",
+          "response": "Maximum"
+        },
+        {
+          "callout": "Reverse thrust if available",
+          "response": "As required"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up when under control"
+        },
+        {
+          "callout": "Engine and systems",
+          "response": "Monitor and advise tower"
+        }
       ]
     },
     {
       "title": "Engine Failure After Takeoff",
       "items": [
-        {"callout": "Pitch", "response": "Lower to maintain a safe glide speed"},
-        {"callout": "Flaps", "response": "Set as required"},
-        {"callout": "Landing site", "response": "Select ahead within small turn only"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Fuel pump", "response": "Off"},
-        {"callout": "Generator and alternator", "response": "Off"},
-        {"callout": "Battery master", "response": "Off when landing is assured"}
+        {
+          "callout": "Pitch",
+          "response": "Lower to maintain a safe glide speed"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Set as required"
+        },
+        {
+          "callout": "Landing site",
+          "response": "Select ahead within small turn only"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "Off"
+        },
+        {
+          "callout": "Generator and alternator",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery master",
+          "response": "Off when landing is assured"
+        }
       ]
     },
     {
       "title": "Engine Flameout In Flight",
       "items": [
-        {"callout": "Airspeed", "response": "Establish best glide"},
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Fuel pump", "response": "On"},
-        {"callout": "Ignition", "response": "On"},
-        {"callout": "Condition lever", "response": "Low idle"},
-        {"callout": "If restart is unsuccessful", "response": "Proceed to airstart or prepare for power off landing"}
+        {
+          "callout": "Airspeed",
+          "response": "Establish best glide"
+        },
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "On"
+        },
+        {
+          "callout": "Ignition",
+          "response": "On"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Low idle"
+        },
+        {
+          "callout": "If restart is unsuccessful",
+          "response": "Proceed to airstart or prepare for power off landing"
+        }
       ]
     },
     {
       "title": "Airstart",
       "items": [
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Fuel pump", "response": "On"},
-        {"callout": "Ignition", "response": "On"},
-        {"callout": "Starter", "response": "Engage until gas generator speed increases"},
-        {"callout": "Condition lever", "response": "Move to low idle when gas generator speed is sufficient"},
-        {"callout": "Power", "response": "As required after relight"}
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "On"
+        },
+        {
+          "callout": "Ignition",
+          "response": "On"
+        },
+        {
+          "callout": "Starter",
+          "response": "Engage until gas generator speed increases"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Move to low idle when gas generator speed is sufficient"
+        },
+        {
+          "callout": "Power",
+          "response": "As required after relight"
+        }
       ]
     },
     {
       "title": "Engine Fire During Start",
       "items": [
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Starter", "response": "Continue motoring to draw flames into the engine"},
-        {"callout": "Fuel pump", "response": "Off"},
-        {"callout": "Ignition", "response": "Off"},
-        {"callout": "Battery master", "response": "Off"},
-        {"callout": "Evacuate", "response": "As required"}
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Starter",
+          "response": "Continue motoring to draw flames into the engine"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "Off"
+        },
+        {
+          "callout": "Ignition",
+          "response": "Off"
+        },
+        {
+          "callout": "Battery master",
+          "response": "Off"
+        },
+        {
+          "callout": "Evacuate",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Engine Fire In Flight",
       "items": [
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Fuel pump", "response": "Off"},
-        {"callout": "Cabin heat and air", "response": "Off"},
-        {"callout": "Descend", "response": "As required and land as soon as possible"}
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Fuel pump",
+          "response": "Off"
+        },
+        {
+          "callout": "Cabin heat and air",
+          "response": "Off"
+        },
+        {
+          "callout": "Descend",
+          "response": "As required and land as soon as possible"
+        }
       ]
     },
     {
       "title": "Electrical Fire or Smoke",
       "items": [
-        {"callout": "Battery master", "response": "Off"},
-        {"callout": "Generator and alternator", "response": "Off"},
-        {"callout": "All non essential electrical equipment", "response": "Off"},
-        {"callout": "Cabin vents", "response": "Open"},
-        {"callout": "Use fire extinguisher", "response": "As required"},
-        {"callout": "If smoke clears", "response": "Restore power one system at a time"}
+        {
+          "callout": "Battery master",
+          "response": "Off"
+        },
+        {
+          "callout": "Generator and alternator",
+          "response": "Off"
+        },
+        {
+          "callout": "All non essential electrical equipment",
+          "response": "Off"
+        },
+        {
+          "callout": "Cabin vents",
+          "response": "Open"
+        },
+        {
+          "callout": "Use fire extinguisher",
+          "response": "As required"
+        },
+        {
+          "callout": "If smoke clears",
+          "response": "Restore power one system at a time"
+        }
       ]
     },
     {
       "title": "Cabin Fire or Smoke",
       "items": [
-        {"callout": "Battery master", "response": "Off"},
-        {"callout": "Cabin heat and air", "response": "Off"},
-        {"callout": "Fire extinguisher", "response": "Discharge as required"},
-        {"callout": "Vents and windows", "response": "Open after fire is out"},
-        {"callout": "Land", "response": "As soon as possible"}
+        {
+          "callout": "Battery master",
+          "response": "Off"
+        },
+        {
+          "callout": "Cabin heat and air",
+          "response": "Off"
+        },
+        {
+          "callout": "Fire extinguisher",
+          "response": "Discharge as required"
+        },
+        {
+          "callout": "Vents and windows",
+          "response": "Open after fire is out"
+        },
+        {
+          "callout": "Land",
+          "response": "As soon as possible"
+        }
       ]
     },
     {
       "title": "Electrical Failure",
       "items": [
-        {"callout": "Electrical load", "response": "Reduce to minimum"},
-        {"callout": "Circuit breakers", "response": "Check and reset if needed"},
-        {"callout": "Generator and alternator", "response": "Off then on to attempt a reset"},
-        {"callout": "Plan landing", "response": "As soon as practical"}
+        {
+          "callout": "Electrical load",
+          "response": "Reduce to minimum"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "Check and reset if needed"
+        },
+        {
+          "callout": "Generator and alternator",
+          "response": "Off then on to attempt a reset"
+        },
+        {
+          "callout": "Plan landing",
+          "response": "As soon as practical"
+        }
       ]
     },
     {
       "title": "Propeller Overspeed",
       "items": [
-        {"callout": "Power lever", "response": "Reduce"},
-        {"callout": "Airspeed", "response": "Reduce"},
-        {"callout": "Avoid large power changes", "response": "Stabilize and land as soon as practical"}
+        {
+          "callout": "Power lever",
+          "response": "Reduce"
+        },
+        {
+          "callout": "Airspeed",
+          "response": "Reduce"
+        },
+        {
+          "callout": "Avoid large power changes",
+          "response": "Stabilize and land as soon as practical"
+        }
       ]
     },
     {
       "title": "Emergency Descent",
       "items": [
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Propeller speed", "response": "High if controllable"},
-        {"callout": "Airspeed", "response": "Increase within limits"},
-        {"callout": "Bank", "response": "As required to expedite descent"},
-        {"callout": "Level off", "response": "When clear of hazard and configure as required"}
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Propeller speed",
+          "response": "High if controllable"
+        },
+        {
+          "callout": "Airspeed",
+          "response": "Increase within limits"
+        },
+        {
+          "callout": "Bank",
+          "response": "As required to expedite descent"
+        },
+        {
+          "callout": "Level off",
+          "response": "When clear of hazard and configure as required"
+        }
       ]
     },
     {
       "title": "Icing Encounter Escape",
       "items": [
-        {"callout": "Pitot heat and airframe de ice", "response": "On as installed"},
-        {"callout": "Turn back or change altitude", "response": "As required"},
-        {"callout": "Airspeed", "response": "Maintain within limits"},
-        {"callout": "Flaps", "response": "Use minimum required"},
-        {"callout": "Land", "response": "As soon as practical"}
+        {
+          "callout": "Pitot heat and airframe de ice",
+          "response": "On as installed"
+        },
+        {
+          "callout": "Turn back or change altitude",
+          "response": "As required"
+        },
+        {
+          "callout": "Airspeed",
+          "response": "Maintain within limits"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Use minimum required"
+        },
+        {
+          "callout": "Land",
+          "response": "As soon as practical"
+        }
       ]
     }
   ]

@@ -1,81 +1,189 @@
 {
   "aircraft": "Embraer 195",
-  "nickname": "E-195",
+  "nickname": "Jungle Jet",
   "checklist": [
     {
       "title": "Preflight and Power-Up",
       "items": [
-        {"call": "Safety check and flight deck power-up", "response": "completed"},
-        {"call": "Emergency equipment", "response": "checked"},
-        {"call": "Battery switches to ON/AUTO", "response": "on/auto"},
-        {"call": "External lights", "response": "set as required"},
-        {"call": "Hydraulic electric pumps", "response": "auto"},
-        {"call": "Landing gear lever", "response": "down"},
-        {"call": "Speed brake lever", "response": "closed"},
-        {"call": "Thrust levers idle", "response": "verified"}
+        {
+          "callout": "Safety check and flight deck power-up",
+          "response": "completed"
+        },
+        {
+          "callout": "Emergency equipment",
+          "response": "checked"
+        },
+        {
+          "callout": "Battery switches to ON/AUTO",
+          "response": "on/auto"
+        },
+        {
+          "callout": "External lights",
+          "response": "set as required"
+        },
+        {
+          "callout": "Hydraulic electric pumps",
+          "response": "auto"
+        },
+        {
+          "callout": "Landing gear lever",
+          "response": "down"
+        },
+        {
+          "callout": "Speed brake lever",
+          "response": "closed"
+        },
+        {
+          "callout": "Thrust levers idle",
+          "response": "verified"
+        }
       ]
     },
     {
       "title": "Engine Start",
       "items": [
-        {"call": "Parking brake", "response": "set"},
-        {"call": "Fuel pumps", "response": "auto"},
-        {"call": "Start/Stop selectors", "response": "stop"},
-        {"call": "Start engine one then two", "response": "normal start sequence"}
+        {
+          "callout": "Parking brake",
+          "response": "set"
+        },
+        {
+          "callout": "Fuel pumps",
+          "response": "auto"
+        },
+        {
+          "callout": "Start/Stop selectors",
+          "response": "stop"
+        },
+        {
+          "callout": "Start engine one then two",
+          "response": "normal start sequence"
+        }
       ]
     },
     {
       "title": "After Start and Taxi",
       "items": [
-        {"call": "Flaps as required", "response": "set"},
-        {"call": "Flight controls check", "response": "checked"},
-        {"call": "Taxi lights on", "response": "on"}
+        {
+          "callout": "Flaps as required",
+          "response": "set"
+        },
+        {
+          "callout": "Flight controls check",
+          "response": "checked"
+        },
+        {
+          "callout": "Taxi lights on",
+          "response": "on"
+        }
       ]
     },
     {
       "title": "Before Takeoff",
       "items": [
-        {"call": "Cabin secure", "response": "confirmed"},
-        {"call": "Takeoff data set and reviewed", "response": "set"},
-        {"call": "Autobrake RTO", "response": "armed"},
-        {"call": "Trim set and centered", "response": "set"},
-        {"call": "Doors and windows closed", "response": "closed"},
-        {"call": "Beacon and strobe lights on", "response": "on"},
-        {"call": "Transponder on", "response": "on"},
-        {"call": "Takeoff configuration", "response": "checked"}
+        {
+          "callout": "Cabin secure",
+          "response": "confirmed"
+        },
+        {
+          "callout": "Takeoff data set and reviewed",
+          "response": "set"
+        },
+        {
+          "callout": "Autobrake RTO",
+          "response": "armed"
+        },
+        {
+          "callout": "Trim set and centered",
+          "response": "set"
+        },
+        {
+          "callout": "Doors and windows closed",
+          "response": "closed"
+        },
+        {
+          "callout": "Beacon and strobe lights on",
+          "response": "on"
+        },
+        {
+          "callout": "Transponder on",
+          "response": "on"
+        },
+        {
+          "callout": "Takeoff configuration",
+          "response": "checked"
+        }
       ]
     },
     {
       "title": "After Takeoff",
       "items": [
-        {"call": "Landing gear up", "response": "up"},
-        {"call": "Slats/flaps up", "response": "up"},
-        {"call": "APU off", "response": "off"}
+        {
+          "callout": "Landing gear up",
+          "response": "up"
+        },
+        {
+          "callout": "Slats/flaps up",
+          "response": "up"
+        },
+        {
+          "callout": "APU off",
+          "response": "off"
+        }
       ]
     },
     {
       "title": "Descent and Landing Preparation",
       "items": [
-        {"call": "Descent checklist and briefing", "response": "completed"},
-        {"call": "Approach configuration set", "response": "set"},
-        {"call": "Landing lights on", "response": "on"}
+        {
+          "callout": "Descent checklist and briefing",
+          "response": "completed"
+        },
+        {
+          "callout": "Approach configuration set",
+          "response": "set"
+        },
+        {
+          "callout": "Landing lights on",
+          "response": "on"
+        }
       ]
     },
     {
       "title": "Landing and Taxi-In",
       "items": [
-        {"call": "Touchdown and runway vacated", "response": "confirmed"},
-        {"call": "Strobes off", "response": "off"},
-        {"call": "Brakes as required", "response": "applied"}
+        {
+          "callout": "Touchdown and runway vacated",
+          "response": "confirmed"
+        },
+        {
+          "callout": "Strobes off",
+          "response": "off"
+        },
+        {
+          "callout": "Brakes as required",
+          "response": "applied"
+        }
       ]
     },
     {
       "title": "Shutdown",
       "items": [
-        {"call": "Parking brake set", "response": "set"},
-        {"call": "Engines shutdown", "response": "completed"},
-        {"call": "APU and electrical power off", "response": "off"},
-        {"call": "Exterior lights off", "response": "off"}
+        {
+          "callout": "Parking brake set",
+          "response": "set"
+        },
+        {
+          "callout": "Engines shutdown",
+          "response": "completed"
+        },
+        {
+          "callout": "APU and electrical power off",
+          "response": "off"
+        },
+        {
+          "callout": "Exterior lights off",
+          "response": "off"
+        }
       ]
     }
   ]

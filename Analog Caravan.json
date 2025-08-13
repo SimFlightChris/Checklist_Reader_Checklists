@@ -1,152 +1,383 @@
 {
-  "aircraft": "Black Square Analog Caravan",
+  "aircraft": "Cessna 208 Caravan",
   "nickname": "Analog Caravan",
   "checklist": [
     {
       "title": "Before Starting Engine",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Avionics master switch", "response": "Off"},
-        {"callout": "Electrical equipment", "response": "Off"},
-        {"callout": "Fuel selectors", "response": "On"},
-        {"callout": "Circuit breakers", "response": "In"},
-        {"callout": "Standby flaps", "response": "Off"},
-        {"callout": "Environmental controls", "response": "Off"},
-        {"callout": "Oxygen system", "response": "Checked"},
-        {"callout": "Emergency power lever", "response": "Normal"},
-        {"callout": "Propeller area", "response": "Clear"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Avionics master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Electrical equipment",
+          "response": "Off"
+        },
+        {
+          "callout": "Fuel selectors",
+          "response": "On"
+        },
+        {
+          "callout": "Circuit breakers",
+          "response": "In"
+        },
+        {
+          "callout": "Standby flaps",
+          "response": "Off"
+        },
+        {
+          "callout": "Environmental controls",
+          "response": "Off"
+        },
+        {
+          "callout": "Oxygen system",
+          "response": "Checked"
+        },
+        {
+          "callout": "Emergency power lever",
+          "response": "Normal"
+        },
+        {
+          "callout": "Propeller area",
+          "response": "Clear"
+        }
       ]
     },
     {
       "title": "Engine Start Battery",
       "items": [
-        {"callout": "Beacon light", "response": "On"},
-        {"callout": "Master switch", "response": "On"},
-        {"callout": "Fuel boost switch", "response": "On until fuel pressure stabilizes"},
-        {"callout": "Ignition switch", "response": "On"},
-        {"callout": "Starter switch", "response": "Engage until Ng reaches twelve percent"},
-        {"callout": "Condition lever", "response": "Low idle at twelve percent Ng"},
-        {"callout": "Starter switch", "response": "Release at fifty percent Ng"},
-        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"},
-        {"callout": "Generator", "response": "On"},
-        {"callout": "Avionics master", "response": "On"}
+        {
+          "callout": "Beacon light",
+          "response": "On"
+        },
+        {
+          "callout": "Master switch",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel boost switch",
+          "response": "On until fuel pressure stabilizes"
+        },
+        {
+          "callout": "Ignition switch",
+          "response": "On"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Engage until Ng reaches twelve percent"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Low idle at twelve percent Ng"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Release at fifty percent Ng"
+        },
+        {
+          "callout": "Oil pressure",
+          "response": "Confirm rising within thirty seconds"
+        },
+        {
+          "callout": "Generator",
+          "response": "On"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Engine Start External Power",
       "items": [
-        {"callout": "External power connected", "response": "Confirmed"},
-        {"callout": "Beacon light", "response": "On"},
-        {"callout": "Master switch", "response": "On"},
-        {"callout": "Fuel boost switch", "response": "On until fuel pressure stabilizes"},
-        {"callout": "Ignition switch", "response": "On"},
-        {"callout": "Starter switch", "response": "Engage until Ng reaches twelve percent"},
-        {"callout": "Condition lever", "response": "Low idle at twelve percent Ng"},
-        {"callout": "Starter switch", "response": "Release at fifty percent Ng"},
-        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"},
-        {"callout": "External power", "response": "Disconnect"},
-        {"callout": "Generator", "response": "On"},
-        {"callout": "Avionics master", "response": "On"}
+        {
+          "callout": "External power connected",
+          "response": "Confirmed"
+        },
+        {
+          "callout": "Beacon light",
+          "response": "On"
+        },
+        {
+          "callout": "Master switch",
+          "response": "On"
+        },
+        {
+          "callout": "Fuel boost switch",
+          "response": "On until fuel pressure stabilizes"
+        },
+        {
+          "callout": "Ignition switch",
+          "response": "On"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Engage until Ng reaches twelve percent"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Low idle at twelve percent Ng"
+        },
+        {
+          "callout": "Starter switch",
+          "response": "Release at fifty percent Ng"
+        },
+        {
+          "callout": "Oil pressure",
+          "response": "Confirm rising within thirty seconds"
+        },
+        {
+          "callout": "External power",
+          "response": "Disconnect"
+        },
+        {
+          "callout": "Generator",
+          "response": "On"
+        },
+        {
+          "callout": "Avionics master",
+          "response": "On"
+        }
       ]
     },
     {
       "title": "Taxi",
       "items": [
-        {"callout": "Brakes", "response": "Test during initial roll"},
-        {"callout": "Flight instruments", "response": "Checked"},
-        {"callout": "Steering and nosewheel", "response": "Checked"}
+        {
+          "callout": "Brakes",
+          "response": "Test during initial roll"
+        },
+        {
+          "callout": "Flight instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Steering and nosewheel",
+          "response": "Checked"
+        }
       ]
     },
     {
       "title": "Before Takeoff Runup",
       "items": [
-        {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Power lever", "response": "Set for runup"},
-        {"callout": "Propeller feather check", "response": "Complete"},
-        {"callout": "Engine instruments", "response": "In green range"},
-        {"callout": "Flight controls", "response": "Free and correct"},
-        {"callout": "Trim", "response": "Set for takeoff"}
+        {
+          "callout": "Parking brake",
+          "response": "Set"
+        },
+        {
+          "callout": "Power lever",
+          "response": "Set for runup"
+        },
+        {
+          "callout": "Propeller feather check",
+          "response": "Complete"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "In green range"
+        },
+        {
+          "callout": "Flight controls",
+          "response": "Free and correct"
+        },
+        {
+          "callout": "Trim",
+          "response": "Set for takeoff"
+        }
       ]
     },
     {
       "title": "Takeoff",
       "items": [
-        {"callout": "Power lever", "response": "Advance to takeoff power"},
-        {"callout": "Engine instruments", "response": "Checked"},
-        {"callout": "Airspeed alive", "response": "Confirmed"},
-        {"callout": "Rotate", "response": "At sixty five knots"}
+        {
+          "callout": "Power lever",
+          "response": "Advance to takeoff power"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Checked"
+        },
+        {
+          "callout": "Airspeed alive",
+          "response": "Confirmed"
+        },
+        {
+          "callout": "Rotate",
+          "response": "At sixty five knots"
+        }
       ]
     },
     {
       "title": "Climb",
       "items": [
-        {"callout": "Climb power", "response": "Set"},
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Engine instruments", "response": "Monitor"}
+        {
+          "callout": "Climb power",
+          "response": "Set"
+        },
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        }
       ]
     },
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Power", "response": "Set"},
-        {"callout": "Mixture", "response": "Lean as required"},
-        {"callout": "Engine instruments", "response": "Monitor"},
-        {"callout": "Fuel quantity and balance", "response": "Check"}
+        {
+          "callout": "Power",
+          "response": "Set"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Lean as required"
+        },
+        {
+          "callout": "Engine instruments",
+          "response": "Monitor"
+        },
+        {
+          "callout": "Fuel quantity and balance",
+          "response": "Check"
+        }
       ]
     },
     {
       "title": "Descent",
       "items": [
-        {"callout": "Power", "response": "Reduce"},
-        {"callout": "Mixture", "response": "Enrich as required"},
-        {"callout": "Propeller", "response": "Full forward if rapid power needed"},
-        {"callout": "Cowl flaps", "response": "Close"}
+        {
+          "callout": "Power",
+          "response": "Reduce"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Enrich as required"
+        },
+        {
+          "callout": "Propeller",
+          "response": "Full forward if rapid power needed"
+        },
+        {
+          "callout": "Cowl flaps",
+          "response": "Close"
+        }
       ]
     },
     {
       "title": "Landing",
       "items": [
-        {"callout": "Fuel selector", "response": "On fullest tank"},
-        {"callout": "Mixture", "response": "Full rich"},
-        {"callout": "Propeller", "response": "Full forward"},
-        {"callout": "Flaps", "response": "As required"}
+        {
+          "callout": "Fuel selector",
+          "response": "On fullest tank"
+        },
+        {
+          "callout": "Mixture",
+          "response": "Full rich"
+        },
+        {
+          "callout": "Propeller",
+          "response": "Full forward"
+        },
+        {
+          "callout": "Flaps",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "After Landing",
       "items": [
-        {"callout": "Flaps", "response": "Up"},
-        {"callout": "Cowl flaps", "response": "Open"},
-        {"callout": "Lights", "response": "As required"}
+        {
+          "callout": "Flaps",
+          "response": "Up"
+        },
+        {
+          "callout": "Cowl flaps",
+          "response": "Open"
+        },
+        {
+          "callout": "Lights",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Shutdown and Securing",
       "items": [
-        {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Master switch", "response": "Off"},
-        {"callout": "Control lock", "response": "Installed"}
+        {
+          "callout": "Avionics master",
+          "response": "Off"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "Control lock",
+          "response": "Installed"
+        }
       ]
     },
     {
       "title": "Engine Fire In Flight",
       "items": [
-        {"callout": "Power lever", "response": "Idle"},
-        {"callout": "Condition lever", "response": "Cutoff"},
-        {"callout": "Fuel selector", "response": "Off"},
-        {"callout": "Ignition", "response": "Off"},
-        {"callout": "Perform emergency descent", "response": "As required"}
+        {
+          "callout": "Power lever",
+          "response": "Idle"
+        },
+        {
+          "callout": "Condition lever",
+          "response": "Cutoff"
+        },
+        {
+          "callout": "Fuel selector",
+          "response": "Off"
+        },
+        {
+          "callout": "Ignition",
+          "response": "Off"
+        },
+        {
+          "callout": "Perform emergency descent",
+          "response": "As required"
+        }
       ]
     },
     {
       "title": "Electrical Fire In Flight",
       "items": [
-        {"callout": "Master switch", "response": "Off"},
-        {"callout": "All other switches", "response": "Off"},
-        {"callout": "Vents", "response": "Closed"},
-        {"callout": "Cabin heat", "response": "Off"},
-        {"callout": "Extinguish fire", "response": "Use extinguisher"}
+        {
+          "callout": "Master switch",
+          "response": "Off"
+        },
+        {
+          "callout": "All other switches",
+          "response": "Off"
+        },
+        {
+          "callout": "Vents",
+          "response": "Closed"
+        },
+        {
+          "callout": "Cabin heat",
+          "response": "Off"
+        },
+        {
+          "callout": "Extinguish fire",
+          "response": "Use extinguisher"
+        }
       ]
     }
   ]
