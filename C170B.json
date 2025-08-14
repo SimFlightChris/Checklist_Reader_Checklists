@@ -120,7 +120,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Set for eight hundred to one thousand R P M"
+          "response": "Set for eight hundred to one thousand RPM"
         },
         {
           "callout": "Oil pressure",
@@ -194,7 +194,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Advance to one thousand seven hundred R P M"
+          "response": "Advance to one thousand seven hundred RPM"
         },
         {
           "callout": "Magneto left",
@@ -222,7 +222,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Idle check then one thousand R P M"
+          "response": "Idle check then one thousand RPM"
         }
       ]
     },
@@ -447,7 +447,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Set to one thousand R P M for cool down"
+          "response": "Set to one thousand RPM for cool down"
         },
         {
           "callout": "Mixture",

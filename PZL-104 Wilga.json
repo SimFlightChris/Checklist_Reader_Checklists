@@ -66,8 +66,8 @@
         { "callout": "Navigation lights", "response": "On" },
         { "callout": "Panel lights", "response": "As required" },
         { "callout": "Control check", "response": "Free and correct" },
-        { "callout": "Throttle", "response": "Set two thousand one hundred R P M" },
-        { "callout": "Magnetos", "response": "Check left and right with a fifty R P M drop" },
+        { "callout": "Throttle", "response": "Set two thousand one hundred RPM" },
+        { "callout": "Magnetos", "response": "Check left and right with a fifty RPM drop" },
         { "callout": "Throttle", "response": "Retard to idle" }
       ]
     },
@@ -82,7 +82,7 @@
         { "callout": "Brakes", "response": "Release" },
         { "callout": "Rotation", "response": "Fifty nine knots indicated airspeed" },
         { "callout": "Initial climb", "response": "Sixty six knots indicated airspeed" },
-        { "callout": "Throttle", "response": "Two thousand one hundred R P M" },
+        { "callout": "Throttle", "response": "Two thousand one hundred RPM" },
         { "callout": "Trim", "response": "As required" }
       ]
     },

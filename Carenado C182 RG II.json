@@ -249,7 +249,7 @@
       "title": "Engine Fire During Start",
       "items": [
         {"callout": "Cranking", "response": "Continue to draw flames into the engine"},
-        {"callout": "If the engine starts", "response": "Hold one thousand seven hundred R P M for a few minutes, then shut down and inspect"},
+        {"callout": "If the engine starts", "response": "Hold one thousand seven hundred RPM for a few minutes, then shut down and inspect"},
         {"callout": "If the engine fails to start throttle", "response": "Full open"},
         {"callout": "If the engine fails to start mixture", "response": "Idle cutoff"},
         {"callout": "If the engine fails to start cranking", "response": "Continue"},

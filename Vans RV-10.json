@@ -40,7 +40,7 @@
         {"callout": "Propeller area", "response": "Clear"},
         {"callout": "Starter", "response": "Engage until the engine fires"},
         {"callout": "Mixture", "response": "Full rich as the engine fires"},
-        {"callout": "Throttle", "response": "Set for one thousand R P M"},
+        {"callout": "Throttle", "response": "Set for one thousand RPM"},
         {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"},
         {"callout": "Alternators", "response": "On and charging"},
         {"callout": "Avionics master", "response": "On"},
@@ -54,7 +54,7 @@
       "title": "Run-Up",
       "items": [
         {"callout": "Parking brake", "response": "Set"},
-        {"callout": "Throttle", "response": "Advance to one thousand eight hundred R P M"},
+        {"callout": "Throttle", "response": "Advance to one thousand eight hundred RPM"},
         {"callout": "Magnetos", "response": "Check both, drops are within limits"},
         {"callout": "Propeller governor", "response": "Cycle and check operation"},
         {"callout": "Mixture", "response": "Verify smooth operation, then set for takeoff"},
@@ -171,7 +171,7 @@
       "items": [
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Throttle", "response": "Set to one thousand R P M for cool-down"},
+        {"callout": "Throttle", "response": "Set to one thousand RPM for cool-down"},
         {"callout": "Mixture", "response": "Idle cut-off"},
         {"callout": "Magnetos", "response": "Off"},
         {"callout": "Alternators", "response": "Off"},

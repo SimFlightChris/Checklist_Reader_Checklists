@@ -129,7 +129,7 @@
         },
         {
           "callout": "Throttle both",
-          "response": "Set for one thousand R P M"
+          "response": "Set for one thousand RPM"
         },
         {
           "callout": "Oil pressure both",
@@ -503,7 +503,7 @@
         },
         {
           "callout": "Throttles",
-          "response": "Set for one thousand R P M for cool down"
+          "response": "Set for one thousand RPM for cool down"
         },
         {
           "callout": "Mixtures",

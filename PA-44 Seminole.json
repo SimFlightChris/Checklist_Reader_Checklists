@@ -69,13 +69,13 @@
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Mixtures", "response": "Full rich"},
         {"callout": "Propellers", "response": "Full forward"},
-        {"callout": "Throttles", "response": "Set two thousand R P M"},
+        {"callout": "Throttles", "response": "Set two thousand RPM"},
         {"callout": "Propeller feathering", "response": "Check each engine"},
         {"callout": "Magnetos", "response": "Check each engine"},
         {"callout": "Engine gauges", "response": "Check"},
         {"callout": "Vacuum gauges", "response": "Check"},
         {"callout": "Alternator output", "response": "Check"},
-        {"callout": "Idle check", "response": "Set to idle then back to one thousand R P M"}
+        {"callout": "Idle check", "response": "Set to idle then back to one thousand RPM"}
       ]
     },
     {

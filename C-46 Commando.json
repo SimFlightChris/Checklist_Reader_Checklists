@@ -92,7 +92,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Set to achieve eight hundred to one thousand R P M"
+          "response": "Set to achieve eight hundred to one thousand RPM"
         },
         {
           "callout": "Oil pressure",
@@ -142,7 +142,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Advance to one thousand four hundred R P M"
+          "response": "Advance to one thousand four hundred RPM"
         },
         {
           "callout": "Supercharger",
@@ -154,7 +154,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Advance to two thousand R P M"
+          "response": "Advance to two thousand RPM"
         },
         {
           "callout": "Propeller governor",
@@ -162,11 +162,11 @@
         },
         {
           "callout": "Power check",
-          "response": "Advance to twenty five hundred R P M and verify manifold pressure within limits"
+          "response": "Advance to twenty five hundred RPM and verify manifold pressure within limits"
         },
         {
           "callout": "Magnetos",
-          "response": "Check left and right, R P M drop within limits"
+          "response": "Check left and right, RPM drop within limits"
         },
         {
           "callout": "Flaps",
@@ -363,7 +363,7 @@
         },
         {
           "callout": "Throttle",
-          "response": "Set to one thousand R P M for cool down"
+          "response": "Set to one thousand RPM for cool down"
         },
         {
           "callout": "Mixture",

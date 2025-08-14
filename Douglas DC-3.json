@@ -231,7 +231,7 @@
         },
         {
           "callout": "Engine warm up",
-          "response": "Keep below one thousand R P M until temperatures are in limits"
+          "response": "Keep below one thousand RPM until temperatures are in limits"
         },
         {
           "callout": "Instruments",
@@ -280,7 +280,7 @@
         },
         {
           "callout": "Throttles",
-          "response": "Advance to fifteen hundred R P M"
+          "response": "Advance to fifteen hundred RPM"
         },
         {
           "callout": "Propeller governors",
@@ -400,7 +400,7 @@
       "items": [
         {
           "callout": "Power",
-          "response": "Set climb manifold pressure and R P M"
+          "response": "Set climb manifold pressure and RPM"
         },
         {
           "callout": "Mixtures",

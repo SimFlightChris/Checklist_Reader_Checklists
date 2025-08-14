@@ -38,7 +38,7 @@
         {"callout": "Fuel pump", "response": "On for prime if required, then off"},
         {"callout": "Starter", "response": "Press until engine fires, then release"},
         {"callout": "Mixture", "response": "Set to rich as the engine fires"},
-        {"callout": "Throttle", "response": "Adjust for about one thousand to one thousand two hundred R P M"},
+        {"callout": "Throttle", "response": "Adjust for about one thousand to one thousand two hundred RPM"},
         {"callout": "Oil pressure", "response": "Indicates at least twenty five pounds per square inch within thirty seconds"},
         {"callout": "Starter caption", "response": "Out"},
         {"callout": "Ammeter and volts", "response": "Charging and within limits"},
@@ -64,7 +64,7 @@
         {"callout": "Steering", "response": "Checked"},
         {"callout": "Flight instruments", "response": "Indicating correctly during taxi"},
         {"callout": "Ailerons into wind", "response": "Set as required"},
-        {"callout": "Engine warm up", "response": "R P M managed to avoid overcooling"}
+        {"callout": "Engine warm up", "response": "RPM managed to avoid overcooling"}
       ]
     },
     {
@@ -72,8 +72,8 @@
       "items": [
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Mixture", "response": "Best power mixture set per placard"},
-        {"callout": "Throttle", "response": "Set two thousand R P M"},
-        {"callout": "Propeller control", "response": "Cycle, R P M change is about five hundred"},
+        {"callout": "Throttle", "response": "Set two thousand RPM"},
+        {"callout": "Propeller control", "response": "Cycle, RPM change is about five hundred"},
         {"callout": "Magnetos", "response": "Check, drops normal and balanced"},
         {"callout": "Engine instruments", "response": "In the green"},
         {"callout": "Ammeter and volts", "response": "Normal"},
@@ -108,7 +108,7 @@
     {
       "title": "Climb",
       "items": [
-        {"callout": "R P M", "response": "High"},
+        {"callout": "RPM", "response": "High"},
         {"callout": "Mixture", "response": "Best power mixture set"},
         {"callout": "Engine instruments", "response": "Monitor"},
         {"callout": "Landing light", "response": "Off when clear"}
@@ -167,7 +167,7 @@
       "items": [
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Throttle", "response": "Set for one thousand R P M"},
+        {"callout": "Throttle", "response": "Set for one thousand RPM"},
         {"callout": "Mixture", "response": "Idle cut off"},
         {"callout": "Magnetos", "response": "Off"},
         {"callout": "Generator", "response": "Off"},
@@ -194,7 +194,7 @@
         {"callout": "Mixture", "response": "Cut off"},
         {"callout": "Fuel selector and cock", "response": "Off"},
         {"callout": "Throttle", "response": "Closed"},
-        {"callout": "Propeller", "response": "Low R P M"},
+        {"callout": "Propeller", "response": "Low RPM"},
         {"callout": "Cabin heat and vents", "response": "Off and close to limit smoke"},
         {"callout": "Battery and generator", "response": "Off if practical"},
         {"callout": "Airspeed", "response": "Increase within limits to help extinguish flames"},
@@ -220,7 +220,7 @@
         {"callout": "Fuel pump", "response": "On"},
         {"callout": "Throttle", "response": "Closed for initial checks"},
         {"callout": "Mixture", "response": "Rich"},
-        {"callout": "R P M", "response": "High"},
+        {"callout": "RPM", "response": "High"},
         {"callout": "Alternate air", "response": "As required"},
         {"callout": "Fuel selector and cock", "response": "Check and change if required"},
         {"callout": "Ignition", "response": "Both"},

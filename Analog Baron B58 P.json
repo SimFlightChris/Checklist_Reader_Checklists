@@ -137,7 +137,7 @@
         },
         {
           "callout": "Throttle both",
-          "response": "Set for one thousand R P M"
+          "response": "Set for one thousand RPM"
         },
         {
           "callout": "Oil pressure both",
@@ -371,7 +371,7 @@
           "response": "Below one thousand six hundred fifty degrees Fahrenheit"
         },
         {
-          "callout": "Turbocharger R P M",
+          "callout": "Turbocharger RPM",
           "response": "Below one hundred twenty five thousand"
         },
         {
@@ -563,7 +563,7 @@
         },
         {
           "callout": "Throttles",
-          "response": "Set for one thousand R P M for cool down"
+          "response": "Set for one thousand RPM for cool down"
         },
         {
           "callout": "Mixtures",

@@ -37,7 +37,7 @@
         {"callout": "Oil pressure left", "response": "Rising"},
         {"callout": "Right engine starter", "response": "Engage until the engine fires"},
         {"callout": "Oil pressure right", "response": "Rising"},
-        {"callout": "Throttle both", "response": "Set around one thousand R P M"},
+        {"callout": "Throttle both", "response": "Set around one thousand RPM"},
         {"callout": "Alternator charge", "response": "Indicating"},
         {"callout": "Avionics master", "response": "On"},
         {"callout": "Flight instruments", "response": "Set"}
@@ -48,9 +48,9 @@
       "items": [
         {"callout": "Brakes", "response": "Set"},
         {"callout": "Mixtures", "response": "Set for smooth operation"},
-        {"callout": "Throttles", "response": "Advance to two thousand R P M"},
+        {"callout": "Throttles", "response": "Advance to two thousand RPM"},
         {"callout": "Magnetos left then right both engines", "response": "Drops are even and within limits"},
-        {"callout": "Propeller governors", "response": "Cycle and check R P M and manifold pressure response"},
+        {"callout": "Propeller governors", "response": "Cycle and check RPM and manifold pressure response"},
         {"callout": "Engine gauges", "response": "In the green"},
         {"callout": "Vacuum and electrical", "response": "Normal indications"},
         {"callout": "Autopilot", "response": "As required then off"},
@@ -100,7 +100,7 @@
     {
       "title": "After Take-Off",
       "items": [
-        {"callout": "Climb power", "response": "Set around twenty five inches of manifold pressure and two thousand five hundred R P M"},
+        {"callout": "Climb power", "response": "Set around twenty five inches of manifold pressure and two thousand five hundred RPM"},
         {"callout": "Mixtures", "response": "Adjust for smooth operation"},
         {"callout": "Cowl flaps", "response": "As required"},
         {"callout": "Fuel pumps", "response": "Automatic, monitor indications"}
@@ -175,7 +175,7 @@
       "items": [
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Avionics master", "response": "Off"},
-        {"callout": "Throttles", "response": "Stabilize around one thousand R P M"},
+        {"callout": "Throttles", "response": "Stabilize around one thousand RPM"},
         {"callout": "Mixtures", "response": "Idle cut off"},
         {"callout": "Magnetos", "response": "Off"},
         {"callout": "Master battery and alternators", "response": "Off"},

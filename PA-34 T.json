@@ -194,7 +194,7 @@
         },
         {
           "callout": "Throttle left for warm up",
-          "response": "Set around one thousand R P M"
+          "response": "Set around one thousand RPM"
         },
         {
           "callout": "Oil pressure left",
@@ -235,7 +235,7 @@
         },
         {
           "callout": "Throttle right for warm up",
-          "response": "Set around one thousand R P M"
+          "response": "Set around one thousand RPM"
         },
         {
           "callout": "Oil pressure right",
@@ -716,7 +716,7 @@
         },
         {
           "callout": "Throttles",
-          "response": "Set around one thousand R P M for cool down"
+          "response": "Set around one thousand RPM for cool down"
         },
         {
           "callout": "Mixtures",
@@ -1062,7 +1062,7 @@
       "items": [
         {
           "callout": "Propeller levers",
-          "response": "Full decrease R P M"
+          "response": "Full decrease RPM"
         },
         {
           "callout": "Throttles",

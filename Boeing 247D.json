@@ -39,7 +39,7 @@
         {"callout": "Propeller area", "response": "Clear"},
         {"callout": "Inertia starter", "response": "Wind flywheel then mesh to crank"},
         {"callout": "Fuel pressure during crank", "response": "Maintain with wobble pump"},
-        {"callout": "Engine start", "response": "Confirm firing and stabilize at one thousand R P M"},
+        {"callout": "Engine start", "response": "Confirm firing and stabilize at one thousand RPM"},
         {"callout": "Oil pressure", "response": "Rising within thirty seconds"},
         {"callout": "Generators", "response": "On and charging"},
         {"callout": "Warm up", "response": "Temperatures and pressures in the green"}
@@ -51,10 +51,10 @@
         {"callout": "Brakes", "response": "Held"},
         {"callout": "Mixtures", "response": "Rich"},
         {"callout": "Propellers", "response": "Cycle to verify governor"},
-        {"callout": "Power for run-up", "response": "Set to approximately one thousand five hundred R P M and twenty two inches of manifold pressure"},
+        {"callout": "Power for run-up", "response": "Set to approximately one thousand five hundred RPM and twenty two inches of manifold pressure"},
         {"callout": "Magnetos each engine", "response": "Check, drop within limits and difference minimal"},
         {"callout": "Engine instruments", "response": "Temperatures and pressures in the green"},
-        {"callout": "Feathering system test", "response": "Momentary feather then unfeather, R P M decreases then recovers within about ten seconds"},
+        {"callout": "Feathering system test", "response": "Momentary feather then unfeather, RPM decreases then recovers within about ten seconds"},
         {"callout": "Oil shutters", "response": "Set for takeoff temperatures"},
         {"callout": "Flight instruments", "response": "Set and cross checked"},
         {"callout": "Takeoff briefing", "response": "Complete"}
@@ -110,7 +110,7 @@
       "items": [
         {"callout": "Power", "response": "Set per performance and limitations"},
         {"callout": "Mixtures", "response": "Adjust for smooth operation"},
-        {"callout": "Propellers", "response": "Set for desired R P M"},
+        {"callout": "Propellers", "response": "Set for desired RPM"},
         {"callout": "Oil shutters", "response": "Adjust to keep temperatures in the green"},
         {"callout": "Engine instruments", "response": "Monitor"}
       ]
@@ -119,7 +119,7 @@
       "title": "Cruise",
       "items": [
         {"callout": "Power", "response": "Set per performance and limitations"},
-        {"callout": "Propellers", "response": "Set for cruise R P M"},
+        {"callout": "Propellers", "response": "Set for cruise RPM"},
         {"callout": "Mixtures", "response": "Lean as required"},
         {"callout": "Oil shutters", "response": "Adjust for temperature control"},
         {"callout": "Fuel quantity and balance", "response": "Monitor and change tanks periodically"},
@@ -170,7 +170,7 @@
       "items": [
         {"callout": "Parking brake", "response": "Set"},
         {"callout": "Generators", "response": "Off"},
-        {"callout": "Throttles", "response": "Set to one thousand R P M for cooldown"},
+        {"callout": "Throttles", "response": "Set to one thousand RPM for cooldown"},
         {"callout": "Mixtures", "response": "Idle cutoff"},
         {"callout": "Magnetos", "response": "Off"},
         {"callout": "Master ignition", "response": "Off"},

@@ -29,7 +29,7 @@
         {"callout": "Fuel pressure cock", "response": "Carburetor to engine and pressure is checked"},
         {"callout": "Engine primer", "response": "Four strokes and locked"},
         {"callout": "Mixture", "response": "Full rich with the lever fully back"},
-        {"callout": "Propeller", "response": "Maximum R P M"},
+        {"callout": "Propeller", "response": "Maximum RPM"},
         {"callout": "Magnetos", "response": "Both on"},
         {"callout": "Starter", "response": "Pressed"}
       ]
@@ -55,7 +55,7 @@
     {
       "title": "Run-Up",
       "items": [
-        {"callout": "Magneto test", "response": "Maximum drop is one hundred R P M each side"},
+        {"callout": "Magneto test", "response": "Maximum drop is one hundred RPM each side"},
         {"callout": "Propeller", "response": "One hundred percent maximum revolutions"},
         {"callout": "Navigation lights", "response": "On"},
         {"callout": "Altimeter", "response": "Set"},
@@ -76,7 +76,7 @@
       "title": "Takeoff",
       "items": [
         {"callout": "Brakes", "response": "Released"},
-        {"callout": "Throttle", "response": "Smoothly to maximum R P M"},
+        {"callout": "Throttle", "response": "Smoothly to maximum RPM"},
         {"callout": "Rotate", "response": "Rotate at between seventy five and eighty five miles per hour"},
         {"callout": "Undercarriage", "response": "Up and red light"},
         {"callout": "Attitude", "response": "Level until one hundred fifty miles per hour"}
@@ -93,7 +93,7 @@
     {
       "title": "Cruise",
       "items": [
-        {"callout": "Power", "response": "Plus four and a half boost and two thousand six hundred R P M"},
+        {"callout": "Power", "response": "Plus four and a half boost and two thousand six hundred RPM"},
         {"callout": "Speed", "response": "Approximately two hundred miles per hour"},
         {"callout": "Radiator shutter", "response": "Open if temperature exceeds one hundred twenty degrees Celsius"}
       ]

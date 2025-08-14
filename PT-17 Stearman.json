@@ -31,7 +31,7 @@
         {"callout": "Magnetos", "response": "Both"},
         {"callout": "Primer", "response": "Prime as required"},
         {"callout": "Starter switch", "response": "Engage until the engine fires"},
-        {"callout": "Throttle", "response": "Set for eight hundred to one thousand R P M"},
+        {"callout": "Throttle", "response": "Set for eight hundred to one thousand RPM"},
         {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"}
       ]
     },

@@ -34,7 +34,7 @@
         {"callout": "Starter flap", "response": "Open"},
         {"callout": "Starter", "response": "Pull starter ring until the engine fires"},
         {"callout": "Electrical power control", "response": "Set to battery after start"},
-        {"callout": "Throttle", "response": "Set between one thousand and one thousand two hundred R P M"},
+        {"callout": "Throttle", "response": "Set between one thousand and one thousand two hundred RPM"},
         {"callout": "Oil pressure", "response": "Confirm rising"},
         {"callout": "Generator light", "response": "Out"},
         {"callout": "Starter flap", "response": "Closed"}
@@ -43,17 +43,17 @@
     {
       "title": "Warm Up",
       "items": [
-        {"callout": "Engine", "response": "Warm at one thousand to one thousand two hundred R P M until oil temperature reaches thirty degrees Celsius"},
+        {"callout": "Engine", "response": "Warm at one thousand to one thousand two hundred RPM until oil temperature reaches thirty degrees Celsius"},
         {"callout": "Carburettor air", "response": "Cold for ground operation unless icing is suspected"}
       ]
     },
     {
       "title": "Run-Up",
       "items": [
-        {"callout": "Throttle", "response": "Increase to one thousand five hundred R P M"},
+        {"callout": "Throttle", "response": "Increase to one thousand five hundred RPM"},
         {"callout": "Magnetos", "response": "Check each with a momentary switch off and confirm a small drop"},
         {"callout": "Generator light", "response": "Out"},
-        {"callout": "Throttle", "response": "Open to full power briefly and confirm two thousand to two thousand one hundred R P M"},
+        {"callout": "Throttle", "response": "Open to full power briefly and confirm two thousand to two thousand one hundred RPM"},
         {"callout": "Engine instruments", "response": "Check in the green"},
         {"callout": "Throttle", "response": "Idle check then set for taxi"}
       ]
@@ -109,7 +109,7 @@
     {
       "title": "Cruise",
       "items": [
-        {"callout": "R P M", "response": "Do not exceed two thousand one hundred"},
+        {"callout": "RPM", "response": "Do not exceed two thousand one hundred"},
         {"callout": "Airspeed", "response": "Maintain between eighty five and ninety knots as desired"},
         {"callout": "Mixture", "response": "Lean for smooth running"},
         {"callout": "Carburettor air", "response": "Hot continuously unless ambient temperature exceeds thirty degrees Celsius"},
@@ -155,7 +155,7 @@
       "title": "Shutdown",
       "items": [
         {"callout": "Parking brake lever", "response": "Set"},
-        {"callout": "Throttle", "response": "Set to one thousand R P M for cool down"},
+        {"callout": "Throttle", "response": "Set to one thousand RPM for cool down"},
         {"callout": "Radios and unnecessary electrics", "response": "Off"},
         {"callout": "Mixture", "response": "Idle cut off"},
         {"callout": "Magnetos", "response": "Off"},
