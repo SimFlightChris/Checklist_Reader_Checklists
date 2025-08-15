@@ -1,0 +1,78 @@
+{
+  "aircraft": "Bleriot XI",
+  "nickname": "Bleriot",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel valves", "response": "Open as required"},
+        {"callout": "Fuel quantity", "response": "Sufficient for planned flight"},
+        {"callout": "Oil valve", "response": "Closed until engine start"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Propeller", "response": "Secure and undamaged"}
+      ]
+    },
+    {
+      "title": "Engine Start Gnome Omega 7",
+      "items": [
+        {"callout": "Wheel chocks", "response": "Installed"},
+        {"callout": "Fuel valve", "response": "Open"},
+        {"callout": "Fuel hand pump", "response": "Operate until pressure is up"},
+        {"callout": "Magneto switch", "response": "On"},
+        {"callout": "Throttle and mixture", "response": "Slightly open"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Propeller", "response": "Pull swiftly to start"},
+        {"callout": "Oil valve", "response": "Open after engine starts"}
+      ]
+    },
+    {
+      "title": "Engine Start Anzani W-3",
+      "items": [
+        {"callout": "Fuel valve", "response": "Open"},
+        {"callout": "Wheel chocks", "response": "Installed"},
+        {"callout": "Magneto lever", "response": "Set to active"},
+        {"callout": "Throttle", "response": "Open to half"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Propeller", "response": "Pull swiftly to start"},
+        {"callout": "Oil valve", "response": "Open after engine starts"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Aircraft heading", "response": "Into wind"},
+        {"callout": "Wheel chocks", "response": "Removed at full power"},
+        {"callout": "Control stick", "response": "Forward to lift tail early"},
+        {"callout": "Wing warp", "response": "Into wind if crosswind present"},
+        {"callout": "Rotate", "response": "At nineteen to twenty two knots"},
+        {"callout": "Initial climb", "response": "Maintain low altitude until thirty knots then climb"}
+      ]
+    },
+    {
+      "title": "Landing and Shutdown",
+      "items": [
+        {"callout": "Approach", "response": "Into wind if possible"},
+        {"callout": "Engine speed", "response": "Control with ignition switch or throttle"},
+        {"callout": "Touchdown", "response": "Tailwheel first"},
+        {"callout": "Taxi", "response": "Avoid if possible"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Fuel valve", "response": "Closed"},
+        {"callout": "Parking brake", "response": "Set"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Propeller", "response": "Crank to draw flames into engine"},
+        {"callout": "Fuel valve", "response": "Closed"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use fire extinguisher"},
+        {"callout": "Inspect before restart", "response": "Do not restart until inspected"}
+      ]
+    }
+  ]
+}

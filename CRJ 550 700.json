@@ -77,7 +77,7 @@
         {"callout": "Strobe", "response": "On"},
         {"callout": "TCAS", "response": "On"},
         {"callout": "Terrain radar", "response": "On"},
-        {"callout": "Cabin signs", "response": "On (→ CRJ 550 mit mehr Service-Bereich prüfen)"}
+        {"callout": "Cabin signs", "response": "On"}
       ]
     },
     {

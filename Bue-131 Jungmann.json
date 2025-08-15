@@ -1,0 +1,152 @@
+{
+  "aircraft": "Buecker Bue-131 Jungmann",
+  "nickname": "Jungmann",
+  "checklist": [
+    {
+      "title": "Pre-Flight",
+      "items": [
+        {"callout": "External visual inspection", "response": "Complete"},
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Fuel quantity", "response": "Full"},
+        {"callout": "Controls", "response": "Free and correct"},
+        {"callout": "Oil level", "response": "Checked"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Control lock", "response": "Removed"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Documents", "response": "On board"},
+        {"callout": "Ignition and master switch", "response": "Off"},
+        {"callout": "Avionics", "response": "Off"},
+        {"callout": "Landing gear", "response": "Fixed taildragger configuration"}
+      ]
+    },
+    {
+      "title": "Engine Start",
+      "items": [
+        {"callout": "Master switch", "response": "On"},
+        {"callout": "Navigation lights", "response": "On if required"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Throttle", "response": "Slightly open"},
+        {"callout": "Fuel shut-off", "response": "Open"},
+        {"callout": "Magnetos", "response": "On"},
+        {"callout": "Propeller area", "response": "Clear"},
+        {"callout": "Starter button", "response": "Press and hold until engine starts"},
+        {"callout": "Oil pressure", "response": "Confirm rising within thirty seconds"},
+        {"callout": "Avionics", "response": "On"}
+      ]
+    },
+    {
+      "title": "Taxi",
+      "items": [
+        {"callout": "Brakes", "response": "Test during initial roll"},
+        {"callout": "Flight instruments", "response": "Check operation"},
+        {"callout": "Elevator trim", "response": "Neutral or slightly nose up for rough fields"},
+        {"callout": "Steering", "response": "Gentle turns to avoid wingtip contact"},
+        {"callout": "Visibility", "response": "Lean to the side if required"}
+      ]
+    },
+    {
+      "title": "Before Take-Off",
+      "items": [
+        {"callout": "Brakes", "response": "Held"},
+        {"callout": "Flight controls", "response": "Free and correct"},
+        {"callout": "Instruments", "response": "Checked"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Trim", "response": "Set for take-off"},
+        {"callout": "Harnesses", "response": "Fastened"},
+        {"callout": "Doors", "response": "Closed and secured"},
+        {"callout": "Take-off briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Take-Off",
+      "items": [
+        {"callout": "Throttle", "response": "Advance smoothly to avoid swing"},
+        {"callout": "Tail lift", "response": "Allow to rise naturally"},
+        {"callout": "Rotation", "response": "Gently at ninety kilometers per hour"},
+        {"callout": "Climb speed", "response": "Maintain one hundred to one hundred twenty kilometers per hour"}
+      ]
+    },
+    {
+      "title": "Climb",
+      "items": [
+        {"callout": "Climb power", "response": "Set as required"},
+        {"callout": "Airspeed", "response": "Maintain best rate of climb speed"},
+        {"callout": "Mixture", "response": "Adjust for smooth operation"}
+      ]
+    },
+    {
+      "title": "Cruise",
+      "items": [
+        {"callout": "Power", "response": "Set for desired speed"},
+        {"callout": "Mixture", "response": "Lean as required"},
+        {"callout": "Engine gauges", "response": "Check"},
+        {"callout": "Fuel quantity", "response": "Check visually on fuel sight gauge"}
+      ]
+    },
+    {
+      "title": "Descent",
+      "items": [
+        {"callout": "Power", "response": "Reduce smoothly"},
+        {"callout": "Mixture", "response": "Enrich as required"},
+        {"callout": "Airspeed", "response": "Maintain within limits"},
+        {"callout": "Approach briefing", "response": "Complete"}
+      ]
+    },
+    {
+      "title": "Approach",
+      "items": [
+        {"callout": "Airspeed in pattern", "response": "One hundred to one hundred twenty kilometers per hour"},
+        {"callout": "Final approach speed", "response": "Ninety kilometers per hour"},
+        {"callout": "Over the fence", "response": "Seventy to eighty kilometers per hour"}
+      ]
+    },
+    {
+      "title": "Landing",
+      "items": [
+        {"callout": "Touchdown speed", "response": "Fifty five to sixty kilometers per hour"},
+        {"callout": "Landing attitude", "response": "Tailwheel first"}
+      ]
+    },
+    {
+      "title": "After Landing",
+      "items": [
+        {"callout": "Elevator trim", "response": "Neutral"},
+        {"callout": "Lights", "response": "As required"},
+        {"callout": "Avionics", "response": "Off if not needed"},
+        {"callout": "Brakes", "response": "As required"}
+      ]
+    },
+    {
+      "title": "Shutdown",
+      "items": [
+        {"callout": "Parking brake", "response": "Set"},
+        {"callout": "Throttle", "response": "Idle for cool-down"},
+        {"callout": "Mixture", "response": "Idle cut-off"},
+        {"callout": "Magnetos", "response": "Off"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Control lock", "response": "Install"}
+      ]
+    },
+    {
+      "title": "Engine Fire During Start",
+      "items": [
+        {"callout": "Mixture", "response": "Cut-off"},
+        {"callout": "Throttle", "response": "Full open"},
+        {"callout": "Starter", "response": "Crank to draw flames into engine"},
+        {"callout": "Fuel shut-off", "response": "Closed"},
+        {"callout": "Master switch", "response": "Off"},
+        {"callout": "Extinguish fire", "response": "Use fire extinguisher"},
+        {"callout": "Inspect before restart", "response": "Do not restart until inspected"}
+      ]
+    },
+    {
+      "title": "Engine Power Loss In Flight",
+      "items": [
+        {"callout": "Airspeed", "response": "Maintain best glide speed"},
+        {"callout": "Fuel shut-off", "response": "Open"},
+        {"callout": "Mixture", "response": "Full rich"},
+        {"callout": "Magnetos", "response": "Check both"}
+      ]
+    }
+  ]
+}
